@@ -4,9 +4,7 @@
 
 To find out the z-offset of the limit switch to the nozzle, follow the steps below. 1. Home the printer again, just to ensure you do not crash the printer throughout this process. 2. Print head to the center of the build plate by sending the command `G1 X200 Y200` 3. Heat up the bed to the preferred printing temperature. You can do this by sending the command `M140 Snnn` where `nnn` is your temperature in °C. You can always look up the recommended bed temperatures for specific materials online. For PLA, a bed temperature of 50°C will work well. For ABS-R, a bed temperature of 60°C is recommended. 4. Wait until the heated bed has reached temperature before continuing. 5. Set the Z-probe offset to 0 by entering the command `G31 G31 P999 X-40 Y28.5 Z0`. This will make it easier to gauge the distance between the Z-probe and the nozzle in the following steps. 6. Run the command `G29 S2`. This clears any active bed leveling compensation. This is **very** important as it will conflict with your updated Z-probe offset and induce a 0.1 - 0.3mm error depending on the magnitude of your bed leveling compensation at that point. 7. Deploy your Z-probe 8. Check whether the Z-probe is functioning correctly. This is a great step to perform before using your Z-probe in order to prevent crashes. Press your Z-probe limit switch and observe the change in value from 0 to 1000 in the Duet Web Console _Machine Status_ table in the _Z-Probe_ box. If the value does not change the Z-probe is wired or configured wrong, do not continue to the next step!
 
-```text
-![KWL6DTK3l4pAmrPv-zprobemachinestatus.png](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/KWL6DTK3l4pAmrPv-zprobemachinestatus.png)
-```
+![](../.gitbook/assets/zprobemachinestatus.png)
 
 1. Move the bed towards the nozzle by sending the command `G1 Z20`. When you send the command `G30` the bed will move slowly and precisely to the Z-probe, if you send `G30` while the bed is at `Z100` or greater you will have to wait for a long time for the Z-probe to trigger.
 2. Run the command `G30`. This will move the bed toward the z-probe until the limit switch triggers.

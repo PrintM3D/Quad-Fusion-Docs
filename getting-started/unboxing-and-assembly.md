@@ -12,7 +12,7 @@ Check the outside of the packaging for any significant amount of damage that mig
 
 1. Cut through the tape of the box on the top. Do not cut deep as the Promega is located below! 
 2. Remove the top and side cardboard layers and bubble wrap.
-3. Carefully lift the Promega from the box. Lift from the points indicated in the image below. **Do not lift from the frame member at the back \(marked by red cross\).** 
+3. Carefully lift the Promega from the box. Lift from the points indicated in the image below. **Do not lift from the frame member at the back \(marked by red cross\).**
 
    ![XQ09PDakiccOf4IT-wheretoliftprinter.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/XQ09PDakiccOf4IT-wheretoliftprinter.jpg)
 
@@ -42,7 +42,7 @@ Check the outside of the packaging for any significant amount of damage that mig
 
    ![UChagSELhY0GuuYX-pcplug.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/UChagSELhY0GuuYX-pcplug.jpg)
 
-4. Spool Holders 
+4. Spool Holders
 
    ![F4z9qTNZghp1gmOv-spoolholders.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/F4z9qTNZghp1gmOv-spoolholders.jpg)
 
@@ -66,7 +66,7 @@ Check the outside of the packaging for any significant amount of damage that mig
 
 The spoolholders should be placed on the back of the printer. Two M4 T20 Torx Countersunk bolts and a locknut hold the spoolholder in place.
 
- ![N0X7Fp2nZNf8A4iy-wheretoscrewspoolholders.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/N0X7Fp2nZNf8A4iy-wheretoscrewspoolholders.jpg) ![ANbwfXhDmR1sLKAe-mountedspoolholder.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/ANbwfXhDmR1sLKAe-mountedspoolholder.jpg)
+![N0X7Fp2nZNf8A4iy-wheretoscrewspoolholders.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/N0X7Fp2nZNf8A4iy-wheretoscrewspoolholders.jpg) ![ANbwfXhDmR1sLKAe-mountedspoolholder.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/ANbwfXhDmR1sLKAe-mountedspoolholder.jpg)
 
 ## Mounting the Feet
 
@@ -74,11 +74,10 @@ The spoolholders should be placed on the back of the printer. Two M4 T20 Torx Co
 
 Attaching the glass bed clamps to the glass bed can be tricky. Using a flathead screwdriver as a wedge makes it a lot easier! 1. Use the flathead screwdriver to open the clamp as shown. Try different sized flathead screwdrivers if this is too difficult. If the clamp is too tight to mount on the bed you can rotate the flathead screwdriver in the clamp to open it up more.
 
- ![36HsyBxyn58yAkSI-clamponflathead.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/36HsyBxyn58yAkSI-clamponflathead.jpg) 
+![36HsyBxyn58yAkSI-clamponflathead.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/36HsyBxyn58yAkSI-clamponflathead.jpg)
 
-2. Use the flathead screwdriver to open the clamp and slide one side on the bed as shown. ![ER1AuRHXemFVxfVP-halfmountedclamp.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/ER1AuRHXemFVxfVP-halfmountedclamp.jpg) 
-
-3. Once you have one side on, remove the flathead screwdriver and simply slide on the clamp ![gu5WeuO3pjG0H88H-slideonclamps.gif](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/gu5WeuO3pjG0H88H-slideonclamps.gif)
+1. Use the flathead screwdriver to open the clamp and slide one side on the bed as shown. ![ER1AuRHXemFVxfVP-halfmountedclamp.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/ER1AuRHXemFVxfVP-halfmountedclamp.jpg)
+2. Once you have one side on, remove the flathead screwdriver and simply slide on the clamp ![gu5WeuO3pjG0H88H-slideonclamps.gif](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/gu5WeuO3pjG0H88H-slideonclamps.gif)
 
 Continue on to the [Mechanical Check](http://promega.printm3d.com/books/user-manual/page/mechanical-check), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
 
