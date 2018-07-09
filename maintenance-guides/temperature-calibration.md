@@ -57,5 +57,5 @@ RepRap firmware also allows for control of the heaters with basic PID with three
 
 #### Manually Tuning
 
-Manually tuning your control variables can be done. Read more about the control variables explained in this guide online and their effects on a control loop before changing your control variables. Manually tuning your control variables is often a great option to reduce or obstruct observed errors as the ones listed above. Tuning your control loop from scratch is not recommended! Be careful when changing your control variables as it could easily produce unintended consequences.
+Manually tuning your control variables can be done. Read more about the control variables explained in this guide online and their effects on a control loop before changing your control variables. Manually tuning your control variables is often a great option to reduce or obstruct observed errors as the ones listed above. Tuning your control loop from scratch is not recommended! Be careful when changing your control variables as it could easily produce unintended consequences
 
