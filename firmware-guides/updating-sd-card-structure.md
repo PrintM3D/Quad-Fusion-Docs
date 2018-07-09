@@ -10,7 +10,9 @@ Read the [SD Card Structure](http://promega.printm3d.com/books/user-manual/page/
 
 ### Downloading the Update
 
-Once you have found and opened the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Press the _Clone or download_ button circled below and then click _Download ZIP_. This will download a _.zip_ file of the repository. ![S8Aq28iyeh4lW9WW-howtodownloadgithub.png](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/S8Aq28iyeh4lW9WW-howtodownloadgithub.png)
+Once you have found and opened the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Press the _Clone or download_ button circled below and then click _Download ZIP_. This will download a _.zip_ file of the repository. 
+
+![Downloading from Github](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/S8Aq28iyeh4lW9WW-howtodownloadgithub.png)
 
 ### Extracting the Folder
 

@@ -6,7 +6,7 @@ The Duet Web Console includes a tool system. Tools allow you to quickly change b
 
 A tool is a defined extruder setup. A tool will be configurated to use a specific extruder motor or motors at specific speeds. If you are printing with the compound hotend, you will have a tool that allows for mixing 50% on each side as well as two tools that extrude with only one extruder \(left and right\). If you perform the correct setup in your slicer, you can switch between these tools while printing. In order to switch between tools you can enter the command `Tnnn`, where `nnn` is the tool number. If you wanted to switch to tool 1, you can enter the command `T1` in the G-code Console. The tools can be viewed in the top right corner of the Duet Web Console. An underline will indicate which tool is currently selected.
 
-> Before you can start heating up a hotend you will have to select the appropriate tool. Read the _Tools and Temperature_ section below for more information.
+> Before you can start heating up a hot-end you will have to select the appropriate tool. Read the _Tools and Temperature_ section below for more information.
 
 ### Default Tools
 

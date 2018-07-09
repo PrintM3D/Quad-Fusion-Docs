@@ -6,7 +6,11 @@ On the Promega you will find two different fans. The nozzle fan, located on the 
 
 ### Fan Location
 
-![hfsKLGqrNj6ZZ2YW-fanlocation.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/hfsKLGqrNj6ZZ2YW-fanlocation.jpg) The cold-section fan, on the front of the extruder assembly, serves to cool the extruder assembly. This fan is very important to ensure that materials with lower printing temperatures, such as PLA, can comfortably pass through the extruder without losing its rigidity. If the cold-section fan is not functioning properly, heat could creep up from the hot-end, located right underneath, and cause filament to melt and jam the extruder. The cold-section fan is currently a 24V fan and is plugged into the "Always On" port on the Duet Maestro board. This is usually the best idea to ensure that the fan is always on while the hot-end is hot.
+ 
+
+![Promega Fan Location](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/hfsKLGqrNj6ZZ2YW-fanlocation.jpg)
+
+The cold-section fan, on the front of the extruder assembly, serves to cool the extruder assembly. This fan is very important to ensure that materials with lower printing temperatures, such as PLA, can comfortably pass through the extruder without losing its rigidity. If the cold-section fan is not functioning properly, heat could creep up from the hot-end, located right underneath, and cause filament to melt and jam the extruder. The cold-section fan is currently a 24V fan and is plugged into the "Always On" port on the Duet Maestro board. This is usually the best idea to ensure that the fan is always on while the hot-end is hot.
 
 The nozzle fans are two 5V fans located underneath the extruder assembly, this fan allows for cooler air to reach the nozzle. This is important to allow printed filament to cool as quickly as possible and become rigid. Bridging without this fan would be very difficult. These fans are PWM controllable, by entering the G-code command `M106 Pn Sm` you can turn the fans on or off. `n` specifies the port number that the fan is plugged into. `m` represents the desired speed of the fan. This can be a value of 0 to 255, where 0 is off and 255 is the highest setting.
 
