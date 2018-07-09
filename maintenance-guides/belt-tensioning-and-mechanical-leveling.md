@@ -6,8 +6,8 @@ Z-assembly belts. This can be fixed easily by following the guides below.
 Properly tensioning your belts will address problems with backlash and XY
 skipping.
 
-CoreXY Assembly
----------------
+# CoreXY Assembly
+
 
 1.  In order to tension the CoreXY loosen the three screws indicated below.
 
@@ -24,10 +24,9 @@ CoreXY Assembly
     belt system with the same amount of force or you can misalign the extruder
     carriage gantry.
 
-Z-assembly
-----------
+# Z-assembly
 
-### Tensioning the Belts
+## Tensioning the Belts
 
 1.  In order to gauge the tension of the Z-axis belts you can pull down on the
     belt as pictured below. Determining the proper tension on the Z-axis belt is
@@ -46,9 +45,8 @@ Z-assembly
 
     ![Tensioning the Z-assembly](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/xg91HFq6NPl3oF53-tensioningthebelt.jpg)
 
-### Leveling the Bed
+## Leveling the Bed
 
-<<<<<<< HEAD
 After you change out belt clamps, your bed might be misaligned. As covered in
 the [Bed Leveling &
 Probing](http://promega.printm3d.com/books/user-manual/page/bed-leveling-probing)
@@ -76,22 +74,3 @@ good enough estimate to level the bed, bed leveling compensation with `G29` can
 take care of the rest. The bed can be leveled more accurately by using a caliper
 to measure the distance between the bed and the top of the Z-slider rails and
 comparing the corners.
-
-![Observing the Bed Level](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg)
-=======
-After you change out belt clamps, your bed might be misaligned. As covered in the [Bed Leveling & Probing](http://promega.printm3d.com/books/user-manual/page/bed-leveling-probing) guide, bed leveling compensation will work for differences of about 3mm across the entire bed. Leveling your bed can be done by skipping teeth on the bed in specific corners. 
-
-1. Look at your bed and determine if one side is visibly higher than the other side. 
-
-2. Remove the binder clip if you have placed one on the Z-motor belt 
-
-3. Gently pull up on the corner that you want to skip. Apply pressure until you feel the corner give with a loud click. **Do not skip the bed near the belt clamps as it can break your belt clamps** 
-
-4. Once the bed is level enough to the point where it drops by itself, move the bed up to the nozzle. The bed is best lifted up from the points pictured below. Lift slowly or you will skip the bed. Moving the bed too fast can also fry your Duet board, so be careful. 
-
-5. When the bed is touching the nozzle, determine the offset of the Z-sliders to the top belt clamps to determine whether the bed is level. This will give you a good enough estimate to level the bed, bed leveling compensation with `G29` can take care of the rest. The bed can be leveled more accurately by using a caliper to measure the distance between the bed and the top of the Z-slider rails and comparing the corners.
-
- ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg)
-
-6. Skip corners until the bed looks visibly level using the procedure in step 5.
-
