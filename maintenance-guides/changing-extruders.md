@@ -6,7 +6,15 @@ The Promega has two extruder heads the K'Tana and the Compound nozzle. The compo
 
 Be sure to turn off and unplug the printer. Retract and remove any filament currently in the nozzle. Use [this guide](http://promega.printm3d.com/books/user-manual/page/loading-and-unloading-filament) if you need help. Wait for the hot end\(s\) of the printer to cool before continuing with this guide.
 
-Tools and items you will need: 1. T10 Torx Screwdriver 2. T30 Torx Screwdriver 3. Needlenose pliers 4. Container to hold screws
+Tools and items you will need: 
+
+1. T10 Torx Screwdriver
+
+2. T30 Torx Screwdriver 
+
+3. Needlenose pliers 
+
+4. Container to hold screws
 
 ### Removing the Extruder
 
@@ -38,7 +46,8 @@ Tools and items you will need: 1. T10 Torx Screwdriver 2. T30 Torx Screwdriver 3
 
 5. Now move on to the back of the extruder assembly to connect the heater cartridge and PT1000 of your new extruder head. Needlenose pliers and a small screw driver are useful to reach into the wiring assembly. If you are wiring the compound nozzle the wires go around the right side of the extruder assembly but plug into the left side of the cable assembly. For the K'tana nozzle the right heater and PT1000 wrap around the right side of the extruder and plug into the left side of the cable assembly. The left heater and PT1000 do the same but mirrored, the cables wrap around the left side of the extruder and plug into the right side. The image below illustrates this. ![U7vqbEfIj7Ed69NQ-wiringdiagramextruders.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/U7vqbEfIj7Ed69NQ-wiringdiagramextruders.jpg)
 
-   **Left and right is identified in the image below** ![kIK4Ip2IGYaTy21K-leftandrightktana.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/kIK4Ip2IGYaTy21K-leftandrightktana.jpg)
+   **Left and right is identified in the image below**  
+   ![kIK4Ip2IGYaTy21K-leftandrightktana.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/kIK4Ip2IGYaTy21K-leftandrightktana.jpg)
 
 6. Place the cables in the wiring chassis according to the image below. Place the PT1000 cables into the channel before the heater cartridge cables. This is because the PT1000 has a greater distance to reach to its connector. ![chtBPrPsxNp6873s-extruderwirerouting.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/chtBPrPsxNp6873s-extruderwirerouting.jpg)
 7. Plug the wires in according to the diagram below. Plug in the left side cables before the right side. Use needlenose pliers and a flathead screwdriver to carefully plug in the cables into their housing. !\[gN4Sz33QK3kbeWMV-K'tanaportwires.jpg\]\([http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/gN4Sz33QK3kbeWMV-K'tanaportwires.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/gN4Sz33QK3kbeWMV-K'tanaportwires.jpg)\) ![5u20ltlC8ww9m7Uf-compoundnowires.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/5u20ltlC8ww9m7Uf-compoundnowires.jpg)
@@ -46,11 +55,11 @@ Tools and items you will need: 1. T10 Torx Screwdriver 2. T30 Torx Screwdriver 3
 
 #### Compound Extruder Head
 
-![kxVpXvg2vfyx0XbF-compoundfinalwiring.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/kxVpXvg2vfyx0XbF-compoundfinalwiring.jpg)
+![Compound Extruder Wiring](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/kxVpXvg2vfyx0XbF-compoundfinalwiring.jpg)
 
 #### K'tana Extruder Head
 
-![5V6t4sTEV6wVjOyG-finalktanawiring.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/5V6t4sTEV6wVjOyG-finalktanawiring.jpg)
+![K&apos;tana Wiring](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/5V6t4sTEV6wVjOyG-finalktanawiring.jpg)
 
 ### SD Card Configuration
 
@@ -71,5 +80,13 @@ A text file will also be present on the SD card. This file simply makes it easie
 
 ### Testing
 
-Before you continue it is best to follow the steps below to ensure that the process of changing extruders worked correctly. 1. Plug in the Duet Board ethernet cable. 2. Power on the Promega. 3. Connect to the Duet Web Console and observe the hotend and bed temperature values. If any of these values are not around room temperature it can indicate incorrect wiring. A temperature reading of 2000C is the temperature error value and means that the PT1000 is wired incorrectly. If the displayed temperature is incorrect, address the problem and continue. 4. Ensure that the extruder carriage can move to the limit switches in the back left of the printer. Make sure there is nothing placed on or underneath the bed. 4. Move each of the axes and extruders independently and verify for every motor that they are moving in the right direction. Once you have verified that, you can home the printer. 2. Heat up the nozzle\(s\) and make sure no heater faults occur. 3. Once the printer is homed and the nozzles heat up correctly you can carry on printing!
+Before you continue it is best to follow the steps below to ensure that the process of changing extruders worked correctly. 
+
+1. Plug in the Duet Board ethernet cable.
+2. Power on the Promega. 
+3. Connect to the Duet Web Console and observe the hotend and bed temperature values. If any of these values are not around room temperature it can indicate incorrect wiring. A temperature reading of 2000C is the temperature error value and means that the PT1000 is wired incorrectly. If the displayed temperature is incorrect, address the problem and continue. 
+4. Ensure that the extruder carriage can move to the limit switches in the back left of the printer. Make sure there is nothing placed on or underneath the bed. 
+5. Move each of the axes and extruders independently and verify for every motor that they are moving in the right direction. Once you have verified that, you can home the printer. 
+6. Heat up the nozzle\(s\) and make sure no heater faults occur. 
+7. Once the printer is homed and the nozzles heat up correctly you can carry on printing!
 

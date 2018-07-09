@@ -6,7 +6,7 @@ The extruder assembly wiring is important to do correctly. Follow the guide belo
 
 The new extruder assembly is printed in black ABS-R filament, pictured below. This section covers the wiring for the new extruder wiring assembly. If you are removing the old wiring assembly and replacing it with the new wiring assembly follow the _Removing the Old Extruder Wiring Assembly_ section below first.
 
-![1ABXgjJYPLVJdnEt-newcableassembly.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/1ABXgjJYPLVJdnEt-newcableassembly.jpg)
+![New Extruder Cable Assembly](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/1ABXgjJYPLVJdnEt-newcableassembly.jpg)
 
 #### Required Items and Tools
 
@@ -23,7 +23,7 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 * 2x M3 nuts
 * 1x M3 locknut
 
-![9HlxcT59uCVkHiDD-stufffornewcableassembly.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/9HlxcT59uCVkHiDD-stufffornewcableassembly.jpg)
+![Tools and Materials Required](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/9HlxcT59uCVkHiDD-stufffornewcableassembly.jpg)
 
 #### Preparation
 
@@ -31,7 +31,7 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 
    ![CCjVc7C1PBeQ7h90-steppermotorscrewsremove.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/CCjVc7C1PBeQ7h90-steppermotorscrewsremove.jpg)
 
-2. Open up 3 or more of the cable chain links nearest to the extruder. This will give you more room to work. Follow [Opening the Cable Chain](http://promega.printm3d.com/books/user-manual/page/opening-the-cable-chain) for help.
+2. Open up 3 or more of the cable chain links nearest to the extruder. This will give you more room to work. Follow [Opening the Cable Chain](http://promega.printm3d.com/books/user-manual/page/opening-the-cable-chain) guide for help.
 
    ![hrb6GfZZ3GSWsBrd-opencablechainlinks.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/hrb6GfZZ3GSWsBrd-opencablechainlinks.jpg)
 
@@ -43,7 +43,7 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 
    ![IIQsjycZoHJvkNyT-nutpreparation.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/IIQsjycZoHJvkNyT-nutpreparation.jpg)
 
-5. Put the M3 locknut in the hole pictured below. Push the lock nut all the way into the hole with a small screwdriver. It might help to place a dot of superglue on the lock nut to keep it in place. Having the nut fall out of place later will be very annoying.
+5. Put the M3 locknut in the hole pictured below. Push the lock nut all the way into the hole with a small screwdriver. It might help to place a bit of superglue on the lock nut to keep it in place.
 
    ![QZ38xar0UPBjx5c8-locknutpreparation.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/QZ38xar0UPBjx5c8-locknutpreparation.jpg)
 
@@ -120,29 +120,15 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 
 * T20 Torx Screwdriver
 * T10 Torx Screwdriver
-* Power off the printer if you have not yet done so already!
-* Make sure you have the new cable assembly ready and printed.
-* Remove the top T20 bolt holding the assembly to the extruder.
 
-  ![apC5KB2gAsohKs3P-removingtopboltoldeassembly.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/apC5KB2gAsohKs3P-removingtopboltoldeassembly.jpg)
-
-* Remove the T20 bolt on the bottom of the wiring assembly, circled in red.
-
-  ![cML6VkAUKjsehdhX-bottomboltcableassembly.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/cML6VkAUKjsehdhX-bottomboltcableassembly.jpg)
-
-* Remove the T10 Bolt holding the cable chain to the 3D printed cable assembly.
-
-  ![0bnnxoDWyeTVAYDf-RemoveCableChainBolt.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/0bnnxoDWyeTVAYDf-RemoveCableChainBolt.jpg)
-
-* Carefully pull the cables out of the connectors inside the wiring assembly until you can pull the plastic part free. Use needlenose pliers and a pick to help you. It can help to first remove the wires constraining the wiring assembly to the extruder assembly to give you more room to work.
-
-  ![Qt188HfCXb0WZHx0-removedheatersoldcableassembly.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/Qt188HfCXb0WZHx0-removedheatersoldcableassembly.jpg)
-
-* Next, remove the connectors on the cable chain end from the 3D printed plastic part until you are left with just the old 3D printed cable assembly.
-
-  ![qpvutFimYvZ1IHtt-removedoldcableassembly.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/qpvutFimYvZ1IHtt-removedoldcableassembly.jpg)
-
-* ![ilH6o9ZQyMW4kauK-throwaway.gif](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/ilH6o9ZQyMW4kauK-throwaway.gif)
+1. Power off the printer if you have not yet done so already!
+2. Make sure you have the new cable assembly ready and printed.
+3. Remove the top T20 bolt holding the assembly to the extruder.![apC5KB2gAsohKs3P-removingtopboltoldeassembly.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/apC5KB2gAsohKs3P-removingtopboltoldeassembly.jpg)
+4. Remove the T20 bolt on the bottom of the wiring assembly, circled in red.![cML6VkAUKjsehdhX-bottomboltcableassembly.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/cML6VkAUKjsehdhX-bottomboltcableassembly.jpg)
+5. Remove the T10 Bolt holding the cable chain to the 3D printed cable assembly.![0bnnxoDWyeTVAYDf-RemoveCableChainBolt.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/0bnnxoDWyeTVAYDf-RemoveCableChainBolt.jpg)
+6. Carefully pull the cables out of the connectors inside the wiring assembly until you can pull the plastic part free. Use needlenose pliers and a pick to help you. It can help to first remove the wires constraining the wiring assembly to the extruder assembly to give you more room to work.![Qt188HfCXb0WZHx0-removedheatersoldcableassembly.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/Qt188HfCXb0WZHx0-removedheatersoldcableassembly.jpg)
+7. Next, remove the connectors on the cable chain end from the 3D printed plastic part until you are left with just the old 3D printed cable assembly. ![qpvutFimYvZ1IHtt-removedoldcableassembly.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/qpvutFimYvZ1IHtt-removedoldcableassembly.jpg)
+8. ![ilH6o9ZQyMW4kauK-throwaway.gif](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/ilH6o9ZQyMW4kauK-throwaway.gif)
 
 ### Old Extruder Assembly Wiring
 

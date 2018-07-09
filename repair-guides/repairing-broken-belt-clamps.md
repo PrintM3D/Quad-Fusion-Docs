@@ -6,7 +6,7 @@ This guide covers repair of broken belt Z-axis belt clamps. This can occur if yo
 
 To prepare for the removal of the clamps, perform the following steps: 1. Turn off your Promega and unplug all cords attached to it, this will make it easier to move the printer throughout the process. 2. Place a binder clip, or something similar on the belt of the Z-motor. This will allow you to work under and around the bed without the bed falling. You can also place the printer on its side, if you do so, be careful with the switches on either side of the printer.
 
-![2dmrbcxPSLMjnGwW-beltclip.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/2dmrbcxPSLMjnGwW-beltclip.jpg)
+![Very Important Binder Clip](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/2dmrbcxPSLMjnGwW-beltclip.jpg)
 
 > The steps for removing and installing the new belt clamps is best done one corner at a time. This allows the bed to stay relatively level and in place, making the repair easier.
 
@@ -19,7 +19,9 @@ For the removal and installation of the belt clamps you will need the following 
 
 #### Removing Broken Belt Clamps
 
-Follow the instructions below to remove the broken belt clamps, pictured below, from your printer. ![rPu6HmyMJVFzW1q5-beltclampdifference.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/rPu6HmyMJVFzW1q5-beltclampdifference.jpg)
+Follow the instructions below to remove the broken belt clamps, pictured below, from your printer. 
+
+![Top \(Right\) and Bottom \(Left\) Belt Clamps](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/rPu6HmyMJVFzW1q5-beltclampdifference.jpg)
 
 **Removing the Top Clamp**
 
@@ -30,7 +32,26 @@ Follow the instructions below to remove the broken belt clamps, pictured below, 
 
 **Removing the Bottom Clamp**
 
-**Remember that it is easiest to replace the clamps in one corner at a time.** 1. Whether you have the old or the new bottom belt clamps, removing them is the same procedure for both. Remove the bottom clamps by unscrewing the M3 pan bolt with the T10 screwdriver on the bottom of the printer. Store the M3 lock nut and M3 bolt in the container. 2. Unscrew the three M3 countersunk bolts with a T10 Torx driver holding the linear rail in place. ![CpywX3fzszOXtYgZ-threescrewstoremove.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/CpywX3fzszOXtYgZ-threescrewstoremove.jpg) 3. Unscrew the M4 pan bolt with the T30 Torx head on the bottom of the linear rail, under the printer. Place the printer corner you are working on over the side of a table so you can easily access the bottom of a printer. ![JSAVcYfoBy5I5Fmy-zsliderbottomscrews.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/JSAVcYfoBy5I5Fmy-zsliderbottomscrews.jpg) 4. Once you have removed all 4 screws holding the linear rail in place, you can slide up the linear rail and remove the bottom belt clamp. This is assuming that all tension on the belt is removed. You do not have to remove the belt in order to replace the clamp. ![IUoXDruUd1Sq28v0-bottombeltclampremoval.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/IUoXDruUd1Sq28v0-bottombeltclampremoval.jpg) 5. You can now move on to the next section in order to place your new belt clamps.
+**Remember that it is easiest to replace the clamps in one corner at a time.** 
+
+1. Whether you have the old or the new bottom belt clamps, removing them is the same procedure for both. Remove the bottom clamps by unscrewing the M3 pan bolt with the T10 screwdriver on the bottom of the printer. Store the M3 lock nut and M3 bolt in the container. 
+
+2. Unscrew the three M3 countersunk bolts with a T10 Torx driver holding the linear rail in place. 
+
+![Remove t](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/CpywX3fzszOXtYgZ-threescrewstoremove.jpg)
+
+3. Unscrew the M4 pan bolt with the T30 Torx head on the bottom of the linear rail, under the printer. Place the printer corner you are working on over the side of a table so you can easily access the bottom of a printer.  
+  
+
+![Bottom Screws](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/JSAVcYfoBy5I5Fmy-zsliderbottomscrews.jpg)
+
+4. Once you have removed all 4 screws holding the linear rail in place, you can slide up the linear rail and remove the bottom belt clamp. This is assuming that all tension on the belt is removed. You do not have to remove the belt in order to replace the clamp.
+
+  
+
+![Removing the Bottom Belt Clamp](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/IUoXDruUd1Sq28v0-bottombeltclampremoval.jpg)
+
+5. You can now move on to the next section in order to place your new belt clamps.
 
 #### Installing New Top Belt Clamps
 
@@ -68,5 +89,19 @@ Follow the instructions below to remove the broken belt clamps, pictured below, 
 
 ### Leveling the Bed
 
-After you change out belt clamps, your bed might be misaligned. As covered in the [Bed Leveling & Probing](http://promega.printm3d.com/books/user-manual/page/bed-leveling-probing) guide, bed leveling compensation will work for differences of about 3mm across the entire bed. Leveling your bed can be done by skipping teeth on the bed in specific corners. 1. Look at your bed and determine if one side is visibly higher than the other side. 2. Remove the binder clip if you have placed one on the Z-motor belt 3. Gently pull up on the corner that you want to skip. Apply pressure until you feel the corner give with a loud click. **Do not skip the bed near the belt clamps as it can break your belt clamps** 4. Once the bed is level enough to the point where it drops by itself, move the bed up to the nozzle. The bed is best lifted up from the points pictured below. Lift slowly or you will skip the bed. Moving the bed too fast can also fry your Duet board, so be careful. 5. When the bed is touching the nozzle, determine the offset of the Z-sliders to the top belt clamps to determine whether the bed is level. This will give you a good enough estimate to level the bed, bed leveling compensation with `G29` can take care of the rest. The bed can be leveled more accurately by using a caliper to measure the distance between the bed and the top of the Z-slider rails and comparing the corners. ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg) 6. Skip corners until the bed looks visibly level using the procedure in step 5.
+After you change out belt clamps, your bed might be misaligned. As covered in the [Bed Leveling & Probing](http://promega.printm3d.com/books/user-manual/page/bed-leveling-probing) guide, bed leveling compensation will work for differences of about 3mm across the entire bed. Leveling your bed can be done by skipping teeth on the bed in specific corners. 
+
+1. Look at your bed and determine if one side is visibly higher than the other side. 
+
+2. Remove the binder clip if you have placed one on the Z-motor belt 
+
+3. Gently pull up on the corner that you want to skip. Apply pressure until you feel the corner give with a loud click. **Do not skip the bed near the belt clamps as it can break your belt clamps** 
+
+4. Once the bed is level enough to the point where it drops by itself, move the bed up to the nozzle. The bed is best lifted up from the points pictured below. Lift slowly or you will skip the bed. Moving the bed too fast can also fry your Duet board, so be careful. 
+
+5. When the bed is touching the nozzle, determine the offset of the Z-sliders to the top belt clamps to determine whether the bed is level. This will give you a good enough estimate to level the bed, bed leveling compensation with `G29` can take care of the rest. The bed can be leveled more accurately by using a caliper to measure the distance between the bed and the top of the Z-slider rails and comparing the corners.
+
+ ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg) 
+
+6. Skip corners until the bed looks visibly level using the procedure in step 5.
 

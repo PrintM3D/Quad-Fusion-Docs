@@ -6,7 +6,9 @@ Updating your firmware can be important to obtain the latest features and bug fi
 
 ### Identifying Firmware Version
 
-In order to find out if you want to update the firmware on the Duet Maestro you need to find your current version. You can view the RepRap firmware version in the Duet Web Console Settings Tab. Alternatively, you can use `M122`, command `M122` is the diagnose/debug command for RepRap firmware. If you send command `M122` the board will display a lot of debug statistics. In the first few lines the board will print out what firmware version it is running. Based on your firmware version, you might be able to identify if you are encountering a specific bug. Check DC42's github page regularly in order to read the latest firmware changes and see if any would be useful to you. ![7F3Tzsd7JHRwM9se-firmwareversionid.png](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/7F3Tzsd7JHRwM9se-firmwareversionid.png)
+In order to find out if you want to update the firmware on the Duet Maestro you need to find your current version. You can view the RepRap firmware version in the Duet Web Console Settings Tab. Alternatively, you can use `M122`, command `M122` is the diagnose/debug command for RepRap firmware. If you send command `M122` the board will display a lot of debug statistics. In the first few lines the board will print out what firmware version it is running. Based on your firmware version, you might be able to identify if you are encountering a specific bug. Check DC42's github page regularly in order to read the latest firmware changes and see if any would be useful to you. 
+
+![Checking the RepRap Firmware Version](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/7F3Tzsd7JHRwM9se-firmwareversionid.png)
 
 ### Upgrading System Firmware via the Duet Web Console
 
