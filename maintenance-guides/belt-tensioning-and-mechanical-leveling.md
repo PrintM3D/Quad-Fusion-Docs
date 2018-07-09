@@ -74,3 +74,4 @@ good enough estimate to level the bed, bed leveling compensation with `G29` can
 take care of the rest. The bed can be leveled more accurately by using a caliper
 to measure the distance between the bed and the top of the Z-slider rails and
 comparing the corners.
+![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg)
