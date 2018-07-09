@@ -4,7 +4,7 @@ WORK IN PROGRESS!!
 
 Your Promega has probably had a long journey to arrive at your front door. Follow this guide to ensure that your Promega arrived in one piece and is ready to print. First of all, check for any nuts and bolts inside the Promega, it is possible that screws loosened and fell.
 
-#### CoreXY
+## CoreXY
 
 **Belt Routing**
 
@@ -24,7 +24,7 @@ Check the belt tension in the CoreXY, you can do this by feeling the force on th
 
 If your CoreXY belt system is loose follow the [Belt Tensioning Guide](http://promega.printm3d.com/books/user-manual/page/belt-tensioning-and-mechanical-leveling#bkmrk-corexy-assembly).
 
-#### Z-Platform
+## Z-Platform
 
 **Belt Routing**
 
@@ -38,7 +38,7 @@ To confirm that the belt tension in each of the Z-sliders is appropriate, feel t
 
 ![Feeling the Z Belt Tension](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/W94X14FanYl02dp2-Belttension.jpg)
 
-#### Cable Chain
+## Cable Chain
 
 Continue on to the [Accessing Your SD Card](http://promega.printm3d.com/books/user-manual/page/accessing-your-sd-card), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
 
