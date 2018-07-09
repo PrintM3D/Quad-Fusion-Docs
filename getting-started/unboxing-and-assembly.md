@@ -4,11 +4,11 @@ Work in progress, this guide will be updated soon!
 
 As you unbox your Promega you will find a lot of different items packaged with it.
 
-### Before Opening
+## Before Opening
 
 Check the outside of the packaging for any significant amount of damage that might have occurred in shipping. We recommend taking pictures of the box in case the Promega was damaged in shipping. You will find various small items in different packages. Please thoroughly check all wrapping and padding before discarding them. Keep the Promega's box intact in case you need to ship the printer in the future.
 
-### Opening the Box
+## Opening the Box
 
 1. Cut through the tape of the box on the top. Do not cut deep as the Promega is located below! 
 2. Remove the top and side cardboard layers and bubble wrap.
@@ -31,7 +31,7 @@ Check the outside of the packaging for any significant amount of damage that mig
 
    ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/4qdhdUQzgRlqtZuL-wheretoholdbed.jpg)
 
-### Items Included
+## Items Included
 
 1. microSD Card + microSD Card Reader
 2. Optional: Motor Extension Cable
@@ -68,9 +68,9 @@ The spoolholders should be placed on the back of the printer. Two M4 T20 Torx Co
 
  ![N0X7Fp2nZNf8A4iy-wheretoscrewspoolholders.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/N0X7Fp2nZNf8A4iy-wheretoscrewspoolholders.jpg) ![ANbwfXhDmR1sLKAe-mountedspoolholder.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/ANbwfXhDmR1sLKAe-mountedspoolholder.jpg)
 
-### Mounting the Feet
+## Mounting the Feet
 
-### Attaching the Glass Bed
+## Attaching the Glass Bed
 
 Attaching the glass bed clamps to the glass bed can be tricky. Using a flathead screwdriver as a wedge makes it a lot easier! 1. Use the flathead screwdriver to open the clamp as shown. Try different sized flathead screwdrivers if this is too difficult. If the clamp is too tight to mount on the bed you can rotate the flathead screwdriver in the clamp to open it up more.
 
