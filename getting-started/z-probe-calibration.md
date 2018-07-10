@@ -26,5 +26,5 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 15. Find the uncommented `G31` command and change the `Z` parameter value to the value you just found.
 16. Save the file, now if you reboot your Duet the Z-probe offset will be saved. If you ever make a mechanical change to the printer, skip the bed and so on, you will have to recalibrate your Z-probe following the steps above.
 
-Continue on to the [Preparing a Print](http://promega.printm3d.com/books/user-manual/page/preparing-a-print) guide, the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [Preparing a Print](https://m3d.gitbook.io/promega-docs/getting-started/preparing-a-print) guide, the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
