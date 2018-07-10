@@ -2,7 +2,7 @@
 
 ## Routing Z-belts
 
-Follow this guide in order to properly route the belts of the Z-assembly. This guide will not cover how to properly tension and level the system. Belt tensioning and mechanical leveling is covered [here](http://promega.printm3d.com/books/user-manual/page/belt-tensioning-and-mechanical-leveling).
+Follow this guide in order to properly route the belts of the Z-assembly. This guide will not cover how to properly tension and level the system. Belt tensioning and mechanical leveling is covered [here](https://m3d.gitbook.io/promega-docs/maintenance-guides/belt-tensioning-and-mechanical-leveling).
 
 ## Belt Routing
 
@@ -22,8 +22,8 @@ After the z-slider the belts go to the pulley. If you look on the underside of t
 
 1. After routing the belt through the Z-slider the belt must go around the pulley as shown in the image above.
 2. The belt is then routed back through the Z-slider. The belt should nest comfortably inside the 15x15 aluminum extrusion channel.
-3. The tops and bottoms can now be fastened. Following the [Repairing Broken Belt Clamps](http://promega.printm3d.com/books/user-manual/page/repairing-broken-belt-clamps) guide covers installation of the belt clamps. 
-4. To tension the belt system follow [Z-belt Tensioning](http://promega.printm3d.com/books/user-manual/page/repairing-broken-belt-clamps#bkmrk-tensioning-the-belts) guide.
+3. The tops and bottoms can now be fastened. Following the [Repairing Broken Belt Clamps](https://m3d.gitbook.io/promega-docs/repair-guides/repairing-broken-belt-clamps) guide covers installation of the belt clamps. 
+4. To tension the belt system follow [Z-belt Tensioning](https://m3d.gitbook.io/promega-docs/maintenance-guides/belt-tensioning-and-mechanical-leveling#z-assembly) guide.
 
 ## Flipped Belts
 
