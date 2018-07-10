@@ -31,7 +31,7 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 
    ![CCjVc7C1PBeQ7h90-steppermotorscrewsremove.jpg](../.gitbook/assets/ccjvc7c1pbeq7h90-steppermotorscrewsremove.jpg)
 
-2. Open up 3 or more of the cable chain links nearest to the extruder. This will give you more room to work. Follow [Opening the Cable Chain](http://promega.printm3d.com/books/user-manual/page/opening-the-cable-chain) guide for help.
+2. Open up 3 or more of the cable chain links nearest to the extruder. This will give you more room to work. Follow [Opening the Cable Chain](https://m3d.gitbook.io/promega-docs/electrical-guides/opening-the-cable-chain) guide for help.
 
    ![hrb6GfZZ3GSWsBrd-opencablechainlinks.jpg](../.gitbook/assets/hrb6gfzz3gswsbrd-opencablechainlinks.jpg)
 
