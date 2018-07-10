@@ -27,7 +27,7 @@ As the Promega is used over time it is possible slack develops in the CoreXY or 
 
 ### Leveling the Bed
 
-After you change out belt clamps, your bed might be misaligned. As covered in the [Bed Leveling & Probing](http://promega.printm3d.com/books/user-manual/page/bed-leveling-probing) guide, bed leveling compensation will work for differences of about 3mm across the entire bed. Leveling your bed can be done by skipping teeth on the bed in specific corners.
+After you change out belt clamps, your bed might be misaligned. As covered in the [Bed Leveling & Probing](https://m3d.gitbook.io/promega-docs/printing-guides/slicers-and-printer-settings/bed-leveling-and-probing) guide, bed leveling compensation will work for differences of about 3mm across the entire bed. Leveling your bed can be done by skipping teeth on the bed in specific corners.
 
 1. Look at your bed and determine if one side is visibly higher than the other side.
 2. Remove the binder clip if you have placed one on the Z-motor belt
