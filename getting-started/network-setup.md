@@ -9,10 +9,11 @@ It is also possible to set a static IP address for your Promega, this will allow
 ## Connecting to the ProMega via SD
 
 1. Before removing your microSD card from your printer, we recommend you turn off your printer. This reduces the risk of damaging your Duet Maestro. Once the printer is powered off, press the SD card into the board in order to remove it. For more guidance on the SD card check out [this guide.](https://m3d.gitbook.io/promega-docs/getting-started/accessing-your-sd-card)
-2. Insert the microSD card into your computer with the microSD card reader. Open the _config.g_ file. This file will be in the _sys/_ folder. It is best to open the config.g file with a text editor like [Notepad++](https://notepad-plus-plus.org/download/v7.5.6.html) or WordPad \(Default Windows Accessory\). The default Windows Accessory _Notepad_ is not recommended as it does not separate the G-code commands into individual lines.
-3. There are two options for configuring your network: DHCP and static IP. If you utilize DHCP, your network will assign the control board an IP address. You will then be able to connect to the printer using the printer name you define in the configuration file. **DHCP is the recommended option if you are unfamiliar with networking.** Using a static IP means that you give the Promega a unique and free IP address on your network. You will then be able to connect to the Promega by entering that IP address into a browser tab. Follow the section below depending on your choice.
+2. Insert the microSD card into your computer with the microSD card reader. Open the _machine\_access.g_ file. This file will be in the _sys/_ folder. It is best to open the file with a text editor like [Notepad++](https://notepad-plus-plus.org/download/v7.5.6.html) or WordPad \(Default Windows Accessory\). The default Windows Accessory _Notepad_ is not recommended as it does not separate the G-code commands into individual lines.
+3. There are two options for configuring your network: DHCP and static IP. If you utilize DHCP, your network router will assign the control board an IP address. You will then be able to connect to the printer using the printer name you define in the configuration file. **DHCP is the recommended option if you are unfamiliar with networking.** Using a static IP means that you give the Promega a unique and free IP address on your network. You will then be able to connect to the Promega by entering that IP address into a browser tab. Follow the section below \(DHCP or static IP\) depending on your choice.
 
-   **DHCP**
+   **DHCP**  
+   Complete these steps if you want to connect to your Promega using the DHCP option.
 
    a. Open the file _machine\_access.g_ and find the `M550` command located in this file. The `M550` command sets the machine name, this command syntax requires a P parameter before the machine name. Therefore, if you wanted to name your printer _unicorn_ you would type `M550 Punicorn`. Change the printer name to something you prefer, remember this name as you will use it to connect to your printer.
 
@@ -20,7 +21,7 @@ It is also possible to set a static IP address for your Promega, this will allow
 
    c. Ensure that the other `M552` command is commented out!
 
-   Your _machine\_access.g_ file network settings could look like this:
+   Your _machine\_access.g_ file network settings for connecting to a network using DHCP could look like this:
 
    ```text
     ; machine_access.g
@@ -37,41 +38,51 @@ It is also possible to set a static IP address for your Promega, this will allow
     ; M552 P192.168.1.112 S1     ; This would set a static IP address but it is commented
    ```
 
-   In the example above your machine name would be _unicorn_.
+   In the example above your machine name would be _unicorn_. Continue to Step 4.  
 
-   **Static IP Address**
 
-   a. Find the network section in the _machine\_access.g_ file. Find the `M552` command. This command sets your IP address and enables or disables the network. In order to set your network setting with a static IP the following command should be entered: `M552 Pn S1`. Where _n_ is your preferred IP address. Your IP address depends on your local network. It could be in the form of \(_192.168.1.216_ or _10.0.0.216_\). The S parameter enables \(`S1`\) or disables \(`S0`\) network, because you are setting up your network you should set the parameter to `S1`.  
+   **Static IP Address**  
+   Complete this if you want to connect to your Promega with a Static IP address.
+
+   a. Find the network section in the _machine\_access.g_ file. Find the `M552` command. This command sets your IP address and enables or disables the network. In order to set your network setting with a static IP the following command should be entered: `M552 Pnnn S1`. Where `nnn` is your preferred IP address. Your IP address depends on your local network. It could be in the form of \(_192.168.1.216_ or _10.0.0.216_\). The S parameter enables \(`S1`\) or disables \(`S0`\) network, because you are setting up your network, and want it enabled, you should set the parameter to `S1`.  
    b. Ensure that the other `M552` command is commented out!  
   
-   Your _machine\_access.g_ file network settings could look like this:
+   Your _machine\_access.g_ file network settings for connecting to a network with a static IP address could look like this:  
 
-```scheme
- ; machine_access.g
- ; June 29, 2018
 
- ; Set the machine name and IP address in here
 
- M111 S0                       ; Debugging off
- M550 PPromega                 ; Set machine name, type promega/ in your browser!
 
- ; M551, No Machine Password
- ; M540 PBE:EF:DE:AD:FE:ED     ; Set MAC address, this can be used to assign a given IP in the DHCP
- ; M552 P0.0.0.0 S1             ; Use this to enable DHCP, in this case commented
- M552 P192.168.1.112 S1        ; Set Static IP address and enable networking
-```
+   ```scheme
+    ; machine_access.g
+    ; June 29, 2018
 
-In the example above you should be able to connect to your printer by entering the IP address 192.168.1.112 in your browser tab.
+    ; Set the machine name and IP address in here
 
-> If you want to find out the structure of your internal IP address, open a command prompt on a computer connected to the same network as the promega and enter the command `ipconfig`. \(Open a command prompt by pressing _Windows Key_ + _R_, type _cmd_ and press _Enter_\). This will print your network settings and status, look for the "IPv4 Address" number. That number represents an internal IP address on your network. Of course this IP address is occupied by your computer and therefore not a valid IP address for your Promega! ![kJe3IhIAIOE1puFU-ipv4address.PNG](../.gitbook/assets/kje3ihiaioe1pufu-ipv4address.PNG)
+    M111 S0                       ; Debugging off
+    M550 PPromega                 ; Set machine name, type promega/ in your browser!
 
-1. When you have made the necessary changes to your network settings, save the _machine\_access.g_ file and safely eject the SD card. Insert the SD card back into the Duet board. Ensure that the Ethernet cable is connected properly to the Duet board and turn the board back on. It will take a while for your printer to boot and connect to the network \(~30 seconds\). When your Ethernet cable is properly connected to the board, the green LED should be flashing and the yellow LED should be solid. ![1NXuMREA7qVlTdEd-flashingethernet.gif](../.gitbook/assets/1nxumrea7qvltded-flashingethernet.gif)
-2. Once your printer has had the time to start up, open a browser tab on a computer **connected to the same network as the printer**. In the browser URL textfield enter:
+    ; M551, No Machine Password
+    ; M540 PBE:EF:DE:AD:FE:ED     ; Set MAC address, this can be used to assign a given IP in the DHCP
+    ; M552 P0.0.0.0 S1             ; Use this to enable DHCP, in this case commented
+    M552 P192.168.1.112 S1        ; Set Static IP address and enable networking
+   ```
+
+
+
+  
+   In the example above you should be able to connect to your printer by entering the IP address 192.168.1.112 in your browser tab.  
+  
+   If you want to find out the structure of your internal IP address, open a command prompt on a computer connected to the same network as the promega and enter the command `ipconfig`. \(Open a command prompt by pressing _Windows Key_ + _R_, type _cmd_ and press _Enter_\). This will print your network settings and status, look for the "IPv4 Address" number. That number represents an internal IP address on your network. Of course this IP address is occupied by your computer and therefore not a valid IP address for your Promega! ![kJe3IhIAIOE1puFU-ipv4address.PNG](../.gitbook/assets/kje3ihiaioe1pufu-ipv4address.PNG)  
+  
+   Continue to step 4.  
+
+4. When you have made the necessary changes to your network settings, save the _machine\_access.g_ file and safely eject the SD card. Insert the SD card back into the Duet board. Ensure that the Ethernet cable is connected properly to the Duet board and turn the board back on. It will take a while for your printer to boot and connect to the network \(~30 seconds\). When your Ethernet cable is properly connected to the board, the green LED should be flashing and the yellow LED should be solid.  ![1NXuMREA7qVlTdEd-flashingethernet.gif](../.gitbook/assets/1nxumrea7qvltded-flashingethernet.gif)
+5. Once your printer has had the time to start up, open a browser tab on a computer **connected to the same network as the printer**. In the browser URL textfield enter:
    * Your printer name followed by a forward slash "/" if you used DHCP. For example, `unicorn/`, if you named your printer "unicorn" \(nothing wrong with that!\).
    * Your printer IP address if you used a static IP address with the M552 command. It could look like this `192.168.1.216`.
-3. If the connection is successful the Duet Web Console should be shown. You have completed the network setup.
+6. If the connection is successful the Duet Web Console should be shown. You have completed the network setup.
 
-Continue on to the [Accessing Web Interface](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
+**Continue on to the** [**Accessing Web Interface**](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface)**, the next chapter in the** [**Getting Started**](https://m3d.gitbook.io/promega-docs/getting-started) **guide.**
 
 **Network Bridging**
 
