@@ -4,7 +4,7 @@ Connecting to your Promega via your local network is very useful as you get acce
 
 ## Connecting to the ProMega via SD
 
-1. Before removing your microSD card from your printer we recommend you turn off your printer. This reduces the risk of damaging your Duet Maestro. Once the printer is powered off, press the SD card into the board in order to remove it. For more guidance on the SD card check out [this guide.](http://promega.printm3d.com/books/user-manual/page/sd-card)
+1. Before removing your microSD card from your printer we recommend you turn off your printer. This reduces the risk of damaging your Duet Maestro. Once the printer is powered off, press the SD card into the board in order to remove it. For more guidance on the SD card check out [this guide.](https://m3d.gitbook.io/promega-docs/getting-started/accessing-your-sd-card)
 2. Insert the microSD card into your computer with the microSD card reader. Open the _config.g_ file. This file will be in the _sys/_ folder. It is best to open the config.g file with a text editor like [Notepad++](https://notepad-plus-plus.org/download/v7.5.6.html) or WordPad \(Default Windows Accessory\). The default Windows Accessory _Notepad_ is not recommended as it does not separate the G-code commands into individual lines.
 3. There are two options for configuring your network: DHCP and static IP. If you utilize DHCP, your network will assign the control board an IP address. You will then be able to connect to the printer using the printer name you define in the configuration file. **DHCP is the recommended option if you are unfamiliar with networking.** Using a static IP means that you give the Promega a unique and free IP address on your network. You will then be able to connect to the Promega by entering that IP address into a browser tab.
 
@@ -70,7 +70,7 @@ Connecting to your Promega via your local network is very useful as you get acce
    * Your printer IP address if you used a static IP address with the M552 command. It could look like this `192.168.1.216`.
 6. If the connection is successful the Duet Web Console should be shown. You have completed the network setup.
 
-Continue on to the [Accessing Web Interface](http://promega.printm3d.com/books/user-manual/page/accessing-web-interface), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [Accessing Web Interface](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
 **Network Bridging**
 
@@ -88,7 +88,7 @@ If you are unable to connect your ProMega to your internal network it is possibl
 
 3. This will create a new Network Adapter called _Network Bridge_. You should now be able to connect to the ProMega with the static IP address you determined earlier. Enter the static IP address into a browser URL textfield.
 
-Continue on to the [Accessing Web Interface](http://promega.printm3d.com/books/user-manual/page/accessing-web-interface), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [Accessing Web Interface](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
 ## Connecting to the ProMega via USB
 
@@ -124,7 +124,7 @@ We recommend setting up your network settings via microSD card as outlined in th
 
 This completes the network setup. If you ever need to change any network settings you can use commands such as M552 or M553 and so on as listed in the RepRap Firmware G-code wiki.
 
-Continue on to the [Accessing Web Interface](http://promega.printm3d.com/books/user-manual/page/accessing-web-interface), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [Accessing Web Interface](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
 For additional help connecting to the printer via USB and Network setup, visit the following links:
 
