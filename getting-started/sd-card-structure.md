@@ -1,6 +1,6 @@
 # SD Card Structure
 
-One of the first steps of setting up your printer is getting access to and understanding the files stored on the microSD card. This guide will cover the basic structure of the files on the SD card. Follow the [Accessing Your SD Card](http://promega.printm3d.com/books/user-manual/page/accessing-your-sd-card) guide for more assistance on how to get to the files located on the microSD card.
+One of the first steps of setting up your printer is getting access to and understanding the files stored on the microSD card. This guide will cover the basic structure of the files on the SD card. Follow the [Accessing Your SD Card](https://m3d.gitbook.io/promega-docs/getting-started/accessing-your-sd-card) guide for more assistance on how to get to the files located on the microSD card.
 
 ## File Structure
 
@@ -19,7 +19,7 @@ As mentioned before, the _sys_ folder contains all sorts of system files. The mo
 
 Below is a list of files with the _machine_ prefix, indicating that they should be opened and can be changed.
 
-* _machine\_access.g_: This file contains G-code commands to properly setup the network settings. Open and change this file in order to allow the Duet Maestro to connect to your local network. Follow the [Network Setup](http://promega.printm3d.com/books/user-manual/page/network-setup) guide in order to setup your network.
+* _machine\_access.g_: This file contains G-code commands to properly setup the network settings. Open and change this file in order to allow the Duet Maestro to connect to your local network. Follow the [Network Setup](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) guide in order to setup your network.
 * _machine\_axisdimensions.g_: This file contains G-code commands to initialize the minimum and the maximum values of the coordinate axes. Change the values in this file in order to allow your gantry to move to the absolute limits of your buildspace. Use caution when changing the axes limits.
 * _machine\_axissteps.g_: The axis steps per millimeter for the stepper motors are placed here. Changing these values should not be necessary as they are already properly configured.
 * _machine\_bedmesh.g_: This file initializes the bed leveling mesh.
@@ -35,7 +35,7 @@ Below is a list of files with the _machine_ prefix, indicating that they should 
 In the _sys_ folder you will find many other files which handle other important aspects of the printer. Observe the list below for an explanation of the different files.
 
 * _config.g_: This file is called upon the boot-up of the Duet board. Place G-code commands here in order for them to be executed on start-up. This file calls multiple machine files listed above with the `M98` command.
-* _homex.g_, _homey.g_, _homez.g_ and _homeall.g_: These files operate the homing procedure. Follow [Homing the Printer](http://promega.printm3d.com/books/user-manual/page/homing-the-printer) for more help on homing the printer, and [Adjusting Homing Macros](http://promega.printm3d.com/books/user-manual/page/adjusting-homing-macros) in order to adjust the homing macros.
+* _homex.g_, _homey.g_, _homez.g_ and _homeall.g_: These files operate the homing procedure. Follow [Homing the Printer](https://m3d.gitbook.io/promega-docs/getting-started/homing-the-printer) for more help on homing the printer, and [Adjusting Homing Macros](https://m3d.gitbook.io/promega-docs/firmware-guides/adjusting-homing-macros) in order to adjust the homing macros.
 
-Continue on to the [Homing the Printer](http://promega.printm3d.com/books/user-manual/page/homing-the-printer), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [Homing the Printer](https://m3d.gitbook.io/promega-docs/getting-started/homing-the-printer), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
