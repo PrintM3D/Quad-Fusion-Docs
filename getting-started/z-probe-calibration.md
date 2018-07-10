@@ -12,7 +12,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 4. Retract the Z-probe.
 5. Jog the bed up slowly toward the nozzle using the negative Z buttons in _Machine Control_ on the Duet Web Console. Read the next step!
 
-   ![Z81QrJdADnqOrI0d-MachineControl.PNG](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/Z81QrJdADnqOrI0d-MachineControl.PNG)
+   ![Z81QrJdADnqOrI0d-MachineControl.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/Z81QrJdADnqOrI0d-MachineControl.PNG)
 
 6. As you are moving the bed up towards the nozzle you will encounter an axis limit. These axes limits are set for the X, Y and Z axes and will stop you from moving past a certain coordinate. This will make it harder to crash the printer. However, in this case we know what we are doing so we can disable the axes limits. Send the command `M564 S0` to disable the axis limits. To learn more about this command visit the [RepRap G-code wiki](https://reprap.org/wiki/G-code#M564:_Limit_axes).
 7. **Be careful when moving the bed close to the nozzle. Use the 1mm and 0.1mm buttons.** Determining when the bed is touching the nozzle can be difficult. You might have to heat up the nozzle as you learned before in order to ensure that none of the filament from the hot-end gets in the way. Using a piece of paper to determine when the nozzle is touching the bed is also helpful. Grab a sticky-note or small piece of paper and place it under the nozzle. Then carefully jog the bed into the nozzle, move the paper back and forth. When you feel the nozzle grab the paper your nozzle is touching the bed!. 

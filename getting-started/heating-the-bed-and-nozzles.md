@@ -12,7 +12,7 @@ Both the bed and the hot end\(s\) of the Promega can be activated through the Du
 
 1. In the Duet Web Console find the table _Tools/Heaters/Extra_, pictured below. In the row _Bed_ change the active temperature from 0C to your desired temperature and press Enter.
 
-   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/ZzzciCea9XJ9Ev9A-heatingbed.PNG)
+   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ZzzciCea9XJ9Ev9A-heatingbed.PNG)
 
 2. In order to turn the heated bed off, set the temperature back to 0 in the _Active_ column and press Enter.
 
@@ -35,7 +35,7 @@ Both the bed and the hot end\(s\) of the Promega can be activated through the Du
 
 1. In the Duet Web Console find the table _Tools/Heaters/Extra_, pictured below. In your desired tool row change the active temperature from 0C to your desired temperature and press Enter.
 
-   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/ZzzciCea9XJ9Ev9A-heatingbed.PNG)
+   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ZzzciCea9XJ9Ev9A-heatingbed.PNG)
 
 2. Remember that the tool will only heat up to your set active temperature when the tool is selected. Select a different tool with the command `Tn` where `n` is your tool number.
 3. In order to turn off the heater. Set the tools active temperature to 0 and press Enter. Remember that a tool will heat up to the standby temperature when the tool is not selected.
