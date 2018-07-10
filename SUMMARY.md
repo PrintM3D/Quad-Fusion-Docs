@@ -50,4 +50,5 @@
   * [Screw and Tool List](maintenance-guides/screw-and-tool-list.md)
   * [Routing Z-belts](maintenance-guides/routing-z-belts.md)
 * [Community Guides](community-guides.md)
+* [Beginner Guides](beginner-guides.md)
 
