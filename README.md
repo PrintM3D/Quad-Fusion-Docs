@@ -2,7 +2,7 @@
 
 Welcome to the Promega User's Manual. This manual is hosted in Github.com via Gitbook.com.
 
-[Get Started Here](https://m3d.gitbook.io/promega/getting-started)
+[Get Started Here](https://m3d.gitbook.io/promega-docs/getting-started)
 
 ## Contributing
 
