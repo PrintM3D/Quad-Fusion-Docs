@@ -10,7 +10,7 @@
 
    ![mPkv4PqN42WrQYYk-PTFEEntrance.jpg](../.gitbook/assets/mpkv4pqn42wrqyyk-ptfeentrance.jpg)
 
-   The filament will go through the cable chain housing and come out at the end of the cable chain at the extruder assembly. It is not necesarry to feed the filament through these tubes in order to print. You can also feed the filament directly into the extruder without feeding it through the filament tubes, as shown in the step below.
+   The filament will go through the cable chain housing and come out at the end of the cable chain at the extruder assembly. It is not necessary to feed the filament through the filament tubes in order to print. 
 
 3. Guide the filament into the holes in the extruder \(pictured below\). You can unclip the PTFE tube holders if necessary.
 
@@ -22,7 +22,7 @@
    ![yiXjG17aUTppk3jq-extrudercontrol.PNG](../.gitbook/assets/yixjg17autppk3jq-extrudercontrol.PNG)
 
 6. Once your nozzle has reached temperature, press the _Extrude_ button until filament is coming out of the nozzle. **Skipping at a feedrate of 5mm/s is normal**, you can reduce the feedrate to 1mm/s to avoid skipping.
-7. You have now successfully loaded filament, be sure to clip the PTFE tubes back into place on the extruder.
+7. You have now successfully loaded filament, be sure to clip the PTFE tubes back into place on the extruder. Remove any ooze or printed filament before printing.
 
 ## Unloading Filament
 
