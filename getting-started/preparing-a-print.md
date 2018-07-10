@@ -10,7 +10,7 @@ In most CAD software you can choose to save a model in the _.STL_ file format. W
 
 #### SolidWorks
 
-To save a model as an STL in SolidWorks, click _File &gt; Save As_. Then select _.STL_ as shown in the file below. ![XOrbIeH8QmORw6Zm-Saveasstl.png](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/XOrbIeH8QmORw6Zm-Saveasstl.png) Then a window will appear, confirming the fact that you are saving the file as an STL. In the background you will see a representation of the model as an _.STL_ file. Press _Yes_ in order to save your model as an _.STL_ file. ![fev3LghG61ntf514-SolidworksSTL.png](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/fev3LghG61ntf514-SolidworksSTL.png)
+To save a model as an STL in SolidWorks, click _File &gt; Save As_. Then select _.STL_ as shown in the file below. ![XOrbIeH8QmORw6Zm-Saveasstl.png](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/XOrbIeH8QmORw6Zm-Saveasstl.png) Then a window will appear, confirming the fact that you are saving the file as an STL. In the background you will see a representation of the model as an _.STL_ file. Press _Yes_ in order to save your model as an _.STL_ file. ![fev3LghG61ntf514-SolidworksSTL.png](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/fev3LghG61ntf514-SolidworksSTL.png)
 
 ### Finding a Slicer
 
@@ -28,7 +28,7 @@ Once you have downloaded your preferred slicer you can follow the steps below to
 
 1. First of all, download the [Promega Cura profile](https://github.com/PrintM3D/Promega/tree/devel/Cura%20Profiles/Compound) from the M3D GitHub Promega repository. Select the profile for the K'Tana or Compound nozzle depending on which extruder you currently have mounted.
 2. Launch Cura. The first thing you will have to do is add a printer. You can do this by clicking _Settings &gt; Printers &gt; Manage Printers_ on the top of the window. This will open a new window called _Preferences_. Press _Add Printer_. This will open a new _Add Printer_ window. Select _Custom FDM Printer_ under the _Custom_ tab. Click _Add Printer_ in the bottom right corner of the window. This will return you to the _Preferences_ window. Click the Custom FDM Printer you just created and click the button _Machine Settings_. This will open a new window. Proceed to the next step.
-3. In this window you will have to input all the Promega printer settings. Follow the picture below to input the settings. Feel free to copy and paste the start and end G-code from the boxes below. ![Kuk1vdu2N2ajQPZZ-machinesettings.png](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/Kuk1vdu2N2ajQPZZ-machinesettings.png)
+3. In this window you will have to input all the Promega printer settings. Follow the picture below to input the settings. Feel free to copy and paste the start and end G-code from the boxes below. ![Kuk1vdu2N2ajQPZZ-machinesettings.png](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/Kuk1vdu2N2ajQPZZ-machinesettings.png)
 
    ```text
     ; Start G-Code
@@ -58,7 +58,7 @@ Once you have downloaded your preferred slicer you can follow the steps below to
 6. Click on the profile you just imported and press activate.
 7. In the _Preferences_ window, go to the settings tab. This controls the visibility of certain printer settings. For beginners we recommend choosing the _Basic_ visibility. As you become more familiar with Cura and the Promega you can change the visibility of the print settings at any time.
 
-   ![jEiIyza3YXUwto76-settingvisibility.png](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/jEiIyza3YXUwto76-settingvisibility.png)
+   ![jEiIyza3YXUwto76-settingvisibility.png](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/jEiIyza3YXUwto76-settingvisibility.png)
 
 8. You can now close the _Preferences_ window. You are ready to slice!
 
@@ -68,7 +68,7 @@ Slicing your model is an extremely important step. Most slicer software allow yo
 
 #### Cura
 
-![2OJjbIdhfBnIcE21-CuraGuide.png](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/2OJjbIdhfBnIcE21-CuraGuide.png) 1. In order to load a model in Cura, press the _Load Files_ folder icon. Then path to the _.STL_ file you want to load. Press _Open_ and a model will load into the Cura build space. 2. First of all, scale and move your model so that it fits within the build space of the printer and is the desired size. Use the buttons on the left of the screen. 3. Next, go to the _Custom_ tab to change your printer settings. This will show the settings of your print. 4. In _Material_ update the printing temperature to suit your printing material. We recommend 205C for PLA and 235C for ABS-R. 5. The rest of the print settings should already be compatible with the Promega. Visit other guides for a more in depth explanation on how to tune your print settings. 6. In order to start a print, press the light-blue _Prepare_ button in the bottom-right corner. This will slice the print into G-code. You must then save this to a file by pressing _Save to File_ in the bottom-right corner again. Save the G-code file to a specific location so that you can retrieve it when you upload the print to the board. 7. You are now ready to print. Follow the [Running a Print](http://promega.printm3d.com/books/user-manual/page/running-a-print) guide for additional help on starting and monitoring a print.
+![2OJjbIdhfBnIcE21-CuraGuide.png](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/2OJjbIdhfBnIcE21-CuraGuide.png) 1. In order to load a model in Cura, press the _Load Files_ folder icon. Then path to the _.STL_ file you want to load. Press _Open_ and a model will load into the Cura build space. 2. First of all, scale and move your model so that it fits within the build space of the printer and is the desired size. Use the buttons on the left of the screen. 3. Next, go to the _Custom_ tab to change your printer settings. This will show the settings of your print. 4. In _Material_ update the printing temperature to suit your printing material. We recommend 205C for PLA and 235C for ABS-R. 5. The rest of the print settings should already be compatible with the Promega. Visit other guides for a more in depth explanation on how to tune your print settings. 6. In order to start a print, press the light-blue _Prepare_ button in the bottom-right corner. This will slice the print into G-code. You must then save this to a file by pressing _Save to File_ in the bottom-right corner again. Save the G-code file to a specific location so that you can retrieve it when you upload the print to the board. 7. You are now ready to print. Follow the [Running a Print](http://promega.printm3d.com/books/user-manual/page/running-a-print) guide for additional help on starting and monitoring a print.
 
 Continue on to the [Running a Print](http://promega.printm3d.com/books/user-manual/page/running-a-print) guide, the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
 

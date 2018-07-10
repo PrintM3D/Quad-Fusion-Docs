@@ -25,12 +25,12 @@ The Promega is equipped with two different Z-probes, an IR \(infra-red\) probe a
 
 1. When mounted, the limit switch magnet should be firmly attached to the bottom of the mount as shown in the picture below.
 
-   ![BlabOuIBSjcY3Gkg-zlimitmount.png](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/BlabOuIBSjcY3Gkg-zlimitmount.png)
+   ![BlabOuIBSjcY3Gkg-zlimitmount.png](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/BlabOuIBSjcY3Gkg-zlimitmount.png)
 
 2. Connect to the Duet Web Console. In the _Machine Status_ table observe the Z-probe cell. Press the Z-probe switch and you should see this value change from 0 to 1000. If this is not happening, it indicates a problem with the wiring of the limit switch. Stop and fix the wiring before continuing with this guide.
 3. In order to unmount the limit switch simply remove it from its mount and stick it above the nozzle. Stick the limit switch against the metal mount so that the limit switch is pressed down. Now if you accidentally send the command `G30` with an unmounted z-probe, you will get an error: _"Error: Probe already triggered during move_" instead of a crash of the bed against the nozzle.
 
-   ![EJqnEtlnpFIpXnQb-Unmountedswitch.jpg](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/EJqnEtlnpFIpXnQb-Unmountedswitch.jpg)
+   ![EJqnEtlnpFIpXnQb-Unmountedswitch.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/EJqnEtlnpFIpXnQb-Unmountedswitch.jpg)
 
 **Limit Switch Configuration Settings**
 
@@ -62,7 +62,7 @@ The G31 command sets certain z-probe settings such as offset and trigger height.
 To find out the z-offset of the limit switch to the nozzle, follow the steps below. 1. Home the printer again, just to ensure you do not crash the printer throughout this process. 2. Print head to the center of the build plate by sending the command `G1 X200 Y200` 3. Heat up the bed to the preferred printing temperature. You can do this by sending the command `M140 Snnn` where `nnn` is your temperature in °C. You can always look up the recommended bed temperatures for specific materials online. For PLA, a bed temperature of 50°C will work well. For ABS-R, a bed temperature of 60°C is recommended. 4. Wait until the heated bed has reached temperature before continuing. 5. Set the Z-probe offset to 0 by entering the command `G31 G31 P999 X-40 Y28.5 Z0`. This will make it easier to gauge the distance between the Z-probe and the nozzle in the following steps. 6. Run the command `G29 S2`. This clears any active bed leveling compensation. This is **very** important as it will conflict with your updated Z-probe offset and induce a 0.1 - 0.3mm error depending on the magnitude of your bed leveling compensation at that point. 7. Deploy your Z-probe 8. Check whether the Z-probe is functioning correctly. This is a great step to perform before using your Z-probe in order to prevent crashes. Press your Z-probe limit switch and observe the change in value from 0 to 1000 in the Duet Web Console _Machine Status_ table in the _Z-Probe_ box. If the value does not change the Z-probe is wired or configured wrong, do not continue to the next step!
 
 ```text
-![KWL6DTK3l4pAmrPv-zprobemachinestatus.png](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/KWL6DTK3l4pAmrPv-zprobemachinestatus.png)
+![KWL6DTK3l4pAmrPv-zprobemachinestatus.png](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/KWL6DTK3l4pAmrPv-zprobemachinestatus.png)
 ```
 
 1. Move the bed towards the nozzle by sending the command `G1 Z20`. When you send the command `G30` the bed will move slowly and precisely to the Z-probe, if you send `G30` while the bed is at `Z100` or greater you will have to wait for a long time for the Z-probe to trigger.
@@ -71,7 +71,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 4. Retract the Z-probe.
 5. Jog the bed up slowly toward the nozzle using the negative Z buttons in _Machine Control_ on the Duet Web Console. Read the next step!
 
-   ![Z81QrJdADnqOrI0d-MachineControl.PNG](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/Z81QrJdADnqOrI0d-MachineControl.PNG)
+   ![Z81QrJdADnqOrI0d-MachineControl.PNG](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/Z81QrJdADnqOrI0d-MachineControl.PNG)
 
 6. As you are moving the bed up towards the nozzle you will encounter an axis limit. These axes limits are set for the X, Y and Z axes and will stop you from moving past a certain coordinate. This will make it harder to crash the printer. However, in this case we know what we are doing so we can disable the axes limits. Send the command `M564 S0` to disable the axis limits. To learn more about this command visit the [RepRap G-code wiki](https://reprap.org/wiki/G-code#M564:_Limit_axes).
 7. **Be careful when moving the bed close to the nozzle. Use the 1mm and 0.1mm buttons.** Determining when the bed is touching the nozzle can be difficult. You might have to heat up the nozzle as you learned before in order to ensure that none of the filament from the hot-end gets in the way. Using a piece of paper to determine when the nozzle is touching the bed is also helpful. Grab a sticky-note or small piece of paper and place it under the nozzle. Then carefully jog the bed into the nozzle, move the paper back and forth. When you feel the nozzle grab the paper your nozzle is touching the bed!. 
@@ -129,15 +129,15 @@ If you crash the bed into the nozzle it will cause the bed to skip and fall. Aft
 1. Power cycle the printer and then turn it on. This will make it easier to manually move the motors.
 2. Move the bed up to the nozzle. The best way to move the bed of the Promega is by holding the bed with both hands on either side in the center as shown below. If you want to stop your bed from falling down you can place a binder clip on the z-motor belt as pictured below.
 
-   ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/4qdhdUQzgRlqtZuL-wheretoholdbed.jpg)
+   ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/4qdhdUQzgRlqtZuL-wheretoholdbed.jpg)
 
-   ![2dmrbcxPSLMjnGwW-beltclip.jpg](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/2dmrbcxPSLMjnGwW-beltclip.jpg)
+   ![2dmrbcxPSLMjnGwW-beltclip.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/2dmrbcxPSLMjnGwW-beltclip.jpg)
 
 3. Once the bed is at the nozzle, gauge the distance between the Z-slider and the top z-belt clamp as shown in the picture below. If one of these distances is greater than the other four it means your bed is not level. If you have a caliper you can measure the distance between the bed and each belt clamp corner.
 
-   ![7uGDRPPGzf2X74tx-distancezclampbed.jpg](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/7uGDRPPGzf2X74tx-distancezclampbed.jpg)
+   ![7uGDRPPGzf2X74tx-distancezclampbed.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/7uGDRPPGzf2X74tx-distancezclampbed.jpg)
 
-   ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg)
+   ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg)
 
 4. Move the bed halfway down the printer. Hold the bed in place while gently pulling up on one corner. Keep pulling up until you hear a loud click and feel the bed move in that one corner.
 

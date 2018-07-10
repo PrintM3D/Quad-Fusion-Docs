@@ -16,19 +16,19 @@ This guide covers the wiring of the Promega along with possible wiring solutions
 
 #### Duet Maestro Ports
 
-![Duet Maestro Component Diagram](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/7hDuL5UFuMyWk6z6-duetcomponents.jfif)
+![Duet Maestro Component Diagram](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/7hDuL5UFuMyWk6z6-duetcomponents.jfif)
 
 The image above displays the ports found on the Duet Maestro and their functions.
 
 #### Connection Diagram
 
-![Duet Maestro Promega Wiring Diagram](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/EegR4vx3jEAcoiyn-guideswiringdiagram.png)
+![Duet Maestro Promega Wiring Diagram](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/EegR4vx3jEAcoiyn-guideswiringdiagram.png)
 
 Each text in the textbox of the first image represents the text found on each cable near the connector. Not all cables have text, but they will have some other feature that identifies them. Read the list, Notes, below for a further explanation on the unmarked wires. Each textbox color represents the cable assembly that the wires are a part of. White represents the cables going up towards the extruder assembly. Red, the cables to the Z and power supply. Blue, the limit switch wires and purple, the wires to the power supply.
 
-![Wiring Label](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/XUyuNhhtrJXntxGO-wiringlabel.jpg)
+![Wiring Label](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/XUyuNhhtrJXntxGO-wiringlabel.jpg)
 
-![Promega Wiring Assemblies](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/75W5FDmOfQHmwC8n-promegawiringassemblies.jpg)
+![Promega Wiring Assemblies](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/75W5FDmOfQHmwC8n-promegawiringassemblies.jpg)
 
 Notes:
 
@@ -45,7 +45,7 @@ Notes:
 
  
 
-![IR Z-Probe Board](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/phTkVDKc8HaMIdc4-irprobeports.jpg)
+![IR Z-Probe Board](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/phTkVDKc8HaMIdc4-irprobeports.jpg)
 
 The IR Z-probe ports are listed in the image above. The z-probe board can be powered off both 5V and 3.3V, both pins are found on the Duet Maestro Z-probe connector. We recommend you power the z-probe board with 3.3V as it produces a significantly less noisy signal than 5V, and therefore produces are more consistent distance reading.
 
@@ -72,7 +72,7 @@ You might notice that your Duet Maestro board for the Promega came with several 
 
  
 
-![Duet Maestro Jumper Placement](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/W1auipj2Zhq0fiKu-DuetMaestroJumpers.jpg)
+![Duet Maestro Jumper Placement](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/W1auipj2Zhq0fiKu-DuetMaestroJumpers.jpg)
 
 Jumpers: 
 

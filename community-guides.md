@@ -1,5 +1,5 @@
 ---
-description: This section will host awesome guides made by our community.
+description: Test Image updates Sync.
 ---
 
 # Community Guides
