@@ -22,13 +22,15 @@ By clicking on the textfields of the tools in the table you can change the tempe
 
 By clicking on the tool names in the _Tool_ column you can change your currently selected tool.
 
+![](../.gitbook/assets/selectedandnotselectedtools.png)
+
 The temperature graph provides helpful insight of the temperature of your tools and bed over time. This can be helpful to spot oscillations in temperature, as seen in the image below, or heater faults and other issues.
 
 ![Temperature Chart](../.gitbook/assets/2yy87zxfggiujlap-temperaturechart.PNG)
 
 **Machine Status**
 
-The machine status tab includes the position information of the printer. The head position information displays where the printer currently thinks it is. This is very important to keep track of in order to minimize the risk of crashing the printer. The X, Y and Z values represent the different axes of the 3D printer. Normal values for these fields are listed below in this table.
+The machine status tab includes the position information of the printer. The head position information displays where the printer currently thinks it is. This is very important to keep track of to minimize the risk of crashing the printer. The X, Y and Z values represent the different axes of the 3D printer. Normal values for these fields are listed below in this table.
 
 |  | Axes Limits |  |
 | --- | --- | --- |
@@ -37,19 +39,19 @@ The machine status tab includes the position information of the printer. The hea
 | Y - Axis | 388 | 0 |
 | Z - Axis | 377 | 0 |
 
-The extruder drive values can vary greatly as you perform prints. As you can see below, two different sensor values are displayed. The voltage in value is helpful as it can help you figure out electrical problems. Optimally it should remain near 24V when none of the printer components are running. The Z-probe value is important as well. This value will change whenever either Z-probe, the limit switch or the IR probe, is toggled. Testing the Z-probe before running probing or leveling commands \(such as `G30`, `G32` or `G29`\) is extremely important and can prevent crashes. When the Z-probe is not toggled the value should rest near 0.
+The extruder drive values can vary greatly as you perform prints. The voltage in value is helpful as it can help you figure out electrical problems. Optimally it should remain near 24V when none of the printer components are running. The Z-probe value is important as well. This value will change whenever either Z-probe, the limit switch or the IR probe, is toggled. Testing the Z-probe before running probing or leveling commands \(such as `G30`, `G32` or `G29`\) is extremely important and can prevent crashes. When the Z-probe is not toggled the value should rest near 0.
 
 ![Machine Status](../.gitbook/assets/38yr6g32ydtjmfdm-machinestatus.PNG)
 
 ### Control
 
-In order to control your printer the bottom half of the web console features 6 different tabs on the bottom left side with different features. These tabs allow you to visit different functions of the printer as well as send commands.
+In order to control your printer, the bottom half of the web console features 6 different tabs on the bottom left side with different features. These tabs allow you to visit different functions of the printer as well as send commands.
 
 **Machine Control**
 
 ![Machine Control](../.gitbook/assets/z81qrjdadnqori0d-machinecontrol.PNG)
 
-The Machine Control tab features different buttons in order to control different assemblies of the printer. This feature is helpful to load filament or move the extruder carriage to a specific point in the printer. Be careful with using these buttons as it can crash the printer. Remember the direction that you will send an assembly toward as you press these buttons. Pressing the Z-100 button will send the bed up and Z+100 will send the bed down.
+The Machine Control tab features different buttons in order to control different assemblies of the printer. This feature is helpful to load filament or move the extruder carriage to a specific point in the printer. Be careful with using these buttons as it can crash the printer. Remember the direction that you will send an assembly toward as you press these buttons. Pressing the positive Z buttons will send the bed downward, and pressing negative Z buttons will send the bed up.
 
 **Print Status**
 
@@ -85,12 +87,12 @@ Utilize this tab in order to define printer filament settings. This can also be 
 
 ![Settings Screen](../.gitbook/assets/726ggigphugtd2tt-settingsscreen.PNG)
 
-This tab is one of the most important. This tab allows you to change the _sys/_ directory in your SD card and define other user settings. The Settings tab includes more tabs:
+**This tab is one of the most important**. This tab allows you to change the _sys/_ directory in your SD card and define other user settings. Whenever the guides in the future reference a change that is necessary to the system files such as _config.g_  or a _machine.g_ file, you can change the files in the settings tab. The Settings tab includes more tabs:
 
 * General: Includes firmware and web console information
 * User Interface: Change the look and feel of the Duet Web Console
 * List Items: Includes web page suggested options
-* System Editor: A very useful tab to change files in the _sys/_ directory of your microSD card. You will find the _config.g_ file here as well as other system G-code files.
+* System Editor: A very useful tab to change files in the _sys/_ directory of your microSD card. **You will find the** _**config.g**_ **file here as well as other system G-code files.**
 * Machine properties: Defines properties of the different drives \(motors\) of the printer.
 * Tools: Defines the properties of the tools.
 
