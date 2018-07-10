@@ -2,11 +2,11 @@
 
 WORK IN PROGRESS!
 
-This guide provides a supplement of information to the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) Chapter. This guide serves as an introduction to 3D printing and the Promega for new 3D printer users. Follow this guide from start to finish in order to gain a better understanding of the fundamental concepts of a 3D printer and the Promega! If you are more familiar with 3D printing or similar concepts feel free to continue on to other guides!
+This guide provides a supplement of information to the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) Chapter. This guide serves as an introduction to 3D printing and the Promega for new 3D printer users. Follow this guide from start to finish in order to gain a better understanding of the fundamental concepts of a 3D printer and the Promega! If you are more familiar with 3D printing or similar concepts feel free to continue on to other guides!
 
 ## Network Setup
 
-1. Complete the [Network Setup](http://promega.printm3d.com/books/user-manual/page/network-setup) guide. This will allow you to connect to the Duet Web Console on the Duet Maestro, the control board of the Promega \(pictured below\). The Duet Web Console is a web interface that allows you to control the Promega in a much easier manner. The second image below shows the homepage of the Duet Web Console.
+1. Complete the [Network Setup](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) guide. This will allow you to connect to the Duet Web Console on the Duet Maestro, the control board of the Promega \(pictured below\). The Duet Web Console is a web interface that allows you to control the Promega in a much easier manner. The second image below shows the homepage of the Duet Web Console.
 
    ![ioWc2ZTNHPLm4K7Q-duetMaestro.jpeg](../.gitbook/assets/iowc2ztnhplm4k7q-duetmaestro.jpeg)
 
