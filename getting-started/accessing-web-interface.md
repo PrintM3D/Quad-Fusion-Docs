@@ -1,6 +1,6 @@
 # Accessing Web Interface
 
-The Duet Maestro allows control via the Duet Web Console. We highly recommend connecting to your Promega via your network so that you can make use of this! Follow the guide below to learn more about the Duet Web Console. If you have not yet connected your printer to your network, follow the [Network Setup](http://promega.printm3d.com/books/user-manual/page/network-setup) guide.
+The Duet Maestro allows control via the Duet Web Console. We highly recommend connecting to your Promega via your network so that you can make use of this! Follow the guide below to learn more about the Duet Web Console. If you have not yet connected your printer to your network, follow the [Network Setup](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) guide.
 
 ## The Duet Web Console
 
@@ -94,5 +94,5 @@ This tab is one of the most important. This tab allows you to change the _sys/_ 
 * Machine properties: Defines properties of the different drives \(motors\) of the printer.
 * Tools: Defines the properties of the tools.
 
-Continue on to the [SD Card Structure](http://promega.printm3d.com/books/user-manual/page/sd-card-structure-05f), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [SD Card Structure](https://m3d.gitbook.io/promega-docs/getting-started/sd-card-structure), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
