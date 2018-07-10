@@ -2,7 +2,7 @@
 
 ## Loading Filament
 
-1. Heat up the nozzle to the temperature required for the specific filament you are about to load \(ABS-R: ~230C, PLA: ~200C\). Use the Duet Web Console's Tools/Heaters/Extra table to heat up the specific nozzle. For more guidance on heating up your nozzle, follow [this guide.](http://promega.printm3d.com/books/user-manual/page/heating-the-bed-and-nozzles)
+1. Heat up the nozzle to the temperature required for the specific filament you are about to load \(ABS-R: ~230C, PLA: ~200C\). Use the Duet Web Console's Tools/Heaters/Extra table to heat up the specific nozzle. For more guidance on heating up your nozzle, follow [this guide.](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles)
 
    ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed%20%281%29.PNG)
 
@@ -26,7 +26,7 @@
 
 ## Unloading Filament
 
-1. Heat up the nozzle to the temperature required for the specific filament you are about to unload \(ABS-R: ~230C, PLA: ~200C\). Use the Duet Web Console's Tools/Heaters/Extra table to heat up the specific nozzle. For more help on heating up components follow [this guide.](http://promega.printm3d.com/books/user-manual/page/heating-the-bed-and-nozzles)
+1. Heat up the nozzle to the temperature required for the specific filament you are about to unload \(ABS-R: ~230C, PLA: ~200C\). Use the Duet Web Console's Tools/Heaters/Extra table to heat up the specific nozzle. For more help on heating up components follow [this guide.](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles)
 
    ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed%20%281%29.PNG)
 
@@ -34,5 +34,5 @@
      * It is also possible to unload the filament by hand, without using the motors. This can only be done if your motors are unpowered and the nozzle has reached temperature. To disable the idle current on your extruder motors, send the command `M84`. Remember that this command will disable the idle current of **all** motors. The bed may drop down. Once the extruder motors are powered off, firmly grasp the filament and pull up. In one fast and smooth motion you will be able to pull your filament out.    
 3. You have now successfully unloaded filament from the printer.
 
-Continue on to the [Z-Probe Calibration](http://promega.printm3d.com/books/user-manual/page/z-probe-calibration) guide, the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [Z-Probe Calibration](https://m3d.gitbook.io/promega-docs/getting-started/z-probe-calibration) guide, the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
