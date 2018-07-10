@@ -73,7 +73,7 @@ The M3D Promega is an industrial product. The user assumes all responsibility fo
 
 1. The bed is designed to skip if the bed crashes into the nozzle. Once the Z-motor skips it will let the bed fall down to its resting position. The speed of this fall can be very fast, but it's better than a cracked glass bed.
 2. A normal bed must meet the following condition: Pushing down gently on the bed \(less than 10lb\) on any spot on the bed should make the bed move. The same must be true for pushing upwards from the center of the bed, or lifting the bed with two hands in the middle of two opposing faces. All beds will skip if you attempt to lift them from one corner, this is normal.
-3. The bed can skip if moved improperly, which is normal. It is safe to adjust the bed by skipping the belt in corners. Follow [Repairing Broken Belt Clamps & Tensioning](http://promega.printm3d.com/books/user-manual/page/repairing-broken-belt-clamps-tensioning) guide for more information on tensioning and leveling your bed. 
+3. The bed can skip if moved improperly, which is normal. It is safe to adjust the bed by skipping the belt in corners. Follow [Repairing Broken Belt Clamps & Tensioning](https://m3d.gitbook.io/promega-docs/repair-guides/repairing-broken-belt-clamps) guide for more information on tensioning and leveling your bed. 
 4. Currently the only way to mechanically level the bed is to skip belts in corners of the bed. This leaves you with an accuracy of +-1mm per corner. Future designs will come with an improved mechanical leveling system. A normal bed will one or two corners off 1 or 1.5mm from the rest with an RMS flatness of 0.2 - 0.35mm. This is still relatively small across the Promega's big buildspace.
 5. New belt tops and bottoms were designed as of 06/04/18. Use [this link](https://drive.google.com/drive/folders/1xCP-VTzXjAUguB1sH5uztxn9ODNFzm_j) to the public google drive to download the _.STL_ files in order to print them. They can also be shipped to you.
 6. Sliders and the bed frame are tightened based on experience to achieve the best possible backlash, smoothness, ideal kinetic friction across the entire range. The system is designed to be tighter towards the bottom to brake the bed if it comes down. Smoothness of the Z-axis is tied closely with belt tension and trueness of the frame.
@@ -81,5 +81,5 @@ The M3D Promega is an industrial product. The user assumes all responsibility fo
 8. In order to test your bed, move the z-motor by hand and observe the movement of the 4 sliders, none should stick. 
 9. Tension your Z-belts approperiately so that the belts can not skip easily. You should be able to strum the belts.
 
-Continue on to the [Unboxing & Assembly](http://promega.printm3d.com/books/user-manual/page/unboxing-assembly), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [Unboxing & Assembly](https://m3d.gitbook.io/promega-docs/getting-started/unboxing-and-assembly), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
