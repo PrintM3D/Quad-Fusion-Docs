@@ -9,7 +9,7 @@ Once the Z-motor skips it will power off and will not hold the position of the b
 1. Properly tensioning the Z-assembly belts according to the [Belt Tensioning and Mechanical Leveling](http://promega.printm3d.com/books/user-manual/page/belt-tensioning-and-mechanical-leveling) guide.
 2. Tighten the Z-motor belt by loosening the two screws on the bottom of the Z-platform and pulling the motor as shown in the image below.
 
-   ![hgA7D4AcoKZ4XMVH-tighteningzmotorbelt.jpg](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/hgA7D4AcoKZ4XMVH-tighteningzmotorbelt.jpg)
+   ![hgA7D4AcoKZ4XMVH-tighteningzmotorbelt.jpg](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/hgA7D4AcoKZ4XMVH-tighteningzmotorbelt.jpg)
 
 3. Tighten the Z-motor belt pulley against the rail in order to increase friction.
 

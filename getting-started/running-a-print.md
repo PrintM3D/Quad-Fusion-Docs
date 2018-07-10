@@ -11,7 +11,7 @@ In order to print something from the Duet board you must first upload the print 
 1. Connect to the Duet Web Console
 2. Go to the _G-Code Files_ tab on the bottom left of the screen and find the dark-blue _Upload G-code File\(s\)_ button. Click this button to upload G-code files.
 
-   ![teelSvTBLglN2A2B-Uploadfile.PNG](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/teelSvTBLglN2A2B-Uploadfile.PNG)
+   ![teelSvTBLglN2A2B-Uploadfile.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/teelSvTBLglN2A2B-Uploadfile.PNG)
 
 3. Clicking this button will open File Explorer and allow you to find the file\(s\) you want to upload on your computer. You can upload multiple files. Upon selecting Open, the file will upload to the board. This can take a couple of minutes depending on the size of your G-code file and network speed. 
 4. Click one of the uploaded files to print it.
@@ -29,7 +29,7 @@ In order to print something from the Duet board you must first upload the print 
 
 1. Once you have selected a file to print it you can view the prints progress in the _Print Status_ tab.
 
-   ![JsgIIZGuUS48ntAX-PrintSettingsScreen.PNG](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/JsgIIZGuUS48ntAX-PrintSettingsScreen.PNG)
+   ![JsgIIZGuUS48ntAX-PrintSettingsScreen.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/JsgIIZGuUS48ntAX-PrintSettingsScreen.PNG)
 
     With various buttons on this screen you can manipulate your print. This can help in certain cases. Change the print speed with the _Speed Factor_ slider on the right. This can be helpful to slow down your print during tricky parts, such as the first layer. With the _Z Baby Stepping_ buttons you can change the height of the Z during a print. This is very helpful to improve first layer stick during a print. _Extruder Factors_ sliders can be used to change the flow rate of the extruders. Exercise caution when using these controls, improper use can quickly ruin your print.
 

@@ -62,9 +62,9 @@ Connecting to your Promega via your local network is very useful as you get acce
 
    In the example above you should be able to connect to your printer by entering the IP address 192.168.1.112 in your browser tab.
 
-   > If you want to find out the structure of your internal IP address, open a command prompt on a computer connected to the same network as the promega and enter the command `ipconfig`. \(Open a command prompt by pressing _Windows Key_ + _R_, type _cmd_ and press _Enter_\). This will print your network settings and status, look for the "IPv4 Address" number. That number represents an internal IP address on your network. Of course this IP address is occupied by your computer and therefore not a valid IP address for your Promega! ![kJe3IhIAIOE1puFU-ipv4address.PNG](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/kJe3IhIAIOE1puFU-ipv4address.PNG)
+   > If you want to find out the structure of your internal IP address, open a command prompt on a computer connected to the same network as the promega and enter the command `ipconfig`. \(Open a command prompt by pressing _Windows Key_ + _R_, type _cmd_ and press _Enter_\). This will print your network settings and status, look for the "IPv4 Address" number. That number represents an internal IP address on your network. Of course this IP address is occupied by your computer and therefore not a valid IP address for your Promega! ![kJe3IhIAIOE1puFU-ipv4address.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/kJe3IhIAIOE1puFU-ipv4address.PNG)
 
-4. When you have made the necessary changes to your network settings, save the _machine\_access.g_ file and safely eject the SD card. Insert the SD card back into the Duet board. Ensure that the Ethernet cable is connected properly to the Duet board and turn the board back on. It will take a while for your printer to boot and connect to the network \(~30 seconds\). When your ethernet cable is properly connected to the board, the green LED should be flashing and the yellow LED should be solid. ![1NXuMREA7qVlTdEd-flashingethernet.gif](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/1NXuMREA7qVlTdEd-flashingethernet.gif)
+4. When you have made the necessary changes to your network settings, save the _machine\_access.g_ file and safely eject the SD card. Insert the SD card back into the Duet board. Ensure that the Ethernet cable is connected properly to the Duet board and turn the board back on. It will take a while for your printer to boot and connect to the network \(~30 seconds\). When your ethernet cable is properly connected to the board, the green LED should be flashing and the yellow LED should be solid. ![1NXuMREA7qVlTdEd-flashingethernet.gif](../.gitbook/assets/gallery/2018-06-Jun/1NXuMREA7qVlTdEd-flashingethernet.gif)
 5. Once your printer has had the time to start up, open a browser tab on a computer **connected to the same network as the printer**. In the browser URL textfield enter:
    * Your printer name followed by a forward slash "/" if you used DHCP. For example, `unicorn/`, if you named your printer "unicorn" \(nothing wrong with that!\).
    * Your printer IP address if you used a static IP address with the M552 command. It could look like this `192.168.1.216`.
@@ -80,11 +80,11 @@ If you are unable to connect your ProMega to your internal network it is possibl
 
 1. Open Network Connections, you can do this by opening the _Control Panel &gt; Network and Internet &gt; Network and Sharing Center &gt; Change adapter settings_
 
-    ![ixszFpYVwOAR4Mn3-networkandsharing.PNG](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/ixszFpYVwOAR4Mn3-networkandsharing.PNG)
+    ![ixszFpYVwOAR4Mn3-networkandsharing.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ixszFpYVwOAR4Mn3-networkandsharing.PNG)
 
 2. Once you have the _Network Connections_ window open. Here you will see your network adapters. The ethernet adapter represents your connection to the Duet board. Find your current network adapter, presumably a WiFi adapter. Ctrl + click both the Ethernet adapter as well as the current network you are using. Then right click on one of the selected adapters and select _Bridge Connections_.
 
-   ![ztReV3zkFYeyGJ7s-networkbridge.png](http://promega.printm3d.com/uploads/images/gallery/2018-06-Jun/scaled-840-0/ztReV3zkFYeyGJ7s-networkbridge.png)
+   ![ztReV3zkFYeyGJ7s-networkbridge.png](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ztReV3zkFYeyGJ7s-networkbridge.png)
 
 3. This will create a new Network Adapter called _Network Bridge_. You should now be able to connect to the ProMega with the static IP address you determined earlier. Enter the static IP address into a browser URL textfield.
 
@@ -96,7 +96,7 @@ We recommend setting up your network settings via microSD card as outlined in th
 
 1. The Duet Maestro board on the ProMega has a micro USB port which can be used to connect to your computer's USB port. Connect a micro USB to USB cable to the Duet board and your computer. You do not need to power on your ProMega yet as the USB will provide power to the board.
 
-   ![9T2BKQ7jPKK8CgId-duetMaestro.jpeg](http://promega.printm3d.com/uploads/images/gallery/2018-05-May/scaled-840-0/9T2BKQ7jPKK8CgId-duetMaestro.jpeg)
+   ![9T2BKQ7jPKK8CgId-duetMaestro.jpeg](../.gitbook/assets/gallery/2018-05-May/scaled-840-0/9T2BKQ7jPKK8CgId-duetMaestro.jpeg)
 
    **Installing Drivers**
 
