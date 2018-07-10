@@ -4,7 +4,7 @@ The Promega has two extruder heads the K'Tana and the Compound nozzle. The compo
 
 ## Preparation
 
-Be sure to turn off and unplug the printer. Retract and remove any filament currently in the nozzle. Use [this guide](http://promega.printm3d.com/books/user-manual/page/loading-and-unloading-filament) if you need help. Wait for the hot end\(s\) of the printer to cool before continuing with this guide.
+Be sure to turn off and unplug the printer. Retract and remove any filament currently in the nozzle. Use [this guide](https://m3d.gitbook.io/promega-docs/getting-started/loading-and-unloading-filament) if you need help. Wait for the hot end\(s\) of the printer to cool before continuing with this guide.
 
 Tools and items you will need:
 
@@ -72,7 +72,7 @@ A text file will also be present on the SD card. This file simply makes it easie
 2. Backup your current SD card onto your computer. This can be done by copying the folders listed above into a seperate folder onto your computer. This will make it easier to switch back to the other extruder head in the future as you will not have to spend as long reconfiguring your printer.
 3. Delete the files on the microSD card.
 4. Copy the downloaded files from the PrintM3D GitHub Repository onto the SD card.
-5. Open the _config.g_ file in the _sys/_ folder and configure your network settings. You can also use your backed up SD card image that you copied in step 3 to obtain your network settings. For more help on configuring you network use the [Network Setup](http://promega.printm3d.com/books/user-manual/page/network-setup) guide.
+5. Open the _config.g_ file in the _sys/_ folder and configure your network settings. You can also use your backed up SD card image that you copied in step 3 to obtain your network settings. For more help on configuring you network use the [Network Setup](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) guide.
 6. Once you have finished configuring your network, eject the card and insert it into the Duet's microSD card slot.
 
 ## Testing
