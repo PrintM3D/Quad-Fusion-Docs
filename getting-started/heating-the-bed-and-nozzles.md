@@ -6,7 +6,7 @@ Both the bed and the hot end\(s\) of the Promega can be activated through the Du
 
 ## Heating Up the Bed
 
-1. Connect to your Duet via your network. Utilize [the network setup guide](http://promega.printm3d.com/books/user-manual/page/network-setup) to help with network setup, and [web interface guide](http://promega.printm3d.com/books/user-manual/page/accessing-web-interface) to provide a better understanding of the Duet Web Console. Once you are connected, proceed to the next step. Decide whether you want to heat up the bed with G-code commands or via the Duet Web Console.
+1. Connect to your Duet via your network. Utilize [the network setup guide](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) to help with network setup, and [web interface guide](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface) to provide a better understanding of the Duet Web Console. Once you are connected, proceed to the next step. Decide whether you want to heat up the bed with G-code commands or via the Duet Web Console.
 
 **Heating the Bed with Duet Web Console**
 
@@ -29,7 +29,7 @@ Both the bed and the hot end\(s\) of the Promega can be activated through the Du
 
 ## Heating Up the Nozzles
 
-1. Just like heating up the heated bed, connect to your Duet via your network. Utilize [the network setup guide](http://promega.printm3d.com/books/user-manual/page/network-setup) to help with network setup, and [web interface guide](http://promega.printm3d.com/books/user-manual/page/accessing-web-interface) to provide a better understanding of the Duet Web Console. Once you are connected, proceed to the next step. Decide whether you want to heat up the nozzle via G-code commands or the Duet Web Console.
+1. Just like heating up the heated bed, connect to your Duet via your network. Utilize [the network setup guide](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) to help with network setup, and [web interface guide](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface) to provide a better understanding of the Duet Web Console. Once you are connected, proceed to the next step. Decide whether you want to heat up the nozzle via G-code commands or the Duet Web Console.
 
 **Heating the Nozzles with Duet Web Console**
 
@@ -47,5 +47,5 @@ Both the bed and the hot end\(s\) of the Promega can be activated through the Du
 3. Remember that this command will heat up the heaters of the tool currently selected.
 4. In order to turn off the nozzle send the set temperature command `M104` with a temperature of 0.
 
-Continue on to the [Loading and Unloading Filament](http://promega.printm3d.com/books/user-manual/page/loading-and-unloading-filament) guide, the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [Loading and Unloading Filament](https://m3d.gitbook.io/promega-docs/getting-started/loading-and-unloading-filament) guide, the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
