@@ -15,6 +15,3 @@ Once you have properly released the microSD from the Duet board. You can plug th
 ## Opening the introduction video
 
 Whenenver you are done changing files on the microSD card it is best to safely eject the card and insert it back into the board. It is best to remove and insert the microSD card when the board is powered off.
-
-Continue on to the [Network Setup](http://promega.printm3d.com/books/user-manual/page/network-setup), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
-
