@@ -23,12 +23,12 @@ The Promega is equipped with two different Z-probes, an IR \(infra-red\) probe a
 
 1. When mounted, the limit switch magnet should be firmly attached to the bottom of the mount as shown in the picture below.
 
-   ![BlabOuIBSjcY3Gkg-zlimitmount.png](../../.gitbook/assets/blabouibsjcy3gkg-zlimitmount.png)
+   ![BlabOuIBSjcY3Gkg-zlimitmount.png](../.gitbook/assets/blabouibsjcy3gkg-zlimitmount.png)
 
 2. Connect to the Duet Web Console. In the _Machine Status_ table observe the Z-probe cell. Press the Z-probe switch and you should see this value change from 0 to 1000. If this is not happening, it indicates a problem with the wiring of the limit switch. Stop and fix the wiring before continuing with this guide.
 3. In order to unmount the limit switch simply remove it from its mount and stick it above the nozzle. Stick the limit switch against the metal mount so that the limit switch is pressed down. Now if you accidentally send the command `G30` with an unmounted z-probe, you will get an error: _"Error: Probe already triggered during move_" instead of a crash of the bed against the nozzle.
 
-   ![EJqnEtlnpFIpXnQb-Unmountedswitch.jpg](../../.gitbook/assets/ejqnetlnpfipxnqb-unmountedswitch.jpg)
+   ![EJqnEtlnpFIpXnQb-Unmountedswitch.jpg](../.gitbook/assets/ejqnetlnpfipxnqb-unmountedswitch.jpg)
 
 **Limit Switch Configuration Settings**
 
@@ -69,7 +69,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 4. Retract the Z-probe.
 5. Jog the bed up slowly toward the nozzle using the negative Z buttons in _Machine Control_ on the Duet Web Console. Read the next step!
 
-   ![Z81QrJdADnqOrI0d-MachineControl.PNG](../../.gitbook/assets/z81qrjdadnqori0d-machinecontrol.PNG)
+   ![Z81QrJdADnqOrI0d-MachineControl.PNG](../.gitbook/assets/z81qrjdadnqori0d-machinecontrol.PNG)
 
 6. As you are moving the bed up towards the nozzle you will encounter an axis limit. These axes limits are set for the X, Y and Z axes and will stop you from moving past a certain coordinate. This will make it harder to crash the printer. However, in this case we know what we are doing so we can disable the axes limits. Send the command `M564 S0` to disable the axis limits. To learn more about this command visit the [RepRap G-code wiki](https://reprap.org/wiki/G-code#M564:_Limit_axes).
 7. **Be careful when moving the bed close to the nozzle. Use the 1mm and 0.1mm buttons.** Determining when the bed is touching the nozzle can be difficult. You might have to heat up the nozzle as you learned before in order to ensure that none of the filament from the hot-end gets in the way. Using a piece of paper to determine when the nozzle is touching the bed is also helpful. Grab a sticky-note or small piece of paper and place it under the nozzle. Then carefully jog the bed into the nozzle, move the paper back and forth. When you feel the nozzle grab the paper your nozzle is touching the bed!. 
@@ -127,15 +127,15 @@ If you crash the bed into the nozzle it will cause the bed to skip and fall. Aft
 1. Power cycle the printer and then turn it on. This will make it easier to manually move the motors.
 2. Move the bed up to the nozzle. The best way to move the bed of the Promega is by holding the bed with both hands on either side in the center as shown below. If you want to stop your bed from falling down you can place a binder clip on the z-motor belt as pictured below.
 
-   ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](../../.gitbook/assets/4qdhduqzgrlqtzul-wheretoholdbed.jpg)
+   ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](../.gitbook/assets/4qdhduqzgrlqtzul-wheretoholdbed.jpg)
 
-   ![2dmrbcxPSLMjnGwW-beltclip.jpg](../../.gitbook/assets/2dmrbcxpslmjngww-beltclip.jpg)
+   ![2dmrbcxPSLMjnGwW-beltclip.jpg](../.gitbook/assets/2dmrbcxpslmjngww-beltclip.jpg)
 
 3. Once the bed is at the nozzle, gauge the distance between the Z-slider and the top z-belt clamp as shown in the picture below. If one of these distances is greater than the other four it means your bed is not level. If you have a caliper you can measure the distance between the bed and each belt clamp corner.
 
-   ![7uGDRPPGzf2X74tx-distancezclampbed.jpg](../../.gitbook/assets/7ugdrppgzf2x74tx-distancezclampbed.jpg)
+   ![7uGDRPPGzf2X74tx-distancezclampbed.jpg](../.gitbook/assets/7ugdrppgzf2x74tx-distancezclampbed.jpg)
 
-   ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](../../.gitbook/assets/zvlnwj7ervnsrbpg-distancebedcorners.jpg)
+   ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](../.gitbook/assets/zvlnwj7ervnsrbpg-distancebedcorners.jpg)
 
 4. Move the bed halfway down the printer. Hold the bed in place while gently pulling up on one corner. Keep pulling up until you hear a loud click and feel the bed move in that one corner.
 
