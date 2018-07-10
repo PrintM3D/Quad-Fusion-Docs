@@ -12,19 +12,19 @@ Read the [SD Card Structure](http://promega.printm3d.com/books/user-manual/page/
 
 Once you have found and opened the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Press the _Clone or download_ button circled below and then click _Download ZIP_. This will download a _.zip_ file of the repository. 
 
-![Downloading from Github](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/S8Aq28iyeh4lW9WW-howtodownloadgithub.png)
+![Downloading from Github](../.gitbook/assets/gallery/2018-07-Jul/scaled-840-0/S8Aq28iyeh4lW9WW-howtodownloadgithub.png)
 
 ### Extracting the Folder
 
 A _.zip_ file is a compressed folder. You will have to first extract the file before you can get to it's contents. Find the file you just downloaded and extract it into a folder. Right click the file and then select _Extract All_. This will move all the files in the compressed file into a folder. You can now access the new SD card files.
 
-![RZHiyY0qCUmtoUtP-ExtractingTheZip.png](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/RZHiyY0qCUmtoUtP-ExtractingTheZip.png)
+![RZHiyY0qCUmtoUtP-ExtractingTheZip.png](../.gitbook/assets/gallery/2018-07-Jul/scaled-840-0/RZHiyY0qCUmtoUtP-ExtractingTheZip.png)
 
 ### Moving the Files onto the SD Card
 
 **Back-up your SD card files before updating so you can always revert to your original settings**. Now that you have access to the files, locate the _SD Card Structure_ folder in the folder you just extracted. This folder will have two folders _Compound_ and _K'Tana_, select the folder based on what nozzle you currently have mounted on your printer. In both of these folders are the files you want to copy to your microSD card. This should be four folders: _sys, gcodes, macros_ and _www_. Plug in the microSD card into your computer with the microSD card reader and copy the files onto it. Your SD card should look like this. Using WinDiff or a similar program to distinguish differences between the latest SD card release and your files might be a good idea.
 
-![Fv3qaHUEgAGLL4np-SDCard.png](http://promega.printm3d.com/uploads/images/gallery/2018-07-Jul/scaled-840-0/Fv3qaHUEgAGLL4np-SDCard.png)
+![Fv3qaHUEgAGLL4np-SDCard.png](../.gitbook/assets/gallery/2018-07-Jul/scaled-840-0/Fv3qaHUEgAGLL4np-SDCard.png)
 
 ### Testing and Tuning
 
