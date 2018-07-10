@@ -79,5 +79,5 @@ Attaching the glass bed clamps to the glass bed can be tricky. Using a flathead 
 1. Use the flathead screwdriver to open the clamp and slide one side on the bed as shown. ![ER1AuRHXemFVxfVP-halfmountedclamp.jpg](../.gitbook/assets/er1aurhxemfvxfvp-halfmountedclamp.jpg)
 2. Once you have one side on, remove the flathead screwdriver and simply slide on the clamp ![gu5WeuO3pjG0H88H-slideonclamps.gif](../.gitbook/assets/gu5weuo3pjg0h88h-slideonclamps.gif)
 
-Continue on to the [Mechanical Check](http://promega.printm3d.com/books/user-manual/page/mechanical-check), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [Mechanical Check](https://m3d.gitbook.io/promega-docs/getting-started/mechanical-check), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
