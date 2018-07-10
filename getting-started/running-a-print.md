@@ -1,6 +1,6 @@
 # Running a Print
 
-Running a print is best done using the Duet Web Console. To connect to your Duet via a network, visit the [Network Setup](http://promega.printm3d.com/books/user-manual/page/network-setup) guide. For an introduction on the Duet Web Console visit the [Accessing Web Interface](http://promega.printm3d.com/books/user-manual/page/accessing-web-interface) guide.
+Running a print is best done using the Duet Web Console. To connect to your Duet via a network, visit the [Network Setup](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) guide. For an introduction on the Duet Web Console visit the [Accessing Web Interface](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface) guide.
 
 ## Uploading the Print
 
@@ -36,5 +36,5 @@ In order to print something from the Duet board you must first upload the print 
 2. Aside from these controls the Duet Web Console displayes a heap of cool statistics such as Layer time and length of filament required. Remember that these statistics are estimates!
 3. At any point during a print you can pause the print with the orange _Pause Print_ button. This will execute a file on the microSD card called _pause.g_. This will remove the extruder head from the print, and retract filament but keep the temperature steady. You will then be able to execute G-code commands. Be careful as you can easily damage your print and printer if you move the extruder into the print. Whenever you want to continue printing you can press _Resume_. This will execute _resume.g_. If you want to stop your print, you can press the _Cancel_ button. This will execute _stop.g_, this file is also called at the end of a print.
 
-Continue on to the [An Introduction to Tools](http://promega.printm3d.com/books/user-manual/page/an-introduction-to-tools), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
+Continue on to the [An Introduction to Tools](https://m3d.gitbook.io/promega-docs/getting-started/an-introduction-to-tools), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
