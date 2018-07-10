@@ -67,24 +67,31 @@ The spoolholders should be placed on the back of the printer. Two M4 T20 Torx Co
 ![N0X7Fp2nZNf8A4iy-wheretoscrewspoolholders.jpg](../.gitbook/assets/n0x7fp2nznf8a4iy-wheretoscrewspoolholders.jpg) ![ANbwfXhDmR1sLKAe-mountedspoolholder.jpg](../.gitbook/assets/anbwfxhdmr1slkae-mountedspoolholder.jpg)
 
 ## Mounting the Feet
-The feet are simple to attach to the printer. 
+
+Follow this section to attach the feet to the printer. You will need a T20 Torx screwdriver.
+
 1. The base of the printer has four holes intended for the feet of the Promega.
+2. Carefully flip the printer on it's front in order to get access to the bottom of the printer.  
 
-2. Carefully flip the printer on it's front in order to get access to the bottom of the printer.
+   ![](../.gitbook/assets/wheretoscrewonfeet.jpg)
 
-3. Take the M4 bolts out of the bag and screw them into the feet with a T20 Torx tool
-
+3. Take the M4 bolts out of the bag and screw them into the feet with a T20 Torx tool.  ![](../.gitbook/assets/screwinfoot%20%281%29.jpg) ![](../.gitbook/assets/screwthroughfoot.jpg) 
 4. You can now attach the feet to the base of the Promega through the holes in the picture in step 1. Tighten the feet down with the included M4 lock-nuts.
 
 ## Attaching the Glass Bed
 
-Attaching the glass bed clamps to the glass bed can be tricky. Using a flathead screwdriver as a wedge makes it a lot easier! 
+Attaching the glass bed clamps to the glass bed can be tricky. Using a flathead screwdriver as a wedge makes it a lot easier!
 
 1. Use the flathead screwdriver to open the clamp as shown. Try different sized flathead screwdrivers if this is too difficult. If the clamp is too tight to mount on the bed you can rotate the flathead screwdriver in the clamp to open it up more.
+
    ![36HsyBxyn58yAkSI-clamponflathead.jpg](../.gitbook/assets/36hsybxyn58yaksi-clamponflathead.jpg)
+
 2. Use the flathead screwdriver to open the clamp and slide one side on the bed as shown. 
+
    ![ER1AuRHXemFVxfVP-halfmountedclamp.jpg](../.gitbook/assets/er1aurhxemfvxfvp-halfmountedclamp.jpg)
+
 3. Once you have one side on, remove the flathead screwdriver and simply slide on the clamp 
+
    ![gu5WeuO3pjG0H88H-slideonclamps.gif](../.gitbook/assets/gu5weuo3pjg0h88h-slideonclamps.gif)
 
 Continue on to the [Mechanical Check](https://m3d.gitbook.io/promega-docs/getting-started/mechanical-check), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
