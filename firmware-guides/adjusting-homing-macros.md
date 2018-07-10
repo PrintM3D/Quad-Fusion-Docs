@@ -2,7 +2,7 @@
 
 Whenever you press the homing buttons located on the _Machine Control_ tab of the Duet Web Interface macros are called. This guide will cover the possible changes you can make to your homing G-code files. For assistance in homing your printer checkout the [Homing the Printer](http://promega.printm3d.com/books/user-manual/page/homing-the-printer) guide.
 
-#### Homing Macros
+## Homing Macros
 
 If you looked inside the _sys/_ directory of the microSD card you will have noticed five homing files. These homing files control the homing of different components of the printer.
 

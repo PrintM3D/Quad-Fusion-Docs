@@ -2,7 +2,7 @@
 
 One of the first steps of setting up your printer is getting access to and understanding the files stored on the microSD card. This guide will cover the basic structure of the files on the SD card. Follow the [Accessing Your SD Card](http://promega.printm3d.com/books/user-manual/page/accessing-your-sd-card) guide for more assistance on how to get to the files located on the microSD card.
 
-#### File Structure
+## File Structure
 
 On the microSD card there are four different folders: _gcodes_, _macros_, _sys_ and _www_. These folders contain all the information the Duet board needs to operate properly. Below is a list of the folders and their purpose.
 
@@ -11,7 +11,7 @@ On the microSD card there are four different folders: _gcodes_, _macros_, _sys_ 
 * _**sys**_: Configuration files of the printer. Contains important _.gcode_ files such as _config.g_ which are executed on startup. You will need to change files in this folder regularly.
 * _**www**_: Holds all files necessary for the operation of the Duet Web Console. It is recommended not to mess with the files here unless you are familiar with web development.
 
-#### Sys Organization
+## Sys Organization
 
 As mentioned before, the _sys_ folder contains all sorts of system files. The most important file is _config.g_. This file is executed on the start-up of the Duet Maestro board. If you wanted to add a command to the start-up sequence, you should insert it in _config.g_. In the _sys_ folder you will also notice a handful of other files with the _machine_ prefix. These files are called from _config.g_ with the `M98` command and they represent part of the start-up sequence. The _sys/_ folder is structured to indicate which files are recommended to be changed and which are not.
 

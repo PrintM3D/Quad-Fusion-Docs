@@ -17,16 +17,16 @@ Follow this guide step by step to print for the first time successfully, use the
 8. Plug in the ethernet cable.
 9. Switch the printer on with the blue switch. Now ensure that the Duet LEDs for 3.3V, 5V and Vin on the top left of your Duet board are on. Also verify that the ethernet LEDs light up.
 
-   ![1NXuMREA7qVlTdEd-flashingethernet.gif](../.gitbook/assets/gallery/2018-06-Jun/1NXuMREA7qVlTdEd-flashingethernet.gif)
+   ![1NXuMREA7qVlTdEd-flashingethernet.gif](../.gitbook/assets/1nxumrea7qvltded-flashingethernet.gif)
 
 10. You should now be able to connect to your printer with the IP address you just defined. Enter your IP address into a browser. This could be “192.168.1.216” if you defined it as such with a command like “M552 P192.168.1.216 S1” in your config.g file. You should now see the Duet web interface. If you enabled DHCP by entering the `M552 P0.0.0.0 S1` command, you can connect to your machine with the machine name followed by a forward slash.
-11. Next, we will make sure that the bed is mechanically level. While you Promega was shipped it is possible that the Z-platform became misaligned. In order to fix that you will have to skip belt teeth in order to level your bed. Gauging whether you need to mechanically level your bed is easy. Lift up all the way to your nozzle. Hold the bed as pictured below and **gently and slowly** pull up. 
+11. Next, we will make sure that the bed is mechanically level. While you Promega was shipped it is possible that the Z-platform became misaligned. In order to fix that you will have to skip belt teeth in order to level your bed. Gauging whether you need to mechanically level your bed is easy. Lift up all the way to your nozzle. Hold the bed as pictured below and **gently and slowly** pull up.
 
-    ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/4qdhdUQzgRlqtZuL-wheretoholdbed.jpg)
+    ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](../.gitbook/assets/4qdhduqzgrlqtzul-wheretoholdbed.jpg)
 
 12. Lift the bed up to the nozzle and look at the height of the bed through the front of the printer. You should see a view as pictured below. Observe the distance between the black, 3D printed Z-sliders and the top belt clamps. The distance between all 4 corners should be the same to about 2mm.
 
-    ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg)
+    ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](../.gitbook/assets/zvlnwj7ervnsrbpg-distancebedcorners.jpg)
 
 13. If one corner of the bed needs to be adjusted upwards, move the bed down. Then, gently pull up on the corner that needs to be adjusted until the belt skips, this should happen with a loud click. Repeat this process in the different corners until your bed is level. Auto-bed leveling compensation as will be described and enabled in a later step, can compensate for the rest of the leveling error. If you need more help with leveling your bed read the [Belt Tensioning and Mechanical Leveling](http://promega.printm3d.com/books/user-manual/page/belt-tensioning-and-mechanical-leveling) guide.
 14. Under Tools/Heaters/Extra, double check that your Tool and bed temperature are around room temperature. If any of these values are not around room temperature, this could indicate an improperly wired or broken thermistor.
@@ -35,13 +35,13 @@ Follow this guide step by step to print for the first time successfully, use the
 17. Move the bed up to Z20 by entering the command “G1 Z20”.
 18. Next, you have to deploy the z-probe by moving the limit switch with magnet and attaching it to its mount. Future versions have a deployable Z-probe that slides up and down.
 
-    ![BlabOuIBSjcY3Gkg-zlimitmount.png](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/BlabOuIBSjcY3Gkg-zlimitmount.png)
+    ![BlabOuIBSjcY3Gkg-zlimitmount.png](../.gitbook/assets/blabouibsjcy3gkg-zlimitmount.png)
 
-    ![BuTqBIW4Rfg4znfm-deployinglimitswitch.gif](../.gitbook/assets/gallery/2018-07-Jul/BuTqBIW4Rfg4znfm-deployinglimitswitch.gif)
+    ![BuTqBIW4Rfg4znfm-deployinglimitswitch.gif](../.gitbook/assets/butqbiw4rfg4znfm-deployinglimitswitch.gif)
 
 19. Ensure that the limit switch is working by pressing and holding it in order to observe the change of the z-probe value in the web interface from 0 to 1000. This is indicated in the image below.
 
-    ![faIZfiIwlIWYWWlj-pressinglimitswitch.gif](../.gitbook/assets/gallery/2018-07-Jul/faIZfiIwlIWYWWlj-pressinglimitswitch.gif) ![mmoSrIk809lJ9jJ0-zprobetoggled.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/mmoSrIk809lJ9jJ0-zprobetoggled.PNG)
+    ![faIZfiIwlIWYWWlj-pressinglimitswitch.gif](../.gitbook/assets/faizfiiwliwywwlj-pressinglimitswitch.gif) ![mmoSrIk809lJ9jJ0-zprobetoggled.PNG](../.gitbook/assets/mmosrik809lj9jj0-zprobetoggled.PNG)
 
 20. Send the command `G29 S2`. This will disable bed leveling to prevent the bed leveling compensation from conflicting with other Z-axis settings.
 21. Send the command `G31 P999 X-43 Y25 Z0.0`, this will set your Z-probe offset to 0.
@@ -58,7 +58,7 @@ Follow this guide step by step to print for the first time successfully, use the
 32. In order to check that this worked, we recommend you remove your z-probe and go to Z0 incrementally with the buttons in machine control. When the bed is touching the nozzle, the Z-value in _Machine Status_ on the Duet Web Console should be near 0. If you observe that the z-axis was not homed correctly you could try repeating the steps above. If this is still not satisfactory, you can probe the bed by manually jogging the bed to Z0 and zeroing your z-axis with the G92 Z0 command. For more help on Z-probing correctly visit: [Calibrating the Limit Switch](http://promega.printm3d.com/books/user-manual/page/bed-leveling-probing#bkmrk-calibrating-the-limi)
 33. Next you have to heat your bed. Enter 60 in the web interface under bed as seen in the image below. This will start heating up your bed, this process could take a few minutes.
 
-    ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ZzzciCea9XJ9Ev9A-heatingbed.PNG)
+    ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed.PNG)
 
 34. In order to disable any previous bed leveling enter G-code M561 and G29 S2
 35. When your bed has reached the set temperature, ensure that your z-probe is deployed and run the command “G29” which will start bed leveling as defined in the configuration file. This bed leveling process could take a while as it probes many points on the bed.
@@ -66,23 +66,23 @@ Follow this guide step by step to print for the first time successfully, use the
 37. Running G29 automatically enables bed leveling. Next you are ready to perform an extrusion test.
 38. Move your bed down to about Z200 with the command “G1 Z200” and center your extruder carriage by entering the command “G1 X200 Y200”. You can also combine them with “G1 X200 Y200 Z200”. Now remove your z-probe.
 39. Heat up your nozzle by selecting tool 0 with the command “T0” and entering the temperature in the text field for tool 0. For printing ABS-R we recommend a temperature 230C.
-40. When your nozzle is at temperature. Go to the tab labeled “Machine Control” on the web interface. Here, you can find a box labeled extruder control. 
+40. When your nozzle is at temperature. Go to the tab labeled “Machine Control” on the web interface. Here, you can find a box labeled extruder control.
 
-    ![yerDAoPjXR6xXGWq-extrudercontrol.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/yerDAoPjXR6xXGWq-extrudercontrol.PNG)
+    ![yerDAoPjXR6xXGWq-extrudercontrol.PNG](../.gitbook/assets/yerdaopjxr6xxgwq-extrudercontrol.PNG)
 
-    **Remember to load filament into both extruders if you are using the compound nozzle!** Otherwise the filament will be pushed out of the other extruder. If you only want to use one side of the compound nozzle use the PC plug to plug the other hole. Select the options, Mix \(if you have a compound nozzle\), or 0 or 1 if you have a K’Tana for Extruder Drive. Feed amount should be set to 10 mm and feedrate should be 5 mm/s. Then press extrude and feed the filament into both ports at the same time. Keep pressing extrude until filament comes out of the nozzle. NOTE: 5 mm/s is a high feed rate for normal printing so the extruder may skip. If the extruder starts skipping, you should be able to hear a thud sound, in which case reduce your feedrate to 1. You should see a steady stream of filament coming out. 
+    **Remember to load filament into both extruders if you are using the compound nozzle!** Otherwise the filament will be pushed out of the other extruder. If you only want to use one side of the compound nozzle use the PC plug to plug the other hole. Select the options, Mix \(if you have a compound nozzle\), or 0 or 1 if you have a K’Tana for Extruder Drive. Feed amount should be set to 10 mm and feedrate should be 5 mm/s. Then press extrude and feed the filament into both ports at the same time. Keep pressing extrude until filament comes out of the nozzle. NOTE: 5 mm/s is a high feed rate for normal printing so the extruder may skip. If the extruder starts skipping, you should be able to hear a thud sound, in which case reduce your feedrate to 1. You should see a steady stream of filament coming out.
 
 41. Remove any printed or oozing filament. If you want, you can apply glue to your bed now. Watch the hot nozzle as you apply glue.
 42. Move the bed to about Z30 “G1 Z30”
 43. You are now ready to start a print. You can find a g-code file to print with the right settings at: [G-code file](https://drive.google.com/open?id=1PK1snlv7iPuX1XC8wjrwxUQiDmN8HcHH). Download this .gcode file of a Chess Rook by _Cordavi_ onto your computer.
 44. In order to start a print you have to upload the g-code of the print file. The Upload G-Code Files button is under the G-Code Files tab. Notice the dark blue button in the top right of the image below. Path to the file you downloaded previously. This file will now start uploading.
 
-    ![teelSvTBLglN2A2B-Uploadfile.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/teelSvTBLglN2A2B-Uploadfile.PNG)
+    ![teelSvTBLglN2A2B-Uploadfile.PNG](../.gitbook/assets/teelsvtblgln2a2b-uploadfile.PNG)
 
 45. When the file is uploaded, click the file and it will prompt a confirmation for you to start printing. Press _yes_ in order to start printing.
 46. Under the “Print Status” tab you can control your printer while it is printing. If you are an experienced user, feel free to tune the settings of the print such as extrusion, or baby step the z. Be careful as it could mess up your print.
 
-    ![JsgIIZGuUS48ntAX-PrintSettingsScreen.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/JsgIIZGuUS48ntAX-PrintSettingsScreen.PNG)
+    ![JsgIIZGuUS48ntAX-PrintSettingsScreen.PNG](../.gitbook/assets/jsgiizguus48ntax-printsettingsscreen.PNG)
 
 47. If your print fails, you can press the cancel button in order to stop the print. Then clear the print from the bed carefully and start the print again. If you feel you need additional assistance or suspect the printer has been damaged in shipping please contact our support team here [M3D Support](https://support.printm3d.com/submit_ticket)
 48. Once the print completes, the bed will lower automatically and the system will execute stop.g which turns off the bed and nozzle.

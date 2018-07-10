@@ -2,7 +2,7 @@
 
 Connecting to your Promega via your local network is very useful as you get access to the Duet Web Console. You can connect your Promega to your local network via the ethernet port on the Duet Maestro. Once the network settings are properly configured, you should be able to connect to the Duet board and access the Duet Web Console. In order to configure your network settings you will need to edit files on the microSD card. The ProMega microSD card has a configuration file called _config.g_ in the _sys/_ folder. This file contains all the necessary information in order to connect to your network. The pre-configured ProMega network settings, which are loaded onto every SD card when the printer goes out our door, utilize DHCP in order to get an IP address from your router. This should allow your printer to connect automatically to your network. If this is successful, you should be able to enter the machine name into your browser tab followed by a forward slash "/". This could look like this: **my\_promega\_name/**. If you are connecting to your promega for the first time, you should be able to enter **promega/** into a browser URL textfield in order to connect. It is also possible to set a static IP address for your ProMega, this will allow you to connect to that IP address to connect to your printer. For Example, a static IP address could be the following: _192.168.1.144_ or _10.0.0.214_. However, the type of IP address is dependent on your network. Follow the steps below in order to configure your network settings using microSD or USB. We recommend using the SD option as it requires less work and setup. If you are unable to connect your Promega to your internal network, follow the Network Bridging section below.
 
-#### Connecting to the ProMega via SD
+## Connecting to the ProMega via SD
 
 1. Before removing your microSD card from your printer we recommend you turn off your printer. This reduces the risk of damaging your Duet Maestro. Once the printer is powered off, press the SD card into the board in order to remove it. For more guidance on the SD card check out [this guide.](http://promega.printm3d.com/books/user-manual/page/sd-card)
 2. Insert the microSD card into your computer with the microSD card reader. Open the _config.g_ file. This file will be in the _sys/_ folder. It is best to open the config.g file with a text editor like [Notepad++](https://notepad-plus-plus.org/download/v7.5.6.html) or WordPad \(Default Windows Accessory\). The default Windows Accessory _Notepad_ is not recommended as it does not separate the G-code commands into individual lines.
@@ -62,9 +62,9 @@ Connecting to your Promega via your local network is very useful as you get acce
 
    In the example above you should be able to connect to your printer by entering the IP address 192.168.1.112 in your browser tab.
 
-   > If you want to find out the structure of your internal IP address, open a command prompt on a computer connected to the same network as the promega and enter the command `ipconfig`. \(Open a command prompt by pressing _Windows Key_ + _R_, type _cmd_ and press _Enter_\). This will print your network settings and status, look for the "IPv4 Address" number. That number represents an internal IP address on your network. Of course this IP address is occupied by your computer and therefore not a valid IP address for your Promega! ![kJe3IhIAIOE1puFU-ipv4address.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/kJe3IhIAIOE1puFU-ipv4address.PNG)
+   > If you want to find out the structure of your internal IP address, open a command prompt on a computer connected to the same network as the promega and enter the command `ipconfig`. \(Open a command prompt by pressing _Windows Key_ + _R_, type _cmd_ and press _Enter_\). This will print your network settings and status, look for the "IPv4 Address" number. That number represents an internal IP address on your network. Of course this IP address is occupied by your computer and therefore not a valid IP address for your Promega! ![kJe3IhIAIOE1puFU-ipv4address.PNG](../.gitbook/assets/kje3ihiaioe1pufu-ipv4address.PNG)
 
-4. When you have made the necessary changes to your network settings, save the _machine\_access.g_ file and safely eject the SD card. Insert the SD card back into the Duet board. Ensure that the Ethernet cable is connected properly to the Duet board and turn the board back on. It will take a while for your printer to boot and connect to the network \(~30 seconds\). When your ethernet cable is properly connected to the board, the green LED should be flashing and the yellow LED should be solid. ![1NXuMREA7qVlTdEd-flashingethernet.gif](../.gitbook/assets/gallery/2018-06-Jun/1NXuMREA7qVlTdEd-flashingethernet.gif)
+4. When you have made the necessary changes to your network settings, save the _machine\_access.g_ file and safely eject the SD card. Insert the SD card back into the Duet board. Ensure that the Ethernet cable is connected properly to the Duet board and turn the board back on. It will take a while for your printer to boot and connect to the network \(~30 seconds\). When your ethernet cable is properly connected to the board, the green LED should be flashing and the yellow LED should be solid. ![1NXuMREA7qVlTdEd-flashingethernet.gif](../.gitbook/assets/1nxumrea7qvltded-flashingethernet.gif)
 5. Once your printer has had the time to start up, open a browser tab on a computer **connected to the same network as the printer**. In the browser URL textfield enter:
    * Your printer name followed by a forward slash "/" if you used DHCP. For example, `unicorn/`, if you named your printer "unicorn" \(nothing wrong with that!\).
    * Your printer IP address if you used a static IP address with the M552 command. It could look like this `192.168.1.216`.
@@ -80,23 +80,23 @@ If you are unable to connect your ProMega to your internal network it is possibl
 
 1. Open Network Connections, you can do this by opening the _Control Panel &gt; Network and Internet &gt; Network and Sharing Center &gt; Change adapter settings_
 
-    ![ixszFpYVwOAR4Mn3-networkandsharing.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ixszFpYVwOAR4Mn3-networkandsharing.PNG)
+   ![ixszFpYVwOAR4Mn3-networkandsharing.PNG](../.gitbook/assets/ixszfpyvwoar4mn3-networkandsharing.PNG)
 
 2. Once you have the _Network Connections_ window open. Here you will see your network adapters. The ethernet adapter represents your connection to the Duet board. Find your current network adapter, presumably a WiFi adapter. Ctrl + click both the Ethernet adapter as well as the current network you are using. Then right click on one of the selected adapters and select _Bridge Connections_.
 
-   ![ztReV3zkFYeyGJ7s-networkbridge.png](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ztReV3zkFYeyGJ7s-networkbridge.png)
+   ![ztReV3zkFYeyGJ7s-networkbridge.png](../.gitbook/assets/ztrev3zkfyeygj7s-networkbridge.png)
 
 3. This will create a new Network Adapter called _Network Bridge_. You should now be able to connect to the ProMega with the static IP address you determined earlier. Enter the static IP address into a browser URL textfield.
 
 Continue on to the [Accessing Web Interface](http://promega.printm3d.com/books/user-manual/page/accessing-web-interface), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
 
-#### Connecting to the ProMega via USB
+## Connecting to the ProMega via USB
 
 We recommend setting up your network settings via microSD card as outlined in the section above. However, if you prefer doing it via USB follow the steps below!
 
 1. The Duet Maestro board on the ProMega has a micro USB port which can be used to connect to your computer's USB port. Connect a micro USB to USB cable to the Duet board and your computer. You do not need to power on your ProMega yet as the USB will provide power to the board.
 
-   ![9T2BKQ7jPKK8CgId-duetMaestro.jpeg](../.gitbook/assets/gallery/2018-05-May/scaled-840-0/9T2BKQ7jPKK8CgId-duetMaestro.jpeg)
+   ![9T2BKQ7jPKK8CgId-duetMaestro.jpeg](../.gitbook/assets/9t2bkq7jpkk8cgid-duetmaestro.jpeg)
 
    **Installing Drivers**
 
@@ -126,13 +126,10 @@ This completes the network setup. If you ever need to change any network setting
 
 Continue on to the [Accessing Web Interface](http://promega.printm3d.com/books/user-manual/page/accessing-web-interface), the next chapter in the [Getting Started](http://promega.printm3d.com/books/user-manual/chapter/getting-started) guide.
 
-For additional help connecting to the printer via USB and Network setup, visit the following links: 
+For additional help connecting to the printer via USB and Network setup, visit the following links:
 
-1. [Duet3D Network Setup](https://duet3d.dozuki.com/Guide/1.%29+Getting+Connected+to+your+Duet/7) 
-
-2. [RepRap Firmware G-Code Wiki](http://reprap.org/wiki/G-code) 
-
-3. [M3D Support](https://printm3d.com/support) 
-
+1. [Duet3D Network Setup](https://duet3d.dozuki.com/Guide/1.%29+Getting+Connected+to+your+Duet/7)
+2. [RepRap Firmware G-Code Wiki](http://reprap.org/wiki/G-code)
+3. [M3D Support](https://printm3d.com/support)
 4. [Duet Forum](https://forum.duet3d.com/): For Duet and RepRap firmware specific questions
 

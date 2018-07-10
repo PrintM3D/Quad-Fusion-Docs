@@ -1,7 +1,5 @@
 # Screw and Tool List
 
-
-
 This guide contains a list of different screws and tools used for each core assembly of the 3D printer. Look under the tools header for each assembly for all the possible tools you will need to maintain, assemble or repair the assembly. Look under the screws category to view a more in-depth list of the screw types and their location.
 
 ## Brief Overview

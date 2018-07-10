@@ -1,14 +1,12 @@
 # Bed Leveling & Probing
 
-
-
 This page serves as an indepth guide to bed leveling. A good bed level will allow you to print a consistent first layer across the entire bed.
 
-### Z-Probes
+## Z-Probes
 
 The Promega is equipped with two different Z-probes, an IR \(infra-red\) probe and a deployable endstop limitswitch. The default config.g file is set up to use the limit switch. This section covers the two different probes, their settings and how to use them. We recommend using the limit switch for less experienced users as it has proven to be more robust under many different circumstances.
 
-#### Probing Commands
+### Probing Commands
 
 * `G30`: Commands the printer to perform a single z-probe. The z-height of your printer will then be set to the Z-offset as defined in `G31`. Sending `G30 S-1` will cause the printer to perform a z-probe and print the trigger height but will not change the z-height of the printer, this can be used to find probe offset.
 * `G31`: Sets the z-probe status and offset, this changes depending on which probe you wish to use.
@@ -17,7 +15,7 @@ The Promega is equipped with two different Z-probes, an IR \(infra-red\) probe a
 * `M557 Pnnn Xmmm Ylll`: Defines the pattern that will be probed when `G29` is sent. `nnn` represents the point number if you wish to perform single point probing. A better option is to define a mesh with `Xnnn:mmm`, `Ylll:kkk` and `Sjjj`. Where `nnn` and `lll` are the minimum values for each axis and `mmm` and `kkk` are the maximum values. `jjj` represents the interval over the area you just defined. A working `M557` command for the Promega is: `M557 X50:370 Y10:350 S30`.
 * `G32` will execute the _bed.g_ file located in _sys/_ on the microSD card.
 
-#### The Limit Switch Probe
+### The Limit Switch Probe
 
 > Warning: This limit switch is manually deployable. Remember to put the limit switch on the mount prior to probing, and remove the limit switch prior to printing or moving the bed to the nozzle.
 
@@ -25,12 +23,12 @@ The Promega is equipped with two different Z-probes, an IR \(infra-red\) probe a
 
 1. When mounted, the limit switch magnet should be firmly attached to the bottom of the mount as shown in the picture below.
 
-   ![BlabOuIBSjcY3Gkg-zlimitmount.png](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/BlabOuIBSjcY3Gkg-zlimitmount.png)
+   ![BlabOuIBSjcY3Gkg-zlimitmount.png](../../.gitbook/assets/blabouibsjcy3gkg-zlimitmount.png)
 
 2. Connect to the Duet Web Console. In the _Machine Status_ table observe the Z-probe cell. Press the Z-probe switch and you should see this value change from 0 to 1000. If this is not happening, it indicates a problem with the wiring of the limit switch. Stop and fix the wiring before continuing with this guide.
 3. In order to unmount the limit switch simply remove it from its mount and stick it above the nozzle. Stick the limit switch against the metal mount so that the limit switch is pressed down. Now if you accidentally send the command `G30` with an unmounted z-probe, you will get an error: _"Error: Probe already triggered during move_" instead of a crash of the bed against the nozzle.
 
-   ![EJqnEtlnpFIpXnQb-Unmountedswitch.jpg](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/EJqnEtlnpFIpXnQb-Unmountedswitch.jpg)
+   ![EJqnEtlnpFIpXnQb-Unmountedswitch.jpg](../../.gitbook/assets/ejqnetlnpfipxnqb-unmountedswitch.jpg)
 
 **Limit Switch Configuration Settings**
 
@@ -71,7 +69,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 4. Retract the Z-probe.
 5. Jog the bed up slowly toward the nozzle using the negative Z buttons in _Machine Control_ on the Duet Web Console. Read the next step!
 
-   ![Z81QrJdADnqOrI0d-MachineControl.PNG](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/Z81QrJdADnqOrI0d-MachineControl.PNG)
+   ![Z81QrJdADnqOrI0d-MachineControl.PNG](../../.gitbook/assets/z81qrjdadnqori0d-machinecontrol.PNG)
 
 6. As you are moving the bed up towards the nozzle you will encounter an axis limit. These axes limits are set for the X, Y and Z axes and will stop you from moving past a certain coordinate. This will make it harder to crash the printer. However, in this case we know what we are doing so we can disable the axes limits. Send the command `M564 S0` to disable the axis limits. To learn more about this command visit the [RepRap G-code wiki](https://reprap.org/wiki/G-code#M564:_Limit_axes).
 7. **Be careful when moving the bed close to the nozzle. Use the 1mm and 0.1mm buttons.** Determining when the bed is touching the nozzle can be difficult. You might have to heat up the nozzle as you learned before in order to ensure that none of the filament from the hot-end gets in the way. Using a piece of paper to determine when the nozzle is touching the bed is also helpful. Grab a sticky-note or small piece of paper and place it under the nozzle. Then carefully jog the bed into the nozzle, move the paper back and forth. When you feel the nozzle grab the paper your nozzle is touching the bed!. 
@@ -85,7 +83,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 
 **Troubleshooting the Limitswitch**
 
-#### The IR Probe
+### The IR Probe
 
 The IR probe is located on the right side of the nozzle fan duct. The IR probe should be as parallel to the bed as possible. The IR probe functions by emitting Infra-Red rays \(hence the name IR probe\) at the bed and receiving them when they are reflected off a surface at a specific distance. Because not every surface is consistant, this detection height changes per surface. However, even variations within one surface can cause a difference in detection height. For example, glue from your previous print or a dirty print surface. This will all cause error and noise within your eventual bed level. We have found that this z-probe is very precise, but not always accurate. You will find that the limit switch is sometimes much better suited for some situations, such as a glass bed. While the IR probe is sufficient for others. For the best results we recommend a clean and dark surface such as a black print bed sheet. Follow the guide below for configuring your printer to use the IR probe.
 
@@ -120,24 +118,24 @@ To discover the z-offset of the IR probe to the nozzle follow the steps below: 1
 
 > Always disable bed leveling before probing or bed leveling, they will interfere with each other!!! 4. Check that the z-probe is functioning correctly by **manually** jogging the bed to the nozzle. You should see the Z-probe value in the Duet Web Console _Machine Status_ table change **before** the nozzle hits the bed. Remember the trigger value of the z-probe, this will vary per print surface. 5. Enter the command `G31 Pn Z1.0` where `n` is a value less than what you recorded in the previous step. The z-probe will trigger whenever it detects a value greater than `n`. `Z1.0` represents a stop gap to prevent a crash if you do send `G30`. 5. Jog the bed up until the bed is touching the nozzle, a piece of paper can help to determine when the nozzle is touching the bed. When the nozzle and bed are touching send command `G92 Z0`. This will set the current z-height of the printer to 0. 6. Move the bed to `Z20` with `G1 Z20`. 7. Send the command `G30 S-1` this will print out the z-height of the bed when the probe is triggered. It will **not** update your z-height value. Record the value that is printed out. To ensure that you are getting consistent values, you can repeat this step multiple times. Move the bed to `Z20` between every probe or you will get an error. 8. Send the `G31` command with your z-probe offset value set to the value you obtained in the step above. `G31 P450 X-30.4 Y-30.7 Znnn`, `nnn` is the value from the step above. 10. If you want these changes to affect your board permenantly, then copy and paste the command above into your _config.g_ file. Be sure to remove all other `G31` commands or comment them. 11. You have now successfully calibrated your IR probe. Send the command `G30` in order to probe the z axis. You can then move your bed up to your nozzle manually and verify that at `Z0` the nozzle is touching the bed.
 
-### Bed Leveling
+## Bed Leveling
 
-#### Skipping the Bed
+### Skipping the Bed
 
 If you crash the bed into the nozzle it will cause the bed to skip and fall. After this happens your bed might no longer be level. Follow the steps below to skip a tooth on the bed in order to level it. Once the bed is level within ~3mm you can allow Mesh Bed Leveling to complete the rest.
 
 1. Power cycle the printer and then turn it on. This will make it easier to manually move the motors.
 2. Move the bed up to the nozzle. The best way to move the bed of the Promega is by holding the bed with both hands on either side in the center as shown below. If you want to stop your bed from falling down you can place a binder clip on the z-motor belt as pictured below.
 
-   ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/4qdhdUQzgRlqtZuL-wheretoholdbed.jpg)
+   ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](../../.gitbook/assets/4qdhduqzgrlqtzul-wheretoholdbed.jpg)
 
-   ![2dmrbcxPSLMjnGwW-beltclip.jpg](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/2dmrbcxPSLMjnGwW-beltclip.jpg)
+   ![2dmrbcxPSLMjnGwW-beltclip.jpg](../../.gitbook/assets/2dmrbcxpslmjngww-beltclip.jpg)
 
 3. Once the bed is at the nozzle, gauge the distance between the Z-slider and the top z-belt clamp as shown in the picture below. If one of these distances is greater than the other four it means your bed is not level. If you have a caliper you can measure the distance between the bed and each belt clamp corner.
 
-   ![7uGDRPPGzf2X74tx-distancezclampbed.jpg](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/7uGDRPPGzf2X74tx-distancezclampbed.jpg)
+   ![7uGDRPPGzf2X74tx-distancezclampbed.jpg](../../.gitbook/assets/7ugdrppgzf2x74tx-distancezclampbed.jpg)
 
-   ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](../../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg)
+   ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](../../.gitbook/assets/zvlnwj7ervnsrbpg-distancebedcorners.jpg)
 
 4. Move the bed halfway down the printer. Hold the bed in place while gently pulling up on one corner. Keep pulling up until you hear a loud click and feel the bed move in that one corner.
 
@@ -145,7 +143,7 @@ If you crash the bed into the nozzle it will cause the bed to skip and fall. Aft
 
 5. Repeat step 3 in order to check that your bed is now level. If it is not skip another corner of the bed.
 
-#### Mesh Bed Leveling
+### Mesh Bed Leveling
 
 1. Home the printer and heat up the bed to printing temperature. When the bed warms up it warps slightly. However, bed leveling compensation can compensate for this.
 2. Define your mesh bed leveling grid with the `M557` command. The _config.g_ file should already have configured a working mesh: `M557 X50:370 Y10:350 S30`. You can change the maximum and minimum values of the mesh as well as the interval but be careful as running G29 with a wrong mesh can crash your printer. Be sure to take the offsets of the z-probe as defined in `G31` into account.

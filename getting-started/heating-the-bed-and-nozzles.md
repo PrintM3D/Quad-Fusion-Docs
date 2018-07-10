@@ -4,7 +4,7 @@ Both the bed and the hot end\(s\) of the Promega can be activated through the Du
 
 > Prior to every heating of the nozzles or the bed, check the temperature readouts in the _Current_ column. These values should be in the 20°C - 250°C. A value of 2000°C a problem in the wiring of the thermistor. Fix the issue prior to activating the heaters.
 
-### Heating Up the Bed
+## Heating Up the Bed
 
 1. Connect to your Duet via your network. Utilize [the network setup guide](http://promega.printm3d.com/books/user-manual/page/network-setup) to help with network setup, and [web interface guide](http://promega.printm3d.com/books/user-manual/page/accessing-web-interface) to provide a better understanding of the Duet Web Console. Once you are connected, proceed to the next step. Decide whether you want to heat up the bed with G-code commands or via the Duet Web Console.
 
@@ -12,7 +12,7 @@ Both the bed and the hot end\(s\) of the Promega can be activated through the Du
 
 1. In the Duet Web Console find the table _Tools/Heaters/Extra_, pictured below. In the row _Bed_ change the active temperature from 0C to your desired temperature and press Enter.
 
-   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ZzzciCea9XJ9Ev9A-heatingbed.PNG)
+   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed%20%281%29.PNG)
 
 2. In order to turn the heated bed off, set the temperature back to 0 in the _Active_ column and press Enter.
 
@@ -27,7 +27,7 @@ Both the bed and the hot end\(s\) of the Promega can be activated through the Du
 
 > It can take a few minutes for the bed to reach the desired temperature.
 
-### Heating Up the Nozzles
+## Heating Up the Nozzles
 
 1. Just like heating up the heated bed, connect to your Duet via your network. Utilize [the network setup guide](http://promega.printm3d.com/books/user-manual/page/network-setup) to help with network setup, and [web interface guide](http://promega.printm3d.com/books/user-manual/page/accessing-web-interface) to provide a better understanding of the Duet Web Console. Once you are connected, proceed to the next step. Decide whether you want to heat up the nozzle via G-code commands or the Duet Web Console.
 
@@ -35,7 +35,7 @@ Both the bed and the hot end\(s\) of the Promega can be activated through the Du
 
 1. In the Duet Web Console find the table _Tools/Heaters/Extra_, pictured below. In your desired tool row change the active temperature from 0C to your desired temperature and press Enter.
 
-   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/ZzzciCea9XJ9Ev9A-heatingbed.PNG)
+   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed.PNG)
 
 2. Remember that the tool will only heat up to your set active temperature when the tool is selected. Select a different tool with the command `Tn` where `n` is your tool number.
 3. In order to turn off the heater. Set the tools active temperature to 0 and press Enter. Remember that a tool will heat up to the standby temperature when the tool is not selected.

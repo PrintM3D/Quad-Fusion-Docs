@@ -2,7 +2,7 @@
 
 The M3D Promega is an industrial product. The user assumes all responsibility for proper operation and acknowledges that they understand the operation and standard practices of additive manufacturing. The user assumes all responsibility for its proper use and agrees to follow the directives below to ensure a safe and working unit before any other operation.
 
-### Warnings
+## Warnings
 
 1. DO NOT TOUCH PRINTER WHILE OPERATING The Promega is a powerful industrial machine. While the Promega is moving or printing you should not reach into the buildspace.
 2. DO NOT MOVE THE BED WITHOUT POWER
@@ -69,7 +69,7 @@ The M3D Promega is an industrial product. The user assumes all responsibility fo
 
     Crashing the bed into the nozzle can result in the bed skipping and falling down **fast** due to gravity. Stay clear of the printer and do not enter the buildspace while the promega is printing.
 
-### About the Z-assembly
+## About the Z-assembly
 
 1. The bed is designed to skip if the bed crashes into the nozzle. Once the Z-motor skips it will let the bed fall down to its resting position. The speed of this fall can be very fast, but it's better than a cracked glass bed.
 2. A normal bed must meet the following condition: Pushing down gently on the bed \(less than 10lb\) on any spot on the bed should make the bed move. The same must be true for pushing upwards from the center of the bed, or lifting the bed with two hands in the middle of two opposing faces. All beds will skip if you attempt to lift them from one corner, this is normal.
