@@ -2,7 +2,7 @@
 
 This guide covers repair of broken belt Z-axis belt clamps. This can occur if you crash the bed into the nozzle or place too much weight on the bed. The Z-axis belt is held in place with two different 3D printed clamps on the top and the bottom. If either of these two clamps break you can follow the guide below for instructions on how to replace them. The belt clamps are 3D printed, so you are welcome to print replacement belt clamps to fix the printer.
 
-### Preparation
+## Preparation
 
 To prepare for the removal of the clamps, perform the following steps: 1. Turn off your Promega and unplug all cords attached to it, this will make it easier to move the printer throughout the process. 2. Place a binder clip, or something similar on the belt of the Z-motor. This will allow you to work under and around the bed without the bed falling. You can also place the printer on its side, if you do so, be careful with the switches on either side of the printer.
 
@@ -17,27 +17,27 @@ For the removal and installation of the belt clamps you will need the following 
 * New belt clamps
 * Container
 
-### Removing Broken Belt Clamps
+## Removing Broken Belt Clamps
 
 Follow the instructions below to remove the broken belt clamps, pictured below, from your printer.
 
 ![Top \(Right\) and Bottom \(Left\) Belt Clamps](../.gitbook/assets/rpu6hmymjvfzw1q5-beltclampdifference.jpg)
 
-**Removing the Top Clamp**
+### **Removing the Top Clamp**
 
 **Remember that it is easiest to replace the clamps in one corner at a time.**
 
 * **Removing old clamps:** Remove the top belt clamp by unscrewing the M3 pan bolt with the T10 driver and sliding it off the belt. ![XJnsF2fffKZ1Ynlw-removingoldbeltclamp.jpg](../.gitbook/assets/xjnsf2fffkz1ynlw-removingoldbeltclamp.jpg)
 * **Removing new clamps:** In order to remove the new top clamp you can simply pull it up and out of the Z-slider **after** you relieve the belt of its tension. You can relieve tension by loosening the bottom clamp.
 
-**Removing the Bottom Clamp**
+### **Removing the Bottom Clamp**
 
 **Remember that it is easiest to replace the clamps in one corner at a time.**
 
 1. Whether you have the old or the new bottom belt clamps, removing them is the same procedure for both. Remove the bottom clamps by unscrewing the M3 pan bolt with the T10 screwdriver on the bottom of the printer. Store the M3 lock nut and M3 bolt in the container.
 2. Unscrew the three M3 countersunk bolts with a T10 Torx driver holding the linear rail in place.
 
-![Remove t](../.gitbook/assets/cpywx3fzszoxtygz-threescrewstoremove.jpg)
+![Remove these Screws](../.gitbook/assets/cpywx3fzszoxtygz-threescrewstoremove.jpg)
 
 1. Unscrew the M4 pan bolt with the T30 Torx head on the bottom of the linear rail, under the printer. Place the printer corner you are working on over the side of a table so you can easily access the bottom of a printer.  
 
