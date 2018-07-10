@@ -19,5 +19,5 @@ G-code commands are sent and interpreted one line at a time. G-code commands typ
   * `S` Enables or disables the endstop check. If the endstop is toggled while moving the printer stops, the `S1` flag enables detection, `S0` disables detection.
 * `Tnnn`: Tool select G-code. Where `nnn` defines the tool
 * `M106 Snnn`: Turn on fans with speed `nnn`. `nnn`    can be a value between 0 and 255. For older versions of _config.g_ `M106 P2 Snnn` will enable fan control.
-* `G30`: This command allows a single Z-probe at the current location. The z-probe should be properly configured before sending this command. Follow the [Bed Leveling & Probing](http://promega.printm3d.com/books/user-manual/page/bed-leveling-probing) guide for more explanation on this topic.
+* `G30`: This command allows a single Z-probe at the current location. The z-probe should be properly configured before sending this command. Follow the [Bed Leveling & Probing](https://m3d.gitbook.io/promega-docs/printing-guides/slicers-and-printer-settings/bed-leveling-and-probing) guide for more explanation on this topic.
 
