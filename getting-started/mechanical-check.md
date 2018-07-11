@@ -24,7 +24,7 @@ If your CoreXY belt system is loose follow the [Belt Tensioning Guide](https://m
 
 Next, we will checkout the Z-assembly. During transport it is possible that your Z-assembly became misaligned. If you cannot lift your bed as outlined in the steps below because the bed is too far off level, follow the steps in the [Leveling the Bed](https://promega.printm3d.com/repair-guides/repairing-broken-belt-clamps#leveling-the-bed) section.
 
-1. Grab your bed from two points opposite from each-other, as shown in the image below.   ![](../.gitbook/assets/wheretoholdbed.jpg) 
+1. Grab your bed from two points opposite from each-other, as shown in the image below.   ![](../.gitbook/assets/wheretoholdbed%20%281%29.jpg) 
 2. Gently and slowly lift the bed up. Never pull up the bed too fast. Remember that moving motors by hand will generate a current and power your printer. While you are lifting the bed you will notice your Cold-section fan spinning. The board can tolerate a significant amount of voltage, but lifting the bed up too fast can fry it.
 
 ### **Belt Routing**
