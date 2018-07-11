@@ -22,5 +22,11 @@ In order to find out if you want to update the firmware on the Duet Maestro you 
 5. When the firmware upgrade is completed, you can visit the _Settings_ tab in order to ensure that the _Firmware Version_ has been updated to the preferred version. 
 6. If you prefer, you can now delete the _iap4s.bin_ and _DuetMaestroFirmware.bin_ files from the _sys/_ directory.
 
-This guide will be expanded on soon, if you need to or want to update other firmware, such as ethernet. Follow the guides [here](https://duet3d.dozuki.com/Wiki/Installing_and_Updating_Firmware).
+## Other Resources
+
+1. [Duet 3D Wiki: Updating and Installing Firmware](https://duet3d.dozuki.com/Wiki/Installing_and_Updating_Firmware)
+2. [Duet3D Forum](https://forum.duet3d.com/): For firmware and Duet specific questions
+3. [Duet Fork of RepRap Firmware](https://github.com/dc42/RepRapFirmware)
+
+
 
