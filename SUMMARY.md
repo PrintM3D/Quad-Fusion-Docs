@@ -38,6 +38,7 @@
   * [Macros](firmware-guides/macros.md)
   * [Updating SD Card Structure](firmware-guides/updating-sd-card-structure.md)
   * [Firmware vs. SD Card Files](firmware-guides/firmware-vs.-sd-card-files.md)
+  * [Help! My Extruders are Backwards](firmware-guides/help-my-extruders-are-backwards.md)
 * [Printing Guides](printing-guides/README.md)
   * [Slicers and Printer Settings](printing-guides/slicers-and-printer-settings.md)
   * [Filament Extrusion Rates](printing-guides/filament-extrusion-rates.md)

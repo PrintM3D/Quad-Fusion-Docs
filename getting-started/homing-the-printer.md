@@ -53,7 +53,7 @@ Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telli
 4. Move the printer head to the center with `G1 X200 Y200`
 5. Jog the bed up the nozzle with the buttons in machine control until the bed is touching the nozzle. Use the _Z1mm_ and _Z0.1mm_ buttons. Remember that you are about 10mm away from the nozzle.
 
-   ![](../.gitbook/assets/machinecontrol.png)
+   ![](../.gitbook/assets/machinecontrol%20%281%29.png)
 
 6. Once the bed is properly touching the nozzle record the Z-value in _Machine Status_ on the Duet Web Console_._ This value will be used in the next step.
 7. Open the _machine\_zendstop.g_ file in the _Settings_ tab of the Duet Web Console. This file is called during the homing process of the Z-axis. Find the `G92` command at the end of the file. This command sets the z-axis height.
