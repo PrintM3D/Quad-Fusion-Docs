@@ -95,3 +95,16 @@ Throughout your printing career with the Promega you will notice other commands 
 
 `M190 Snnn`: Heat up your bed to `nnn`°C and wait until temperature is achieved.
 
+There are even more commands to heat up your extruder. The `G10` command allows you to heat up any tool including when you don't have the tool selected. This command can be useful when you are attempting to change the temperature of tools while they are not selected. The command `G10` allows you to change the temperature or offset of a specific tool.
+
+`G10 Pnnn Xnnn Ynnn Znnn Rnnn Snnn` :
+
+* `Pnnn` : Represents the tool number of the tool you are attempting to change the temperature or offset of.
+* `Xnnn` , `Ynnn` and `Znnn` : Represent the X, Y and Z offset of the tool
+* `Rnnn` : The tool's standby temperature. Or the temperature of the tool when it is not selected, but was previously active.
+* `Snnn` : The tool's active temperature. Or the temperature of the tool when it is selected.
+
+Example: `G10 P1 X10 Y0 Z0 R120 S230` , This will set the offset of tool 1 to 10mm in the positive X direction. It will also set the active temperature of the tool to 230C and the standby temperature of the tool to 120C.
+
+The `G10` command is especially useful for mixing and switching prints.  
+

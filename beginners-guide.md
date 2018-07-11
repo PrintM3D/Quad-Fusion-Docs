@@ -8,9 +8,9 @@ This guide provides a supplement of information to the [Getting Started](https:/
 
 1. Complete the [Network Setup](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) guide. This will allow you to connect to the Duet Web Console on the Duet Maestro, the control board of the Promega \(pictured below\). The Duet Web Console is a web interface that allows you to control the Promega in a much easier manner. The second image below shows the homepage of the Duet Web Console.
 
-   ![ioWc2ZTNHPLm4K7Q-duetMaestro.jpeg](../.gitbook/assets/iowc2ztnhplm4k7q-duetmaestro.jpeg)
+   ![ioWc2ZTNHPLm4K7Q-duetMaestro.jpeg](.gitbook/assets/iowc2ztnhplm4k7q-duetmaestro.jpeg)
 
-   ![nichDY1nMI2UchsS-duethomepagenomarkings.PNG](../.gitbook/assets/nichdy1nmi2uchss-duethomepagenomarkings.PNG)
+   ![nichDY1nMI2UchsS-duethomepagenomarkings.PNG](.gitbook/assets/nichdy1nmi2uchss-duethomepagenomarkings.PNG)
 
 ## Printer Assemblies
 
@@ -22,17 +22,17 @@ List of Promega Assemblies:
 * **CoreXY Assembly**: A belt system that allows the extruder carriage to travel on a plane.
 * **Z-platform**: A heated bed that is actuated up and down with belts.
 
-  ![vOPGfUn48DwPQItF-differentpromegaassemblies.jpg](../.gitbook/assets/vopgfun48dwpqitf-differentpromegaassemblies.jpg)
+  ![vOPGfUn48DwPQItF-differentpromegaassemblies.jpg](.gitbook/assets/vopgfun48dwpqitf-differentpromegaassemblies.jpg)
 
 ## Printer Coordinates
 
 In your math classes you have probably heard the term: _Cartesian Coordinates_. This intimidating term is not as bad as it sounds. It refers to the 3D coordinate system that is used almost every where, including the Promega. It features three different axes \(X, Y and Z\), all perpendicular to each other, as seen in the image below. The origin of the cartesian system is located at the intersection of the three different coordinate axes. At this point, the X, Y and Z position are all zero.
 
-![Cartesian Coordinates](../.gitbook/assets/sr0rn4a7z2yugmqq-cartesiancoordinates.png)
+![Cartesian Coordinates](.gitbook/assets/sr0rn4a7z2yugmqq-cartesiancoordinates.png)
 
 In the case of the Promega, the cartesian coordinate frame is used to track the location of the nozzle. The nozzle can be considered a point that can be moved along the X, Y and Z axes in the printer. The nozzle is moved in the X and Y directions with a coreXY belt system and in the Z-direction with the z-platform. The orientation of the cartesian coordinate frame is not the same as in the image below. Look below to see the cartesian coordinate frame in the Promega.
 
-![Promega Coordinate Axes](../.gitbook/assets/yvqkiqjoaclzqetx-promegacoordinateaxes.jpg)
+![Promega Coordinate Axes](.gitbook/assets/yvqkiqjoaclzqetx-promegacoordinateaxes.jpg)
 
 **The Origin**
 
@@ -42,13 +42,13 @@ The origin of the Promega is located at the front-top-left corner of the printer
 
 The Promega 3D printer uses millimeters as units. All the commands given to the printer will be in millimeters. For example, if you told the printer to go to \(200, 380, 150\) or 200 mm in the X direction, 380 mm in the Y direction and 150 mm in the Z direction it might look something like in the image below. The distances are measured from the origin of the Promega, depicted by the circle in the image below.
 
-![](../.gitbook/assets/iop8d6u0jgqzev9r-promegacoordinateaxesexample.jpg)
+![](.gitbook/assets/iop8d6u0jgqzev9r-promegacoordinateaxesexample.jpg)
 
 **Machine Status**
 
 The Duet control board will keep track of its current position relative to its origin. Again, the origin is where the X, Y and Z position of the 3D printer are 0. The position of the printer can be found in the Duet Web Console on the top-right in a table labeled _Machine Status_. This can be seen in the image below where the printer displays a position of 300 mm in the X-direction and 300 mm in the Y-direction and 159.1 mm in the Z-direction. Remember that this is all relative to the origin of the printer.
 
-![Duet Web Console Machine Status Table](../.gitbook/assets/38yr6g32ydtjmfdm-machinestatus.PNG)
+![Duet Web Console Machine Status Table](.gitbook/assets/38yr6g32ydtjmfdm-machinestatus.PNG)
 
 **Homing**
 
@@ -61,7 +61,7 @@ Before you power on your motors you can manually move the extruder head around t
 1. Move the extruder head to the center of the printer by hand. This should not take a lot of effort to do as long as the motors are not powered. Once you move the motors, the motors will be powered and resist any force acted on them.
 2. Go to the _Machine Control_ tab of the Duet Web Console.
 
-![Machine Control Tab in Duet Web Console](../.gitbook/assets/z81qrjdadnqori0d-machinecontrol%20%281%29.PNG)
+![Machine Control Tab in Duet Web Console](.gitbook/assets/z81qrjdadnqori0d-machinecontrol%20%281%29.PNG)
 
 1. Press _Home All_, this will home all the axes of the printer and ensure that the origin of the printer is located at the front-top-left corner of the 3D printer. After the homing process is complete, you can see that the position of the 3D printer is updated in the _Machine Status_ tab on the Duet Web Console.
 2. Press the X-10 button in the _Head Movement_ window. This will move the extruder carriage of the printer 10mm in the negative X direction, this should be towards the left if you are facing the front of the printer. Now press the Y-10 button, this will move the printer -10 mm in the Y-direction. If you are facing the front of the printer, this should send the extruder carriage towards you. You can also press the Z buttons, but remember that the bed is all the way down and resting on the limit switch after the homing process. You will have to move the bed in the negative Z direction in order to move it up. Press the Z-10 button in order to move the bed up 10 mm.
@@ -140,7 +140,7 @@ Now that you are more familiar with G-code commands you can try to complete the 
 
 1. Find the _G-code Console_ tab in the Duet Web Console. 
 
-![G-Code Console in the Duet Web Console](../.gitbook/assets/ztlrwbqq28r8id6g-howtogcode.png)
+![G-Code Console in the Duet Web Console](.gitbook/assets/ztlrwbqq28r8id6g-howtogcode.png)
 
 1. This tab allows you to send commands to the printer using the textfield as seen above. Once you enter a command in the text field you can press _Enter_ or press the dark-blue send button. The printer will then process the command and execute it. If the command executed successfully you will see a print out of the command you send in the _Printer Printout_ terminal with a green background. If the firmware encountered an error while trying to process the command, it will printout the command with a red background and more information about the error. 3. This step assumes you have the printer homed from the previous steps. If you have not yet homed your printer, click the _Home All_ button in the _Machine Control_ tab. Try sending the command `G1 X200 Y200`. This will move the printer to 200 mm X and 200 mm Y. Send the command `G1 Z150`. This will move the bed to about 150 mm from the nozzle. 4. You can keep sending commands to move the printer around the buildspace. The table below represents the limits of the printer, the firmware should prevent you from going past these limits. Still, try to keep your move commands within the buildspace of the printer. You can also try to change the feedrate of the printer to see how the speed of the printer changes as the printer moves around.
 
@@ -163,13 +163,13 @@ Throughout the different guides you will find G-code in `this format`. That typi
 
 Next, we will move on to one of the most important assemblies on the Promega, the extruder! This complicated assembly can reach temperatures above 300°C in order to melt plastic and print it. The extruder assembly contains a fan directly on the front, this is called the _Cold-Section Fan_. It is meant to keep the extruder block, directly behind it, cold. If the extruder block gets too hot, the filament could start melting before the filament ever reaches the nozzle. On the underside of the extruder assembly, there are two smaller fans called _Nozzle Fans_. These are meant to call any filament that is pushed out of the nozzle so that it immediately becomes rigid. On the right of the nozzle fans is a small electronics board called the _IR Probe_. This probe uses Infra-Red rays in order to detect the bed. On the left of the extruder is a small deploy-able limit switch, this is also a Z-probe. Z-probes are used in order to measure the exact distance from the nozzle to the bed. They are also used in order to level the bed of the printer as printing requires a very flat and level surface. You can view the image below to see a diagram of the different extruder components.
 
-![Extruder Diagram](../.gitbook/assets/twuikdxjxmbqtlkr-extruderdiagram.jpg)
+![Extruder Diagram](.gitbook/assets/twuikdxjxmbqtlkr-extruderdiagram.jpg)
 
 ### Tools
 
 Tools are a relatively new concept in 3D printing. They allow you to create different extruder configuration ahead of time that you can quickly switch between while printing. The Duet Maestro board uses tools in order to allow printing with multiple extruders, or mixing extruders. The Promega actively makes use of this in order to print with different tool mixing ratios, or do dual nozzle prints with the K'tana. You can find your currently configured tools in the Duet Web Console in a table labeled: _Tools/Heaters/Extra_ on the top-left.
 
-![Tools &amp; Heaters](../.gitbook/assets/isg07qzbsqn1umyl-toolsheatersextra.PNG)
+![Tools &amp; Heaters](.gitbook/assets/isg07qzbsqn1umyl-toolsheatersextra.PNG)
 
 In the image above there are two different tools. In RepRap firmware, tools are defined as `Tnnn`, where `nnn` represents a tool number. In the image above there are tools T0 and T1. Each tool has it's own extruder motor attached to it, or multiple if you are mixing. A tool also has one heater attached to it. All these tools are defined and configured when the printer powers up with G-code commands, we will go over how exactly that works later. Below are the default tools for the Compound and K'Tana setups. In order to select a tool you can either click on the tool name in the Duet Web Console or you can send the command `Tnnn` where `nnn` represents the tool number. If you wanted to switch to tool 0, you would send the command `T0`. The Duet Web Console always shows you which tool is selected: it will underline the tool name. In the image above T0 is selected.
 
@@ -207,16 +207,16 @@ There are many different filament types used in the 3D printing industry, a [Goo
 
 To load filament into the extruder you will need to find two small holes on the top of the extruder assembly. 1.75mm diameter filament can be loaded into this opening. It will then be grabbed by the extruder motor and pushed down into the hot-end. The hot-end term refers to the pieces of the extruder which will heat up in order to melt the plastic. In the Promega's case that is the nozzle and the aluminum block surrounding it. Once the filament is melted in the hot-end it will come out of the nozzle. The compound nozzle will have two holes to allow entry to two different filaments. It then melts both filaments and combines them to produce one stream of filament coming out. The K'Tana has two different nozzles and therefore each filament will get extruded out of separate nozzles. To load filament follow the steps below.
 
-![Where to Load Filament in the Extruder](../.gitbook/assets/vvxaghdxjdpgevze-wheretoloadfilament.jpg)
+![Where to Load Filament in the Extruder](.gitbook/assets/vvxaghdxjdpgevze-wheretoloadfilament.jpg)
 
 1. To load filament into the extruder you will first have to heat up the nozzle. It also helps to have the extruder located in the center of the printer. So move the extruder to the center of the printer by entering the command `G1 X200 Y200`.
 2. There are multiple ways to heat up the nozzle to your desired temperature. One is with a G-code command and the other is with the Duet Web Console. Heating up tools with the Duet Web Console is the easiest. In the table _Tools/Heaters/Extra_ on the Duet Web Console, enter the desired temperature in the circled box below \(your _Current_ reading should not have a value of 2000°C, 2000°C is an error value\). Once you have entered the temperature press Enter. You should now see a steady rise in temperature in the _Current_ box and on the graph to the right. The temperature you set should depend on the filament you are planning to extrude.
 
-   ![5ZrDbCfga5AOnZ6B-inserttemperature.png](../.gitbook/assets/5zrdbcfga5aonz6b-inserttemperature.png)
+   ![5ZrDbCfga5AOnZ6B-inserttemperature.png](.gitbook/assets/5zrdbcfga5aonz6b-inserttemperature.png)
 
 3. Once the extruder has reached it's set temperature you are ready to load your filament. Take the filament and insert it into the opening circled in red in the image above. If you are attempting to extrude with a Compound nozzle, you will have to load filament into both openings in the extruder. For the K'Tana you will only have to load filament on one side. Now, on the Duet Web Console go to the _Machine Control_ tab in order to move the extruder motors. In this tab there is a box called _Extruder Control_. Here you can select the extruder you want to control and how much filament you want to extrude and at what speed. If you have the Compound nozzle, set the _Extruder Drive_ settings to _Mix_ in order to get both extruder motors to push filament. If you have the K'Tana, select Drive 0 or 1 depending on which side you loaded filament into. The _Feedrate amount_ should be set to 10mm and the _Feedrate_ to 5mm/sec. You can then press _Extrude_ this should move the filament into the extruder. It could be possible that you have to push the filament properly into the opening until the extruder grabs it.
 
-   ![yiXjG17aUTppk3jq-extrudercontrol.PNG](../.gitbook/assets/yixjg17autppk3jq-extrudercontrol.PNG)
+   ![yiXjG17aUTppk3jq-extrudercontrol.PNG](.gitbook/assets/yixjg17autppk3jq-extrudercontrol.PNG)
 
 4. Once the filament is inside the extruder keep pressing _Extrude_ until filament comes out of the nozzle. You can increase the _Feed amount_ to 50mm or more to decrease the times you have to press _Extrude_.
 5. Congratulations, you have just created your first print! It probably looks like a long stream of filament, but that counts, right? You can keep pressing the _Extrude_ button for as long as you like, or you can move on to the next section.
@@ -266,7 +266,7 @@ As you might have read previously, the extruder assembly contains two Z-probes. 
 
 **The Limit Switch**
 
-![Z-Probe Deployed \(Left\) and Retracted \(Right\)](../.gitbook/assets/5q6vwqbr3pbij3yk-newzprobe_deployed_not_deployed.jpg)
+![Z-Probe Deployed \(Left\) and Retracted \(Right\)](.gitbook/assets/5q6vwqbr3pbij3yk-newzprobe_deployed_not_deployed.jpg)
 
 Z-probes are extremely useful to zero the Z-axis. This is because the Z-probes typically have a reliable and constant offset from the nozzle. Once you find that offset, you run a G-code command in order to ensure that your print will be successful. The limit switch Z-probe is simply an end-stop attached to a deployable 3D printed mount. In the picture above you can see the limit switch in the deployed state on the left and the non-deployed state on the right. Deploy the limit switch by pressing down on the 3D printed tab and retract the probe by pulling the switch up. It is important for the limit switch to be deployable because the limit switch needs to make contact with the bed whenever you are probing, but it should be out of the way whenever you are printing. Whenever you send the probe command `G30` the bed will move up toward the nozzle until the Z-probe is triggered. When the Z-probe is triggered, the Z-value of the printer is set to the Z-offset of the Z-probe. You can set the Z-offset of the Z-probe with the `G31` command and its parameters.
 
@@ -283,7 +283,7 @@ Z-probes are extremely useful to zero the Z-axis. This is because the Z-probes t
 7. Deploy your Z-probe
 8. Check whether the Z-probe is functioning correctly. This is a great step to perform before using your Z-probe in order to prevent crashes. Press your Z-probe limit switch and observe the change in value from 0 to 1000 in the Duet Web Console _Machine Status_ table in the _Z-Probe_ box. If the value does not change the Z-probe is wired or configured wrong, do not continue to the next step!
 
-   ![KWL6DTK3l4pAmrPv-zprobemachinestatus.png](../.gitbook/assets/kwl6dtk3l4pamrpv-zprobemachinestatus.png)
+   ![KWL6DTK3l4pAmrPv-zprobemachinestatus.png](.gitbook/assets/kwl6dtk3l4pamrpv-zprobemachinestatus.png)
 
 9. Move the bed towards the nozzle by sending the command `G1 Z20`. When you send the command `G30` the bed will move slowly and precisely to the Z-probe, if you send `G30` while the bed is at `Z100` or greater you will have to wait for a long time for the Z-probe to trigger.
 10. Run the command `G30`. This will move the bed toward the z-probe until the limit switch triggers.
@@ -291,7 +291,7 @@ Z-probes are extremely useful to zero the Z-axis. This is because the Z-probes t
 12. Retract the Z-probe.
 13. Jog the bed up slowly toward the nozzle using the negative Z buttons in _Machine Control_ on the Duet Web Console. Read the next step!
 
-    ![Z81QrJdADnqOrI0d-MachineControl.PNG](../.gitbook/assets/z81qrjdadnqori0d-machinecontrol.PNG)
+    ![Z81QrJdADnqOrI0d-MachineControl.PNG](.gitbook/assets/z81qrjdadnqori0d-machinecontrol.PNG)
 
 14. As you are moving the bed up towards the nozzle you will encounter an axis limit. These axes limits are set for the X, Y and Z axes and will stop you from moving past a certain coordinate. This will make it harder to crash the printer. However, in this case we know what we are doing so we can disable the axes limits. Send the command `M564 S0` to disable the axis limits. To learn more about this command visit the [RepRap G-code wiki](https://reprap.org/wiki/G-code#M564:_Limit_axes).
 15. **Be careful when moving the bed close to the nozzle. Use the 1mm and 0.1mm buttons.** Determining when the bed is touching the nozzle can be difficult. You might have to heat up the nozzle as you learned before in order to ensure that none of the filament from the hot-end gets in the way. Using a piece of paper to determine when the nozzle is touching the bed is also helpful. Grab a sticky-note or small piece of paper and place it under the nozzle. Then carefully jog the bed into the nozzle, move the paper back and forth. When you feel the nozzle grab the paper your nozzle is touching the bed!. 
@@ -314,11 +314,11 @@ Now, we will make sure that the bed is visibly level. Then, we will heat up the 
 1. If your motors are powered, you will not be able to move your bed by hand without skipping the motors. Whenever you activate or power your stepper motors, their position will be held with an idle current. This current will create a permanent stall torque on the motor. In order to disable the idle current on motors you can send the command `M84`. **If your bed is high up, disabling the Z-motor will make the bed drop down.**
 2. Lift your bed up from the two points shown in the image below. Lift your bed up to the nozzle.
 
-   ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](../.gitbook/assets/4qdhduqzgrlqtzul-wheretoholdbed.jpg)
+   ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](.gitbook/assets/4qdhduqzgrlqtzul-wheretoholdbed.jpg)
 
 3. When the bed is touching the nozzle, determine the offset of the Z-sliders to the top belt clamps, as shown in the image below, to determine whether the bed is level. This will give you a good enough estimate to level the bed, bed leveling compensation with `G29` can take care of the rest. The bed can be leveled more accurately by using a caliper to measure the distance between the bed and the top of the Z-slider rails and comparing the corners.
 
-   ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](../.gitbook/assets/zvlnwj7ervnsrbpg-distancebedcorners.jpg)
+   ![ZVLNWJ7ERVNSrBPG-distancebedcorners.jpg](.gitbook/assets/zvlnwj7ervnsrbpg-distancebedcorners.jpg)
 
 4. Once you have determined which corner needs to be skipped, lift up the bed about half-way and grab that corner of the bed. Then, gently lift up from that corner until you hear a click and feel the corner give, you have just skipped a belt tooth. Keep repeating this process until all corners of the bed are level. Keep lifting the bed up to the nozzle to check if the bed is level.
 
