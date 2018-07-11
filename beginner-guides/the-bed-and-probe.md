@@ -21,8 +21,8 @@ Z-probes are extremely useful to zero the Z-axis. This is because the Z-probes t
 3. Heat up the bed to the preferred printing temperature. You can do this by sending the command `M140 Snnn` where `nnn` is your temperature in °C. You can always look up the recommended bed temperatures for specific materials online. For PLA, a bed temperature of 50°C will work well. For ABS-R, a bed temperature of 60°C is recommended. 
 4. Wait until the heated bed has reached temperature before continuing.
 5. Set the Z-probe offset to 0 by entering the command `G31 P999 X-40 Y28.5 Z0`. This will make it easier to gauge the distance between the Z-probe and the nozzle in the following steps.
-6. Run the command `G29 S2`. This clears any active bed leveling compensation. This is **very** important as it will conflict with your updated Z-probe offset and induce a 0.1 - 0.3mm error depending on the magnitude of your bed leveling compensation at that point.
-7. Deploy your Z-probe
+6. Run the command `G29 S2`. This clears any active bed leveling compensation. This is **very** important as it will conflict with your updated Z-probe offset and induce a 0.1 - 0.3mm error depending on the magnitude of your bed leveling compensation at that point. This will be explained in the section below.
+7. Deploy your Z-probe  ![](../.gitbook/assets/deployingtheprobe%20%282%29.gif) 
 8. Check whether the Z-probe is functioning correctly. This is a great step to perform before using your Z-probe in order to prevent crashes. Press your Z-probe limit switch and observe the change in value from 0 to 1000 in the Duet Web Console _Machine Status_ table in the _Z-Probe_ box. If the value does not change the Z-probe is wired or configured wrong, do not continue to the next step!
 
    ![KWL6DTK3l4pAmrPv-zprobemachinestatus.png](../.gitbook/assets/kwl6dtk3l4pamrpv-zprobemachinestatus.png)
@@ -41,7 +41,7 @@ Z-probes are extremely useful to zero the Z-axis. This is because the Z-probes t
 17. Enter the command `G31 P999 X-40 Y28.5 Znnn` where `nnn` is your Z-probe offset.
 18. Reinstate your axes limits with the command `M564 S1` . This will prevent you from crossing the axes limits again.
 19. Move the bed away from the nozzle `G1 Z20`.
-20. Deploy your Z-probe!
+20. Deploy your Z-probe!  ![](../.gitbook/assets/deployingtheprobe.gif) 
 21. Send the command `G30`.
 22. Move the bed back up to the nozzle as described in the steps above. Your Z value should be 0 when the bed is touching the nozzle. If it is not you might need to tune the Z-probe offset or repeat the process.
 23. In order for these changes to take effect permanently, you will have to open up your _machine\_zprobe.g_ file and update the Z-offset of the `G31` command there, just like you did in the . Follow the steps below to make this change.
@@ -58,6 +58,24 @@ As mentioned at the beginning of this article, bed leveling on the Promega is ve
 1. These steps assume you have properly homed your printer, if you have not done so, please do so now.
 2. These steps also assume you have properly set your Z-probe height with the steps above. If you have not done so now, please do so.
 3. Heat up the bed to your printing temperature. If you are not yet familiar with different 3D printing materials and their bed temperature preferences, 60°C is a good starting point. 
-4. Wait for the bed to reach temperature. Remember that you can see the bed approach temperature in the Duet Web Console on the graph and in the table.  ![](../.gitbook/assets/settingbedtemperature.png) 
-5. When the bed has reached temperature, deploy the Z-probe. 
-6. 
+4. Wait for the bed to reach temperature. This could take a few minutes as the heat disperses over the bed. Remember that you can see the bed approach temperature in the Duet Web Console on the graph and in the table.  ![](../.gitbook/assets/settingbedtemperature.png) 
+5. When the bed has reached temperature, deploy the Z-probe. ![](../.gitbook/assets/deployingtheprobe%20%281%29.gif)
+6. Send the command `G29 S2` , this will disable any current bed leveling compensation.
+7. Send the command `G29` , this will engage the bed leveling process. The extruder carriage will move over the entire build plate and probe bed. This can take a few minutes, so continue on to the next step where I explain what bed leveling does.
+8. The bed leveling procedure will carefully probe each location on the bed once in a grid pattern. This pattern is configurable and is defined in _machine\_bedmesh.g._ The pattern is defined in that file with the `M557` command. Check it out on the [RepRap wiki](https://reprap.org/wiki/G-code#M557:_Set_Z_probe_point_or_define_probing_grid) for more information. It shouldn't need to change, but you can reduce it if you want to sacrifice accuracy for a shorter wait time. The bed leveling procedure will generate a heightmap file called _heightmap.csv_ on the SD card_._ This file stores the data for the bed leveling compensation. Whenever the bed leveling procedure finishes, you will see this heightmap file visualized on the screen. If you ever want to see the heightmap again in the future you can select _Show Mesh Grid Heightmap_ in the _Auto Bed Compensation_ tab of the _Machine Control_ tab on the Duet Web Console \(shown in the image below\). ![](../.gitbook/assets/showmeshgridheightmap.png)  Whenever you enable mesh bed leveling compensation, your Z-height will be adjusted based on the values in the heightmap. So when the Duet is printing a file and gives the command to go to `G1 Z0.2` for the first layer, it will be compensated for by the local and interpolated value obtained from the heightmap. So the board might actually go to `Z-0.3` depending on the local heightmap value. 
+9. When the bed leveling procedure completes it will display the heightmap as mentioned in the previous step. In the pictures below, the heightmap on the left is average and the heightmap on the right is good \(Courtesy of @Talrynn\(John\) on M3D's Discord Server\). Based on this heightmap display you can tune your bed to become flatter. But whatever bed you have, automatic bed compensation will try and compensate for whatever error you have.  ![](../.gitbook/assets/heightmapvisual%20%281%29.PNG) ![](../.gitbook/assets/goodheightmapvisual.png) 
+10. Once bed leveling completes it will automatically enable. If you ever want to disable bed leveling enter the command `G29 S2` , if you want to re-enable bed leveling without running the bed leveling procedure, send the command `G29 S1` . 
+11. Just like with the Z-probe offset, you should never have to change your heightmap unless you have a mechanical change to it. If you skip a belt or crash your printer, it is recommended you create a new heightmap. Running `G29` again will overwrite the previous heightmap. 
+
+## The Conflicts of Mesh Bed Leveling
+
+Mesh bed leveling can affect the value of any Z-axis constant you find. To avoid this, it is the best practice to disable bed leveling with `G29 S2` in order to avoid the propagation of heightmap values. Things that can be affected:
+
+* The Z-probe offset
+* The Z-endstop homing value offset
+* Another heightmap
+
+If you tried to find the Z-probe offset of the Z-probe with mesh bed leveling compensation enabled, the Duet board will add the heightmap compensation on top of what you think is 0. So, when the bed is touching the nozzle in one of the steps above, and the _Machine Status_ tab displays a value of -9.4. Due to a local heightmap compensation value, the actual value might be -9.2. But you would have no way of knowing this. Therefore, it is important to disable the bed leveling compensation. RepRap firmware already has a few safeguards in place to prevent conflicts such as these when running `G29` multiple times in succession, but these are known to have bus. We recommend running `G29 S2` before doing any of the actions in the list above. **If you forget to disable mesh bed leveling, you will not have catastrophic results, just an error of around 0.5mm or so. Just barely enough to mess up your print.**
+
+
+
