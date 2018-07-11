@@ -57,5 +57,7 @@ As mentioned at the beginning of this article, bed leveling on the Promega is ve
 
 1. These steps assume you have properly homed your printer, if you have not done so, please do so now.
 2. These steps also assume you have properly set your Z-probe height with the steps above. If you have not done so now, please do so.
-3. Heat up the bed to your printing temperature. If you are not yet familiar with what materials and their bed temperature preferences, 60C is a good starting point. 
-
+3. Heat up the bed to your printing temperature. If you are not yet familiar with different 3D printing materials and their bed temperature preferences, 60°C is a good starting point. 
+4. Wait for the bed to reach temperature. Remember that you can see the bed approach temperature in the Duet Web Console on the graph and in the table.  ![](../.gitbook/assets/settingbedtemperature.png) 
+5. When the bed has reached temperature, deploy the Z-probe. 
+6. 

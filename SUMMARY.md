@@ -26,7 +26,7 @@
   * [Beginner's Introduction to G-Code Commands](beginner-guides/beginners-introduction-to-g-code-commands.md)
   * [Meet the Extruder](beginner-guides/meet-the-extruder.md)
   * [The Bed & Probe](beginner-guides/the-bed-and-probe.md)
-* [Beginners Guide](beginners-guide.md)
+  * [Beginners Guide](beginner-guides/beginners-guide.md)
 * [Electrical Guides](electrical-guides/README.md)
   * [Duet Maestro Wiring](electrical-guides/duet-maestro-wiring.md)
   * [Duet Settings](electrical-guides/duet-settings.md)
