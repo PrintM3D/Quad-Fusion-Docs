@@ -6,12 +6,15 @@ As the Promega is used over time it is possible slack develops in the CoreXY or 
 
 ## CoreXY Assembly
 
-1. In order to tension the CoreXY loosen the three screws indicated below.
+1. In order to tension the CoreXY loosen the three screws as indicated below.
 
    ![CoreXY Tensioning](../.gitbook/assets/fw2dceds663usirn-tensioningcorexy.jpg)
 
 2. Once the screws are loosened you should be able to pull the motor to tension the belts. Pull in the direction of the arrow. Typically you will **not** need to pull very hard to tension these belts, around 2 lb of force is sufficient. Strum the belts near the extruder assembly to get an idea of the tension applied to the system by pulling the motor. Once you are satisfied with the tension, tighten the M3 screws back down.
-3. Apply this same process to the other coreXY motor. Be sure to tension this belt system with the same amount of force or you can misalign the extruder carriage gantry.
+3. Apply this same process to the other coreXY motor. Be sure to tension this belt system with the same amount of force or you can misalign the extruder carriage gantry and your coreXY system will not be square. 
+4. To check that your system is properly square, align the extruder gantry with the front frame of the Promega as shown in the image below. The extruder gantry shaft should be parallel to the frame. If one side is off, your system is not square and you will have to readjust tension
+
+![Checking If Your CoreXY is Square](../.gitbook/assets/howtocheckifsquare.jpg)
 
 ## Z-assembly
 
