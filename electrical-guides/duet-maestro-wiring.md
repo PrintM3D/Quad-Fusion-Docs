@@ -75,15 +75,26 @@ Jumpers:
 
 ### Before you continue
 
-If you change the wiring of your printer it is best to proceed with the following steps before continuing to prevent damage. 1. Double check the wiring of every single wire you changed. 2. Plug in the power supply while the printer is switched **off**. 3. Turn the printer on 3. Connect to the Duet Web Console 3. Verify the temperature readouts of all heating components. 3. Test each component individually
+If you change the wiring of your printer it is best to proceed with the following steps before continuing to prevent damage. 
 
-* Move each motor independently and confirm that it is travelling in the correct direction.
-* Heat up your nozzle\(s\)
-* Heat up your bed
-* Press each limit switch and test z-probes
-  1. You should be ready to go!
+1. Double check the wiring of every single wire you changed. 
+2. Plug in the power supply while the printer is switched **off**. 
+3. Turn the printer on 
+4. Connect to the Duet Web Console 
+5. Verify the temperature readouts of all heating components. 
+6. Test each component individually
+   1. Move each motor independently and confirm that it is travelling in the correct direction.
+   2. Heat up your nozzle\(s\)
+   3. Heat up your bed
+   4. Press each limit switch and test z-probes
+7. You should be ready to go!
 
 ### Extra Resources:
 
-There is way more to the electronics of the Duet Maestro board. Follow the links below for more help and information regarding the Duet Maestro. 1. [Duet Maestro Pinout](https://duet3d.dozuki.com/Wiki/Duet_2_Maestro_Wiring_Diagram) 2. [Duet Maestro Hardware Overview](https://duet3d.dozuki.com/Wiki/Duet_2_Maestro_Hardware_Overview#Section_Wiring_and_pinout) 3. [M3D Support](https://printm3d.com/support) 3. [Duet3D forum](https://forum.duet3d.com/): A great place for very specific Duet Maestro and RepRap firmware questions
+There is way more to the electronics of the Duet Maestro board. Follow the links below for more help and information regarding the Duet Maestro. 
+
+1. [Duet Maestro Pinout](https://duet3d.dozuki.com/Wiki/Duet_2_Maestro_Wiring_Diagram) 
+2. [Duet Maestro Hardware Overview](https://duet3d.dozuki.com/Wiki/Duet_2_Maestro_Hardware_Overview#Section_Wiring_and_pinout) 
+3. [M3D Support](https://printm3d.com/support) 
+4. [Duet3D forum](https://forum.duet3d.com/): A great place for very specific Duet Maestro and RepRap firmware questions
 
