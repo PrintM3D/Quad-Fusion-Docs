@@ -16,11 +16,23 @@ The coreXY belt system is made up from two loops, an upper loop and a bottom loo
 
 ![The Two Different CoreXY Loops](../.gitbook/assets/ucqjbgzgcby7c8vt-twoloops.jpg)
 
-This is the belt routing diagram for a generic coreXY system. Here you can see that the belt system is in fact two different colors \(blue and red\). This same concept is applied in the Promega, there is an upper loop and lower loop.
+This is the belt routing diagram for a generic coreXY system. Below you can see that the belt system is in fact two different colors \(blue and red\). This same concept is applied in the Promega, there is an upper loop and lower loop.
 
 ![XLhNrDhIPuyXhYMD-coreXY.png](../.gitbook/assets/xlhnrdhipuyxhymd-corexy.png)
 
-Follow the steps below in order to reroute the coreXY belts.
+On the Promega, note that all the belts start at the extruder carriage, and that they end on the extruder carriage as well.
 
-1.
+Follow the steps below in order to reroute the coreXY belts. The following steps will start with the upper loop, on the left side of the extruder carriage.
+
+1. Make sure both CoreXY stepper motors are loose on their mounts. This will make it possible to route the belts. Routing the belts while these motors are not loose will make it extremely hard as you will not find slack in the system. Follow the coreXY tensioning guide in [Belt Tensioning and Mechanical Leveling](../maintenance-guides/belt-tensioning-and-mechanical-leveling.md#corexy-assembly) for more help.  ![](../.gitbook/assets/thatsoneloosemotor.gif) 
+2. 3. Route the belt from the extruder carriage around the bearing on the bracket on the linear slider. Remember the upper and lower belt loop throughout these steps. A belt that is mounted lower on the extruder carriage is supposed to go around all the lower bearings around the coreXY assembly.  ![](../.gitbook/assets/beltaroundbearing.jpg) 
+4. Once the belt is around the first bearing, it will go around the bearings on the bolt in the front left corner.  ![](../.gitbook/assets/beltthroughsecondbearing.jpg) 
+5. The belt will then travel and go around the bearings on an identical bolt but on the front right corner of the printer.
+6. The belt will then travel all the way to the stepper motor bracket in the back-right corner of the printer. The belt routing through the motor bracket is shown below.  ![](../.gitbook/assets/beltaroundbackrightextruderbracket.jpg) 
+7. The belt will then go around the final bearing and then should go to the extruder carriage.  ![](../.gitbook/assets/finalbearingupperloop.jpg) 
+8. You have now completed the first loop of  the belt system. It helps to tighten down the motor in the back right corner while putting a bit of tension on the belt system in order keep the belts in place.
+9. Repeat this same process for the lower belt loop.
+10. Follow the [Belt Tensioning and Mechanical Leveling](../maintenance-guides/belt-tensioning-and-mechanical-leveling.md#corexy-assembly) guide in order to tension your coreXY system and make sure it is square.
+
+
 
