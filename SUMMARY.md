@@ -39,6 +39,7 @@
   * [Macros](firmware-guides/macros.md)
   * [Updating SD Card Structure](firmware-guides/updating-sd-card-structure.md)
   * [Help! My Extruders are Backwards](firmware-guides/help-my-extruders-are-backwards.md)
+  * [Tool Definitions](firmware-guides/tool-definitions.md)
 * [Printing Guides](printing-guides/README.md)
   * [Slicers and Printer Settings](printing-guides/slicers-and-printer-settings.md)
   * [Bed Leveling & Probing](printing-guides/bed-leveling-and-probing.md)
