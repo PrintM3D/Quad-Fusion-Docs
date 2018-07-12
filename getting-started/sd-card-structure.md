@@ -13,12 +13,13 @@ On the microSD card there are four different folders: _gcodes_, _macros_, _sys_ 
 
 ## Sys Organization
 
-As mentioned before, the _sys_ folder contains all sorts of system files. The most important file is _config.g_. This file is executed on the start-up of the Duet Maestro board. If you wanted to add a command to the start-up sequence, you should insert it in _config.g_. In the _sys_ folder you will also notice a handful of other files with the _machine_ prefix. These files are called from _config.g_ with the `M98` command and they represent part of the start-up sequence. The _sys/_ folder is structured to indicate which files are recommended to be changed and which are not.
+As mentioned before, the _sys/_ folder contains all sorts of system files. The most important file is _config.g_. This file is executed on the start-up of the Duet Maestro board in order to configure the Promega settings. If you wanted to add a command to the start-up sequence, you should insert it in _config.g_. In the _sys/_ folder you will also notice a handful of other files with the _machine_ prefix. These files are called from _config.g_ with the `M98` command and they represent part of the start-up sequence. The _sys/_ folder is structured to indicate which files are recommended to be changed and which are not.
 
 **Machine Files**
 
-Below is a list of files with the _machine_ prefix, indicating that they should be opened and can be changed.
+Below is a list of files with the _machine_ prefix. **This prefix indicates that they should be opened and can be changed to your preferences**.
 
+* _A Instructions.txt:_ This file contains a further explanation and instructions of the files on the SD card.
 * _machine\_access.g_: This file contains G-code commands to properly setup the network settings. Open and change this file in order to allow the Duet Maestro to connect to your local network. Follow the [Network Setup](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) guide in order to setup your network.
 * _machine\_axisdimensions.g_: This file contains G-code commands to initialize the minimum and the maximum values of the coordinate axes. Change the values in this file in order to allow your gantry to move to the absolute limits of your buildspace. Use caution when changing the axes limits.
 * _machine\_axissteps.g_: The axis steps per millimeter for the stepper motors are placed here. Changing these values should not be necessary as they are already properly configured.
