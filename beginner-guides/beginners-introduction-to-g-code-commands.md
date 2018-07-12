@@ -65,7 +65,11 @@ You might be familiar with two of the G-code commands here `G91` and `G1`. `G91`
 
 Now that you are more familiar with G-code commands you can try to complete the steps below in order to see how the printer responds to you sending G-code commands directly to the printer itself.
 
-1. Find the _G-code Console_ tab in the Duet Web Console. 
+Find the _G-code Console_ tab in the Duet Web Console. 
+
+![G-Code Console in the Duet Web Console](../.gitbook/assets/ztlrwbqq28r8id6g-howtogcode.png)
+
+This tab allows you to send commands to the printer using the textfield as seen above. Once you enter a command in the text field you can press _Enter_ or press the dark-blue send button. The printer will then process the command and execute it. If the command executed successfully you will see a print out of the command you send in the _Printer Printout_ terminal with a green background. If the firmware encountered an error while trying to process the command, it will printout the command with a red background and more information about the error. 3. This step assumes you have the printer homed from the previous steps. If you have not yet homed your printer, click the _Home All_ button in the _Machine Control_ tab. Try sending the command `G1 X200 Y200`. This will move the printer to 200 mm X and 200 mm Y. Send the command `G1 Z150`. This will move the bed to about 150 mm from the nozzle. 4. You can keep sending commands to move the printer around the build space. The table below represents the limits of the printer, the firmware should prevent you from going past these limits. Still, try to keep your move commands within the build space of the printer. You can also try to change the feedrate of the printer to see how the speed of the printer changes as the printer moves around.
 
 |  | Axes Limits |  |
 | --- | --- | --- |
@@ -74,13 +78,9 @@ Now that you are more familiar with G-code commands you can try to complete the 
 | Y - Axis | 388 | 0 |
 | Z - Axis | 377 | 0 |
 
-![G-Code Console in the Duet Web Console](../.gitbook/assets/ztlrwbqq28r8id6g-howtogcode.png)
-
-1. This tab allows you to send commands to the printer using the textfield as seen above. Once you enter a command in the text field you can press _Enter_ or press the dark-blue send button. The printer will then process the command and execute it. If the command executed successfully you will see a print out of the command you send in the _Printer Printout_ terminal with a green background. If the firmware encountered an error while trying to process the command, it will printout the command with a red background and more information about the error. 3. This step assumes you have the printer homed from the previous steps. If you have not yet homed your printer, click the _Home All_ button in the _Machine Control_ tab. Try sending the command `G1 X200 Y200`. This will move the printer to 200 mm X and 200 mm Y. Send the command `G1 Z150`. This will move the bed to about 150 mm from the nozzle. 4. You can keep sending commands to move the printer around the buildspace. The table below represents the limits of the printer, the firmware should prevent you from going past these limits. Still, try to keep your move commands within the buildspace of the printer. You can also try to change the feedrate of the printer to see how the speed of the printer changes as the printer moves around.
-
 **Other G-code Commands**
 
-Of course there are many more RepRap supported G-code commands \(as you might have seen on the [RepRap Wiki](https://reprap.org/wiki/G-code)\). You will come across some of them as you follow this guide. Whenever you have questions about what a command does, you can look up the command on the wiki.
+Of course there are many more RepRap supported G-code commands \(as you might have seen on the [RepRap Wiki](https://reprap.org/wiki/G-code)\). You will come across some of them as you follow this guide. Whenever you have questions about what a command does, you can look up the command in the wiki.
 
 Throughout the different guides you will find G-code in `this format`. That typically means you can execute the G-code command. Comments are denoted by any text following a semi-colon ";". A new line will end the comment.
 

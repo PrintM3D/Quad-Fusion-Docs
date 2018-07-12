@@ -36,29 +36,28 @@ Once you have downloaded your preferred slicer you can follow the steps below to
 
 1. First of all, download the [Promega Cura profile](https://github.com/PrintM3D/Promega/tree/devel/Cura%20Profiles/Compound) from the [M3D GitHub Promega](https://github.com/PrintM3D/Promega/tree/devel/Cura%20Profiles) repository. Select the profile for the K'Tana or Compound nozzle depending on which extruder you currently have mounted.
 2. Launch Cura. The first thing you will have to do is add a printer. You can do this by clicking _Settings &gt; Printers &gt; Manage Printers_ on the top of the window. This will open a new window called _Preferences_. Press _Add Printer_. This will open a new _Add Printer_ window. Select _Custom FDM Printer_ under the _Custom_ tab. Click _Add Printer_ in the bottom right corner of the window. This will return you to the _Preferences_ window. Click the Custom FDM Printer you just created and click the button _Machine Settings_. This will open a new window. Proceed to the next step.
-3. In this window you will have to input all the Promega printer settings. Follow the picture below to input the settings. Feel free to copy and paste the start and end G-code from the boxes below. ![Kuk1vdu2N2ajQPZZ-machinesettings.png](../.gitbook/assets/kuk1vdu2n2ajqpzz-machinesettings.png)
+3. In this window you will have to input all the Promega printer settings. Follow the picture below to input the settings. Feel free to copy and paste the start and end G-code from the boxes below.   
+    ![](../.gitbook/assets/curamachinesettings%20%281%29.jpg) ![](../.gitbook/assets/curamachinesettings_extruder.jpg) 
 
    ```text
-    ; Start G-Code
-    G28 ;Home
-    G1 Z15.0 F6000 ;Move the platform down 15mm
-    ;Prime the extruder
-    G92 E0
-    G1 F200 E5
-    G92 E0
+   G1 Z15.0 F6000 ;Move the platform down 15mm
+   ;Prime the extruder
+   G92 E0
+   G1 F200 E3
+   G92 E0
    ```
 
    ```text
-    ;End G-Code
-    M104 S0
-    M140 S0
-    ;Retract the filament
-    G92 E2
-    G1 E-2 F300
-    G91
-    G0 Z100 S1 F1000
-    G90
-    G0 X300 Y300 F3000
+   M104 S0
+   M140 S0
+   M106 S0
+   G28 X Y
+   G91
+   G1 Z10 S1
+   G90
+   ;Retract the filament
+   G92 E3
+   G1 E-3 F300
    ```
 
 4. If this printer is not your only configured printer in Cura, click _Activate_ while selecting the printer you just configured.
