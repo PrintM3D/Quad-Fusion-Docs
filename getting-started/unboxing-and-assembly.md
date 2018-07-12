@@ -92,9 +92,19 @@ Attaching the glass bed clamps to the glass bed can be tricky. Using a flathead 
 
    ![gu5WeuO3pjG0H88H-slideonclamps.gif](../.gitbook/assets/gu5weuo3pjg0h88h-slideonclamps.gif)
 
+## Attaching the Switches
+
+To prevent damage while shipping, the power switch and heated bed coil switch are not connected. You can attach these in the following section.
+
+You will need two M4 12mm Bolts and two M4 nuts per side. You will also need a T20 Torx screw-driver and an M4 wrench or pliers. Screw on both the power switch and the heated bed coil switch.
+
+![](../.gitbook/assets/screwingpowerswitch.jpg)
+
+![](../.gitbook/assets/nutsonpowerswitchg.jpg)
+
 ## Installing Windows
 
-This section will walk you through installing your top, side and front windows on your Promega. This step is optional and can be performed at a later time when you prefer to print with a full enclosure. All screws needed for this section should be included in the plastic bag.
+This section will walk you through installing your top, side and front windows on your Promega. **This step is optional and can be performed at a later time when you prefer to print with a full enclosure.** All screws needed for this section should be included in the plastic bag.
 
 ### Front Window
 
