@@ -120,42 +120,45 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 
 * T20 Torx Screwdriver
 * T10 Torx Screwdriver
-* Power off the printer if you have not yet done so already!
-* Make sure you have the new cable assembly ready and printed.
-* Remove the top T20 bolt holding the assembly to the extruder.![apC5KB2gAsohKs3P-removingtopboltoldeassembly.jpg](../.gitbook/assets/apc5kb2gasohks3p-removingtopboltoldeassembly.jpg)
-* Remove the T20 bolt on the bottom of the wiring assembly, circled in red.![cML6VkAUKjsehdhX-bottomboltcableassembly.jpg](../.gitbook/assets/cml6vkaukjsehdhx-bottomboltcableassembly.jpg)
-* Remove the T10 Bolt holding the cable chain to the 3D printed cable assembly.![0bnnxoDWyeTVAYDf-RemoveCableChainBolt.jpg](../.gitbook/assets/0bnnxodwyetvaydf-removecablechainbolt.jpg)
-* Carefully pull the cables out of the connectors inside the wiring assembly until you can pull the plastic part free. Use needlenose pliers and a pick to help you. It can help to first remove the wires constraining the wiring assembly to the extruder assembly to give you more room to work.![Qt188HfCXb0WZHx0-removedheatersoldcableassembly.jpg](../.gitbook/assets/qt188hfcxb0wzhx0-removedheatersoldcableassembly.jpg)
-* Next, remove the connectors on the cable chain end from the 3D printed plastic part until you are left with just the old 3D printed cable assembly. ![qpvutFimYvZ1IHtt-removedoldcableassembly.jpg](../.gitbook/assets/qpvutfimyvz1ihtt-removedoldcableassembly.jpg)
-* ![ilH6o9ZQyMW4kauK-throwaway.gif](../.gitbook/assets/ilh6o9zqymw4kauk-throwaway.gif)
+
+1. Power off the printer if you have not yet done so already!
+2. Make sure you have the new cable assembly ready and printed.
+3. Remove the top T20 bolt holding the assembly to the extruder.![apC5KB2gAsohKs3P-removingtopboltoldeassembly.jpg](../.gitbook/assets/apc5kb2gasohks3p-removingtopboltoldeassembly.jpg)
+4. Remove the T20 bolt on the bottom of the wiring assembly, circled in red.![cML6VkAUKjsehdhX-bottomboltcableassembly.jpg](../.gitbook/assets/cml6vkaukjsehdhx-bottomboltcableassembly.jpg)
+5. Remove the T10 Bolt holding the cable chain to the 3D printed cable assembly.![0bnnxoDWyeTVAYDf-RemoveCableChainBolt.jpg](../.gitbook/assets/0bnnxodwyetvaydf-removecablechainbolt.jpg)
+6. Carefully pull the cables out of the connectors inside the wiring assembly until you can pull the plastic part free. Use needlenose pliers and a pick to help you. It can help to first remove the wires constraining the wiring assembly to the extruder assembly to give you more room to work.![Qt188HfCXb0WZHx0-removedheatersoldcableassembly.jpg](../.gitbook/assets/qt188hfcxb0wzhx0-removedheatersoldcableassembly.jpg)
+7. Next, remove the connectors on the cable chain end from the 3D printed plastic part until you are left with just the old 3D printed cable assembly. ![qpvutFimYvZ1IHtt-removedoldcableassembly.jpg](../.gitbook/assets/qpvutfimyvz1ihtt-removedoldcableassembly.jpg)
+8. ![ilH6o9ZQyMW4kauK-throwaway.gif](../.gitbook/assets/ilh6o9zqymw4kauk-throwaway.gif)
 
 ## Old Extruder Assembly Wiring
 
-![RhM5Sk4174iRwf5J-extruderwire\_1.jpg](../.gitbook/assets/rhm5sk4174irwf5j-extruderwire_1.jpg)
+**This guide is for connecting the OLD extruder wiring assembly. Scroll up for the new wiring assembly!**
+
+![Plugging in Heater Connectors](../.gitbook/assets/rhm5sk4174irwf5j-extruderwire_1.jpg)
 
 First, cable H4 is plugged in on the left and H2 on the right. These are both heater cartridge connectors. You can find the labels of the wires about 1 inch from the connector on black heatshrink.
 
-![QwUkY0DDummwZRmG-extruderwire\_2.jpg](../.gitbook/assets/qwuky0ddummwzrmg-extruderwire_2.jpg)
+![Plugging in the two PT1000 connectors](../.gitbook/assets/qwuky0ddummwzrmg-extruderwire_2.jpg)
 
 Cable S8 is plugged in on the left and S6 on the right. These cables are PT1000 connectors.
 
-![qg08y7D2FvFyCwcw-extruderwire\_3.jpg](../.gitbook/assets/qg08y7d2fvfycwcw-extruderwire_3.jpg)
+![Plugging in the two fan connectors](../.gitbook/assets/qg08y7d2fvfycwcw-extruderwire_3.jpg)
 
 P9 and P11 are plugged in according to the diagram. These connectors are for the nozzle and cold-section fans. Sadly, there is no system for which one of these is the nozzle fan or cold section fan. Pleass use caution when plugging these in as plugging the nozzle fan into the cold-section port will result in a fried nozzle fan. **It is best to test the connectors and ensure your wiring is correct before plugging in the fans.** You can either perform a continuity test by taking a multimeter and measuring the resistance between the two ends of the wire. Or you can measure the voltage on the connector when you turn on the Duet board. Remember that the 24V fan is connected to the Always-on port on the Duet board and the 5V is connected to a PWM controlled port. You will have to switch on your nozzle fan in order to measure the 5V in the connector. You can plug in your cold-section fan into both ports in order to determine which one is the cold-section connector.
 
-![LPujDWLHZYTRFeOK-extruderwire\_4.jpg](../.gitbook/assets/lpujdwlhzytrfeok-extruderwire_4.jpg)
+![Plugging in an expansion cable](../.gitbook/assets/lpujdwlhzytrfeok-extruderwire_4.jpg)
 
 Insert S4, this is an expansion cable and is not used for any electrical components \(yet\).
 
-![zUwPphBqN9gKHWKS-extruderwire\_5.jpg](../.gitbook/assets/zuwpphbqn9gkhwks-extruderwire_5.jpg)
+![Plugging in an expansion cable](../.gitbook/assets/zuwpphbqn9gkhwks-extruderwire_5.jpg)
 
 Plug in S2 according to the picture above. This is also an expansion cable and will be used for components in the future.
 
-![brXfeBPWFElVAVDy-extruderwire\_6.jpg](../.gitbook/assets/brxfebpwfelvavdy-extruderwire_6.jpg)
+![Plugging in the extruder motor cables](../.gitbook/assets/brxfebpwfelvavdy-extruderwire_6.jpg)
 
 Place P4 and P2 in the housing according to the diagram above. These are extruder motor connectors.
 
-![u8kv6PjHwEuNi5hj-extruderwire\_7.jpg](../.gitbook/assets/u8kv6pjhweuni5hj-extruderwire_7.jpg)
+![Final Wiring](../.gitbook/assets/u8kv6pjhweuni5hj-extruderwire_7.jpg)
 
 The image above depicts the cable routing prior to attaching the cable assembly onto the extruder carriage.
 
