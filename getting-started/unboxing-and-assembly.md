@@ -92,5 +92,37 @@ Attaching the glass bed clamps to the glass bed can be tricky. Using a flathead 
 
    ![gu5WeuO3pjG0H88H-slideonclamps.gif](../.gitbook/assets/gu5weuo3pjg0h88h-slideonclamps.gif)
 
+## Installing Windows
+
+This section will walk you through installing your top, side and front windows on your Promega. This step is optional and can be performed at a later time when you prefer to print with a full enclosure. All screws needed for this section should be included in the plastic bag.
+
+### Front Window
+
+The front window has four small screw heads that lock onto small magnets located on the front of the Promega. The front window can be identified by the 4 small black screws sticking out of it. Face the screws toward the frame and simply stick it on the Promega. 
+
+![](../.gitbook/assets/frontwindowattach.gif)
+
+
+
+![](../.gitbook/assets/front_window.jpg)
+
+### Top Window
+
+Next, we will install the top windows. You can find the top window by finding a thicker piece of plastic that does not have screws in it. For this you will need 4 12mm M3 bolts and a T10 Torx screw-driver. Screw in the M3 bolt on all four sides as shown in the image below.
+
+![](../.gitbook/assets/4xm35mm%20%281%29.jpg)
+
+![](../.gitbook/assets/attachingthetopwindow.jpg)
+
+![](../.gitbook/assets/fullyattachedtopwindow.jpg)
+
+### Side Windows
+
+The side windows can be identified by the fact that they are made of thinner plastic, and that there are two of them. For the side windows you will need 8 \(4 for each side\) M3 5mm bolts. You can screw these into place with the T10 Torx Screw Driver as shown in one of the images below. The side windows go on the inside of the Promega.
+
+![Four M3 5mm Bolts](../.gitbook/assets/4xm35mm.jpg)
+
+![](../.gitbook/assets/attachingsides.jpg)
+
 Continue on to the [Mechanical Check](https://m3d.gitbook.io/promega-docs/getting-started/mechanical-check), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
