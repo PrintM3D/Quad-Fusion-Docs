@@ -27,7 +27,7 @@ Follow the instructions below to remove the broken belt clamps, pictured below, 
 
 **Remember that it is easiest to replace the clamps in one corner at a time.**
 
-* **Removing old clamps:** Remove the top belt clamp by unscrewing the M3 pan bolt with the T10 driver and sliding it off the belt. ![XJnsF2fffKZ1Ynlw-removingoldbeltclamp.jpg](../.gitbook/assets/xjnsf2fffkz1ynlw-removingoldbeltclamp.jpg)
+* **Removing old clamps:** Remove the top belt clamp by unscrewing the M3 pan bolt with the T10 driver and sliding it off the belt.  ![XJnsF2fffKZ1Ynlw-removingoldbeltclamp.jpg](../.gitbook/assets/xjnsf2fffkz1ynlw-removingoldbeltclamp.jpg)
 * **Removing new clamps:** In order to remove the new top clamp you can simply pull it up and out of the Z-slider **after** you relieve the belt of its tension. You can relieve tension by loosening the bottom clamp.
 
 ### **Removing the Bottom Clamp**

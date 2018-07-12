@@ -1,4 +1,0 @@
-# Filament Extrusion Rates
-
-
-
