@@ -2,6 +2,16 @@
 
 This guide is intended to explain all the different software levels that takes a model to a final printed form on the Promega. We will start at a model on a modelling software on a computer and go all the way down to the RepRap firmware that runs on the Duet Maestro.
 
+## Software Layers
+
+| Layer | Purpose |
+| --- | --- | --- | --- | --- | --- |
+| Model Software | Create _.STL_ models of prints |
+| Slicing Software | Convert _.STL_ files to ._gcode_ files while incorporating printer and print settings |
+| Duet Web Interface | A web server running on the Duet Maestro that connects to your local network in order to allow for control and monitor of a 3D printer |
+| Configuration Settings | G-code files on the microSD card which are loaded upon the boot-up of the Duet board in order to properly configure the board for the printer |
+| Firmware | Software running on the Duet Maestro that handles G-code and other operations. Can not be configured. |
+
 ## Model Software
 
 If you want to print something on a Promega you will first have to create or find a model of what you plan to print. Creating a model is currently done with CAD \(Computer Aided Design\) software such as SolidWorks or TinkerCAD. SolidWorks offers a more technical and precise solution to designing models, while TinkerCAD represents an easier and faster solution. Aside from creating your own models you can find many models online. These models exist on websites  such as [Thingiverse](https://www.thingiverse.com/), [Pinshape,](https://pinshape.com/) [MyMiniFactory](https://www.myminifactory.com/) and many others! In the next step you will see that you need slicing software and slicing software will require a specific file type. That file type is called a ._STL_ file. This file type stores the outside shell of a model, which is typically all the slicer needs. Whenever you design or find a model to print it you will have to convert it to a ._STL_ file in order to slice it.
