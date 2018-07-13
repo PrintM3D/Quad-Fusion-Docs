@@ -18,6 +18,7 @@
   * [An Introduction to Tools](getting-started/an-introduction-to-tools.md)
   * [Important G-Code Commands](getting-started/important-g-code-commands.md)
   * [First Time Success Protocol](getting-started/first-time-success-protocol.md)
+  * [Getting Started: Where to Go From Here](getting-started/getting-started-where-to-go-from-here.md)
 * [Beginner Guides](beginner-guides/README.md)
   * [Beginner: Preparation](beginner-guides/preparation.md)
   * [Beginner: Printer Assemblies](beginner-guides/printer-assemblies.md)
