@@ -63,5 +63,69 @@ G1 E-3 F300`
 
 ![](../.gitbook/assets/curamachinesettings_extruder%20%281%29.jpg)
 
+Once you have added the printer make sure to activate it by selecting the name and then clicking the button _Activate._ 
 
+### Importing the Printer Profile
+
+The next step is to go to the M3D GitHub Promega repository, in the [Cura Profiles folder](https://github.com/PrintM3D/Promega/tree/devel/Cura%20Profiles) and download the Cura profile for your extruder setup. In order to download the Cura Profile, click on the file in GitHub and then press the Download button as seen in the image below, outline in red. This profile contains all kinds of print settings that help the Promega print well. You can find and tune these settings through experimentation at a later time. For now, this default profile will work well.
+
+![](../.gitbook/assets/downloadingcuraprofile.png)
+
+In Cura, open the Preferences again by clicking _Preferences &gt; Configure Cura._ Click _Profiles &gt; Import_. Then a window will pop up that will allow you to navigate to the profile you just downloaded. It will most likely be in the _Downloads_ folder.
+
+ 
+
+![](../.gitbook/assets/importingcuraprofile.png)
+
+Once you have properly imported the file you will have to _Activate_ it. Select the profile and click the button _Activate._ The print settings you just downloaded have now been applied to Cura. Whenever you slice a model, it will now incorporate these settings.
+
+![](../.gitbook/assets/activatingcuraprofile.png)
+
+## How Cura Works
+
+Now that you have properly configured Cura, we can go over how it operates, and how you can configure it. Look at the diagram below for a simple drawing of the most important functions of Cura. The buttons on the left side allow you to load a model into Cura. This is very important as loading a model into Cura begins the slicing process. The buttons below the _Open File_ button allow you to manipulate the position, orientation and scale of the model. This is very important. On the right of the window you have buttons to select your material, and _Advanced Settings._ This tab allows you to configure the finer details of the print as you print with your Promega. Mastering the settings of this tab is extremely useful in order to produce fine and high detail prints. Before you print you should always review the settings in this tab in order to ensure that the printing temperature and other settings is correct for your print and material. Whenever you configure your settings and have your print in the correct position and orientation, you can click Prepare in the bottom right corner. Cura will then take a few seconds to slice the file and create a _.gcode_ file. You will then be able to click the button _Save File_ and then save the G-code file to a location file of your choice.
+
+![](../.gitbook/assets/curaguide.png)
+
+## Slicing in Cura
+
+### Opening a Model
+
+Now we will actually slice the model we downloaded earlier. First, click the folder icon _Open File_ in the top left of the window. Then navigate to the _.STL_ file you downloaded earlier and press _Open._ You should then see the model appear on your build plate.
+
+![](../.gitbook/assets/curahasamodel.png)
+
+In order to better view your model you can right click and drag in order to change the orientation of your model. Shift + Left Click and dragging will allow you to move the position of the camera. You can always home your view with the buttons in the top-left corner. In the image above I imported three different models.
+
+### Positioning the Model
+
+Use the b~~u~~ttons on the left of the window in order to orient and position the parts as you want. Make sure to keep appropriate distance between parts. Make sure that the parts also have a sufficient flat surface of their model to adhere to the print bed. Check out the images below for more guidance on part orientation.
+
+![This is a good print layout](../.gitbook/assets/movingmodelsaround.png)
+
+![Make sure the models are kept apart](../.gitbook/assets/dontcurathisway1.png)
+
+![Make sure the model is correctly oriented on the print bed](../.gitbook/assets/dontcurathisway2.png)
+
+### Configuring Print Settings
+
+Next, we will configure the print settings in Cura. This will all take place on the right side of the Cura window. In a tab called _Custom._
+
+{% hint style="info" %}
+If you can't see any of the option in the steps below. Go to _Preferences &gt; Configure Cura &gt; Settings_ and change the _Setting Visibility_ to _Basic._ This will allow you to see more settings. Eventually, you can change this to _Advanced_ or _Expert_ in order to allow for more print setting options.
+
+\_\_![](../.gitbook/assets/settingvisibility.png) __
+{% endhint %}
+
+The only thing you should have to configure for your first print is the _Material: Temperature Setting._ Configure this based on the material you are printing with. If you are printing with ABS-R, I recommend a temperature of 235°C and if you are printing with PLA a temperature of 205°C is fit. Fill this into the box as shown below. For my print, I am printing with ABS-R, so I filled in 235°C.
+
+![](../.gitbook/assets/settingcuratemperature.png)
+
+Now we are ready to slice the model. Just click Prepare in the bottom right corner. It might take a few seconds for Cura to slice the model. Click once and wait for a few seconds.
+
+![](../.gitbook/assets/slicingincura.png)
+
+Once you have sliced the model press the _Save to File_ button. Then save the file to a location that you will remember. You will notice that the file you are saving is a _.gcode_ file which is ready to print.
+
+You are now ready to continue on to the next guide.
 
