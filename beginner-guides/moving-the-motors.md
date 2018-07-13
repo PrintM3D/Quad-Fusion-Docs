@@ -1,4 +1,4 @@
-# Moving the Motors
+# Beginner: Moving the Motors
 
 Before you power on your motors you can manually move the extruder head around the printer. Follow the steps below in order to start moving the printer.
 
