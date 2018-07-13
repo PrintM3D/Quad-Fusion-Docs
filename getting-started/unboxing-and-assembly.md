@@ -2,7 +2,9 @@
 
 ## Before Opening
 
-Check the outside of the packaging for any significant amount of damage that might have occurred in shipping. We recommend taking pictures of the box in case the Promega was damaged in shipping. In this box you will find various small items in different packages. Please thoroughly check all wrapping and padding before discarding them to ensure you keep all parts. Keep the Promega's box intact in case you need to transport the printer in the future.
+Check the outside of the packaging for any significant amount of damage that might have occurred in shipping. We recommend taking pictures of the box in case the Promega was damaged in shipping. In this box you will find various small items in different packages. Please thoroughly check all wrapping and padding before discarding them to ensure you keep all parts. Keep the Promega's box intact in case you need to transport the printer in the future. 
+
+**Warning: The Promega's frame can be sharp. Please take care when moving the printer in this procedure.**
 
 ## Opening the Box
 
@@ -97,6 +99,10 @@ Attaching the glass bed clamps to the glass bed can be tricky. Using a flathead 
 To prevent damage while shipping, the power switch and heated bed coil switch are not connected. You can attach these in the following section.
 
 You will need two M4 12mm Bolts and two M4 nuts per side. You will also need a T20 Torx screw-driver and an M4 wrench or pliers. Screw on both the power switch and the heated bed coil switch.
+
+{% hint style="info" %}
+Due to a mistake, M5 nuts were shipped with a few Promegas instead of M4 nuts.
+{% endhint %}
 
 ![](../.gitbook/assets/screwingpowerswitch.jpg)
 
