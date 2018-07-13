@@ -63,6 +63,7 @@
   * [Routing Z-belts](maintenance-guides/routing-z-belts.md)
 * [Troubleshooting Guides](troubleshooting-guides/README.md)
   * [Troubleshooting Duet Web Console](troubleshooting-guides/troubleshooting-duet-web-console.md)
+  * [Troubleshooting the Z-probe](troubleshooting-guides/troubleshooting-the-z-probe.md)
 * [Community Guides](community-guides/README.md)
   * [Community Guide Template](community-guides/community-guide-template.md)
 
