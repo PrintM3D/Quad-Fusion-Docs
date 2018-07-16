@@ -16,7 +16,7 @@ This indicates that the web pages of the Duet web server can not be loaded from 
 
 * Reboot the Duet Maestro board with the microSD card properly fitted inside.
 * Reformat the microSD card.
-* [Update the microSD card files.](../firmware-guides/updating-sd-card-structure.md)
+* [Update the microSD card files.](../getting-started/updating-sd-card-structure.md)
 * [Update the Duet Web Firmware.](../firmware-guides/updating-firmware.md)
 
 ## Frequent Disconnects from the Duet Web Console

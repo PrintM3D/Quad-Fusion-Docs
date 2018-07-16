@@ -36,7 +36,7 @@ Once you have downloaded your preferred slicer you can follow the steps below to
 
 1. First of all, download the [Promega Cura profile](https://github.com/PrintM3D/Promega/tree/devel/Cura%20Profiles/Compound) from the [M3D GitHub Promega](https://github.com/PrintM3D/Promega/tree/devel/Cura%20Profiles) repository. Select the profile for the K'Tana or Compound nozzle depending on which extruder you currently have mounted.
 2. Launch Cura. The first thing you will have to do is add a printer. You can do this by clicking _Settings &gt; Printers &gt; Manage Printers_ on the top of the window. This will open a new window called _Preferences_. Press _Add Printer_. This will open a new _Add Printer_ window. Select _Custom FDM Printer_ under the _Custom_ tab. Click _Add Printer_ in the bottom right corner of the window. This will return you to the _Preferences_ window. Click the Custom FDM Printer you just created and click the button _Machine Settings_. This will open a new window. Proceed to the next step.
-3. In this window you will have to input all the Promega printer settings. Follow the picture below to input the settings. Feel free to copy and paste the start and end G-code from the boxes below.   
+3. In this window you will have to input all the Promega printer settings. Follow the picture below to input the settings. Copy and paste the start and end G-code from the boxes below.   
     ![](../.gitbook/assets/curamachinesettings%20%281%29.jpg) ![](../.gitbook/assets/curamachinesettings_extruder.jpg) 
 
    ```text
@@ -67,7 +67,7 @@ Once you have downloaded your preferred slicer you can follow the steps below to
 
    ![jEiIyza3YXUwto76-settingvisibility.png](../.gitbook/assets/jeiiyza3yxuwto76-settingvisibility.png)
 
-8. You can now close the _Preferences_ window. You are ready to slice!
+8. You can now close the _Preferences_ window.
 
 ## Slicing your Model
 
@@ -86,6 +86,8 @@ Slicing your model is an extremely important step. Most slicer software allow yo
 5. The rest of the print settings should already be compatible with the Promega. Visit other guides for a more in depth explanation on how to tune your print settings. 
 6. In order to start a print, press the light-blue _Prepare_ button in the bottom-right corner. This will slice the print into G-code. You must then save this to a file by pressing _Save to File_ in the bottom-right corner again. Save the G-code file to a specific location so that you can retrieve it when you upload the print to the board. 
 7. You are now ready to print. Follow the [Running a Print](https://m3d.gitbook.io/promega-docs/getting-started/running-a-print) guide for additional help on starting and monitoring a print.
+
+You will have to tune your Slicer settings as you continue your printing career with the Promega. The slicer settings that you can find on the M3D GitHub repository are generic and work well for most prints. To have optimal print quality for your print, you will have to tune the slicer settings to your print. 
 
 Continue on to the [Running a Print](https://m3d.gitbook.io/promega-docs/getting-started/running-a-print) guide, the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 

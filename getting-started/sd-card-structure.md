@@ -31,12 +31,14 @@ Below is a list of files with the _machine_ prefix. **This prefix indicates that
 * _machine\_zendstop.g_: Change the offset of the Z-endstop on the bottom printer. This file must be manually configured for each printer depending on the printers configuration.
 * _machine\_zprobe.g_: Change the Z-probe settings here. This file allows you to select the IR or limit switch probe and configure the offsets of the probes.
 
-**Other Files**
+## **Other Files**
 
 In the _sys_ folder you will find many other files which handle other important aspects of the printer. Observe the list below for an explanation of the different files.
 
 * _config.g_: This file is called upon the boot-up of the Duet board. Place G-code commands here in order for them to be executed on start-up. This file calls multiple machine files listed above with the `M98` command.
 * _homex.g_, _homey.g_, _homez.g_ and _homeall.g_: These files operate the homing procedure. Follow [Homing the Printer](https://m3d.gitbook.io/promega-docs/getting-started/homing-the-printer) for more help on homing the printer, and [Adjusting Homing Macros](https://m3d.gitbook.io/promega-docs/firmware-guides/adjusting-homing-macros) in order to adjust the homing macros.
+
+
 
 Continue on to the [Homing the Printer](https://m3d.gitbook.io/promega-docs/getting-started/homing-the-printer), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 

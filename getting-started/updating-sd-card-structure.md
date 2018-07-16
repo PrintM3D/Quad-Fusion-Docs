@@ -1,5 +1,7 @@
 # Updating SD Card Structure
 
+While your printer was being shipped, it is possible that a new SD card structure was released. More explanation of the SD Card files can be found in the next guide. To ensure that you have the latest files on your SD card, please follow the guide below. 
+
 ## M3D Release SD Card
 
 The latest SD card files released by M3D can be found on the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Follow the steps below in order to download the latest version for your printer. Always be careful when downloading the latest version of the SD card files. New SD card files can cause unintended results such as flipped motor directions or wrongly configured heaters. **Always test all motors and heaters carefully before printing after downloading a new update.**
@@ -14,7 +16,7 @@ Read the [SD Card Structure](https://m3d.gitbook.io/promega-docs/getting-started
 
 This is the recommended option.
 
-Go to the [M3D GitHub Promega Repository Releases](https://github.com/PrintM3D/Promega/releases) and download the latest release. Download the _.zip_ folder for the extruder head that you currently have mounted. 
+Go to the [M3D GitHub Promega Repository Releases](https://github.com/PrintM3D/Promega/releases) and download the latest release. Download the _.zip_ folder for the extruder head that you currently have mounted. The Promega can come with either the K'tana \(two nozzles\) or the compound \(1 nozzle\).
 
 ![Downloading the Latest Release](../.gitbook/assets/wheretoinstallnewsdstuff.png)
 {% endtab %}
@@ -42,5 +44,5 @@ A _.zip_ file is a compressed folder. You will have to first extract the file be
 
 ## Testing and Tuning
 
-Once you have updated the SD Card files on the microSD card. Test all your motors and heaters one by one to ensure the new settings are compatible with your wiring and board. If you changed any settings in your previous configuration, you will have to add these settings and commands in your new updated version. If any of the motors or heaters are flipped, [this guide](help-my-extruders-are-backwards.md) will help.
+Once you have updated the SD Card files on the microSD card. Test all your motors and heaters one by one to ensure the new settings are compatible with your wiring and board. If you changed any settings in your previous configuration, you will have to add these settings and commands in your new updated version. If any of the motors or heaters are flipped, [this guide](../firmware-guides/help-my-extruders-are-backwards.md) will help.
 

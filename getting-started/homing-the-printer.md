@@ -45,7 +45,7 @@ Follow the steps below to correctly home your printer.
 
 **Because the distance between the bed and the nozzle depends on your Promega configuration \(K'tana vs. Compound, Glass vs. no glass\). You will have to tune** _**machine\_zendstop.g**_ **for Z0 to line up.**
 
-Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telling the printer to go to \(0,0,0\)\). The print bed will touch the nozzle. However, as outlined above, the difference between the bed and the nozzle varies depending on your setup. Follow the steps below to update your _machine\_zendstop.g_ file.
+Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telling the printer to go to \(0,0,0\)\) the print bed will touch the nozzle. However, as outlined above, the difference between the bed and the nozzle varies depending on your setup. Follow the steps below to update your _machine\_zendstop.g_ file.
 
 1. Home the printer if you have not already done so in the section above.
 2. Send the command `G29 S2` , this will disable bed leveling. Bed leveling can conflict with your homing value.

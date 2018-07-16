@@ -4,7 +4,7 @@ Included in the ProMega package you will find a microSD card with preloaded prin
 
 ## Accessing the microSD
 
-Updating any configuration or G-code files without connecting to your printer is possible by changing the required files on the microSD card. The microSD card is located in a microSD port on the ProMega's Duet Maestro board. By pushing the microSD card into the board, as the arrow indicates in the image below, the microSD card will be released from the board. The microSD port is fragile, so be careful when removing microSD cards.
+Updating any configuration or G-code files without connecting to your printer is possible by changing the required files on the microSD card. The microSD card is located in a microSD port on the ProMega's Duet Maestro board. By pushing the microSD card into the board, as the arrow indicates in the image below, the microSD card will be released from the board. The microSD port and the Duet Maestro are sensitive, so be careful when removing microSD cards.
 
 ![Location of the microSD Port on the Duet Board](../.gitbook/assets/4acsznaovomcf09t-duetmaestro_sdarrow.jpg)
 
