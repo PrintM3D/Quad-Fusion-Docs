@@ -65,13 +65,13 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 
    ![UcaX26ms7PwA8cOn-cold-sectionfanconnector.jpg](../.gitbook/assets/ucax26ms7pwa8con-cold-sectionfanconnector.jpg)
 
-10. Place the thermistor connector S6 in the slot pictured below. Route the cable as shown.
+10. Place the thermistor connector S8 in the slot pictured below. Route the cable as shown. \(Color of wire in image is wrong, match the labels, not the colors\)
 
-    ![PWTxNdVpPEq1D0AT-S6Thermplacement.jpg](../.gitbook/assets/pwtxndvppeq1d0at-s6thermplacement.jpg)
+     ![](../.gitbook/assets/new_extruder_wiring_s8.jpg) 
 
-11. Place the other thermistor connector S8 in the slot pictured below. Route the cable as shown.
+11. Place the other thermistor connector S6 in the slot pictured below. Route the cable as shown. \(Color of wire in image is wrong, match the labels, not the colors\)
 
-    ![5t3it15xsG7ZdhlJ-thermS8placement.jpg](../.gitbook/assets/5t3it15xsg7zdhlj-therms8placement.jpg)
+    ![](../.gitbook/assets/new_extruder_wiring_s6.jpg) 
 
 12. Take the two stepper motor connectors P4 and P2 and place them as shown below.
 
