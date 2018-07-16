@@ -101,16 +101,17 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 
     ![GuN0ckkLzVOFDSZu-tightendowncablechain.jpg](../.gitbook/assets/gun0ckklzvofdszu-tightendowncablechain.jpg)
 
-19. Pull the slack out of the wires at the extruder end of the cable chain. Carefully pull the wires at the end of the cable chain at the back of the printer.
-20. Power on and connect to the printer and ensure that all the heaters, thermistors, extruders and fans are plugged in correctly. If this is your first time mounting the new cable assembly, download the correct configuration release from the [M3D Promega GitHub Repository](https://github.com/PrintM3D/Promega).
+19. If you have an older version of the Promega cable assembly, it will feature two 4-wire connectors that are unused. These can either be removed from the cable chain completely, or you can tuck the connectors back into the cable chain to move them out of the way.
+20. Pull the slack out of the wires at the extruder end of the cable chain. Carefully pull the wires at the end of the cable chain at the back of the printer.
+21. Power on and connect to the printer and ensure that all the heaters, thermistors, extruders and fans are plugged in correctly. If this is your first time mounting the new cable assembly, download the correct configuration release from the [M3D Promega GitHub Repository](https://github.com/PrintM3D/Promega).
     * Observe the thermistor reading\(s\), none should read 2000C
     * Heat up the nozzle\(s\), no heater fault should occur
     * Check the direction of both extruder motors
-21. Screw down the cover for the cable assembly.
+22. Screw down the cover for the cable assembly.
 
     ![BZulLcEegjEEhvzr-mountedcableassemblyplate.jpg](../.gitbook/assets/bzullceegjeehvzr-mountedcableassemblyplate.jpg)
 
-22. You are now done, do another system test before continuing with printing.
+23. You are now done, please perform a system test before continuing with printing.
 
 ## Removing the Old Extruder Wiring Assembly
 

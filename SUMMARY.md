@@ -8,6 +8,7 @@
   * [Accessing Your SD Card](getting-started/accessing-your-sd-card.md)
   * [Network Setup](getting-started/network-setup.md)
   * [Accessing Web Interface](getting-started/accessing-web-interface.md)
+  * [Updating your SD Card](getting-started/updating-your-sd-card.md)
   * [SD Card Structure](getting-started/sd-card-structure.md)
   * [Homing the Printer](getting-started/homing-the-printer.md)
   * [Heating the Bed and Nozzles](getting-started/heating-the-bed-and-nozzles.md)
