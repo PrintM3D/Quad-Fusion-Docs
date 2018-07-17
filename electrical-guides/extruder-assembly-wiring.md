@@ -125,14 +125,15 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 
 * T20 Torx Screwdriver
 * T10 Torx Screwdriver
-* Power off the printer if you have not yet done so already!
-* Make sure you have the new cable assembly ready and printed.
-* Remove the top T20 bolt holding the assembly to the extruder.![apC5KB2gAsohKs3P-removingtopboltoldeassembly.jpg](../.gitbook/assets/apc5kb2gasohks3p-removingtopboltoldeassembly.jpg)
-* Remove the T20 bolt on the bottom of the wiring assembly, circled in red.![cML6VkAUKjsehdhX-bottomboltcableassembly.jpg](../.gitbook/assets/cml6vkaukjsehdhx-bottomboltcableassembly.jpg)
-* Remove the T10 Bolt holding the cable chain to the 3D printed cable assembly.![0bnnxoDWyeTVAYDf-RemoveCableChainBolt.jpg](../.gitbook/assets/0bnnxodwyetvaydf-removecablechainbolt.jpg)
-* Carefully pull the cables out of the connectors inside the wiring assembly until you can pull the plastic part free. Use needlenose pliers and a pick to help you. It can help to first remove the wires constraining the wiring assembly to the extruder assembly to give you more room to work.![Qt188HfCXb0WZHx0-removedheatersoldcableassembly.jpg](../.gitbook/assets/qt188hfcxb0wzhx0-removedheatersoldcableassembly.jpg)
-* Next, remove the connectors on the cable chain end from the 3D printed plastic part until you are left with just the old 3D printed cable assembly. ![qpvutFimYvZ1IHtt-removedoldcableassembly.jpg](../.gitbook/assets/qpvutfimyvz1ihtt-removedoldcableassembly.jpg)
-* ![ilH6o9ZQyMW4kauK-throwaway.gif](../.gitbook/assets/ilh6o9zqymw4kauk-throwaway.gif)
+
+1. Power off the printer if you have not yet done so already!
+2. Make sure you have the new cable assembly ready and printed.
+3. Remove the top T20 bolt holding the assembly to the extruder.![apC5KB2gAsohKs3P-removingtopboltoldeassembly.jpg](../.gitbook/assets/apc5kb2gasohks3p-removingtopboltoldeassembly.jpg)
+4. Remove the T20 bolt on the bottom of the wiring assembly, circled in red.![cML6VkAUKjsehdhX-bottomboltcableassembly.jpg](../.gitbook/assets/cml6vkaukjsehdhx-bottomboltcableassembly.jpg)
+5. Remove the T10 Bolt holding the cable chain to the 3D printed cable assembly.![0bnnxoDWyeTVAYDf-RemoveCableChainBolt.jpg](../.gitbook/assets/0bnnxodwyetvaydf-removecablechainbolt.jpg)
+6. Carefully pull the cables out of the connectors inside the wiring assembly until you can pull the plastic part free. Use needlenose pliers and a pick to help you. It can help to first remove the wires constraining the wiring assembly to the extruder assembly to give you more room to work.![Qt188HfCXb0WZHx0-removedheatersoldcableassembly.jpg](../.gitbook/assets/qt188hfcxb0wzhx0-removedheatersoldcableassembly.jpg)
+7. Next, remove the connectors on the cable chain end from the 3D printed plastic part until you are left with just the old 3D printed cable assembly. ![qpvutFimYvZ1IHtt-removedoldcableassembly.jpg](../.gitbook/assets/qpvutfimyvz1ihtt-removedoldcableassembly.jpg)
+8. ![ilH6o9ZQyMW4kauK-throwaway.gif](../.gitbook/assets/ilh6o9zqymw4kauk-throwaway.gif)
 
 ## Old Extruder Assembly Wiring
 
