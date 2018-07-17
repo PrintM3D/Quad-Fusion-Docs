@@ -16,11 +16,11 @@ A tool is a defined extruder setup. A tool will be configurated to use a specifi
 
 ### K'Tana Tools
 
-The K'Tana extruder head features two different filament inputs and outputs. This allows you to print with two different materials and switch while printing. This allows for some really neat and complicated prints. Below is a list of the predefined tools 1. Tool 0: "Ktana Single Right": Uses just the right extruder to print 2. Tool 1: "Ktana Single Left": Uses just the left extruder to print
+The K'Tana extruder head features two different filament inputs and outputs. This allows you to print with two different materials and switch while printing. This allows for some really neat and complicated prints. Below is a list of the predefined tools 1. Tool 0: "Ktana Single Left": Uses just the left extruder to print 2. Tool 1: "Ktana Single Right": Uses just the right extruder to print
 
 ### Compound Tools
 
-The compound extruder allows you to mix two different filaments coming in. There are three different default tools for the mixing configuration. 1. Tool 0: "Mixing": A Tool that prints with both extruders at a 1:1 ratio. 2. Tool 1: "Mixing as Single Right": A tool that prints with just the right extruder. 3. Tool 2: "Mixing as Single Left": A tool that prints with just the left extruder.
+The compound extruder allows you to mix two different filaments coming in. There are three different default tools for the mixing configuration. 1. Tool 0: "Mixing": A Tool that prints with both extruders at a 1:1 ratio. 2. Tool 1: "Mixing as Single Left": A tool that prints with just the left extruder. 3. Tool 2: "Mixing as Single Right": A tool that prints with just the right extruder.
 
 ## Tools & Temperature
 
