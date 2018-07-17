@@ -29,11 +29,11 @@ Compound Tools:
 
 K'Tana Tools:
 
-* `T0`: K'tana Single Right
-  * Extruder 1 \(Right\)
-  * Heater 1
-* `T1`: K'tana Single Left
+* `T0`: K'tana Single Left
   * Extruder 0 \(Left\)
+  * Heater 1
+* `T1`: K'tana Single Right
+  * Extruder 1 \(Right\)
   * Heater 2
 
 In the future, if you find that none of your extruders are working, or an extruder you didn't expect to be running is running, chances are you have the wrong tool selected. Use the `Tnnn` command in order to select a tool with number `nnn`.
