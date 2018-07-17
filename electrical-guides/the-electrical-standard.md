@@ -1,3 +1,7 @@
+---
+description: An explanation behind the wiring of the Promega.
+---
+
 # The Electrical Standard
 
 This guide serves to describe the standard for the electrical system of the Promega and the reasoning behind it.
