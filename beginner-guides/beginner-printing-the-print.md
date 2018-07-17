@@ -1,3 +1,7 @@
+---
+description: A beginner guide about preparing a print on the Promega.
+---
+
 # Beginner: Printing the Print
 
 This is the final guide in the Beginner Guides chapter. It will cover how to upload and monitor a print on the Duet Web Console. This guide assumes you have properly configured your printer with all the previous beginner guides. That means:

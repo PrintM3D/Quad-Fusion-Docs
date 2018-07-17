@@ -24,6 +24,8 @@ Follow the guides in this Getting Started chapter of the Promega Docs to properl
 
 {% page-ref page="loading-and-unloading-filament.md" %}
 
+{% page-ref page="z-probe-calibration.md" %}
+
 {% page-ref page="preparing-a-print.md" %}
 
 {% page-ref page="running-a-print.md" %}
@@ -42,7 +44,7 @@ Follow the guides in this Getting Started chapter of the Promega Docs to properl
 * [Homing the Printer](homing-the-printer.md): An explanation of the homing process of the Promega.
 * [Heating the Bed and Nozzles](heating-the-bed-and-nozzles.md): How to heat the bed and the nozzles
 * [Loading and Unloading Filament](loading-and-unloading-filament.md): On how to load filament into the extruder of the Promega.
-* [Z-Probe Calibration](): To configure your Z-probe settings
+* [Z-Probe Calibration](z-probe-calibration.md): To configure your Z-probe settings
 * [Preparing a Print](preparing-a-print.md): A guide on how to slice files and import slicer settings.
 * [Running a Print](running-a-print.md):  To run a print on the Promega
 * [An Introduction to Tools](an-introduction-to-tools.md): Explains the operations of tools.

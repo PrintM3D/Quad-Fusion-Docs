@@ -1,3 +1,10 @@
+---
+description: >-
+  Your Promega has probably had a long journey to arrive at your front door.
+  Follow this guide to ensure that your Promega arrived in one piece and is
+  ready to print. First of all, check for any nuts an
+---
+
 # Mechanical Check
 
 ## CoreXY

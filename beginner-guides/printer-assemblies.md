@@ -1,3 +1,7 @@
+---
+description: A beginner guide covering the assemblies of the promega.
+---
+
 # Beginner: Printer Assemblies
 
 
