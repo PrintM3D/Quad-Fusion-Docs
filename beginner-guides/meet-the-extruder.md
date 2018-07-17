@@ -8,7 +8,7 @@ Next, we will move on to one of the most important assemblies on the Promega, th
 
 ![Extruder Diagram](../.gitbook/assets/twuikdxjxmbqtlkr-extruderdiagram.jpg)
 
-## Tools
+### Tools
 
 Tools are a relatively new concept in 3D printing. They allow you to create different extruder configuration ahead of time that you can quickly switch between while printing. The Duet Maestro board uses tools in order to allow printing with multiple extruders, or mixing extruders. The Promega actively makes use of this in order to print with different tool mixing ratios, or do dual nozzle prints with the K'tana. You can find your currently configured tools in the Duet Web Console in a table labeled: _Tools/Heaters/Extra_ on the top-left.
 
@@ -42,11 +42,11 @@ K'Tana Tools:
 
 In the future, if you find that none of your extruders are working, or an extruder you didn't expect to be running is running, chances are you have the wrong tool selected. Use the `Tnnn` command in order to select a tool with number `nnn`.
 
-## Filament Properties
+### Filament Properties
 
 There are many different filament types used in the 3D printing industry, a [Google search](https://www.google.com/search?q=3d+printing+materials&oq=3d+printing+materials&aqs=chrome..69i57.3072j0j1&sourceid=chrome&ie=UTF-8) will prove that. They vary in material, diameter and many other properties. The Promega allows you to print with 1.75mm diameter filament. The Promega can also print many different materials, but if you are a beginner we recommend ABS-R or PLA. These two materials tend to be easiest to print with. PLA prints well at around 200°C and ABS-R at 230°C. Printing temperature varies greatly depending on what material you are printing with. Please do appropriate research before attempting to extrude a new filament. Follow the section below in order to get started with extruding.
 
-## Loading Filament
+### Loading Filament
 
 To load filament into the extruder you will need to find two small holes on the top of the extruder assembly. 1.75mm diameter filament can be loaded into this opening. It will then be grabbed by the extruder motor and pushed down into the hot-end. The hot-end term refers to the pieces of the extruder which will heat up in order to melt the plastic. In the Promega's case that is the nozzle and the aluminum block surrounding it. Once the filament is melted in the hot-end it will come out of the nozzle. The compound nozzle will have two holes to allow entry to two different filaments. It then melts both filaments and combines them to produce one stream of filament coming out. The K'Tana has two different nozzles and therefore each filament will get extruded out of separate nozzles. To load filament follow the steps below.
 
@@ -64,7 +64,7 @@ To load filament into the extruder you will need to find two small holes on the 
 4. Once the filament is inside the extruder keep pressing _Extrude_ until filament comes out of the nozzle. You can increase the _Feed amount_ to 50mm or more to decrease the times you have to press _Extrude_.
 5. Congratulations, you have just created your first print! It probably looks like a long stream of filament, but that counts, right? You can keep pressing the _Extrude_ button for as long as you like, or you can move on to the next section.
 
-## Extruding with G-code Commands
+### Extruding with G-code Commands
 
 The steps that you accomplished above in order to extrude filament can also be done with G-code commands. Follow the steps below in order to learn more G-code commands.
 
@@ -87,7 +87,7 @@ The steps that you accomplished above in order to extrude filament can also be d
 
 5. To retract, pull filament back into the extruder, send a negative extruder position. Like `G1 E-100 F3000`.
 
-## Alternative Commands to Heat
+### Alternative Commands to Heat
 
 Throughout your printing career with the Promega you will notice other commands to heat up your nozzle. `M104` and `M105` can also be used to heat up your tools.
 
@@ -110,5 +110,5 @@ There are even more commands to heat up your extruder. The `G10` command allows 
 
 Example: `G10 P1 X10 Y0 Z0 R120 S230` , This will set the offset of tool 1 to 10mm in the positive X direction. It will also set the active temperature of the tool to 230C and the standby temperature of the tool to 120C.
 
-The `G10` command is especially useful for mixing and switching prints.
+The `G10` command is especially useful for mixing and switching prints.  
 

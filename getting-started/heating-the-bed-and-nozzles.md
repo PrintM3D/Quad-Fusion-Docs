@@ -1,3 +1,7 @@
+---
+description: How to heat the nozzles and the bed.
+---
+
 # Heating the Bed and Nozzles
 
 Both the bed and the hot end\(s\) of the Promega can be activated through the Duet Web Console. You can either utilize the web interface to set a temperature for these components or send G-code commands such as `M109`, `M104`, `M140` or `M190`. Read the sections below to learn more.
