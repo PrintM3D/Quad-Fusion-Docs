@@ -100,5 +100,10 @@ Utilize this tab in order to define printer filament settings. This can also be 
 * Machine properties: Defines properties of the different drives \(motors\) of the printer.
 * Tools: Defines the properties of the tools.
 
+## Additional Resources
+
+* Duet3D Wiki: [Duet Web Control Manual](https://duet3d.dozuki.com/Wiki/Duet_Web_Control_Manual#main)
+* [Duet Web Control GitHub Repository](https://github.com/chrishamm/DuetWebControl)
+
 Continue on to the [SD Card Structure](https://m3d.gitbook.io/promega-docs/getting-started/sd-card-structure), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
