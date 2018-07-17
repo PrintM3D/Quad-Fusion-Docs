@@ -65,7 +65,6 @@
   * [Troubleshooting Duet Web Console](troubleshooting-guides/troubleshooting-duet-web-console.md)
   * [Troubleshooting the Z-probe](troubleshooting-guides/troubleshooting-the-z-probe.md)
   * [Heater Troubleshooting](troubleshooting-guides/heater-troubleshooting.md)
-  * [Troubleshooting Print Quality](troubleshooting-guides/troubleshooting-print-quality.md)
 * [Community Guides](community-guides/README.md)
   * [Community Guide Template](community-guides/community-guide-template.md)
 
