@@ -35,10 +35,11 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 20. Move the bed away from the nozzle `G1 Z20`.
 21. Deploy your Z-probe!  ![](../.gitbook/assets/deployingtheprobe%20%281%29.gif) 
 22. Send the command `G30`.
-23. Move the bed back up to the nozzle as described in the steps above. Your Z value should be 0 when the bed is touching the nozzle. If it is not you might need to tune the Z-probe offset or repeat the process.
-24. In order for these changes to take effect permanently, you will have to open up your _config.g_ file and update the Z-offset of this command there. If you have the newer version of the SD card, you will have to find _machine\_zprobe.g_ and open that instead.
-25. Find the un-commented `G31` command and change the `Z` parameter value to the value you just found.
-26. Save the file, now if you reboot your Duet the Z-probe offset will be saved. If you ever make a mechanical change to the printer, skip the bed and so on, you will have to recalibrate your Z-probe following the steps above.
+23. Retract your Z-probe!
+24. Move the bed back up to the nozzle as described in the steps above. Your Z value should be 0 when the bed is touching the nozzle. If it is not you might need to tune the Z-probe offset or repeat the process.
+25. In order for these changes to take effect permanently, you will have to open up your _config.g_ file and update the Z-offset of this command there. If you have the newer version of the SD card, you will have to find _machine\_zprobe.g_ and open that instead.
+26. Find the un-commented `G31` command and change the `Z` parameter value to the value you just found.
+27. Save the file, now if you reboot your Duet the Z-probe offset will be saved. If you ever make a mechanical change to the printer, skip the bed and so on, you will have to recalibrate your Z-probe following the steps above.
 
 ## Automatic Bed Leveling Compensation
 
