@@ -1,6 +1,11 @@
-# Accessing Your SD Card
+---
+description: >-
+  Included in the ProMega package you will find a microSD card with preloaded
+  printer settings and configuration. The SD card includes a video with further
+  instructions for unpacking.
+---
 
-Included in the ProMega package you will find a microSD card with preloaded printer settings and configuration. The SD card includes a video with further instructions for unpacking.
+# Accessing Your SD Card
 
 ## Accessing the microSD
 

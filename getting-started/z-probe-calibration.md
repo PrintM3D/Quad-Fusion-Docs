@@ -1,4 +1,8 @@
-# Z-Probe Calibration
+---
+description: A guide to calibration of the Z-probe and bed leveling.
+---
+
+# Z-Probe Calibration & Bed Leveling
 
 This guide will walk you through setting the Z-offset of a Z-probe sensor. This is necessary in order to allow you to probe the bed accurately. The Promega comes equipped with two different Z-probes, the limit switch and the IR probe. This guide can be followed to configure either one. Whenever you home the printer, the current Z-value of the printer is set based on the limit switch on the bottom of the printer. Whenever you "probe" the bed, meaning you touch the bed against the limit switch probe on the extruder or the IR probe on the extruder, the Z-value will now be based on that probe move. However, in order to do this accurately, you will have to configure the distance between the nozzle and the trigger height of the Z-probe. This is because the firmware will set the Z-value of the printer to the Z-probe offset, as configured in this guide, whenever the Z-probe is triggered during a probe move. 
 

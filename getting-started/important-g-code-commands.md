@@ -1,3 +1,7 @@
+---
+description: A list of G-code commands that are useful and important to know.
+---
+
 # Important G-Code Commands
 
 This guide serves as a brief introduction to G-code commands. It will list the most useful and important commands to allow proper control of the Promega.
