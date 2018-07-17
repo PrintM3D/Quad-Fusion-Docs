@@ -1,7 +1,3 @@
----
-description: A guide covering the different software layers of the Promega.
----
-
 # Beginner: Software Layers
 
 This guide is intended to explain all the different software levels that takes a model to a final printed form on the Promega. We will start at a model on a modelling software on a computer and go all the way down to the RepRap firmware that runs on the Duet Maestro.
@@ -36,5 +32,5 @@ The SD card stores files that allow for the operation of the Duet Web Server as 
 
 The firmware on the board is a version of RepRap released by DC42. The firmware is released on his [GitHub Releases](https://github.com/dc42/RepRapFirmware/releases). If you want to update your firmware, you can follow the [Updating Firmware](https://m3d.gitbook.io/promega-docs/firmware-guides/updating-firmware) guide. The RepRap firmware on the board interprets all the G-code commands sent to the board. It is stored on the micro-processor on the Duet Maestro and required for the board to operate. The firmware handles low-level operation such as controlling the stepper motor drivers or processing G-code commands. Changing the firmware directly is not possible, you will have to update the firmware using the guide above.
 
-The next guide: [What is Slicing?](what-is-slicing.md) will cover how slicing works and helps you configure your slicer.
+The next guide: [What is Slicing?](beginner-what-is-slicing.md) will cover how slicing works and helps you configure your slicer.
 

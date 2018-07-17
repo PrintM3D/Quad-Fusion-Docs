@@ -1,7 +1,3 @@
----
-description: How to load and unload filament into the extruder.
----
-
 # Loading and Unloading Filament
 
 ## Loading Filament

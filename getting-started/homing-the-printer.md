@@ -1,7 +1,3 @@
----
-description: How to home the Promega.
----
-
 # Homing the Printer
 
 Before you start printing or moving any component of the ProMega, we recommend homing the printer. Follow the steps below in order to home your printer. Prior to homing your printer check that the gantry and bed are able to move freely and access the limit switch. This guide assumes you have connected to the Promega as outlined in [Network Setup](network-setup.md). 

@@ -1,7 +1,3 @@
----
-description: Learn more about the wiring of the Promega printer on the Duet Maestro side.
----
-
 # Duet Maestro Wiring
 
 This guide covers the wiring of the Promega along with possible wiring solutions to problems. Properly understanding the wiring of the Promega is extremely important. Shorting the Duet Maestro board can be done easily. Follow and acknowledge the warnings listed in [Critical Warnings](https://m3d.gitbook.io/promega-docs/getting-started/critical-warnings-and-information). The Duet Maestro board can be easily damaged or broken by:

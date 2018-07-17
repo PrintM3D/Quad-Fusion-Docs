@@ -1,7 +1,3 @@
----
-description: How to open the cable chain which holds the extruder wiring for the Promega.
----
-
 # Opening the Cable Chain
 
 The Promega includes a cable chain to carry wires from the Duet Maestro to the extruder carriage. The cable chain is meant to be a flexible and mobile component that allows the extruder carriage to move around the entire build space of the Promega. It is possible that you need to open your cable chain to gain access to the wires inside. Follow the guide below for an explanation of the cable chain and how to open it.

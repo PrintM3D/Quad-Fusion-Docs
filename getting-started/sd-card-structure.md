@@ -1,7 +1,3 @@
----
-description: An explanation of the SD card files.
----
-
 # SD Card Structure
 
 One of the first steps of setting up your printer is getting access to and understanding the files stored on the microSD card. This guide will cover the basic structure of the files on the SD card. Follow the [Accessing Your SD Card](https://m3d.gitbook.io/promega-docs/getting-started/accessing-your-sd-card) guide for more assistance on how to get to the files located on the microSD card.

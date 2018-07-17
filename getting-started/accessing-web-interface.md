@@ -1,7 +1,3 @@
----
-description: A description of the Duet Web Console and its features and functionalities.
----
-
 # Accessing Web Interface
 
 The Duet Maestro allows control via the Duet Web Console. We highly recommend connecting to your Promega via your network so that you can make use of this! Follow the guide below to learn more about the Duet Web Console. If you have not yet connected your printer to your network, follow the [Network Setup](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) guide.

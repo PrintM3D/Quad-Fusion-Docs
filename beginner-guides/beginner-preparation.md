@@ -1,7 +1,3 @@
----
-description: 'Start of the beginner guides, complete these steps before continuing.'
----
-
 # Beginner: Preparation
 
 Before starting the Beginner Guides guides, please complete the following steps to ensure your printer is working properly and is connected to your local network.

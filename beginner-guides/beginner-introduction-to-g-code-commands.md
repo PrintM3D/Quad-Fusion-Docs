@@ -1,7 +1,3 @@
----
-description: A beginner introduction to G-code commands
----
-
 # Beginner: Introduction to G-Code Commands
 
 Now that you are familiar with the coordinate system of the Promega, its orientation and direction, we can get started with learning and sending G-code commands. G-code commands are sent one line at a time, with one command per line. When you send a print file to your printer in order to print something, you are sending the printer a long list of G-code commands. It will look something like this \(but way longer!\):
