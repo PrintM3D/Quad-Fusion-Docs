@@ -22,7 +22,7 @@ If you want to print something on a Promega you will first have to create or fin
 
 ## Slicing Software
 
-Slicer software fills the void between the model and the 3D printer. The 3D printer can only understand G-code commands and the modeling software can only generate models. Slicer software allows you to convert a model to G-code that will allow a 3D printer to create a print. Incorporated into the slicer software are many different print and printer settings. Print settings refer to the things such as extrusion, cooling and print temperature. Printer settings configure things such as the build volume of the printer or the starting and ending G-code for a print. This software is called a slicer as it typically converts a model into many different layers to print one at a time. The slicing software creates a file type called a _.gcode_ file. This is a long list of commands that can be interpreted by the Duet Board. The G-code commands in this file are exactly the same as the ones you would enter in manually, such as `G1` , but just in a long list. 
+Slicer software fills the void between the model and the 3D printer. The 3D printer can only understand G-code commands and the modeling software can only generate models. Slicer software allows you to convert a model to G-code that will allow a 3D printer to create a print. Incorporated into the slicer software are many different print and printer settings. Print settings refer to the things such as extrusion, cooling and print temperature. Printer settings configure things such as the build volume of the printer or the starting and ending G-code for a print. This software is called a slicer as it typically converts a model into many different layers to print one at a time. The slicing software creates a file type called a _.gcode_ file. This is a long list of commands that can be interpreted by the Duet Board. The G-code commands in this file are exactly the same as the ones you would enter in manually, such as `G1` , but just in a long list.
 
 ## Duet Web Interface
 
@@ -36,5 +36,5 @@ The SD card stores files that allow for the operation of the Duet Web Server as 
 
 The firmware on the board is a version of RepRap released by DC42. The firmware is released on his [GitHub Releases](https://github.com/dc42/RepRapFirmware/releases). If you want to update your firmware, you can follow the [Updating Firmware](https://m3d.gitbook.io/promega-docs/firmware-guides/updating-firmware) guide. The RepRap firmware on the board interprets all the G-code commands sent to the board. It is stored on the micro-processor on the Duet Maestro and required for the board to operate. The firmware handles low-level operation such as controlling the stepper motor drivers or processing G-code commands. Changing the firmware directly is not possible, you will have to update the firmware using the guide above.
 
-The next guide: [What is Slicing?](what-is-slicing.md) will cover how slicing works and helps you configure your slicer.
+The next guide: [What is Slicing?](beginner-what-is-slicing.md) will cover how slicing works and helps you configure your slicer.
 

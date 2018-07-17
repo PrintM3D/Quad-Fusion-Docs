@@ -4,8 +4,6 @@ description: A beginner guide covering the assemblies of the promega.
 
 # Beginner: Printer Assemblies
 
-
-
 This guide will cover a significant amount of technical knowledge and terms. The different assemblies of the Promega will be mentioned frequently in the sections below.
 
 List of the core Promega Assemblies:
@@ -18,6 +16,4 @@ List of the core Promega Assemblies:
 ![Promega Assemblies](../.gitbook/assets/vopgfun48dwpqitf-differentpromegaassemblies.jpg)
 
 ![The Duet Maestro Board](../.gitbook/assets/duetboard.jpeg)
-
-
 

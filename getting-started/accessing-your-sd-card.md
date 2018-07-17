@@ -21,5 +21,5 @@ You can plug the microSD card into the microSD card reader included with your Pr
 
 On the microSD card you will find numerous introductory files and a video. Review these materials!
 
-Whenenver you are done changing files on the microSD card it is best to safely eject the card and insert it back into the board. It is best to remove and insert the microSD card when the board is powered off. Continue to the Network setup guide with the button below. 
+Whenenver you are done changing files on the microSD card it is best to safely eject the card and insert it back into the board. It is best to remove and insert the microSD card when the board is powered off. Continue to the Network setup guide with the button below.
 

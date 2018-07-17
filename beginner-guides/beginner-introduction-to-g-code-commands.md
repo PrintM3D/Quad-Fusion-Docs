@@ -69,7 +69,7 @@ You might be familiar with two of the G-code commands here `G91` and `G1`. `G91`
 
 Now that you are more familiar with G-code commands you can try to complete the steps below in order to see how the printer responds to you sending G-code commands directly to the printer itself.
 
-Find the _G-code Console_ tab in the Duet Web Console. 
+Find the _G-code Console_ tab in the Duet Web Console.
 
 ![G-Code Console in the Duet Web Console](../.gitbook/assets/ztlrwbqq28r8id6g-howtogcode.png)
 

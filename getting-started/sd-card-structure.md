@@ -42,7 +42,5 @@ In the _sys_ folder you will find many other files which handle other important 
 * _config.g_: This file is called upon the boot-up of the Duet board. Place G-code commands here in order for them to be executed on start-up. This file calls multiple machine files listed above with the `M98` command.
 * _homex.g_, _homey.g_, _homez.g_ and _homeall.g_: These files operate the homing procedure. Follow [Homing the Printer](https://m3d.gitbook.io/promega-docs/getting-started/homing-the-printer) for more help on homing the printer, and [Adjusting Homing Macros](https://m3d.gitbook.io/promega-docs/firmware-guides/adjusting-homing-macros) in order to adjust the homing macros.
 
-
-
 Continue on to the [Homing the Printer](https://m3d.gitbook.io/promega-docs/getting-started/homing-the-printer), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 

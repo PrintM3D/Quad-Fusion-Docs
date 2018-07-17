@@ -2,10 +2,12 @@
 description: >-
   Your Promega has probably had a long journey to arrive at your front door.
   Follow this guide to ensure that your Promega arrived in one piece and is
-  ready to print. First of all, check for any nuts an
+  ready to print.
 ---
 
 # Mechanical Check
+
+First of all, check for any nuts and bolts in and around the frame. It is possible that fasteners became loose during shipping.
 
 ## CoreXY
 
@@ -46,7 +48,5 @@ To confirm that the belt tension in each of the Z-sliders is appropriate, feel t
 
 Next we will check the cable chain of the Promega. The cable chain should be attached at the back of the extruder on the wiring assembly as well as on the back right of the printer. Check that the cable chain is properly attached on both of these points.
 
-![](../.gitbook/assets/cablechainattachmentpoint1.jpg) ![](../.gitbook/assets/cablechainattachmentpoint2.jpg) 
-
-
+![](../.gitbook/assets/cablechainattachmentpoint1.jpg) ![](../.gitbook/assets/cablechainattachmentpoint2.jpg)
 

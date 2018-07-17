@@ -14,13 +14,13 @@ description: How to load and unload filament into the extruder.
 
    ![mPkv4PqN42WrQYYk-PTFEEntrance.jpg](../.gitbook/assets/mpkv4pqn42wrqyyk-ptfeentrance.jpg)
 
-   The filament will go through the cable chain housing and come out at the end of the cable chain at the extruder assembly. It is not necessary to feed the filament through the filament tubes in order to print. 
+   The filament will go through the cable chain housing and come out at the end of the cable chain at the extruder assembly. It is not necessary to feed the filament through the filament tubes in order to print.
 
-3. Guide the filament into the holes in the extruder \(pictured below\). Push the filament about one inch down so you are pressing the filament against an extruder gear located inside.  You can unclip the PTFE tube holders if necessary.
+3. Guide the filament into the holes in the extruder \(pictured below\). Push the filament about one inch down so you are pressing the filament against an extruder gear located inside. You can unclip the PTFE tube holders if necessary.
 
    ![vVXaGHDXJdPGevZE-wheretoloadfilament.jpg](../.gitbook/assets/vvxaghdxjdpgevze-wheretoloadfilament.jpg)
 
-4. **If you are using the compound nozzle you must load filament into both sides of the extruder or use the PC plug included.** You must load filament into both sides of the extruder at the same time. If you load filament on only one side, pressure will force molten plastic up the other side of the extruder! 
+4. **If you are using the compound nozzle you must load filament into both sides of the extruder or use the PC plug included.** You must load filament into both sides of the extruder at the same time. If you load filament on only one side, pressure will force molten plastic up the other side of the extruder!
 5. Go to the Duet Web Console's _Machine Control_ section and find the _Extruder Control_ tab. The first few buttons define which extruder drives to use, the next set define the length of filament, the final set the feedrate. For loading filament select the 50mm or 10mm button as well as the 5mm/s button. If you are loading filament into a compound nozzle select _Mix_, for a K'Tana select the proper extruder drive \(0 or 1\).
 
    ![yiXjG17aUTppk3jq-extrudercontrol.PNG](../.gitbook/assets/yixjg17autppk3jq-extrudercontrol.PNG)
@@ -29,7 +29,7 @@ description: How to load and unload filament into the extruder.
 7. You have now successfully loaded filament, be sure to clip the PTFE tubes back into place on the extruder. Remove any ooze or printed filament before printing.
 
 {% hint style="info" %}
-If you turn your extruder motors off so that they are not holding their position with idle current. You can push the filament through the extruder and right into the hot-end. This makes it possible to manually load filament without powering your extruder motors. **Remember that powering off your motors with the `M84` command will power off** _**all**_ **motors and could cause your bed to drop.**
+If you turn your extruder motors off so that they are not holding their position with idle current. You can push the filament through the extruder and right into the hot-end. This makes it possible to manually load filament without powering your extruder motors. **Remember that powering off your motors with the** `M84` **command will power off** _**all**_ **motors and could cause your bed to drop.**
 {% endhint %}
 
 ## Unloading Filament

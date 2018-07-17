@@ -16,7 +16,7 @@ As you might have read previously, the extruder assembly contains two Z-probes. 
 
 Z-probes are extremely useful to zero the Z-axis. This is because the Z-probes typically have a reliable and constant offset from the nozzle. Once you find that offset, you run a G-code command in order to ensure that your print will be successful. The limit switch Z-probe is simply an end-stop attached to a deployable 3D printed mount. In the picture above you can see the limit switch in the deployed state on the left and the non-deployed state on the right. Deploy the limit switch by pressing down on the 3D printed tab and retract the probe by pulling the switch up. It is important for the limit switch to be deployable because the limit switch needs to make contact with the bed whenever you are probing, but it should be out of the way whenever you are printing. Whenever you send the probe command `G30` the bed will move up toward the nozzle until the Z-probe is triggered. When the Z-probe is triggered, the Z-value of the printer is set to the Z-offset of the Z-probe. You can set the Z-offset of the Z-probe with the `G31` command and its parameters.
 
-**Always deploy the switch before probing with commands `G30` and `G29`**. This is extremely important, otherwise you **will** crash the nozzle into the print bed as the Z-probe will never be triggered.
+**Always deploy the switch before probing with commands** `G30` **and** `G29`. This is extremely important, otherwise you **will** crash the nozzle into the print bed as the Z-probe will never be triggered.
 
 **Setting the Limit Switch Offset**
 
@@ -80,6 +80,4 @@ Mesh bed leveling can affect the value of any Z-axis constant you find. To avoid
 * Another heightmap
 
 If you tried to find the Z-probe offset of the Z-probe with mesh bed leveling compensation enabled, the Duet board will add the heightmap compensation on top of what you think is 0. So, when the bed is touching the nozzle in one of the steps above, and the _Machine Status_ tab displays a value of -9.4. Due to a local heightmap compensation value, the actual value might be -9.2. But you would have no way of knowing this. Therefore, it is important to disable the bed leveling compensation. RepRap firmware already has a few safeguards in place to prevent conflicts such as these when running `G29` multiple times in succession, but these are known to have bus. We recommend running `G29 S2` before doing any of the actions in the list above. **If you forget to disable mesh bed leveling, you will not have catastrophic results, just an error of around 0.5mm or so. Just barely enough to mess up your print.**
-
-
 

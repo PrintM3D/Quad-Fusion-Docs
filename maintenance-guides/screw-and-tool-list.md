@@ -1,8 +1,20 @@
 # Screw and Tool List
 
-This guide contains a list of different screws and tools used for each core assembly of the 3D printer. Look under the tools header for each assembly for all the possible tools you will need to maintain, assemble or repair the assembly. Look under the screws category to view a more in-depth list of the screw types and their location.
+This guide contains a list of different screws and tools used for each assembly of the 3D printer. Look under the tools header for each assembly to see all the possible tools you will need to maintain, assemble or repair the Promega . Look under the screws category to view a more in-depth list of the screw types and their location.
 
 ## Brief Overview
+
+### All Tools
+
+* T20 Torx Screwdriver
+* T10 Torx Screwdriver
+* T6 Torx Screwdriver
+* 1.5mm Hex
+* 1.3mm Hex
+* Pliers
+* Needle-nose pliers
+
+### All Screws
 
 * Hot-end Block: 1.3 mm Hex
 * Hot-end Extruder Set screws: 1.5mm Hex
@@ -42,6 +54,7 @@ This guide contains a list of different screws and tools used for each core asse
 
 * Cable chain bolt
 * Cold-section fan x2
+* Extruder Wiring Assembly x2
 
 **T20 Torx**:
 

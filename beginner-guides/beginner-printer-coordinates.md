@@ -28,5 +28,3 @@ The Duet control board will keep track of its current position relative to its o
 
 ![Duet Web Console Machine Status Table](../.gitbook/assets/38yr6g32ydtjmfdm-machinestatus.PNG)
 
-
-

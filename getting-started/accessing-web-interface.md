@@ -91,7 +91,7 @@ Utilize this tab in order to define printer filament settings. This can also be 
 
 ![Settings Screen](../.gitbook/assets/726ggigphugtd2tt-settingsscreen.PNG)
 
-**This tab is one of the most important**. This tab allows you to change the _sys/_ directory in your SD card and define other user settings. Whenever the guides in the future reference a change that is necessary to the system files such as _config.g_  or a _machine.g_ file, you can change the files in the settings tab. The Settings tab includes more tabs:
+**This tab is one of the most important**. This tab allows you to change the _sys/_ directory in your SD card and define other user settings. Whenever the guides in the future reference a change that is necessary to the system files such as _config.g_ or a _machine.g_ file, you can change the files in the settings tab. The Settings tab includes more tabs:
 
 * General: Includes firmware and web console information
 * User Interface: Change the look and feel of the Duet Web Console

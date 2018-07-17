@@ -28,11 +28,11 @@ The Duet Maestro has two different heater ports labeled E0 HEAT and E1 HEAT. The
 
 ## Thermistor
 
-The thermistors ports on the Duet Maestro are referred to as E0 TEMP and E1 TEMP.   In the firmware of the Duet, E0 TEMP is always bound to E0 HEAT and E1 TEMP is bound to E1 HEAT. Therefore, E0 TEMP corresponds to the left extruder and heater and E1 TEMP corresponds to the right extruder and heater.
+The thermistors ports on the Duet Maestro are referred to as E0 TEMP and E1 TEMP. In the firmware of the Duet, E0 TEMP is always bound to E0 HEAT and E1 TEMP is bound to E1 HEAT. Therefore, E0 TEMP corresponds to the left extruder and heater and E1 TEMP corresponds to the right extruder and heater.
 
 ## Tools
 
-The lower tool number will apply to the left extruder and heater and the higher tool number to the right extruder and heater. 
+The lower tool number will apply to the left extruder and heater and the higher tool number to the right extruder and heater.
 
 ## Deviating from the Standard
 

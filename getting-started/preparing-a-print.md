@@ -24,13 +24,11 @@ In most CAD software you can choose to save a model in the _.STL_ file format. W
 
 ### SolidWorks
 
-To save a model as an STL in SolidWorks, click _File &gt; Save As_. Then select _.STL_ as shown in the file below.  
+To save a model as an STL in SolidWorks, click _File &gt; Save As_. Then select _.STL_ as shown in the file below.
 
 ![Saving a File as STL](../.gitbook/assets/xorbieh8qmorw6zm-saveasstl.png)
 
 Then a window will appear, confirming the fact that you are saving the file as an STL. In the background you will see a representation of the model as an _.STL_ file. Press _Yes_ in order to save your model as an _.STL_ file.
-
- 
 
 ![](../.gitbook/assets/fev3lghg61ntf514-solidworksstl.png)
 
@@ -56,7 +54,7 @@ Once you have opened Cura's settings we will go to add a printer. This is becaus
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LHE-lyuMwBirREkEIi_%2F-LHECq1Z-9-5KblRRl6J%2Fconfiguringcura2.jpg?alt=media&token=19f66a4c-e797-4897-a1f2-195da83306e6)
 
- Next, press _Custom._ This indicates we are adding a custom printer to Cura's loadout. You can define the _Printer Name_ however you want. Then press _Add Printer,_ this should open another setting window_._
+Next, press _Custom._ This indicates we are adding a custom printer to Cura's loadout. You can define the _Printer Name_ however you want. Then press _Add Printer,_ this should open another setting window_._
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LHE-lyuMwBirREkEIi_%2F-LHEDLTDhp0R_GeMck_f%2Fconfiguringcura3.jpg?alt=media&token=20142237-8d73-482d-962b-9570a5338af7)
 
@@ -130,7 +128,7 @@ Now we are ready to slice the model. Just click Prepare in the bottom right corn
 
 Once you have sliced the model press the _Save to File_ button. Then save the file to a location that you will remember. You will notice that the file you are saving is a _.gcode_ file which is ready to print.
 
-You will have to tune your Slicer settings as you continue your printing career with the Promega. The slicer settings that you can find on the M3D GitHub repository are generic and work well for most prints. To have optimal print quality for your print, you will have to tune the slicer settings to your print. 
+You will have to tune your Slicer settings as you continue your printing career with the Promega. The slicer settings that you can find on the M3D GitHub repository are generic and work well for most prints. To have optimal print quality for your print, you will have to tune the slicer settings to your print.
 
 Continue on to the [Running a Print](https://m3d.gitbook.io/promega-docs/getting-started/running-a-print) guide, the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 

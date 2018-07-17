@@ -19,7 +19,7 @@ First, we will have to upload the G-code file we produced in the previous guide.
 
 ## Printing the File
 
-Once the file is uploaded, you can click the file in order to print it. A window will pop-up confirming that you are about to print something. Click _Yes._ 
+Once the file is uploaded, you can click the file in order to print it. A window will pop-up confirming that you are about to print something. Click _Yes._
 
 ![](../.gitbook/assets/printingthegcodefile.png)
 
@@ -30,18 +30,4 @@ Now, the print has started. First, the printer will reach it's designated printi
 ![](../.gitbook/assets/printstatussettings.png)
 
 Your print should now be able to run to completion.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

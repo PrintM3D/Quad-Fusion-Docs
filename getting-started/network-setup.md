@@ -55,7 +55,7 @@ In the example above your machine name would be _unicorn_. Continue to the step 
 Complete this if you want to connect to your Promega with a Static IP address.
 
 a. Find the network section in the _machine\_access.g_ file. Find the `M552` command. This command sets your IP address and enables or disables the network. In order to set your network setting with a static IP the following command should be entered: `M552 Pnnn S1`. Where `nnn` is your preferred IP address. Your IP address depends on your local network. It could be in the form of \(_192.168.1.216_ or _10.0.0.216_\). The S parameter enables \(`S1`\) or disables \(`S0`\) network, because you are setting up your network, and want it enabled, you should set the parameter to`S1`.  
-b.  Choose an IP address on your network that is free. Typically "higher" IP addresses will work, such as `192.168.1.216` instead of `192.168.1.11` . It is best to log-in to your router in order to check which IP addresses are free.  
+b. Choose an IP address on your network that is free. Typically "higher" IP addresses will work, such as `192.168.1.216` instead of `192.168.1.11` . It is best to log-in to your router in order to check which IP addresses are free.  
 c.. Ensure that the other `M552` command is commented out!
 
 Your _machine\_access.g_ file network settings for connecting to a network with a static IP address could look like this:
