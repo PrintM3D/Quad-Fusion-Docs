@@ -60,6 +60,7 @@
   * [Belt Tensioning and Mechanical Leveling](maintenance-guides/belt-tensioning-and-mechanical-leveling.md)
   * [Screw and Tool List](maintenance-guides/screw-and-tool-list.md)
   * [Routing Z-belts](maintenance-guides/routing-z-belts.md)
+  * [Changing Nozzles](maintenance-guides/changing-nozzles.md)
 * [Troubleshooting Guides](troubleshooting-guides/README.md)
   * [Troubleshooting Duet Web Console](troubleshooting-guides/troubleshooting-duet-web-console.md)
   * [Troubleshooting the Z-probe](troubleshooting-guides/troubleshooting-the-z-probe.md)
