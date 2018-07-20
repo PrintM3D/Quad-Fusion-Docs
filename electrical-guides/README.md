@@ -8,5 +8,3 @@ This chapter contains guides that explain the wiring of components of the Promeg
 
 {% page-ref page="opening-the-cable-chain.md" %}
 
-
-

@@ -11,21 +11,21 @@ It is possible that your extruder directions are flipped because the extruder dr
 {% endhint %}
 
 1. Connect to the Promega's Duet Web Console
-2. To check your extruder directions go to the _Machine Control_ tab in the Duet Web Console and select drive 0 or 1 in _Extruder Control._ Then try to feed filament into the extruder and see if your directions are correct. It is also possible to change the extruder drives in the section below. If your filament is being pushed out of the top of the extruder when you press extrude, follow the steps below.  ![](../.gitbook/assets/machinecontrol.png) 
-3. Go to the _Settings_ tab of the Duet Web Console and then to the _System Editor._  ![](../.gitbook/assets/settingsssytemeditor.png) 
+2. To check your extruder directions go to the _Machine Control_ tab in the Duet Web Console and select drive 0 or 1 in _Extruder Control._ Then try to feed filament into the extruder and see if your directions are correct. It is also possible to change the extruder drives in the section below. If your filament is being pushed out of the top of the extruder when you press extrude, follow the steps below.  ![](../.gitbook/assets/machinecontrol%20%281%29.png) 
+3. Go to the _Settings_ tab of the Duet Web Console and then to the _System Editor._  ![](../.gitbook/assets/settingsssytemeditor%20%281%29.png) 
 4. Open the _config.g_ file. Find the block with the following commands:  
    `; --- SECTION: DRIVES (MOVEMENT SECTION) & ENDSTOPS ---`
 
-   `M667 S1 ; Enable coreXY mode   
-   M569 P0 S0 ; Drive 0 goes forwards, CoreXY_1   
-   M569 P1 S1 ; Drive 1 goes forwards, CoreXY_2   
-   M569 P2 S1 ; Drive 2 goes forwards, Z Motor   
-   M569 P3 S0 ; Drive 3 goes forwards, Left Extruder   
+   `M667 S1 ; Enable coreXY mode    
+   M569 P0 S0 ; Drive 0 goes forwards, CoreXY_1    
+   M569 P1 S1 ; Drive 1 goes forwards, CoreXY_2    
+   M569 P2 S1 ; Drive 2 goes forwards, Z Motor    
+   M569 P3 S0 ; Drive 3 goes forwards, Left Extruder    
    M569 P4 S1 ; Drive 4 goes forwards, Right Extruder`
 
 5. Change the `P3` and `P4` drive directions with the `S` parameter. For example, if my left extruder was going backwards, I would change the command to go from `M569 P3 S0`
 
-    to`M569 P3 S1.`
+   to`M569 P3 S1.`
 
 6. Save the file and reboot the system. Repeat step 2 to confirm that the directions are correct.
 
@@ -35,11 +35,11 @@ This section will fix extruder drives that are flipped. If you actuate what you 
 
 1. Connect to the Promega's Duet Web Console
 2. To check your extruder drives go to the _Machine Control_ tab in the Duet Web Console and select drive 0 or 1 in _Extruder Control._ If you have extruder drive 0 selected and press extrude it should move the left extruder. For extruder drive 1, the right extruder should move.  It is also possible to change the extruder drives in the section below.   ![](../.gitbook/assets/machinecontrol.png) 
-3. Go to the _Settings_ tab of the Duet Web Console and then to the _System Editor._  ![](../.gitbook/assets/settingsssytemeditor.png) 
-4. Open the _machine\_compound\_tools.g_ \(or _machine\_ktana\_tools.g_\) __file. And find the `M563`  commands, this configures the tool:  
-   `M563 P0 D0:1 H2 F2 S"Mixing" ; Define mixing tool` 
+3. Go to the _Settings_ tab of the Duet Web Console and then to the _System Editor._  ![](../.gitbook/assets/settingsssytemeditor%20%282%29.png) 
+4. Open the _machine\_compound\_tools.g_ \(or _machine\_ktana\_tools.g_\) \_\_file. And find the `M563` commands, this configures the tool:  
+   `M563 P0 D0:1 H2 F2 S"Mixing" ; Define mixing tool`
 
-   `M563 P1 D0 H2 F2 S"Mixing as Single Left" ; mixing nozzle only using left extruder motor  
+   `M563 P1 D0 H2 F2 S"Mixing as Single Left" ; mixing nozzle only using left extruder motor    
    M563 P2 D1 H2 F2 S"Mixing as Single Right" ; mixing nozzle only using right extruder motor`
 
 5. For the tools with only one drive \(the `D` parameter\) you will have to change the drive. If it was using `D1` change it to `D0` and vice versa. You are telling the firmware to use drive for 0 or 1 for specific tools.
@@ -48,14 +48,14 @@ This section will fix extruder drives that are flipped. If you actuate what you 
 
 ## Changing Tool Heaters
 
-Just like in the section above, you can use the `M563` command in order to change which tool uses which heater. This section will fix a heater that is wired to the wrong port of the Promega, or configured wrong. This will present itself in the form of a heater fault, or a thermistor error value of 2000°C.The Promega configuration expects heater 1 to be assigned to the left tools and left extruder, and heater 2 to be assigned to the right tools and right extruder. Remember that heater 0 is the heated bed in the configuration files. 
+Just like in the section above, you can use the `M563` command in order to change which tool uses which heater. This section will fix a heater that is wired to the wrong port of the Promega, or configured wrong. This will present itself in the form of a heater fault, or a thermistor error value of 2000°C.The Promega configuration expects heater 1 to be assigned to the left tools and left extruder, and heater 2 to be assigned to the right tools and right extruder. Remember that heater 0 is the heated bed in the configuration files.
 
 1. Connect to the Promega's Duet Web Console   
 2. Go to the _Settings_ tab of the Duet Web Console and then to the _System Editor._  ![](../.gitbook/assets/settingsssytemeditor.png) 
-3. Open the _machine\_compound\_tools.g_ \(or _machine\_ktana\_tools.g_\) __file. And find the `M563`  commands, this configures the tool:  
-   `M563 P0 D0:1 H2 F2 S"Mixing" ; Define mixing tool` 
+3. Open the _machine\_compound\_tools.g_ \(or _machine\_ktana\_tools.g_\) \_\_file. And find the `M563` commands, this configures the tool:  
+   `M563 P0 D0:1 H2 F2 S"Mixing" ; Define mixing tool`
 
-   `M563 P1 D0 H2 F2 S"Mixing as Single Left" ; mixing nozzle only using left extruder motor  
+   `M563 P1 D0 H2 F2 S"Mixing as Single Left" ; mixing nozzle only using left extruder motor    
    M563 P2 D1 H2 F2 S"Mixing as Single Right" ; mixing nozzle only using right extruder motor`
 
 4. Change the heater number \(`H` parameter\) assigned to the tools above. It should be either `H1` or `H2` .

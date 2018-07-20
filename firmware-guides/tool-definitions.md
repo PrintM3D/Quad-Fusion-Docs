@@ -58,17 +58,13 @@ Defining your own tools is useful to create prints that switch colors in the mid
 
 ## Mixing Ratios
 
-To enable mixing rations for ta specific tool. Enter the `M568` command with the tool number \(`Pnnn` \) and the enable parameter \(`Snnn` \). For example, if I wanted to enable tool mixing for tool 3 I would enter the command `M568 P3 S1` . 
+To enable mixing rations for ta specific tool. Enter the `M568` command with the tool number \(`Pnnn` \) and the enable parameter \(`Snnn` \). For example, if I wanted to enable tool mixing for tool 3 I would enter the command `M568 P3 S1` .
 
-To configure the actual tool mixing ratio, use the `M567` command. This will tell the firmware to use one stepper motor drive to move more than the other one when handling an extruder move. `M567 Pnnn Emmm:kkk:llll:iii` where `nnn` represents the tool number. And the rest of the letters the tool ratios of the specific extruder drives.  The total of the `mmm, kkk, llll and iii` parameters should add up to 1 in order to produce a normal and expected extrusion flow rate.
+To configure the actual tool mixing ratio, use the `M567` command. This will tell the firmware to use one stepper motor drive to move more than the other one when handling an extruder move. `M567 Pnnn Emmm:kkk:llll:iii` where `nnn` represents the tool number. And the rest of the letters the tool ratios of the specific extruder drives. The total of the `mmm, kkk, llll and iii` parameters should add up to 1 in order to produce a normal and expected extrusion flow rate.
 
 ## Additional Resources
 
 * [Duet 3D Wiki `M563` ](https://duet3d.dozuki.com/Wiki/Gcode#Section_M563_Define_or_remove_a_tool)
 * [Duet 3D Wiki `M567`](https://duet3d.dozuki.com/Wiki/Gcode#Section_M567_Set_tool_mix_ratios) 
 * [Duet 3D Wiki `M568`](https://duet3d.dozuki.com/Wiki/Gcode#Section_M568_Turn_off_on_tool_mix_ratios) 
-
-
-
-
 

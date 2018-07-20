@@ -6,7 +6,7 @@ This guide covers repair of broken belt Z-axis belt clamps. This can occur if yo
 
 To prepare for the removal of the clamps, perform the following steps: 1. Turn off your Promega and unplug all cords attached to it, this will make it easier to move the printer throughout the process. 2. Place a binder clip, or something similar on the belt of the Z-motor. This will allow you to work under and around the bed without the bed falling. You can also place the printer on its side, if you do so, be careful with the switches on either side of the printer.
 
-![Very Important Binder Clip](../.gitbook/assets/2dmrbcxpslmjngww-beltclip%20%281%29.jpg)
+![Very Important Binder Clip](../.gitbook/assets/2dmrbcxpslmjngww-beltclip-1.jpg)
 
 > The steps for removing and installing the new belt clamps is best done one corner at a time. This allows the bed to stay relatively level and in place, making the repair easier.
 

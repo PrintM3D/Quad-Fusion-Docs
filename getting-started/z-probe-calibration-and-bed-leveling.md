@@ -16,7 +16,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 4. Wait until the heated bed has reached temperature before continuing. 
 5. Set the Z-probe offset to 0 by entering the command `G31 P999 X-40 Y28.5 Z0`. This will make it easier to gauge the distance between the Z-probe and the nozzle in the following steps. 
 6. Run the command `G29 S2`. This clears any active bed leveling compensation. This is **very** important as it will conflict with your updated Z-probe offset and induce a 0.1 - 0.3mm error depending on the magnitude of your bed leveling compensation at that point. 
-7. Deploy your Z-probe!  ![](../.gitbook/assets/deployingtheprobe%20%282%29.gif) 
+7. Deploy your Z-probe!  ![](../.gitbook/assets/deployingtheprobe-2.gif) 
 8. Check whether the Z-probe is functioning correctly. This is a great step to perform before using your Z-probe in order to prevent crashes. Press your Z-probe limit switch and observe the change in value from 0 to 1000 in the Duet Web Console _Machine Status_ table in the _Z-Probe_ box. If the value does not change the Z-probe is wired or configured wrong, do not continue to the next step!  ![](../.gitbook/assets/zprobemachinestatus.png) 
 9. Move the bed towards the nozzle by sending the command `G1 Z20`. When you send the command `G30` the bed will move slowly and precisely to the Z-probe, if you send `G30` while the bed is at `Z100` or greater you will have to wait for a long time for the Z-probe to trigger.
 10. Run the command `G30`. This will move the bed toward the z-probe until the limit switch triggers.
@@ -25,7 +25,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 13. Retract the Z-probe.
 14. Jog the bed up slowly toward the nozzle using the negative Z buttons in _Machine Control_ on the Duet Web Console. Read the next step!
 
-    ![Z81QrJdADnqOrI0d-MachineControl.PNG](../.gitbook/assets/z81qrjdadnqori0d-machinecontrol%20%282%29.PNG)
+    ![Z81QrJdADnqOrI0d-MachineControl.PNG](../.gitbook/assets/z81qrjdadnqori0d-machinecontrol-2.PNG)
 
 15. As you are moving the bed up towards the nozzle you will encounter an axis limit. These axes limits are set for the X, Y and Z axes and will stop you from moving past a certain coordinate. This will make it harder to stall the printer. However, in this case we know what we are doing so we can disable the axes limits. Send the command `M564 S0` to disable the axis limits. To learn more about this command visit the [RepRap G-code wiki](https://reprap.org/wiki/G-code#M564:_Limit_axes).
 16. **Be careful when moving the bed close to the nozzle. Use the 0.1mm buttons.** Determining when the bed is touching the nozzle can be difficult. Heat up the nozzle as you learned before in order to ensure that none of the filament from the hot-end gets in the way. Using a piece of paper to determine when the nozzle is touching the bed is also helpful. Grab a sticky-note or small piece of paper and place it under the nozzle. Then carefully jog the bed into the nozzle, move the paper back and forth. When you feel the nozzle grab the paper your nozzle is touching the bed!. 
@@ -33,7 +33,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 18. Enter the command `G31 P999 X-40 Y28.5 Znnn` where `nnn` is your Z-probe offset.
 19. Enter the command `M564 S1` in order to re-enable your axes limits.
 20. Move the bed away from the nozzle `G1 Z20`.
-21. Deploy your Z-probe!  ![](../.gitbook/assets/deployingtheprobe%20%281%29.gif) 
+21. Deploy your Z-probe!  ![](../.gitbook/assets/deployingtheprobe-1.gif) 
 22. Send the command `G30`.
 23. Retract your Z-probe!
 24. Move the bed back up to the nozzle as described in the steps above. Your Z value should be 0 when the bed is touching the nozzle. If it is not you might need to tune the Z-probe offset or repeat the process.
@@ -51,7 +51,7 @@ To accommodate for small discrepancies in the bed level of the Promega, you can 
 4. Deploy the Z-probe.
 5. Send the command `G29` , this will start the mesh bed leveling process. The mesh is defined in the configuration files on the SD card, and should not need to be changed.
 6. Wait for the mesh probing to complete. This could take a while as it probes over 100 points on the bed.
-7. Once the leveling completes, it will generate the _heightmap.csv_ file in the _sys/_ folder on the microSD card. It will also display the heightmap on the Duet Web Console. This is a great tool to observe and visualize any error in the levelness of your bed. Remember that this graph is inflated **massively** and represents a 400mm by 400mm area**.** A height difference of  ± 1mm between the corners of the print bed is expected. Below you can see heightmaps. The one on the left is a normal heightmap, the one on the right is a good heightmap \(courtesy of @talrynn\(John\) on discord\). With mesh bed leveling compensation, there should be no difference in print quality or ability.  ![](../.gitbook/assets/heightmapvisual.PNG) ![](../.gitbook/assets/goodheightmapvisual%20%281%29.png) 
+7. Once the leveling completes, it will generate the _heightmap.csv_ file in the _sys/_ folder on the microSD card. It will also display the heightmap on the Duet Web Console. This is a great tool to observe and visualize any error in the levelness of your bed. Remember that this graph is inflated **massively** and represents a 400mm by 400mm area**.** A height difference of  ± 1mm between the corners of the print bed is expected. Below you can see heightmaps. The one on the left is a normal heightmap, the one on the right is a good heightmap \(courtesy of @talrynn\(John\) on discord\). With mesh bed leveling compensation, there should be no difference in print quality or ability.  ![](../.gitbook/assets/heightmapvisual.PNG) ![](../.gitbook/assets/goodheightmapvisual-1.png) 
 8. Bed leveling compensation will be automatically enabled once bed leveling completes. It is important to **remember to disable bed leveling compensation whenever you are finding constants and offsets on the Z axis**. Otherwise the bed leveling compensation will conflict with the offset you obtain. If you want to disable bed leveling compensation send the command `G29 S2` , to enable bed leveling compensation after disabling it, send the command `G29 S1`
 
 Continue on to the [Preparing a Print](https://m3d.gitbook.io/promega-docs/getting-started/preparing-a-print) guide, the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.

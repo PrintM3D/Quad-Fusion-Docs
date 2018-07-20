@@ -10,14 +10,14 @@ Pressing the Z-probe does not result in a change in Z-probe value in the Duet We
 
 ### Solution
 
-This indicates a broken Z-probe or a problem with the Z-probe wiring. 
+This indicates a broken Z-probe or a problem with the Z-probe wiring.
 
 #### Z-probe Limit Switch Wiring Problem
 
 The limit switch has an extension cable that extends into the cable chain as it goes to the Duet Board. It is possible that the Z-probe become disconnected from the extension cable during printer use.
 
 1. Turn off the printer
-2. Open the cable chain segments until you find the connection of the Z-probe limit switch cable to the extension cable. Read [this guide](../electrical-guides/opening-the-cable-chain.md) for more instructions on how to open the cable chain.  ![](../.gitbook/assets/zprobeconnector%20%281%29.jpg) 
+2. Open the cable chain segments until you find the connection of the Z-probe limit switch cable to the extension cable. Read [this guide](../electrical-guides/opening-the-cable-chain.md) for more instructions on how to open the cable chain.  ![](../.gitbook/assets/zprobeconnector-1.jpg) 
 3. Make sure the cable is properly plugged in. Polarity does not matter as it is a switch.
 4. You can apply glue to the connector to ensure that the connector stays in place. Also make sure that the cable overall has enough slack for the gantry to move around the entire coreXY plane.
 
@@ -40,7 +40,7 @@ A connection problem has been identified in some of the IR probe connectors. Thi
 
 ### Problem
 
-The probing procedure does not start and the Error: Z-probe Triggered Before Move is  printed in the console.
+The probing procedure does not start and the Error: Z-probe Triggered Before Move is printed in the console.
 
 ### Explanation
 
@@ -62,7 +62,7 @@ As the image above indicates, the Error: Z-probe Not Triggered During Move is pr
 
 ### Explanation
 
-This error is actually a fail safe, the printer is preventing what it presumes is a crash. Since the printer does not know where the mechanical limits of the printer are, it assumes the software limits are the limits of its motion. When the printer is performing its probing procedure it reaches the axes limit before the Z-probe is triggered and prints the error above.  
+This error is actually a fail safe, the printer is preventing what it presumes is a crash. Since the printer does not know where the mechanical limits of the printer are, it assumes the software limits are the limits of its motion. When the printer is performing its probing procedure it reaches the axes limit before the Z-probe is triggered and prints the error above.
 
 ### Solution
 

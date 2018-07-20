@@ -8,7 +8,7 @@ description: How to load and unload filament into the extruder.
 
 1. Heat up the nozzle to the temperature required for the specific filament you are about to load \(ABS-R: ~230C, PLA: ~200C\). Use the Duet Web Console's Tools/Heaters/Extra table to heat up the specific nozzle. For more guidance on heating up your nozzle, follow [this guide.](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles)
 
-   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed%20%281%29.PNG)
+   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed-1%20%281%29.PNG)
 
 2. Send filament through the entrance of the PTFE tubes located at the back of the printer.
 
@@ -36,7 +36,7 @@ If you turn your extruder motors off so that they are not holding their position
 
 1. Heat up the nozzle to the temperature required for the specific filament you are about to unload \(ABS-R: ~230C, PLA: ~200C\). Use the Duet Web Console's Tools/Heaters/Extra table to heat up the specific nozzle. For more help on heating up components follow [this guide.](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles)
 
-   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed%20%281%29.PNG)
+   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed-1.PNG)
 
 2. * Using the _Extruder Control_ Tab under _Machine Control_ set the filament distance and feedrate to 100mm and 60mm/s respectively. Set the extruder drive buttons to the extruders for which you want to unload filament. For the compound nozzle, select _Mix_. Press _Retract_ until the filament is free to be pulled out by hand.
      * It is also possible to unload the filament by hand, without using the motors. This can only be done if your motors are unpowered and the nozzle has reached temperature. To disable the idle current on your extruder motors, send the command `M84`. Remember that this command will disable the idle current of **all** motors. The bed may drop down. Once the extruder motors are powered off, firmly grasp the filament and pull up. In one fast and smooth motion you will be able to pull your filament out.    

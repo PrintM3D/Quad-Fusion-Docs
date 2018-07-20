@@ -1,4 +1,4 @@
 # Community Guide Template
 
-Insert your guide here! 
+Insert your guide here!
 

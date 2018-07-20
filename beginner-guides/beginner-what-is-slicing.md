@@ -38,7 +38,7 @@ Next, press _Custom._ This indicates we are adding a custom printer to Cura's lo
 
 This window allows you to configure the printer settings of the Promega. This informs Cura of the Promega's build space, the firmware flavor and specifies starting and ending G-code. The build volume of the printer represents the maximum value that the printer can travel in each direction. The firmware flavor is the type of firmware that the board is running. The Duet Maestro board runs on RepRap firmware. Your firmware flavor indicates what type of commands the board can understand. The starting and ending G-code is a series of commands that are run at the start and at the end of every print. This is important as it allows you to retract your filament after the print and turn all the heaters off. Configure the settings in this window exactly as shown in the image below.
 
-![](../.gitbook/assets/curamachinesettings%20%282%29.jpg)
+![](../.gitbook/assets/curamachinesettings-2.jpg)
 
 `; Starting G-code:    
 G1 Z15.0 F6000 ;Move the platform down 15mm    
@@ -61,7 +61,7 @@ G1 E-3 F300`
 
 **Don't click** _**Close**_ **just yet!** Move on to the _Extruder 1_ tab and fill in the following information. Fill in the nozzle diameter and the material diameter. Your nozzle diameter may vary in the future as you mount different types of nozzles on the Promega. Then you can click _Close._
 
-![](../.gitbook/assets/curamachinesettings_extruder%20%281%29.jpg)
+![](../.gitbook/assets/curamachinesettings_extruder-1.jpg)
 
 Once you have added the printer make sure to activate it by selecting the name and then clicking the button _Activate._
 

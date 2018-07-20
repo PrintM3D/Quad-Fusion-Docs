@@ -28,5 +28,3 @@ In order to find out if you want to update the firmware on the Duet Maestro you 
 2. [Duet3D Forum](https://forum.duet3d.com/): For firmware and Duet specific questions
 3. [Duet Fork of RepRap Firmware](https://github.com/dc42/RepRapFirmware)
 
-
-

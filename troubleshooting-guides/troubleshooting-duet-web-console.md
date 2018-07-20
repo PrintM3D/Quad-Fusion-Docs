@@ -8,9 +8,9 @@ This guide will walk through possible problems that can be encountered while con
 
 ### Problem
 
-When attempting to connect to the Promega the error "Your Duet rejected the HTTP request: page not found" is shown. 
+When attempting to connect to the Promega the error "Your Duet rejected the HTTP request: page not found" is shown.
 
-This indicates that the web pages of the Duet web server can not be loaded from the SD card. Usually the problem lies in the SD card not being properly mounted to the system. This can happen if you ejected the SD card and then put it back into the Duet board while it was powered. 
+This indicates that the web pages of the Duet web server can not be loaded from the SD card. Usually the problem lies in the SD card not being properly mounted to the system. This can happen if you ejected the SD card and then put it back into the Duet board while it was powered.
 
 ### Solution
 

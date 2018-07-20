@@ -2,9 +2,9 @@
 
 Follow the steps below in order to mount a new nozzle on your 3D printer.
 
-**Warning: Follow the steps listed in the guide closely. You will be working with heated hot-ends. Use appropriate tools.**  
-  
-Some of the following steps have to be performed with a heated hot-end in order to allow you to slide out and replace the nozzle. If you don't heat your nozzle cooled filament will act like glue and hold the components together. If you have an exceptionally clean or 
+**Warning: Follow the steps listed in the guide closely. You will be working with heated hot-ends. Use appropriate tools.**
+
+Some of the following steps have to be performed with a heated hot-end in order to allow you to slide out and replace the nozzle. If you don't heat your nozzle cooled filament will act like glue and hold the components together. If you have an exceptionally clean or
 
 1. Unplug the 24V cold-section fan on the front of the extruder.
 2. Remove the cold-section fan. Follow: [Fan Installation and Replacement](https://promega.printm3d.com/~/edit/drafts/-LHdXavkB_zqUw_einTK/repair-guides/fan-installation-and-replacement) for help.
@@ -23,6 +23,4 @@ Some of the following steps have to be performed with a heated hot-end in order 
 15. Tighten down the 1.5mm setscrews
 16. **You can now power off the heater.**
 17. You can attach the cold-section fan again and continue printing!
-
-
 
