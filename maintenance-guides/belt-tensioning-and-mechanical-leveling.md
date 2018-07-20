@@ -1,4 +1,4 @@
-# Belt Tensioning and Mechanical Leveling
+# \(Edit details and pictures\) Belt Tensioning and Mechanical Leveling
 
 ## Belt Tensioning and Mechanical Leveling
 

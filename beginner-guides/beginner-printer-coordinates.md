@@ -1,8 +1,8 @@
 ---
-description: Beginner guide covering the promega printer coordinates.
+description: Beginner guide covering the Crane printer coordinates.
 ---
 
-# Beginner: Printer Coordinates
+# \(Edit details\) Beginner: Printer Coordinates
 
 In your math classes you have probably heard the term: _Cartesian Coordinates_. This intimidating term is not as bad as it sounds. It refers to the 3D coordinate system that is used almost every where, including the Crane. It features three different axes \(X, Y and Z\), all perpendicular to each other, as seen in the image below. The origin of the cartesian system is located at the intersection of the three different coordinate axes. At this point, the X, Y and Z position are all zero.
 

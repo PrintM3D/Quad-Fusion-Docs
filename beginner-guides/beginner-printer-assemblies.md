@@ -1,8 +1,8 @@
 ---
-description: A beginner guide covering the assemblies of the promega.
+description: A beginner guide covering the assemblies of the Crane.
 ---
 
-# Beginner: Printer Assemblies
+# \(Edit pictures\) Beginner: Printer Assemblies
 
 This guide will cover a significant amount of technical knowledge and terms. The different assemblies of the Crane will be mentioned frequently in the sections below.
 

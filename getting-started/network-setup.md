@@ -8,7 +8,7 @@ Connecting to your Crane via your local network is very useful as you get access
 
 ## First-Time Start-up
 
-If this is your first time starting up the printer, follow this section. The pre-configured Crane network settings, which are loaded onto every SD card when the printer goes out our door, utilize DHCP in order to get an IP address from your router. This should allow your printer to connect automatically to your network. If this is successful, you should be able to enter the machine name into your browser tab followed by a forward slash "/". This could look like this: **my\_promega\_name/**. If you are connecting to your Crane for the first time, you should be able to enter **promega/** into a browser URL textfield in order to connect.
+If this is your first time starting up the printer, follow this section. The pre-configured Crane network settings, which are loaded onto every SD card when the printer goes out our door, utilize DHCP in order to get an IP address from your router. This should allow your printer to connect automatically to your network. If this is successful, you should be able to enter the machine name into your browser tab followed by a forward slash "/". This could look like this: **my\_crane\_name/**. If you are connecting to your Crane for the first time, you should be able to enter crane**/** into a browser URL textfield in order to connect.
 
 ## Configuring Network Settings
 
@@ -24,7 +24,7 @@ If the First-time start-up connection did not work, or you want to set-up your o
 {% tab title="DHCP" %}
 Complete these steps if you want to connect to your Crane using the DHCP option.
 
-a. Open the file _machine\_access.g_ and find the `M550` command located in this file. The `M550` command sets the machine name, this command syntax requires a P parameter before the machine name. Therefore, if you wanted to name your printer _unicorn_ you would type `M550 Punicorn`. Change the printer name to something you prefer, remember this name as you will use it to connect to your printer. By default the machine name is `promega` .
+a. Open the file _machine\_access.g_ and find the `M550` command located in this file. The `M550` command sets the machine name, this command syntax requires a P parameter before the machine name. Therefore, if you wanted to name your printer _unicorn_ you would type `M550 Punicorn`. Change the printer name to something you prefer, remember this name as you will use it to connect to your printer. By default the machine name is `crane` .
 
 b. Find the `M552` command in the _machine\_access.g_ file. The `M552` command sets your IP address and enables or disables the network. In order to set your network setting to DHCP, the following command should be entered: `M552 P0.0.0.0 S1`. The P parameter allows you to define an IP address, entering `P0.0.0.0` enables DHCP. The S parameter enables \(`S1`\) or disables \(`S0`\) network, because you are setting up your network you should set the parameter to `S1`.
 
@@ -93,7 +93,7 @@ Continue to the step below.
 
 **Network Bridging**
 
-If you are unable to connect your ProMega to your internal network it is possible to use the ethernet cable to connect the printer directly to your computer. In order to do this, complete the _Connecting to the Crane via SD: Static IP_ section, remember the static IP you give the printer, but instead of connecting the ethernet cable to your network, connect it to your computer and follow the guide below.
+If you are unable to connect your Crane to your internal network it is possible to use the ethernet cable to connect the printer directly to your computer. In order to do this, complete the _Connecting to the Crane via SD: Static IP_ section, remember the static IP you give the printer, but instead of connecting the ethernet cable to your network, connect it to your computer and follow the guide below.
 
 **Windows**
 
@@ -105,7 +105,7 @@ If you are unable to connect your ProMega to your internal network it is possibl
 
    ![ztReV3zkFYeyGJ7s-networkbridge.png](../.gitbook/assets/ztrev3zkfyeygj7s-networkbridge.png)
 
-3. This will create a new Network Adapter called _Network Bridge_. You should now be able to connect to the ProMega with the static IP address you determined earlier. Enter the static IP address into a browser URL textfield.
+3. This will create a new Network Adapter called _Network Bridge_. You should now be able to connect to the Crane with the static IP address you determined earlier. Enter the static IP address into a browser URL textfield.
 
 Continue on to the [Accessing Web Interface](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 

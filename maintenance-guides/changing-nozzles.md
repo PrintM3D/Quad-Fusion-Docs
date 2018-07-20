@@ -1,4 +1,4 @@
-# Changing Nozzles
+# \(Insert Quad\) Changing Nozzles
 
 Follow the steps below in order to mount a new nozzle on your 3D printer.
 

@@ -2,7 +2,7 @@
 description: A guide about the wiring of the Crane 3D printer on the extruder side.
 ---
 
-# Extruder Assembly Wiring
+# \(Edit details & pictures\) Extruder Assembly Wiring
 
 The extruder assembly wiring is important to do correctly. Follow the guide below for an explanation of the extruder wiring. The first 50 printers will have an older cable assembly as mentioned
 

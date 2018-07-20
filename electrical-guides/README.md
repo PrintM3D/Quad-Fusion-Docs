@@ -6,5 +6,3 @@ This chapter contains guides that explain the wiring of components of the Crane.
 
 {% page-ref page="extruder-assembly-wiring.md" %}
 
-{% page-ref page="opening-the-cable-chain.md" %}
-

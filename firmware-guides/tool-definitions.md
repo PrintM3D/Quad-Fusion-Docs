@@ -1,4 +1,4 @@
-# Tool Definitions
+# \(Insert Quad\) Tool Definitions
 
 This guide will explains the default tool definitions for both the K'Tana and the Compound and explains how to change tools. This can be useful to create complex mixing and switching prints. This guide is not for beginners. Read the [Introduction to Tools](../getting-started/an-introduction-to-tools.md) guide in order to better understand the tool system.
 

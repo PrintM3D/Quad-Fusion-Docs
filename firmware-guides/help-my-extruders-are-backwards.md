@@ -1,4 +1,4 @@
-# Help! My Extruders are Backwards
+# \(Edit details\) Help! My Extruders are Backwards
 
 Whenever you are changing or updating configuration files it is possible that your heaters or extruders will be wrongly configured. This could result in your extruder drivers going the wrong way, or the left extruder spinning when you want the right extruder to spin.
 

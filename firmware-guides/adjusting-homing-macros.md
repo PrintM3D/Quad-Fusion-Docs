@@ -24,5 +24,5 @@ You are free to change the G-code in the homing macros. But be careful as you co
 
 **Homing Procedure**
 
-When the Crane certain physical constraints have to be taken into consideration.
+With the Crane, certain physical constraints have to be taken into consideration.
 
