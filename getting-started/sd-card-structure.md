@@ -17,7 +17,7 @@ On the microSD card there are four different folders: _gcodes_, _macros_, _sys_ 
 
 ## Sys Organization
 
-As mentioned before, the _sys/_ folder contains all sorts of system files. The most important file is _config.g_. This file is executed on the start-up of the Duet Maestro board in order to configure the Promega settings. If you wanted to add a command to the start-up sequence, you should insert it in _config.g_. In the _sys/_ folder you will also notice a handful of other files with the _machine_ prefix. These files are called from _config.g_ with the `M98` command and they represent part of the start-up sequence. The _sys/_ folder is structured to indicate which files are recommended to be changed and which are not.
+As mentioned before, the _sys/_ folder contains all sorts of system files. The most important file is _config.g_. This file is executed on the start-up of the Duet Maestro board in order to configure the Crane settings. If you wanted to add a command to the start-up sequence, you should insert it in _config.g_. In the _sys/_ folder you will also notice a handful of other files with the _machine_ prefix. These files are called from _config.g_ with the `M98` command and they represent part of the start-up sequence. The _sys/_ folder is structured to indicate which files are recommended to be changed and which are not.
 
 **Machine Files**
 

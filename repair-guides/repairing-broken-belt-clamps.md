@@ -4,7 +4,7 @@ This guide covers repair of broken belt Z-axis belt clamps. This can occur if yo
 
 ## Preparation
 
-To prepare for the removal of the clamps, perform the following steps: 1. Turn off your Promega and unplug all cords attached to it, this will make it easier to move the printer throughout the process. 2. Place a binder clip, or something similar on the belt of the Z-motor. This will allow you to work under and around the bed without the bed falling. You can also place the printer on its side, if you do so, be careful with the switches on either side of the printer.
+To prepare for the removal of the clamps, perform the following steps: 1. Turn off your Crane and unplug all cords attached to it, this will make it easier to move the printer throughout the process. 2. Place a binder clip, or something similar on the belt of the Z-motor. This will allow you to work under and around the bed without the bed falling. You can also place the printer on its side, if you do so, be careful with the switches on either side of the printer.
 
 ![Very Important Binder Clip](../.gitbook/assets/2dmrbcxpslmjngww-beltclip-1.jpg)
 
@@ -70,7 +70,7 @@ Follow the instructions below to remove the broken belt clamps, pictured below, 
 2. Pull all the slack out of the belt in the corner you are working on.
 3. Slide the new belt clamp onto the linear z-slider.
 4. Attach all four screws that were removed in the _Removing the Bottom Clamp_ section. This should hold the linear rail in place again. Make sure that the rail is flush \(flat\) against the frame on both the bottom and the side.
-5. Insert the M3 locknut into the bottom Z-clamp. Throught the bottom of the Promega, insert a M3 pan head screw. Again, it might help to place the Promega over the edge of your work surface so you can reach this slot better.
+5. Insert the M3 locknut into the bottom Z-clamp. Throught the bottom of the Crane, insert a M3 pan head screw. Again, it might help to place the Crane over the edge of your work surface so you can reach this slot better.
 6. Follow the _Tensioning the Belts_ section below to continue.
 
 ## Tensioning the Belts
@@ -79,7 +79,7 @@ Follow the instructions below to remove the broken belt clamps, pictured below, 
 
    ![W94X14FanYl02dp2-Belttension.jpg](../.gitbook/assets/w94x14fanyl02dp2-belttension.jpg)
 
-2. To tension the belt pull up as shown in the picture below, while tightening down the screw underneath the Promega. You should not have to pull hard to achieve the proper tension as tightening down the clamp can tension the belt.
+2. To tension the belt pull up as shown in the picture below, while tightening down the screw underneath the Crane. You should not have to pull hard to achieve the proper tension as tightening down the clamp can tension the belt.
 
    ![xg91HFq6NPl3oF53-tensioningthebelt.jpg](../.gitbook/assets/xg91hfq6npl3of53-tensioningthebelt.jpg)
 

@@ -1,6 +1,6 @@
 # Changing Extruders
 
-The Promega has two extruder heads the K'Tana and the Compound nozzle. The compound nozzle accepts two filaments as input and prints through one nozzle by mixing the two filaments. The K'Tana has two separate filament inputs and two seperate nozzles to print from. In order to switch between the two tools, you will have to perform a series of mechanical and software changes.
+The Crane has two extruder heads the K'Tana and the Compound nozzle. The compound nozzle accepts two filaments as input and prints through one nozzle by mixing the two filaments. The K'Tana has two separate filament inputs and two seperate nozzles to print from. In order to switch between the two tools, you will have to perform a series of mechanical and software changes.
 
 ## Preparation
 
@@ -60,7 +60,7 @@ Tools and items you will need:
 
 ## SD Card Configuration
 
-1. Download the SD card image from our GitHub [Repository](https://github.com/PrintM3D/Promega). Select either the Compound or K'Tana folder depending on what extruder you are mounting. The SD card should have 4 folders and one text file:
+1. Download the SD card image from our GitHub [Repository](https://github.com/PrintM3D/Crane). Select either the Compound or K'Tana folder depending on what extruder you are mounting. The SD card should have 4 folders and one text file:
 2. _sys/_
 3. _gcodes/_
 4. _macros/_
@@ -80,7 +80,7 @@ A text file will also be present on the SD card. This file simply makes it easie
 Before you continue it is best to follow the steps below to ensure that the process of changing extruders worked correctly.
 
 1. Plug in the Duet Board ethernet cable.
-2. Power on the Promega. 
+2. Power on the Crane. 
 3. Connect to the Duet Web Console and observe the hotend and bed temperature values. If any of these values are not around room temperature it can indicate incorrect wiring. A temperature reading of 2000C is the temperature error value and means that the PT1000 is wired incorrectly. If the displayed temperature is incorrect, address the problem and continue. 
 4. Ensure that the extruder carriage can move to the limit switches in the back left of the printer. Make sure there is nothing placed on or underneath the bed. 
 5. Move each of the axes and extruders independently and verify for every motor that they are moving in the right direction. Once you have verified that, you can home the printer. 

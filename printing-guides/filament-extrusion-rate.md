@@ -1,6 +1,6 @@
 # Filament Extrusion Rate
 
-The extrusion system on the Promega is designed to print at specific speeds at certain temperatures. Printing at the proper filament extrusion rate is essential to provide a good print. The Promega is designed to extrude at a rate of 5.7 mm^3/s. This number can change significantly depending on your printer and slicer settings and material.
+The extrusion system on the Crane is designed to print at specific speeds at certain temperatures. Printing at the proper filament extrusion rate is essential to provide a good print. The Crane is designed to extrude at a rate of 5.7 mm^3/s. This number can change significantly depending on your printer and slicer settings and material.
 
 ## Calculating Filament Flow Rate
 
@@ -30,7 +30,7 @@ _Flow Rate \(mm^3/s\) = \(Extrusion Width\)\(mm\)_ \(Layer Height\)\(mm\) _Print
 
 _Extrusion Width = 0.6 mm = 1.2_ 0.5 _Flow Rate = 4.5 mm^3/s = 0.6_ 0.25 \* 30
 
-## Promega Flow Rate
+## Crane Flow Rate
 
-The Promega is designed to extrude filament at 5.7 mm^3/s. If you find your extruder skipping or notice print quality problems, do a filament flow calculation to determine the extrusion rate you are printing at. The extrusion rate of the Promega can be increased significantly depending on material, printing temperature and other factors. Feel free to experiment and push the printer to its limits! But remember to calculate the filament flow rate to determine whether your goal is realistic.
+The Crane is designed to extrude filament at 5.7 mm^3/s. If you find your extruder skipping or notice print quality problems, do a filament flow calculation to determine the extrusion rate you are printing at. The extrusion rate of the Crane can be increased significantly depending on material, printing temperature and other factors. Feel free to experiment and push the printer to its limits! But remember to calculate the filament flow rate to determine whether your goal is realistic.
 

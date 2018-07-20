@@ -1,5 +1,5 @@
 ---
-description: How to run a print on the Promega.
+description: How to run a print on the Crane.
 ---
 
 # Running a Print

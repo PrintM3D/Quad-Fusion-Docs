@@ -4,7 +4,7 @@ description: How to properly prepare a 3D print.
 
 # Preparing a Print
 
-Before uploading a print to the Duet board and printing it with the Promega, you will need to prepare a _.gcode_ file of your model. The first step to preparing a print involves creating a _.STL_ file. This file is a representation of the outer shell of a CAD \(Computer Aided Design\) model. An _.STL_ file can then be sliced by slicer software such as _Cura_ or _Simplify3D_ \(and many others!\) to produce a _.gcode_ file. Slicer software will incorporate numerous print and printer settings into the G-code print file. You can then upload this file to your printer to print it. Properly preparing a print is very important to produce a print with good print quality. Follow this guide to create a _.gcode_ file with the proper print settings. If you are already familiar with creating an _.STL_ file, you can continue to [Preparing a Print](https://m3d.gitbook.io/promega-docs/getting-started/preparing-a-print#cura).
+Before uploading a print to the Duet board and printing it with the Crane, you will need to prepare a _.gcode_ file of your model. The first step to preparing a print involves creating a _.STL_ file. This file is a representation of the outer shell of a CAD \(Computer Aided Design\) model. An _.STL_ file can then be sliced by slicer software such as _Cura_ or _Simplify3D_ \(and many others!\) to produce a _.gcode_ file. Slicer software will incorporate numerous print and printer settings into the G-code print file. You can then upload this file to your printer to print it. Properly preparing a print is very important to produce a print with good print quality. Follow this guide to create a _.gcode_ file with the proper print settings. If you are already familiar with creating an _.STL_ file, you can continue to [Preparing a Print](https://m3d.gitbook.io/promega-docs/getting-started/preparing-a-print#cura).
 
 **Note: if you want to quickly get printing for the first time you can find a pre-sliced** G-code file of a [**rook model here**](https://drive.google.com/open?id=1PK1snlv7iPuX1XC8wjrwxUQiDmN8HcHH)**, this is recommended if you are printing for the first time. Once you have downloaded the model you can continue to:** [**Running a Print**](https://m3d.gitbook.io/promega-docs/getting-started/running-a-print)
 
@@ -20,7 +20,7 @@ Go to one of the websites listed above and download a _.STL_ model of something 
 
 ## Creating an STL File
 
-In most CAD software you can choose to save a model in the _.STL_ file format. When creating this file, it is important to remember that an STL represents the shell of the CAD model. It is possible that minute details are changed when you save in this format. Whenever you create a CAD model ensure that your dimensions are realistic and that the model will fit in the buildspace of the Promega \(388mm x 388mm x 377mm\). Typically, you will also be able to change the scale of your model in the slicer software in the next step. In most CAD software you can click _Save As_ and then save the part in the _.STL_ file format.
+In most CAD software you can choose to save a model in the _.STL_ file format. When creating this file, it is important to remember that an STL represents the shell of the CAD model. It is possible that minute details are changed when you save in this format. Whenever you create a CAD model ensure that your dimensions are realistic and that the model will fit in the buildspace of the Crane \(388mm x 388mm x 377mm\). Typically, you will also be able to change the scale of your model in the slicer software in the next step. In most CAD software you can click _Save As_ and then save the part in the _.STL_ file format.
 
 ### SolidWorks
 
@@ -34,9 +34,9 @@ Then a window will appear, confirming the fact that you are saving the file as a
 
 ## Finding a Slicer
 
-There are many slicers currently available to slice your models. We recommend that you download and install one of the slicers listed below. These are the slicers which are currently supported by M3D. We have created Promega slicer profiles which will allow you to get printing better and faster. This list will keep growing over time as we create more profiles for different slicers. It is possible to use a different slicer, but you will have to spend more time tuning the slicer settings in order to print successfully. We recommend you only do this if you are an experienced Promega user.
+There are many slicers currently available to slice your models. We recommend that you download and install one of the slicers listed below. These are the slicers which are currently supported by M3D. We have created Crane slicer profiles which will allow you to get printing better and faster. This list will keep growing over time as we create more profiles for different slicers. It is possible to use a different slicer, but you will have to spend more time tuning the slicer settings in order to print successfully. We recommend you only do this if you are an experienced Crane user.
 
-Find the slicer profiles on [our GitHub Account.](https://github.com/PrintM3D/Promega) Supported slicers:
+Find the slicer profiles on [our GitHub Account.](https://github.com/PrintM3D/Crane) Supported slicers:
 
 * [Cura](https://ultimaker.com/en/products/ultimaker-cura-software)
 
@@ -58,7 +58,7 @@ Next, press _Custom._ This indicates we are adding a custom printer to Cura's lo
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LHE-lyuMwBirREkEIi_%2F-LHEDLTDhp0R_GeMck_f%2Fconfiguringcura3.jpg?alt=media&token=20142237-8d73-482d-962b-9570a5338af7)
 
-This window allows you to configure the printer settings of the Promega. This informs Cura of the Promega's build space, the firmware flavor and specifies starting and ending G-code. The build volume of the printer represents the maximum value that the printer can travel in each direction. The firmware flavor is the type of firmware that the board is running. The Duet Maestro board runs on RepRap firmware. Your firmware flavor indicates what type of commands the board can understand. The starting and ending G-code is a series of commands that are run at the start and at the end of every print. This is important as it allows you to retract your filament after the print and turn all the heaters off. Configure the settings in this window exactly as shown in the image below.
+This window allows you to configure the printer settings of the Crane. This informs Cura of the Crane's build space, the firmware flavor and specifies starting and ending G-code. The build volume of the printer represents the maximum value that the printer can travel in each direction. The firmware flavor is the type of firmware that the board is running. The Duet Maestro board runs on RepRap firmware. Your firmware flavor indicates what type of commands the board can understand. The starting and ending G-code is a series of commands that are run at the start and at the end of every print. This is important as it allows you to retract your filament after the print and turn all the heaters off. Configure the settings in this window exactly as shown in the image below.
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LHE-lyuMwBirREkEIi_%2F-LHEJ_r1qobgdBJv1fgr%2Fcuramachinesettings.jpg?alt=media&token=c600f426-cfb6-468d-be01-075357663331)
 
@@ -66,7 +66,7 @@ This window allows you to configure the printer settings of the Promega. This in
 
 `; Ending G-code M104 S0 M140 S0 M106 S0 G28 X Y G91 G1 Z10 S1 G90 ;Retract the filament G92 E3 G1 E-3 F300`
 
-**Don't click** _**Close**_ **just yet!** Move on to the _Extruder 1_ tab and fill in the following information. Fill in the nozzle diameter and the material diameter. Your nozzle diameter may vary in the future as you mount different types of nozzles on the Promega. Then you can click _Close._
+**Don't click** _**Close**_ **just yet!** Move on to the _Extruder 1_ tab and fill in the following information. Fill in the nozzle diameter and the material diameter. Your nozzle diameter may vary in the future as you mount different types of nozzles on the Crane. Then you can click _Close._
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LHE-lyuMwBirREkEIi_%2F-LHEKZXOSTGmf3CoooVo%2Fcuramachinesettings_extruder.jpg?alt=media&token=cc21a58d-480c-48d7-8ee3-aee8d89f6ec2)
 
@@ -74,7 +74,7 @@ Once you have added the printer make sure to activate it by selecting the name a
 
 ### Importing the Printer Profile {#importing-the-printer-profile}
 
-The next step is to go to the M3D GitHub Promega repository, in the [Cura Profiles folder](https://github.com/PrintM3D/Promega/tree/devel/Cura%20Profiles) and download the Cura profile for your extruder setup. In order to download the Cura Profile, click on the file in GitHub and then press the Download button as seen in the image below, outline in red. This profile contains all kinds of print settings that help the Promega print well. You can find and tune these settings through experimentation at a later time. For now, this default profile will work well.
+The next step is to go to the M3D GitHub Crane repository, in the [Cura Profiles folder](https://github.com/PrintM3D/Crane/tree/devel/Cura%20Profiles) and download the Cura profile for your extruder setup. In order to download the Cura Profile, click on the file in GitHub and then press the Download button as seen in the image below, outline in red. This profile contains all kinds of print settings that help the Crane print well. You can find and tune these settings through experimentation at a later time. For now, this default profile will work well.
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LHJ14S2auLuan3N_dt1%2F-LHJ7ti8RozJmzJ3hXmu%2Fdownloadingcuraprofile.png?alt=media&token=d24bc282-919c-432c-981b-84d86a9a37df)
 
@@ -128,7 +128,7 @@ Now we are ready to slice the model. Just click Prepare in the bottom right corn
 
 Once you have sliced the model press the _Save to File_ button. Then save the file to a location that you will remember. You will notice that the file you are saving is a _.gcode_ file which is ready to print.
 
-You will have to tune your Slicer settings as you continue your printing career with the Promega. The slicer settings that you can find on the M3D GitHub repository are generic and work well for most prints. To have optimal print quality for your print, you will have to tune the slicer settings to your print.
+You will have to tune your Slicer settings as you continue your printing career with the Crane. The slicer settings that you can find on the M3D GitHub repository are generic and work well for most prints. To have optimal print quality for your print, you will have to tune the slicer settings to your print.
 
 Continue on to the [Running a Print](https://m3d.gitbook.io/promega-docs/getting-started/running-a-print) guide, the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 

@@ -10,7 +10,7 @@ The Z-belts are clamped at the top and bottom by 3D printed clamps. From there, 
 
 ![Z-slider](../.gitbook/assets/unyfc5q5yhxmiplc-z-slider.jpg)
 
-After the z-slider the belts go to the pulley. If you look on the underside of the Z-platform of the Promega, you will notice that two of the four belts cross over themselves. This allows the bed to be driven by a single motor with a single axle. The belt that crosses over is referred to as the _Flipped Belt_. Follow the section immediately below to route a bed as normal, and the section _Flipped Belts_ to route the flipped belt. When facing the front of the Promega, the right side belts of the Z-platform should have its belts flipped.
+After the z-slider the belts go to the pulley. If you look on the underside of the Z-platform of the Crane, you will notice that two of the four belts cross over themselves. This allows the bed to be driven by a single motor with a single axle. The belt that crosses over is referred to as the _Flipped Belt_. Follow the section immediately below to route a bed as normal, and the section _Flipped Belts_ to route the flipped belt. When facing the front of the Crane, the right side belts of the Z-platform should have its belts flipped.
 
 ![Flipped Belts on the Z-assembly](../.gitbook/assets/ueredp4tlweemr8t-flippedbelts.jpg)
 

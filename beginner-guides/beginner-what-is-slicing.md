@@ -36,7 +36,7 @@ Next, press _Custom._ This indicates we are adding a custom printer to Cura's lo
 
 ![](../.gitbook/assets/configuringcura3.jpg)
 
-This window allows you to configure the printer settings of the Promega. This informs Cura of the Promega's build space, the firmware flavor and specifies starting and ending G-code. The build volume of the printer represents the maximum value that the printer can travel in each direction. The firmware flavor is the type of firmware that the board is running. The Duet Maestro board runs on RepRap firmware. Your firmware flavor indicates what type of commands the board can understand. The starting and ending G-code is a series of commands that are run at the start and at the end of every print. This is important as it allows you to retract your filament after the print and turn all the heaters off. Configure the settings in this window exactly as shown in the image below.
+This window allows you to configure the printer settings of the Crane. This informs Cura of the Crane's build space, the firmware flavor and specifies starting and ending G-code. The build volume of the printer represents the maximum value that the printer can travel in each direction. The firmware flavor is the type of firmware that the board is running. The Duet Maestro board runs on RepRap firmware. Your firmware flavor indicates what type of commands the board can understand. The starting and ending G-code is a series of commands that are run at the start and at the end of every print. This is important as it allows you to retract your filament after the print and turn all the heaters off. Configure the settings in this window exactly as shown in the image below.
 
 ![](../.gitbook/assets/curamachinesettings-2.jpg)
 
@@ -59,7 +59,7 @@ G90
 G92 E3    
 G1 E-3 F300`
 
-**Don't click** _**Close**_ **just yet!** Move on to the _Extruder 1_ tab and fill in the following information. Fill in the nozzle diameter and the material diameter. Your nozzle diameter may vary in the future as you mount different types of nozzles on the Promega. Then you can click _Close._
+**Don't click** _**Close**_ **just yet!** Move on to the _Extruder 1_ tab and fill in the following information. Fill in the nozzle diameter and the material diameter. Your nozzle diameter may vary in the future as you mount different types of nozzles on the Crane. Then you can click _Close._
 
 ![](../.gitbook/assets/curamachinesettings_extruder-1.jpg)
 
@@ -67,7 +67,7 @@ Once you have added the printer make sure to activate it by selecting the name a
 
 ### Importing the Printer Profile
 
-The next step is to go to the M3D GitHub Promega repository, in the [Cura Profiles folder](https://github.com/PrintM3D/Promega/tree/devel/Cura%20Profiles) and download the Cura profile for your extruder setup. In order to download the Cura Profile, click on the file in GitHub and then press the Download button as seen in the image below, outline in red. This profile contains all kinds of print settings that help the Promega print well. You can find and tune these settings through experimentation at a later time. For now, this default profile will work well.
+The next step is to go to the M3D GitHub Crane repository, in the [Cura Profiles folder](https://github.com/PrintM3D/Crane/tree/devel/Cura%20Profiles) and download the Cura profile for your extruder setup. In order to download the Cura Profile, click on the file in GitHub and then press the Download button as seen in the image below, outline in red. This profile contains all kinds of print settings that help the Crane print well. You can find and tune these settings through experimentation at a later time. For now, this default profile will work well.
 
 ![](../.gitbook/assets/downloadingcuraprofile.png)
 
@@ -81,7 +81,7 @@ Once you have properly imported the file you will have to _Activate_ it. Select 
 
 ## How Cura Works
 
-Now that you have properly configured Cura, we can go over how it operates, and how you can configure it. Look at the diagram below for a simple drawing of the most important functions of Cura. The buttons on the left side allow you to load a model into Cura. This is very important as loading a model into Cura begins the slicing process. The buttons below the _Open File_ button allow you to manipulate the position, orientation and scale of the model. This is very important. On the right of the window you have buttons to select your material, and _Advanced Settings._ This tab allows you to configure the finer details of the print as you print with your Promega. Mastering the settings of this tab is extremely useful in order to produce fine and high detail prints. Before you print you should always review the settings in this tab in order to ensure that the printing temperature and other settings is correct for your print and material. Whenever you configure your settings and have your print in the correct position and orientation, you can click Prepare in the bottom right corner. Cura will then take a few seconds to slice the file and create a _.gcode_ file. You will then be able to click the button _Save File_ and then save the G-code file to a location file of your choice.
+Now that you have properly configured Cura, we can go over how it operates, and how you can configure it. Look at the diagram below for a simple drawing of the most important functions of Cura. The buttons on the left side allow you to load a model into Cura. This is very important as loading a model into Cura begins the slicing process. The buttons below the _Open File_ button allow you to manipulate the position, orientation and scale of the model. This is very important. On the right of the window you have buttons to select your material, and _Advanced Settings._ This tab allows you to configure the finer details of the print as you print with your Crane. Mastering the settings of this tab is extremely useful in order to produce fine and high detail prints. Before you print you should always review the settings in this tab in order to ensure that the printing temperature and other settings is correct for your print and material. Whenever you configure your settings and have your print in the correct position and orientation, you can click Prepare in the bottom right corner. Cura will then take a few seconds to slice the file and create a _.gcode_ file. You will then be able to click the button _Save File_ and then save the G-code file to a location file of your choice.
 
 ![](../.gitbook/assets/curaguide.png)
 

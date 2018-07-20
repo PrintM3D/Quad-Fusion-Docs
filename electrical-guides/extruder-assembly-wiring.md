@@ -1,5 +1,5 @@
 ---
-description: A guide about the wiring of the Promega 3D printer on the extruder side.
+description: A guide about the wiring of the Crane 3D printer on the extruder side.
 ---
 
 # Extruder Assembly Wiring
@@ -105,9 +105,9 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 
     ![GuN0ckkLzVOFDSZu-tightendowncablechain.jpg](../.gitbook/assets/gun0ckklzvofdszu-tightendowncablechain.jpg)
 
-19. If you have an older version of the Promega cable assembly, it will feature two 4-wire connectors that are unused. These can either be removed from the cable chain completely, or you can tuck the connectors back into the cable chain to move them out of the way.
+19. If you have an older version of the Crane cable assembly, it will feature two 4-wire connectors that are unused. These can either be removed from the cable chain completely, or you can tuck the connectors back into the cable chain to move them out of the way.
 20. Pull the slack out of the wires at the extruder end of the cable chain. Carefully pull the wires at the end of the cable chain at the back of the printer.
-21. Power on and connect to the printer and ensure that all the heaters, thermistors, extruders and fans are plugged in correctly. If this is your first time mounting the new cable assembly, download the correct configuration release from the [M3D Promega GitHub Repository](https://github.com/PrintM3D/Promega).
+21. Power on and connect to the printer and ensure that all the heaters, thermistors, extruders and fans are plugged in correctly. If this is your first time mounting the new cable assembly, download the correct configuration release from the [M3D Crane GitHub Repository](https://github.com/PrintM3D/Crane).
     * Observe the thermistor reading\(s\), none should read 2000C
     * Heat up the nozzle\(s\), no heater fault should occur
     * Check the direction of both extruder motors

@@ -1,10 +1,10 @@
 ---
-description: A guide covering the different software layers of the Promega.
+description: A guide covering the different software layers of the Crane.
 ---
 
 # Beginner: Software Layers
 
-This guide is intended to explain all the different software levels that takes a model to a final printed form on the Promega. We will start at a model on a modelling software on a computer and go all the way down to the RepRap firmware that runs on the Duet Maestro.
+This guide is intended to explain all the different software levels that takes a model to a final printed form on the Crane. We will start at a model on a modelling software on a computer and go all the way down to the RepRap firmware that runs on the Duet Maestro.
 
 ## Software Layers
 
@@ -18,7 +18,7 @@ This guide is intended to explain all the different software levels that takes a
 
 ## Model Software
 
-If you want to print something on a Promega you will first have to create or find a model of what you plan to print. Creating and designing a model is currently done with CAD \(Computer Aided Design\) software such as SolidWorks or TinkerCAD. SolidWorks offers a more technical and precise solution to designing models, while TinkerCAD represents an easier and faster solution. Aside from creating your own models you can find many models online. These models exist on websites such as [Thingiverse](https://www.thingiverse.com/), [Pinshape,](https://pinshape.com/) [MyMiniFactory](https://www.myminifactory.com/) and many others! In the next step you will see that you need slicing software and slicing software will require a specific file type. That file type is called a ._STL_ file or [stereolithography](https://en.wikipedia.org/wiki/STL_%28file_format%29) file. This file type stores the outside shell of a model, which is typically all the slicer needs. Whenever you design or find a model to print it you will have to convert it to a ._STL_ file in order to slice it.
+If you want to print something on a Crane you will first have to create or find a model of what you plan to print. Creating and designing a model is currently done with CAD \(Computer Aided Design\) software such as SolidWorks or TinkerCAD. SolidWorks offers a more technical and precise solution to designing models, while TinkerCAD represents an easier and faster solution. Aside from creating your own models you can find many models online. These models exist on websites such as [Thingiverse](https://www.thingiverse.com/), [Pinshape,](https://pinshape.com/) [MyMiniFactory](https://www.myminifactory.com/) and many others! In the next step you will see that you need slicing software and slicing software will require a specific file type. That file type is called a ._STL_ file or [stereolithography](https://en.wikipedia.org/wiki/STL_%28file_format%29) file. This file type stores the outside shell of a model, which is typically all the slicer needs. Whenever you design or find a model to print it you will have to convert it to a ._STL_ file in order to slice it.
 
 ## Slicing Software
 
@@ -26,11 +26,11 @@ Slicer software fills the void between the model and the 3D printer. The 3D prin
 
 ## Duet Web Interface
 
-To allow control of the Promega you have the Duet Web Console. This is a simple web server that runs on the Duet Maestro and connects to your local network. Aside from control the Duet Web Console allow you to observe various different statistics, status tables and values of the Promega. This allows you to troubleshoot problems much easier with more feedback. You can start and end prints from here. The Duet Web Console also allows you to configure certain settings on the Promega.
+To allow control of the Crane you have the Duet Web Console. This is a simple web server that runs on the Duet Maestro and connects to your local network. Aside from control the Duet Web Console allow you to observe various different statistics, status tables and values of the Crane. This allows you to troubleshoot problems much easier with more feedback. You can start and end prints from here. The Duet Web Console also allows you to configure certain settings on the Crane.
 
 ## Configuration Settings
 
-The SD card stores files that allow for the operation of the Duet Web Server as well as configure the board, the settings that configure the board can be referred to as the configuration settings. The microSD card has four different folders that each handle a certain part of the Duet board operation \(look in [SD Card Structure](https://m3d.gitbook.io/promega-docs/getting-started/sd-card-structure)\). The SD card files operate on a higher level. The files located in the _sys/_ folder, configure the board. They can be changed by the user at any time, either through the Duet Web Console or by changing the files from your computer. The configuration files often simply represent a grouping of G-code commands that are run upon the boot of the Duet board. Whenever the Duet Board is booted up, it will have no settings loaded. So whenever _config.g_ is run on the start, it gets configured with the settings inside. These configuration files are in the form of G-code files. When you download the SD card file from the M3D Github Repository, you are just taking the M3D preferred settings for the Promega.
+The SD card stores files that allow for the operation of the Duet Web Server as well as configure the board, the settings that configure the board can be referred to as the configuration settings. The microSD card has four different folders that each handle a certain part of the Duet board operation \(look in [SD Card Structure](https://m3d.gitbook.io/promega-docs/getting-started/sd-card-structure)\). The SD card files operate on a higher level. The files located in the _sys/_ folder, configure the board. They can be changed by the user at any time, either through the Duet Web Console or by changing the files from your computer. The configuration files often simply represent a grouping of G-code commands that are run upon the boot of the Duet board. Whenever the Duet Board is booted up, it will have no settings loaded. So whenever _config.g_ is run on the start, it gets configured with the settings inside. These configuration files are in the form of G-code files. When you download the SD card file from the M3D Github Repository, you are just taking the M3D preferred settings for the Crane.
 
 ## Firmware
 

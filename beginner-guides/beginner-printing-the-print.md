@@ -1,5 +1,5 @@
 ---
-description: A beginner guide about preparing a print on the Promega.
+description: A beginner guide about preparing a print on the Crane.
 ---
 
 # Beginner: Printing the Print

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Your Promega has probably had a long journey to arrive at your front door.
-  Follow this guide to ensure that your Promega arrived in one piece and is
+  Your Crane has probably had a long journey to arrive at your front door.
+  Follow this guide to ensure that your Crane arrived in one piece and is
   ready to print.
 ---
 
@@ -42,7 +42,7 @@ Next, we will checkout the Z-assembly. During transport it is possible that your
 
 ### **Belt Routing**
 
-Confirm that the belts are properly mounted in the Promega. Check that all four belts are held in place at the bed of the 3D printer by belt clamps or screws. Check that the belts go through the 15x15 aluminum extrusion rail, to the pulley and to the top belt clamps.
+Confirm that the belts are properly mounted in the Crane. Check that all four belts are held in place at the bed of the 3D printer by belt clamps or screws. Check that the belts go through the 15x15 aluminum extrusion rail, to the pulley and to the top belt clamps.
 
 ### **Belt Tension**
 
@@ -52,7 +52,7 @@ To confirm that the belt tension in each of the Z-sliders is appropriate, feel t
 
 ## Cable Chain
 
-Next we will check the cable chain of the Promega. The cable chain should be attached at the back of the extruder on the wiring assembly as well as on the back right of the printer. Check that the cable chain is properly attached on both of these points.
+Next we will check the cable chain of the Crane. The cable chain should be attached at the back of the extruder on the wiring assembly as well as on the back right of the printer. Check that the cable chain is properly attached on both of these points.
 
 ![](../.gitbook/assets/cablechainattachmentpoint1.jpg) ![](../.gitbook/assets/cablechainattachmentpoint2.jpg)
 

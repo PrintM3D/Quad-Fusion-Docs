@@ -2,7 +2,7 @@
 
 Proper temperature calibration is vital to allow for good print quality. The hot-end\(s\) and the bed are controlled by temperature feedback loops which are supposed to maintain a steady temperature. The type of feedback loop is a first order plus dead time \([FOPDT](https://controlguru.com/process-data-dynamic-modeling-and-a-recipe-for-profitable-control/)\) loop. This loop has three different control variables: 1. Gain: Kp: Allows for manipulation of the strength of the heater response. 2. Time Constant: Tp: Control of the speed of the response of the heater. 3. Dead time: The delay before the system will begin a response.
 
-This control loop and its variables are applied to the different heaters on the Promega. With the command `M303` and `M307` the temperature control loop can be tuned and changed. The default control variables supplied by M3D in the configuration files should allow you to print at a stable temperature. However, significant changes to the printing environment, such as room temperature, air-flow or humidity can impact your control loop effectiveness and stability. An improper control loop can cause problems listed below.
+This control loop and its variables are applied to the different heaters on the Crane. With the command `M303` and `M307` the temperature control loop can be tuned and changed. The default control variables supplied by M3D in the configuration files should allow you to print at a stable temperature. However, significant changes to the printing environment, such as room temperature, air-flow or humidity can impact your control loop effectiveness and stability. An improper control loop can cause problems listed below.
 
 * **Overshoot**: A response to a new set-point will send the temperature of the heater significantly beyond the set-point. An overshoot of about 15°C is reasonable. A greater overshoot can cause your filament to char or present a fire hazard. 
 * **Oscillation**: An unstable control loop can result in a temperature oscillation. An oscillation of more than 5 °C degrees can impact printing quality.
@@ -11,7 +11,7 @@ This control loop and its variables are applied to the different heaters on the 
 
 ## Auto-tuning
 
-RepRap firmware has a built in auto-tune heater function. This allows you to tune the control loop of a heater on the Promega. Follow the section below!
+RepRap firmware has a built in auto-tune heater function. This allows you to tune the control loop of a heater on the Crane. Follow the section below!
 
 **WARNING: The auto-tune function can rapidly heat your hot-end\(s\) to a high temperature. DO NOT leave your printer unattended while running** `M303`
 

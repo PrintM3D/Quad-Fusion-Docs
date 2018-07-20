@@ -4,7 +4,7 @@ This page serves as an indepth guide to bed leveling. A good bed level will allo
 
 ## Z-Probes
 
-The Promega is equipped with two different Z-probes, an IR \(infra-red\) probe and a deployable endstop limitswitch. The default config.g file is set up to use the limit switch. This section covers the two different probes, their settings and how to use them. We recommend using the limit switch for less experienced users as it has proven to be more robust under many different circumstances.
+The Crane is equipped with two different Z-probes, an IR \(infra-red\) probe and a deployable endstop limitswitch. The default config.g file is set up to use the limit switch. This section covers the two different probes, their settings and how to use them. We recommend using the limit switch for less experienced users as it has proven to be more robust under many different circumstances.
 
 ### Probing Commands
 
@@ -12,7 +12,7 @@ The Promega is equipped with two different Z-probes, an IR \(infra-red\) probe a
 * `G31`: Sets the z-probe status and offset, this changes depending on which probe you wish to use.
 * `M558`: Defines the z-probe type.
 * `G29`: Executes bed leveling as defined by `M557`
-* `M557 Pnnn Xmmm Ylll`: Defines the pattern that will be probed when `G29` is sent. `nnn` represents the point number if you wish to perform single point probing. A better option is to define a mesh with `Xnnn:mmm`, `Ylll:kkk` and `Sjjj`. Where `nnn` and `lll` are the minimum values for each axis and `mmm` and `kkk` are the maximum values. `jjj` represents the interval over the area you just defined. A working `M557` command for the Promega is: `M557 X50:370 Y10:350 S30`.
+* `M557 Pnnn Xmmm Ylll`: Defines the pattern that will be probed when `G29` is sent. `nnn` represents the point number if you wish to perform single point probing. A better option is to define a mesh with `Xnnn:mmm`, `Ylll:kkk` and `Sjjj`. Where `nnn` and `lll` are the minimum values for each axis and `mmm` and `kkk` are the maximum values. `jjj` represents the interval over the area you just defined. A working `M557` command for the Crane is: `M557 X50:370 Y10:350 S30`.
 * `G32` will execute the _bed.g_ file located in _sys/_ on the microSD card.
 
 ### The Limit Switch Probe
@@ -96,7 +96,7 @@ To use the IR probe a number of settings have to be changed in _config.g_. Ensur
     G31 P450 X-30.4 Y-30.7 Z2.6 ; Set Z probe (IR) trigger value and offset
 ```
 
-Remember that it is best practice to comment or remove all other instances of these commands in the configuration file, this will prevent you from mistakenly configuring and enabling the other z-probe. This code is for the compound nozzle, to obtain this code for the K'Tana nozzle visit the [M3D Promega GitHub Repository](https://github.com/PrintM3D/Promega).
+Remember that it is best practice to comment or remove all other instances of these commands in the configuration file, this will prevent you from mistakenly configuring and enabling the other z-probe. This code is for the compound nozzle, to obtain this code for the K'Tana nozzle visit the [M3D Crane GitHub Repository](https://github.com/PrintM3D/Crane).
 
 The `M558` command above sets the z-probe type:
 
@@ -125,7 +125,7 @@ To discover the z-offset of the IR probe to the nozzle follow the steps below: 1
 If you crash the bed into the nozzle it will cause the bed to skip and fall. After this happens your bed might no longer be level. Follow the steps below to skip a tooth on the bed in order to level it. Once the bed is level within ~3mm you can allow Mesh Bed Leveling to complete the rest.
 
 1. Power cycle the printer and then turn it on. This will make it easier to manually move the motors.
-2. Move the bed up to the nozzle. The best way to move the bed of the Promega is by holding the bed with both hands on either side in the center as shown below. If you want to stop your bed from falling down you can place a binder clip on the z-motor belt as pictured below.
+2. Move the bed up to the nozzle. The best way to move the bed of the Crane is by holding the bed with both hands on either side in the center as shown below. If you want to stop your bed from falling down you can place a binder clip on the z-motor belt as pictured below.
 
    ![4qdhdUQzgRlqtZuL-wheretoholdbed.jpg](../.gitbook/assets/4qdhduqzgrlqtzul-wheretoholdbed.jpg)
 

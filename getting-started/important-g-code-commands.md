@@ -4,11 +4,11 @@ description: A list of G-code commands that are useful and important to know.
 
 # Important G-Code Commands
 
-This guide serves as a brief introduction to G-code commands. It will list the most useful and important commands to allow proper control of the Promega.
+This guide serves as a brief introduction to G-code commands. It will list the most useful and important commands to allow proper control of the Crane.
 
 ## An Introduction to G-Code
 
-G-code is frequently used programming language to control machine tools, such as a 3D printer. G-code is sent to the printer and promptly executed by a control board, in the Promega's case, the Duet Maestro. What each G-code command does depends on the firmware type the board is running. The Promega runs Reprap firmware, you can find an in-depth list of all supported G-code commands on the [Duet3D Wiki: G-code](https://duet3d.dozuki.com/Wiki/Gcode).
+G-code is frequently used programming language to control machine tools, such as a 3D printer. G-code is sent to the printer and promptly executed by a control board, in the Crane's case, the Duet Maestro. What each G-code command does depends on the firmware type the board is running. The Crane runs Reprap firmware, you can find an in-depth list of all supported G-code commands on the [Duet3D Wiki: G-code](https://duet3d.dozuki.com/Wiki/Gcode).
 
 G-code commands are sent and interpreted one line at a time. G-code commands typically include a letter followed by a number. In RepRap firmware the first letter of a command will usually be a `G`, `M` or `T`. This letter will then be followed by a number. Together, a letter and number specify a command. For example, `G1` is the move command. However, there is little you can do with just the move command `G1`. So the initial command is typically followed by sequences of letters and numbers called parameters. For example `G1 X100 Y200`, which will move the printer to the 100mm X and 200mm Y position. `X100 Y200` are both parameters in this case. Use the guide below to get an introduction to the most important and useful G-code commands to have as a beginner. There are many more G-code commands that RepRap firmware supports. Be sure to use the link above to continue learning new G-code commands.
 

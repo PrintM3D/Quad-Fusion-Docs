@@ -1,16 +1,16 @@
 ---
-description: How to home the Promega.
+description: How to home the Crane.
 ---
 
 # Homing the Printer
 
-Before you start printing or moving any component of the ProMega, we recommend homing the printer. Follow the steps below in order to home your printer. Prior to homing your printer check that the gantry and bed are able to move freely and access the limit switch. This guide assumes you have connected to the Promega as outlined in [Network Setup](network-setup.md).
+Before you start printing or moving any component of the ProMega, we recommend homing the printer. Follow the steps below in order to home your printer. Prior to homing your printer check that the gantry and bed are able to move freely and access the limit switch. This guide assumes you have connected to the Crane as outlined in [Network Setup](network-setup.md).
 
 ## Printer Axes
 
 ![](../.gitbook/assets/promegacoordinateaxes.jpg)
 
-In order to control the Promega it is important to understand the axes of the printer and their orientation. As you can see in the image above the X axis spans across the front of the printer from left to right if you are facing the front of the printer. The Y axis is pointing from the front to the back and the z-axis is pointing down. Remember these axes directions as you jog the printer with the _Machine Control_ tab in the [Duet Web Console](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface). **Positive Z is down and negative Z is up!**
+In order to control the Crane it is important to understand the axes of the printer and their orientation. As you can see in the image above the X axis spans across the front of the printer from left to right if you are facing the front of the printer. The Y axis is pointing from the front to the back and the z-axis is pointing down. Remember these axes directions as you jog the printer with the _Machine Control_ tab in the [Duet Web Console](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface). **Positive Z is down and negative Z is up!**
 
 The origin of this coordinate frame is in the top-front-left corner of the printer. This can be seen at the intersection of the three red axes of the 3D printer in the image above.
 
@@ -45,7 +45,7 @@ Follow the steps below to correctly home your printer.
 
 ## Tuning the Z-homing Procedure
 
-**Because the distance between the bed and the nozzle depends on your Promega configuration \(K'tana vs. Compound, Glass vs. no glass\). You will have to tune** _**machine\_zendstop.g**_ **for Z0 to line up.**
+**Because the distance between the bed and the nozzle depends on your Crane configuration \(K'tana vs. Compound, Glass vs. no glass\). You will have to tune** _**machine\_zendstop.g**_ **for Z0 to line up.**
 
 Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telling the printer to go to \(0,0,0\)\) the print bed will touch the nozzle. However, as outlined above, the difference between the bed and the nozzle varies depending on your setup. Follow the steps below to update your _machine\_zendstop.g_ file.
 

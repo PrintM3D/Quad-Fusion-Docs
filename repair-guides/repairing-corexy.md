@@ -6,7 +6,7 @@ This guide covers the coreXY system and how to fix common problems that might oc
 
 ## Belt Routing
 
-If the belt tension in the coreXY system became too loose the belts can become unseated from their bearings. The coreXY belt system might seem complicated, but it is relatively simple. If your Promega system.
+If the belt tension in the coreXY system became too loose the belts can become unseated from their bearings. The coreXY belt system might seem complicated, but it is relatively simple. If your Crane system.
 
 ![Broken CoreXY](../.gitbook/assets/du9oh3djff1wxgft-brokencorexy.jpg)
 
@@ -16,11 +16,11 @@ The coreXY belt system is made up from two loops, an upper loop and a bottom loo
 
 ![The Two Different CoreXY Loops](../.gitbook/assets/ucqjbgzgcby7c8vt-twoloops.jpg)
 
-This is the belt routing diagram for a generic coreXY system. Below you can see that the belt system is in fact two different colors \(blue and red\). This same concept is applied in the Promega, there is an upper loop and lower loop.
+This is the belt routing diagram for a generic coreXY system. Below you can see that the belt system is in fact two different colors \(blue and red\). This same concept is applied in the Crane, there is an upper loop and lower loop.
 
 ![XLhNrDhIPuyXhYMD-coreXY.png](../.gitbook/assets/xlhnrdhipuyxhymd-corexy.png)
 
-On the Promega, note that all the belts start at the extruder carriage, and that they end on the extruder carriage as well.
+On the Crane, note that all the belts start at the extruder carriage, and that they end on the extruder carriage as well.
 
 Follow the steps below in order to reroute the coreXY belts. The following steps will start with the upper loop, on the left side of the extruder carriage.
 

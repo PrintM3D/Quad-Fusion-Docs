@@ -13,7 +13,7 @@ Updating any configuration or G-code files without connecting to your printer is
 
 ![Location of the microSD Port on the Duet Board](../.gitbook/assets/4acsznaovomcf09t-duetmaestro_sdarrow.jpg)
 
-You can plug the microSD card into the microSD card reader included with your Promega. The microSD card reader can then be plugged into your computer's USB port. The microSD card should then appear as a drive to your computer. You will now be able to download and change any of the files on this card.
+You can plug the microSD card into the microSD card reader included with your Crane. The microSD card reader can then be plugged into your computer's USB port. The microSD card should then appear as a drive to your computer. You will now be able to download and change any of the files on this card.
 
 ![SD Card Structure](../.gitbook/assets/lookansdcardstructure.png)
 

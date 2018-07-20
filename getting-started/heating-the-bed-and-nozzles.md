@@ -4,7 +4,7 @@ description: How to heat the nozzles and the bed.
 
 # Heating the Bed and Nozzles
 
-Both the bed and the hot end\(s\) of the Promega can be activated through the Duet Web Console. You can either utilize the web interface to set a temperature for these components or send G-code commands such as `M109`, `M104`, `M140` or `M190`. Read the sections below to learn more.
+Both the bed and the hot end\(s\) of the Crane can be activated through the Duet Web Console. You can either utilize the web interface to set a temperature for these components or send G-code commands such as `M109`, `M104`, `M140` or `M190`. Read the sections below to learn more.
 
 {% hint style="info" %}
 Prior to every heating of the nozzles or the bed, check the temperature readouts in the _Current_ column on the Duet Web Console. These values should be in the 20°C - 250°C. A value of 2000°C, indicates a problem in the wiring of the thermistor. Fix the issue prior to activating the heaters.

@@ -4,7 +4,7 @@ description: A guide to calibration of the Z-probe and bed leveling.
 
 # Z-Probe Calibration & Bed Leveling
 
-This guide will walk you through setting the Z-offset of a Z-probe sensor. This is necessary in order to allow you to probe the bed accurately. The Promega comes equipped with two different Z-probes, the limit switch and the IR probe. This guide can be followed to configure either one. Whenever you home the printer, the current Z-value of the printer is set based on the limit switch on the bottom of the printer. Whenever you "probe" the bed, meaning you touch the bed against the limit switch probe on the extruder or the IR probe on the extruder, the Z-value will now be based on that probe move. However, in order to do this accurately, you will have to configure the distance between the nozzle and the trigger height of the Z-probe. This is because the firmware will set the Z-value of the printer to the Z-probe offset, as configured in this guide, whenever the Z-probe is triggered during a probe move.
+This guide will walk you through setting the Z-offset of a Z-probe sensor. This is necessary in order to allow you to probe the bed accurately. The Crane comes equipped with two different Z-probes, the limit switch and the IR probe. This guide can be followed to configure either one. Whenever you home the printer, the current Z-value of the printer is set based on the limit switch on the bottom of the printer. Whenever you "probe" the bed, meaning you touch the bed against the limit switch probe on the extruder or the IR probe on the extruder, the Z-value will now be based on that probe move. However, in order to do this accurately, you will have to configure the distance between the nozzle and the trigger height of the Z-probe. This is because the firmware will set the Z-value of the printer to the Z-probe offset, as configured in this guide, whenever the Z-probe is triggered during a probe move.
 
 ## Calibrating the Limit Switch
 
@@ -43,10 +43,10 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 
 ## Automatic Bed Leveling Compensation
 
-To accommodate for small discrepancies in the bed level of the Promega, you can enable bed leveling with `G29` , however, this command will require a _heightmap.csv_ file. Each _heightmap.csv_ file will be unique to your Promega, and sometime even unique to a specific time. If you stall your printer or otherwise misalign your bed, you will have to re-run mesh bed leveling. Bed leveling compensation can compensate for about 2mm of error. If your error is greater, follow the [mechanical leveling guide](../repair-guides/repairing-broken-belt-clamps.md#leveling-the-bed) via skipping. Follow the steps below to generate a _heightmap.csv_ file and enable bed leveling compensation.
+To accommodate for small discrepancies in the bed level of the Crane, you can enable bed leveling with `G29` , however, this command will require a _heightmap.csv_ file. Each _heightmap.csv_ file will be unique to your Crane, and sometime even unique to a specific time. If you stall your printer or otherwise misalign your bed, you will have to re-run mesh bed leveling. Bed leveling compensation can compensate for about 2mm of error. If your error is greater, follow the [mechanical leveling guide](../repair-guides/repairing-broken-belt-clamps.md#leveling-the-bed) via skipping. Follow the steps below to generate a _heightmap.csv_ file and enable bed leveling compensation.
 
 1. Home the printer if you have not already done so.
-2. Heat up the print bed to your preferred printing temperature. The Promega's bed will warp differently depending on what temperature it is heated up to.
+2. Heat up the print bed to your preferred printing temperature. The Crane's bed will warp differently depending on what temperature it is heated up to.
 3. Wait until the bed has reached its temperature before continuing. This could take a few minutes.
 4. Deploy the Z-probe.
 5. Send the command `G29` , this will start the mesh bed leveling process. The mesh is defined in the configuration files on the SD card, and should not need to be changed.

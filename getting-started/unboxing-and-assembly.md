@@ -2,15 +2,15 @@
 
 ## Before Opening
 
-Check the outside of the packaging for any significant amount of damage that might have occurred in shipping. We recommend taking pictures of the box in case the Promega was damaged in shipping. In this box you will find various small items in different packages. Please thoroughly check all wrapping and padding before discarding them to ensure you keep all parts. Keep the Promega's box intact in case you need to transport the printer in the future.
+Check the outside of the packaging for any significant amount of damage that might have occurred in shipping. We recommend taking pictures of the box in case the Crane was damaged in shipping. In this box you will find various small items in different packages. Please thoroughly check all wrapping and padding before discarding them to ensure you keep all parts. Keep the Crane's box intact in case you need to transport the printer in the future.
 
-**Warning: The Promega's frame can be sharp. Please take care when moving the printer in this procedure.**
+**Warning: The Crane's frame can be sharp. Please take care when moving the printer in this procedure.**
 
 ## Opening the Box
 
-1. Cut through the tape of the box on the top. Do not cut deep as the Promega is located below! 
+1. Cut through the tape of the box on the top. Do not cut deep as the Crane is located below! 
 2. Remove the top and side cardboard layers and bubble wrap.
-3. Carefully lift the Promega from the box. Lift from the points indicated in the image below. **Do not lift from the frame member at the back \(marked by red cross\).**
+3. Carefully lift the Crane from the box. Lift from the points indicated in the image below. **Do not lift from the frame member at the back \(marked by red cross\).**
 
    ![XQ09PDakiccOf4IT-wheretoliftprinter.jpg](../.gitbook/assets/xq09pdakiccof4it-wheretoliftprinter.jpg)
 
@@ -70,13 +70,13 @@ The spoolholders should be placed on the back of the printer. Two M4 T20 Torx Co
 
 Follow this section to attach the feet to the printer. You will need a T20 Torx screwdriver.
 
-1. The base of the printer has four holes intended for the feet of the Promega.
+1. The base of the printer has four holes intended for the feet of the Crane.
 2. Carefully flip the printer on it's front in order to get access to the bottom of the printer.
 
    ![](../.gitbook/assets/wheretoscrewonfeet.jpg)
 
 3. Take the M4 bolts out of the bag and screw them into the feet with a T20 Torx tool. ![](../.gitbook/assets/screwinfoot-1.jpg) ![](../.gitbook/assets/screwthroughfoot.jpg)
-4. You can now attach the feet to the base of the Promega through the holes in the picture in step 1. Tighten the feet down with the included M4 lock-nuts.
+4. You can now attach the feet to the base of the Crane through the holes in the picture in step 1. Tighten the feet down with the included M4 lock-nuts.
 
 ## Attaching the Glass Bed
 
@@ -101,7 +101,7 @@ To prevent damage while shipping, the power switch and heated bed coil switch ar
 You will need two M4 12mm Bolts and two M4 nuts per side. You will also need a T20 Torx screw-driver and an M4 wrench or pliers. Screw on both the power switch and the heated bed coil switch.
 
 {% hint style="info" %}
-Due to a mistake, M5 nuts were shipped with a few Promegas instead of M4 nuts.
+Due to a mistake, M5 nuts were shipped with a few Cranes instead of M4 nuts.
 {% endhint %}
 
 ![](../.gitbook/assets/screwingpowerswitch.jpg)
@@ -110,11 +110,11 @@ Due to a mistake, M5 nuts were shipped with a few Promegas instead of M4 nuts.
 
 ## Installing Windows
 
-This section will walk you through installing your top, side and front windows on your Promega. **This step is optional and can be performed at a later time when you prefer to print with a full enclosure.** All screws needed for this section should be included in the plastic bag.
+This section will walk you through installing your top, side and front windows on your Crane. **This step is optional and can be performed at a later time when you prefer to print with a full enclosure.** All screws needed for this section should be included in the plastic bag.
 
 ### Front Window
 
-The front window has four small screw heads that lock onto small magnets located on the front of the Promega. The front window can be identified by the 4 small black screws sticking out of it. Face the screws toward the frame and simply stick it on the Promega.
+The front window has four small screw heads that lock onto small magnets located on the front of the Crane. The front window can be identified by the 4 small black screws sticking out of it. Face the screws toward the frame and simply stick it on the Crane.
 
 ![](../.gitbook/assets/frontwindowattach.gif)
 
@@ -132,7 +132,7 @@ Next, we will install the top windows. You can find the top window by finding a 
 
 ### Side Windows
 
-The side windows can be identified by the fact that they are made of thinner plastic, and that there are two of them. For the side windows you will need 8 \(4 for each side\) M3 5mm bolts. You can screw these into place with the T10 Torx Screw Driver as shown in one of the images below. The side windows go on the inside of the Promega.
+The side windows can be identified by the fact that they are made of thinner plastic, and that there are two of them. For the side windows you will need 8 \(4 for each side\) M3 5mm bolts. You can screw these into place with the T10 Torx Screw Driver as shown in one of the images below. The side windows go on the inside of the Crane.
 
 ![Four M3 5mm Bolts](../.gitbook/assets/4xm35mm.jpg)
 

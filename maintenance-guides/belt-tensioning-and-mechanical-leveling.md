@@ -2,7 +2,7 @@
 
 ## Belt Tensioning and Mechanical Leveling
 
-As the Promega is used over time it is possible slack develops in the CoreXY or Z-assembly belts. This can be fixed easily by following the guides below. Properly tensioning your belts will address problems with backlash and XY skipping.
+As the Crane is used over time it is possible slack develops in the CoreXY or Z-assembly belts. This can be fixed easily by following the guides below. Properly tensioning your belts will address problems with backlash and XY skipping.
 
 ## CoreXY Assembly
 
@@ -12,7 +12,7 @@ As the Promega is used over time it is possible slack develops in the CoreXY or 
 
 2. Once the screws are loosened you should be able to pull the motor to tension the belts. Pull in the direction of the arrow. Typically you will **not** need to pull very hard to tension these belts, around 2 lb of force is sufficient. Strum the belts near the extruder assembly to get an idea of the tension applied to the system by pulling the motor. Once you are satisfied with the tension, tighten the M3 screws back down.
 3. Apply this same process to the other coreXY motor. Be sure to tension this belt system with the same amount of force or you can misalign the extruder carriage gantry and your coreXY system will not be square. 
-4. To check that your system is properly square, align the extruder gantry with the front frame of the Promega as shown in the image below. The extruder gantry shaft should be parallel to the frame. If one side is off, your system is not square and you will have to readjust tension. 
+4. To check that your system is properly square, align the extruder gantry with the front frame of the Crane as shown in the image below. The extruder gantry shaft should be parallel to the frame. If one side is off, your system is not square and you will have to readjust tension. 
 
 ![Checking If Your CoreXY is Square](../.gitbook/assets/howtocheckifsquare.jpg)
 
@@ -28,7 +28,7 @@ In the image below you can see a coreXY assembly that is not square. The left si
 
    ![Gauging the Z-assembly Tension](../.gitbook/assets/w94x14fanyl02dp2-belttension.jpg)
 
-2. To tension the belt pull up as shown in the picture below, while tightening down the screw underneath the Promega. You should not have to pull hard to achieve the proper tension as tightening down the clamp can tension the belt.
+2. To tension the belt pull up as shown in the picture below, while tightening down the screw underneath the Crane. You should not have to pull hard to achieve the proper tension as tightening down the clamp can tension the belt.
 
    ![Tensioning the Z-assembly](../.gitbook/assets/xg91hfq6npl3of53-tensioningthebelt.jpg)
 

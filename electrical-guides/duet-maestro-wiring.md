@@ -1,10 +1,10 @@
 ---
-description: Learn more about the wiring of the Promega printer on the Duet Maestro side.
+description: Learn more about the wiring of the Crane printer on the Duet Maestro side.
 ---
 
 # Duet Maestro Wiring
 
-This guide covers the wiring of the Promega along with possible wiring solutions to problems. Properly understanding the wiring of the Promega is extremely important. Shorting the Duet Maestro board can be done easily. Follow and acknowledge the warnings listed in [Critical Warnings](https://m3d.gitbook.io/promega-docs/getting-started/critical-warnings-and-information). The Duet Maestro board can be easily damaged or broken by:
+This guide covers the wiring of the Crane along with possible wiring solutions to problems. Properly understanding the wiring of the Crane is extremely important. Shorting the Duet Maestro board can be done easily. Follow and acknowledge the warnings listed in [Critical Warnings](https://m3d.gitbook.io/promega-docs/getting-started/critical-warnings-and-information). The Duet Maestro board can be easily damaged or broken by:
 
 1. Wiring the board incorrectly and causing a short
 2. Electro-static Discharge
@@ -22,13 +22,13 @@ The image above displays the ports found on the Duet Maestro and their functions
 
 ### Connection Diagram
 
-![Duet Maestro Promega Wiring Diagram](../.gitbook/assets/eegr4vx3jeacoiyn-guideswiringdiagram.png)
+![Duet Maestro Crane Wiring Diagram](../.gitbook/assets/eegr4vx3jeacoiyn-guideswiringdiagram.png)
 
 Each text in the textbox of the first image represents the text found on each cable near the connector. Not all cables have text, but they will have some other feature that identifies them. Read the list, Notes, below for a further explanation on the unmarked wires. Each textbox color represents the cable assembly that the wires are a part of. White represents the cables going up towards the extruder assembly. Red, the cables to the Z and power supply. Blue, the limit switch wires and purple, the wires to the power supply.
 
 ![Wiring Label](../.gitbook/assets/xuyunhhtrjxntxgo-wiringlabel.jpg)
 
-![Promega Wiring Assemblies](../.gitbook/assets/75w5fdmofqhmwc8n-promegawiringassemblies.jpg)
+![Crane Wiring Assemblies](../.gitbook/assets/75w5fdmofqhmwc8n-promegawiringassemblies.jpg)
 
 Notes:
 
@@ -47,9 +47,9 @@ Notes:
 
 The IR Z-probe ports are listed in the image above. The z-probe board can be powered off both 5V and 3.3V, both pins are found on the Duet Maestro Z-probe connector. We recommend you power the z-probe board with 3.3V as it produces a significantly less noisy signal than 5V, and therefore produces are more consistent distance reading.
 
-### Promega Resistance Table
+### Crane Resistance Table
 
-The Promega electrical components have specific resistances attributed to them. This can make troubleshooting components much easier. With a multi-meter set to measure resistance, you can measure the resistance of a thermistor or heater and compare the reading with the values in the table below. Whenever you are working with electrical components we recommend you switch off the power to the Duet board!
+The Crane electrical components have specific resistances attributed to them. This can make troubleshooting components much easier. With a multi-meter set to measure resistance, you can measure the resistance of a thermistor or heater and compare the reading with the values in the table below. Whenever you are working with electrical components we recommend you switch off the power to the Duet board!
 
 **Resistance Table**
 
@@ -66,7 +66,7 @@ The Promega electrical components have specific resistances attributed to them. 
 
 ### Jumpers
 
-You might notice that your Duet Maestro board for the Promega came with several jumpers on the board. In case you are not familiar with what a jumper is, it represents a connector bridging two electrical components or signals. Read this for more about jumpers: \[Wikipedia: Jumpers\]\([https://en.wikipedia.org/wiki/Jumper\_\(computing](https://en.wikipedia.org/wiki/Jumper_%28computing)\)\). Your Duet should have 5 different jumpers, located as seen in the image below.
+You might notice that your Duet Maestro board for the Crane came with several jumpers on the board. In case you are not familiar with what a jumper is, it represents a connector bridging two electrical components or signals. Read this for more about jumpers: \[Wikipedia: Jumpers\]\([https://en.wikipedia.org/wiki/Jumper\_\(computing](https://en.wikipedia.org/wiki/Jumper_%28computing)\)\). Your Duet should have 5 different jumpers, located as seen in the image below.
 
 ![Duet Maestro Jumper Placement](../.gitbook/assets/w1auipj2zhq0fiku-duetmaestrojumpers.jpg)
 
@@ -75,7 +75,7 @@ Jumpers:
 1. Allows for internal 5V power when Vin \(24V\) is connected
 2. Fan voltage jumper, B FAN2, set to 5V for nozzle fan
 3. Fan voltage jumper, A Always-on-fan set to Vin for cold-section fan
-4. and 5. Only one Z-motor on the Promega, so jumpers are required to properly connect Z-motor to the stepper motor driver.
+4. and 5. Only one Z-motor on the Crane, so jumpers are required to properly connect Z-motor to the stepper motor driver.
 
 ### Before you continue
 

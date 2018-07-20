@@ -28,7 +28,7 @@ K'Tana Tools:
   * Extruder Drive 1 \(Right\)
   * Heater 2
 
-As seen above, the Promega has two different extruder drives and two heaters. The current configuration is set-up to make everything on the left a lower number than everything on the right. For example if you were using the left K'tana extruder tool it would:
+As seen above, the Crane has two different extruder drives and two heaters. The current configuration is set-up to make everything on the left a lower number than everything on the right. For example if you were using the left K'tana extruder tool it would:
 
 * Be called `T0` 
 * Use extruder drive `D0` which is plugged into extruder motor port 0 on the Duet Maestro

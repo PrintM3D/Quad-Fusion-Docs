@@ -8,7 +8,7 @@ While your printer was being shipped, it is possible that a new SD card structur
 
 ## M3D Release SD Card
 
-The latest SD card files released by M3D can be found on the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Follow the steps below in order to download the latest version for your printer. Always be careful when downloading the latest version of the SD card files. New SD card files can cause unintended results such as flipped motor directions or wrongly configured heaters. **Always test all motors and heaters carefully before printing after downloading a new update.**
+The latest SD card files released by M3D can be found on the [M3D Github ProMega Repository](https://github.com/PrintM3D/Crane). Follow the steps below in order to download the latest version for your printer. Always be careful when downloading the latest version of the SD card files. New SD card files can cause unintended results such as flipped motor directions or wrongly configured heaters. **Always test all motors and heaters carefully before printing after downloading a new update.**
 
 Read the [Accessing Your SD Card](https://m3d.gitbook.io/promega-docs/getting-started/accessing-your-sd-card) for more help on getting to the SD card files.
 
@@ -20,7 +20,7 @@ Read the [SD Card Structure](https://m3d.gitbook.io/promega-docs/getting-started
 
 This is the recommended option.
 
-Go to the [M3D GitHub Promega Repository Releases](https://github.com/PrintM3D/Promega/releases) and download the latest release. Download the _.zip_ folder for the extruder head that you currently have mounted. The Promega can come with either the K'tana \(two nozzles\) or the compound \(1 nozzle\).
+Go to the [M3D GitHub Crane Repository Releases](https://github.com/PrintM3D/Crane/releases) and download the latest release. Download the _.zip_ folder for the extruder head that you currently have mounted. The Crane can come with either the K'tana \(two nozzles\) or the compound \(1 nozzle\).
 
 ![Downloading the Latest Release](../.gitbook/assets/wheretoinstallnewsdstuff.png)
 {% endtab %}
@@ -28,7 +28,7 @@ Go to the [M3D GitHub Promega Repository Releases](https://github.com/PrintM3D/P
 {% tab title="Downloading Directly from the Repository" %}
 ## Downloading Directly from Repository
 
-This option is not recommended, but it will allow you to get the latest configuration files, regardless of official release. This is not the recommended option. Once you have found and opened the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Press the _Clone or download_ button circled below and then click _Download ZIP_. This will download a _.zip_ file of the repository.
+This option is not recommended, but it will allow you to get the latest configuration files, regardless of official release. This is not the recommended option. Once you have found and opened the [M3D Github ProMega Repository](https://github.com/PrintM3D/Crane). Press the _Clone or download_ button circled below and then click _Download ZIP_. This will download a _.zip_ file of the repository.
 
 ![Downloading from Github](../.gitbook/assets/s8aq28iyeh4lw9ww-howtodownloadgithub.png)
 {% endtab %}

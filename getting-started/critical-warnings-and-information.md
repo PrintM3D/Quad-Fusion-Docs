@@ -1,10 +1,10 @@
 # Critical Warnings & Information
 
-The M3D Promega is an industrial product. The user assumes all responsibility for proper operation and acknowledges that they understand the operation and standard practices of additive manufacturing. The user assumes all responsibility for its proper use and agrees to follow the directives below to ensure a safe and working unit before any other operation.
+The M3D Crane is an industrial product. The user assumes all responsibility for proper operation and acknowledges that they understand the operation and standard practices of additive manufacturing. The user assumes all responsibility for its proper use and agrees to follow the directives below to ensure a safe and working unit before any other operation.
 
 ## Warnings
 
-1. DO NOT TOUCH PRINTER WHILE OPERATING The Promega is a powerful industrial machine. While the Promega is moving or printing you should not reach into the buildspace.
+1. DO NOT TOUCH PRINTER WHILE OPERATING The Crane is a powerful industrial machine. While the Crane is moving or printing you should not reach into the buildspace.
 2. DO NOT MOVE THE BED WITHOUT POWER
 
    The belts on the printer bed can skip, causing a 2mm shift in your bed level, which will need to be fixed. There is a small but real chance it may damage the Duet board. Do not place heavy items or lean on the bed as it can also skip it.
@@ -74,7 +74,7 @@ The M3D Promega is an industrial product. The user assumes all responsibility fo
 1. The bed is designed to skip if the bed crashes into the nozzle. Once the Z-motor skips it will let the bed fall down to its resting position. The speed of this fall can be very fast, but it's better than a cracked glass bed.
 2. A normal bed must meet the following condition: Pushing down gently on the bed \(less than 10lb\) on any spot on the bed should make the bed move. The same must be true for pushing upwards from the center of the bed, or lifting the bed with two hands in the middle of two opposing faces. All beds will skip if you attempt to lift them from one corner, this is normal.
 3. The bed can skip if moved improperly, which is normal. It is safe to adjust the bed by skipping the belt in corners. Follow [Repairing Broken Belt Clamps & Tensioning](https://m3d.gitbook.io/promega-docs/repair-guides/repairing-broken-belt-clamps) guide for more information on tensioning and leveling your bed. 
-4. Currently the only way to mechanically level the bed is to skip belts in corners of the bed. This leaves you with an accuracy of +-1mm per corner. Future designs will come with an improved mechanical leveling system. A normal bed will one or two corners off 1 or 1.5mm from the rest with an RMS flatness of 0.2 - 0.35mm. This is still relatively small across the Promega's big buildspace.
+4. Currently the only way to mechanically level the bed is to skip belts in corners of the bed. This leaves you with an accuracy of +-1mm per corner. Future designs will come with an improved mechanical leveling system. A normal bed will one or two corners off 1 or 1.5mm from the rest with an RMS flatness of 0.2 - 0.35mm. This is still relatively small across the Crane's big buildspace.
 5. New belt tops and bottoms were designed as of 06/04/18. Use [this link](https://drive.google.com/drive/folders/1xCP-VTzXjAUguB1sH5uztxn9ODNFzm_j) to the public google drive to download the _.STL_ files in order to print them. They can also be shipped to you.
 6. Sliders and the bed frame are tightened based on experience to achieve the best possible backlash, smoothness, ideal kinetic friction across the entire range. The system is designed to be tighter towards the bottom to brake the bed if it comes down. Smoothness of the Z-axis is tied closely with belt tension and trueness of the frame.
 7. The Z-sliders each have two screws attaching them to the bed platform. Only one of these screws is meant to be completely tightened. This allows the sliders to maintain the proper amount of friction on the sliders to perform fast moves such as a Z-hop.

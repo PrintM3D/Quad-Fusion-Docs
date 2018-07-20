@@ -1,14 +1,14 @@
 ---
-description: An explanation behind the wiring of the Promega.
+description: An explanation behind the wiring of the Crane.
 ---
 
 # The Electrical Standard
 
-This guide serves to describe the standard for the electrical system of the Promega and the reasoning behind it.
+This guide serves to describe the standard for the electrical system of the Crane and the reasoning behind it.
 
 ## The Standard
 
-For all electrical components of the Promega, when facing the front, left should indicate 0, or a lower number and right should indicate 1 or a higher number.
+For all electrical components of the Crane, when facing the front, left should indicate 0, or a lower number and right should indicate 1 or a higher number.
 
 For example: The right K'tana tool uses extruder drive 1 and heater 2 to work.
 
@@ -36,5 +36,5 @@ The lower tool number will apply to the left extruder and heater and the higher 
 
 ## Deviating from the Standard
 
-In the configuration files and the wiring of the Promega you can deviate from this standard. To change the tool definition in the configuration files, read the [Help! My Extruders are Backwards](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/firmware-guides/help-my-extruders-are-backwards) guide. For wiring read [Duet Maestro Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/duet-maestro-wiring) and [Extruder Assembly Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/extruder-assembly-wiring).
+In the configuration files and the wiring of the Crane you can deviate from this standard. To change the tool definition in the configuration files, read the [Help! My Extruders are Backwards](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/firmware-guides/help-my-extruders-are-backwards) guide. For wiring read [Duet Maestro Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/duet-maestro-wiring) and [Extruder Assembly Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/extruder-assembly-wiring).
 

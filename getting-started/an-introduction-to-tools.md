@@ -4,7 +4,7 @@ description: An explanation of the tool system on the Duet Maestro
 
 # An Introduction to Tools
 
-The Duet Web Console includes a tool system. Tools allow you to quickly change between different extruder configurations. For example, if you were printing with your right K'Tana nozzle but wanted to start printing with your left K'Tana nozzle, you can change tools. The default SD configurations released by M3D on the [Promega GitHub repository](https://github.com/PrintM3D/Promega) enable a number of tools depending on your mounted extruder head \(K'tana or Compound\). The guide below includes an introduction to tools and how to use them.
+The Duet Web Console includes a tool system. Tools allow you to quickly change between different extruder configurations. For example, if you were printing with your right K'Tana nozzle but wanted to start printing with your left K'Tana nozzle, you can change tools. The default SD configurations released by M3D on the [Crane GitHub repository](https://github.com/PrintM3D/Crane) enable a number of tools depending on your mounted extruder head \(K'tana or Compound\). The guide below includes an introduction to tools and how to use them.
 
 ## What are tools?
 
