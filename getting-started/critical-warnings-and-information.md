@@ -27,7 +27,7 @@ The M3D Crane is an industrial product. The user assumes all responsibility for 
 
 7. USE UNDER SUPERVISION
 
-   Place the printer in a place where nothing can catch on fire should the worst occur. The promega is constructed out of metal and fireproof materials. Still, PLA and other filaments can burn and cause a fire if the printer is used improperly.
+   Place the printer in a place where nothing can catch on fire should the worst occur. The Crane is constructed out of metal and fireproof materials. Still, PLA and other filaments can burn and cause a fire if the printer is used improperly.
 
 8. MAXIMUM EXTRUDER SPEED
 
@@ -37,49 +37,28 @@ The M3D Crane is an industrial product. The user assumes all responsibility for 
 
    The bed current, acceleration and speed are configured for heavy prints. You can increase speed when printing lighter items. Currently, the acceleration of the z-axis is set to 75 mm / s ^2 and a max linear speed of 2300 mm/s but that can be improved depending on your application of the printer.
 
-10. REMOVE TOP COVER
-
-    Whenever printing PLA you must remove the top cover or it will overheat.
-
-11. BED TEMPERATURE
+10. BED TEMPERATURE
 
     If you are using a glass print bed, give the printer an extra few minutes to reach temperature. Without the side and front covers, the glass will be 5-10 C cooler than the bed temperature readouts from the thermistor.
 
-12. FRAME CAN BE SHARP
+11. FRAME CAN BE SHARP
 
     The frame of the printer is metal and could be sharp. Use caution when moving the printer or moving around the printer. Keep your hands out of the machine during operation and be careful when lifting.
 
-13. BURN HAZARD
+12. BURN HAZARD
 
     BED and NOZZLES may cause burns when hot.
 
-14. USE CAUTION WHEN REMOVING PRINTS
+13. USE CAUTION WHEN REMOVING PRINTS
 
-    Use caution when scraping prints off the bed. Push the bed down against a foam pad \(relieving pressure on the z belts\) or remove the glass with the print attached in order to remove it on a firm surface. Best strategy is let the bed cool, most prints pop off by themselves.
+    The best strategy is to let the bed cool, most prints pop off by themselves.
 
-15. WATCH THE FAN
+14. WATCH THE FAN
 
     The cold section fan is spinning very fast when the system is on. Please keep tools and yourself clear of it when it is operational.
 
-16. MANUALLY DEPLOY Z-PROBE
-
-    This printer features both an IR probe and a manually deployable limit switch probe. Be sure to put the limit switch magnet on the mount before probing with the limit switch. Failure to do so could crash the bed into the nozzle. Change the config.g file commands in order to change which probe is being used.
-
-17. CRASHING THE BED
-
-    Crashing the bed into the nozzle can result in the bed skipping and falling down **fast** due to gravity. Stay clear of the printer and do not enter the buildspace while the promega is printing.
-
 ## About the Z-assembly
 
-1. The bed is designed to skip if the bed crashes into the nozzle. Once the Z-motor skips it will let the bed fall down to its resting position. The speed of this fall can be very fast, but it's better than a cracked glass bed.
-2. A normal bed must meet the following condition: Pushing down gently on the bed \(less than 10lb\) on any spot on the bed should make the bed move. The same must be true for pushing upwards from the center of the bed, or lifting the bed with two hands in the middle of two opposing faces. All beds will skip if you attempt to lift them from one corner, this is normal.
-3. The bed can skip if moved improperly, which is normal. It is safe to adjust the bed by skipping the belt in corners. Follow [Repairing Broken Belt Clamps & Tensioning](https://m3d.gitbook.io/promega-docs/repair-guides/repairing-broken-belt-clamps) guide for more information on tensioning and leveling your bed. 
-4. Currently the only way to mechanically level the bed is to skip belts in corners of the bed. This leaves you with an accuracy of +-1mm per corner. Future designs will come with an improved mechanical leveling system. A normal bed will one or two corners off 1 or 1.5mm from the rest with an RMS flatness of 0.2 - 0.35mm. This is still relatively small across the Crane's big buildspace.
-5. New belt tops and bottoms were designed as of 06/04/18. Use [this link](https://drive.google.com/drive/folders/1xCP-VTzXjAUguB1sH5uztxn9ODNFzm_j) to the public google drive to download the _.STL_ files in order to print them. They can also be shipped to you.
-6. Sliders and the bed frame are tightened based on experience to achieve the best possible backlash, smoothness, ideal kinetic friction across the entire range. The system is designed to be tighter towards the bottom to brake the bed if it comes down. Smoothness of the Z-axis is tied closely with belt tension and trueness of the frame.
-7. The Z-sliders each have two screws attaching them to the bed platform. Only one of these screws is meant to be completely tightened. This allows the sliders to maintain the proper amount of friction on the sliders to perform fast moves such as a Z-hop.
-8. In order to test your bed, move the z-motor by hand and observe the movement of the 4 sliders, none should stick. 
-9. Tension your Z-belts approperiately so that the belts can not skip easily. You should be able to strum the belts.
-
+1. 
 Continue on to the [Unboxing & Assembly](https://m3d.gitbook.io/promega-docs/getting-started/unboxing-and-assembly), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
