@@ -8,7 +8,7 @@ If you are a more experienced 3D printer user: [Get Started Here](https://m3d.gi
 
 Visit the [Crane Launchpad](https://store.printm3d.com/pages/promegalaunchpad) website for more useful resources!
 
-![](.gitbook/assets/lrooedcrn9eyh2nb-image-1528219608498.png)
+![](.gitbook/assets/4xq0lrj8d0ayncvp4r4n6kfrsstfsy7gbjmumcd4.png)
 
 ## Contributing
 
