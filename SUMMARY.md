@@ -2,7 +2,7 @@
 
 * [Welcome](README.md)
 * [Getting Started](getting-started/README.md)
-  * [\(Edit details\) Critical Warnings & Information](getting-started/critical-warnings-and-information.md)
+  * [Critical Warnings & Information](getting-started/critical-warnings-and-information.md)
   * [Accessing Your SD Card](getting-started/accessing-your-sd-card.md)
   * [Network Setup](getting-started/network-setup.md)
   * [Accessing Web Interface](getting-started/accessing-web-interface.md)

@@ -6,7 +6,7 @@ If you are a complete beginner to 3D printing , please start at the [Beginner Gu
 
 If you are a more experienced 3D printer user: [Get Started Here](https://m3d.gitbook.io/m3d-quadfusion-documentation/getting-started). This guide will get you set-up and walk you through your first print.
 
-![](.gitbook/assets/quadfusion.png)
+![](.gitbook/assets/quadforcrane_metlettering_1_copy.jpg)
 
 ## Contributing
 

@@ -1,6 +1,6 @@
 # Getting Started
 
-Follow the guides in this Getting Started chapter of the Crane Docs to properly configure your printer and start printing!
+Follow the guides in this Getting Started chapter of the Quad Fusion 3D Print Head Docs to properly configure your printer and start printing!
 
 ## Table of Contents
 
