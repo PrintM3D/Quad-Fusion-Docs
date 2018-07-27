@@ -18,10 +18,6 @@ Follow the guides in this Getting Started chapter of the Quad Fusion 3D Print He
 
 {% page-ref page="loading-and-unloading-filament.md" %}
 
-{% page-ref page="preparing-a-print.md" %}
-
-{% page-ref page="running-a-print.md" %}
-
 * [Critical Warnings & Information](critical-warnings-and-information.md): Contains important warnings and information about using the Crane.
 * [Unboxing & Assembly](./): A step-by-step guide to unbox your printer and assemble the shipped components.
 * [Mechanical Check](./): Confirm your printer is ready to print.
@@ -33,8 +29,8 @@ Follow the guides in this Getting Started chapter of the Quad Fusion 3D Print He
 * [Heating the Bed and Nozzles](heating-the-bed-and-nozzles.md): How to heat the bed and the nozzles
 * [Loading and Unloading Filament](loading-and-unloading-filament.md): On how to load filament into the extruder of the Crane.
 * [Z-Probe Calibration](./): To configure your Z-probe settings
-* [Preparing a Print](preparing-a-print.md): A guide on how to slice files and import slicer settings.
-* [Running a Print](running-a-print.md):  To run a print on the Crane
+* [Preparing a Print](): A guide on how to slice files and import slicer settings.
+* [Running a Print]():  To run a print on the Crane
 * [An Introduction to Tools](): Explains the operations of tools.
 * I[mportant G-code commands](): A list of useful G-code commands to know.
 
