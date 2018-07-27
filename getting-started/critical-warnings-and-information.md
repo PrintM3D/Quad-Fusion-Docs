@@ -59,6 +59,5 @@ The M3D Crane is an industrial product. The user assumes all responsibility for 
 
 ## About the Z-assembly
 
-1. 
-Continue on to the [Unboxing & Assembly](https://m3d.gitbook.io/promega-docs/getting-started/unboxing-and-assembly), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
+1. Continue on to the [Unboxing & Assembly](https://m3d.gitbook.io/promega-docs/getting-started/unboxing-and-assembly), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 

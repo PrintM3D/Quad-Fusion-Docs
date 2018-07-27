@@ -1,12 +1,12 @@
 # Welcome
 
-Welcome to the User Manual for the  The QuadFusion Print Head. Please feel free to add suggestions to any of the guides by creating a pull-request or issue on [GitHub](https://github.com/PrintM3D/Quad-Fusion-Docs/issues). This manual is hosted in Github.com via Gitbook.com.
+Welcome to the User Manual for the The QuadFusion Print Head. Please feel free to add suggestions to any of the guides by creating a pull-request or issue on [GitHub](https://github.com/PrintM3D/Quad-Fusion-Docs/issues). This manual is hosted in Github.com via Gitbook.com.
 
 If you are a complete beginner to 3D printing , please start at the [Beginner Guides](beginner-guides/).
 
 If you are a more experienced 3D printer user: [Get Started Here](https://m3d.gitbook.io/m3d-quadfusion-documentation/getting-started). This guide will get you set-up and walk you through your first print.
 
-![](.gitbook/assets/4xq0lrj8d0ayncvp4r4n6kfrsstfsy7gbjmumcd4.png)
+![](.gitbook/assets/quadfusion.png)
 
 ## Contributing
 

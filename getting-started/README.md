@@ -29,8 +29,8 @@ Follow the guides in this Getting Started chapter of the Crane Docs to properly 
 {% page-ref page="important-g-code-commands.md" %}
 
 * [Critical Warnings & Information](critical-warnings-and-information.md): Contains important warnings and information about using the Crane.
-* [Unboxing & Assembly](): A step-by-step guide to unbox your printer and assemble the shipped components.
-* [Mechanical Check](): Confirm your printer is ready to print.
+* [Unboxing & Assembly](./): A step-by-step guide to unbox your printer and assemble the shipped components.
+* [Mechanical Check](./): Confirm your printer is ready to print.
 * [Accessing your SD Card](accessing-your-sd-card.md): To watch the video on the SD card and read more materials.
 * [Network Setup](network-setup.md): Configure the network settings of the Crane to connect to your local network.
 * [Accessing Web Interface](accessing-web-interface.md): An explanation of the features included in the Duet Web Console on the Duet Maestro.
@@ -38,7 +38,7 @@ Follow the guides in this Getting Started chapter of the Crane Docs to properly 
 * [Homing the Printer](homing-the-printer.md): An explanation of the homing process of the Crane.
 * [Heating the Bed and Nozzles](heating-the-bed-and-nozzles.md): How to heat the bed and the nozzles
 * [Loading and Unloading Filament](loading-and-unloading-filament.md): On how to load filament into the extruder of the Crane.
-* [Z-Probe Calibration](): To configure your Z-probe settings
+* [Z-Probe Calibration](./): To configure your Z-probe settings
 * [Preparing a Print](preparing-a-print.md): A guide on how to slice files and import slicer settings.
 * [Running a Print](running-a-print.md):  To run a print on the Crane
 * [An Introduction to Tools](an-introduction-to-tools.md): Explains the operations of tools.

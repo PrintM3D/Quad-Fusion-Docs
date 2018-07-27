@@ -11,8 +11,8 @@ It is possible that your extruder directions are flipped because the extruder dr
 {% endhint %}
 
 1. Connect to the Crane's Duet Web Console
-2. To check your extruder directions go to the _Machine Control_ tab in the Duet Web Console and select drive 0 or 1 in _Extruder Control._ Then try to feed filament into the extruder and see if your directions are correct. It is also possible to change the extruder drives in the section below. If your filament is being pushed out of the top of the extruder when you press extrude, follow the steps below.  ![](../.gitbook/assets/machinecontrol%20%281%29.png) 
-3. Go to the _Settings_ tab of the Duet Web Console and then to the _System Editor._  ![](../.gitbook/assets/settingsssytemeditor%20%281%29.png) 
+2. To check your extruder directions go to the _Machine Control_ tab in the Duet Web Console and select drive 0 or 1 in _Extruder Control._ Then try to feed filament into the extruder and see if your directions are correct. It is also possible to change the extruder drives in the section below. If your filament is being pushed out of the top of the extruder when you press extrude, follow the steps below.  ![](../.gitbook/assets/machinecontrol-1%20%281%29.png) 
+3. Go to the _Settings_ tab of the Duet Web Console and then to the _System Editor._  ![](../.gitbook/assets/settingsssytemeditor-1.png) 
 4. Open the _config.g_ file. Find the block with the following commands:  
    `; --- SECTION: DRIVES (MOVEMENT SECTION) & ENDSTOPS ---`
 
@@ -35,7 +35,7 @@ This section will fix extruder drives that are flipped. If you actuate what you 
 
 1. Connect to the Crane's Duet Web Console
 2. To check your extruder drives go to the _Machine Control_ tab in the Duet Web Console and select drive 0 or 1 in _Extruder Control._ If you have extruder drive 0 selected and press extrude it should move the left extruder. For extruder drive 1, the right extruder should move.  It is also possible to change the extruder drives in the section below.   ![](../.gitbook/assets/machinecontrol.png) 
-3. Go to the _Settings_ tab of the Duet Web Console and then to the _System Editor._  ![](../.gitbook/assets/settingsssytemeditor%20%282%29.png) 
+3. Go to the _Settings_ tab of the Duet Web Console and then to the _System Editor._  ![](../.gitbook/assets/settingsssytemeditor-2.png) 
 4. Open the _machine\_compound\_tools.g_ \(or _machine\_ktana\_tools.g_\) \_\_file. And find the `M563` commands, this configures the tool:  
    `M563 P0 D0:1 H2 F2 S"Mixing" ; Define mixing tool`
 

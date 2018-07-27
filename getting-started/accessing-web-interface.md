@@ -59,7 +59,7 @@ The Machine Control tab features different buttons in order to control different
 
 **Print Status**
 
-![Print Status Screen](../.gitbook/assets/jsgiizguus48ntax-printsettingsscreen.PNG)
+![Print Status Screen](../.gitbook/assets/jsgiizguus48ntax-printsettingsscreen%20%281%29.PNG)
 
 The print status tab is helpful when printing. It includes all kinds of information to analyze during a print. Use the Z Baby Stepping window to change the offset of the nozzle to the bed during a print. Use the Speed and Extrusion factors to change the speed and extrusion rate of the print. These settings can be very helpful to get the first layer to stick, but be careful as these settings can damage your print quality. Use the pause button to temporarily stop the print. Once you pause the print you can resume or stop the print. This screen will also display other statistics during a print such as layer time and length of filament used.
 

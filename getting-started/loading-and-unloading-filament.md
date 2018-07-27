@@ -8,7 +8,7 @@ description: How to load and unload filament into the extruder.
 
 1. Heat up the nozzle to the temperature required for the specific filament you are about to load \(ABS-R: ~230C, PLA: ~200C\). Use the Duet Web Console's Tools/Heaters/Extra table to heat up the specific nozzle. For more guidance on heating up your nozzle, follow [this guide.](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles)
 
-   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed-1%20%281%29.PNG)
+   ![ZzzciCea9XJ9Ev9A-heatingbed.PNG](../.gitbook/assets/zzzcicea9xj9ev9a-heatingbed-1-1.PNG)
 
 2. Send filament through the entrance of the PTFE tubes located at the back of the printer.
 
