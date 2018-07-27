@@ -6,7 +6,7 @@
   * [Unboxing & Assembly](getting-started/accessing-your-sd-card.md)
   * [Mounting the Hardware](getting-started/network-setup.md)
   * [Connecting the Wires](getting-started/accessing-web-interface.md)
-  * [Updating your Control Board Settings](getting-started/updating-sd-card-structure.md)
+  * [Updating your Control Board Settings](getting-started/updating-control-board-settings.md)
   * [Changing Homing Offsets](getting-started/homing-the-printer.md)
   * [Heating & Temp Sensor](getting-started/heating-the-bed-and-nozzles.md)
   * [Loading and Unloading Filament](getting-started/loading-and-unloading-filament.md)
