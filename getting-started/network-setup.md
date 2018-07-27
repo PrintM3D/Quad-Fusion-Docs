@@ -2,7 +2,7 @@
 description: Connect your Crane to your Network.
 ---
 
-# Network Setup
+# Mounting the Hardware
 
 Connecting to your Crane via your local network is very useful as you get access to the Duet Web Console. You can connect your Crane to your local network via the Ethernet port on the Duet Maestro. Once the network settings are properly configured, you should be able to connect to the Duet board and access the Duet Web Console. In order to configure your network settings you will need to edit files on the microSD card. The Crane microSD card has a configuration file called _config.g_ in the _sys/_ folder. This file contains all the necessary information in order to connect to your network.
 

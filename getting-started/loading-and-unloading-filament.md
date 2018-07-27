@@ -2,7 +2,7 @@
 description: How to load and unload filament into the extruder.
 ---
 
-# \(Edit pictures\) Loading and Unloading Filament
+# Loading and Unloading Filament
 
 ## Loading Filament
 

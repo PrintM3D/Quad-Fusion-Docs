@@ -5,7 +5,7 @@ description: >-
   instructions for unpacking.
 ---
 
-# Accessing Your SD Card
+# Unboxing & Assembly
 
 ## Accessing the microSD
 
