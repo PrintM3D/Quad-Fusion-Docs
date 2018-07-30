@@ -2,7 +2,7 @@
 description: Learn more about the wiring of the Crane printer on the Duet Maestro side.
 ---
 
-# \(Edit details\) Duet Maestro Wiring
+# Duet Maestro Wiring
 
 This guide covers the wiring of the Crane along with possible wiring solutions to problems. Properly understanding the wiring of the Crane is extremely important. Shorting the Duet Maestro board can be done easily. Follow and acknowledge the warnings listed in [Critical Warnings](https://m3d.gitbook.io/promega-docs/getting-started/critical-warnings-and-information). The Duet Maestro board can be easily damaged or broken by:
 
@@ -20,33 +20,28 @@ This guide covers the wiring of the Crane along with possible wiring solutions t
 
 The image above displays the ports found on the Duet Maestro and their functions.
 
-### Connection Diagram
+Before you can begin to wire your Quad Fusion to the Duet Maestro board you must attach an extension to the board. With this extension you will be able to connect the the extra motor wires to the board.
 
-![Duet Maestro Crane Wiring Diagram](../.gitbook/assets/eegr4vx3jeacoiyn-guideswiringdiagram.png)
+The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-Each text in the textbox of the first image represents the text found on each cable near the connector. Not all cables have text, but they will have some other feature that identifies them. Read the list, Notes, below for a further explanation on the unmarked wires. Each textbox color represents the cable assembly that the wires are a part of. White represents the cables going up towards the extruder assembly. Red, the cables to the Z and power supply. Blue, the limit switch wires and purple, the wires to the power supply.
+![](../.gitbook/assets/image%20%2812%29.png)
 
-![Wiring Label](../.gitbook/assets/xuyunhhtrjxntxgo-wiringlabel.jpg)
+![](../.gitbook/assets/image.png)
 
-![Crane Wiring Assemblies](../.gitbook/assets/75w5fdmofqhmwc8n-promegawiringassemblies.jpg)
+### Base Connections
+
+![](../.gitbook/assets/image%20%281%29.png)
+
+Without the fans, the Quad Fusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot it the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\). 
+
+The wires plug in to their corresponding color that is boxed in the following picture:
+
+![](../.gitbook/assets/image%20%289%29.png)
 
 Notes:
 
-* The Z-motor cable is coiled to form a rope. The Y-motor is not. Plugging them in wrong will not result in damage but will result in flipped Y and Z axes.
-* The X-motor is an unlabeled 4 pin connector coming from the extruder cable assembly. The colors of the wire are red, green, blue and black. It should be the only 4-wire cable with these colors coming from the extruder cable assembly.
-* The Z-probe wires are connected to the 5-pin z-probe connector. Only three pins are used. From left to right:
-  1. Signal Port: Black Cable, S10
-  2. GND Port: White Cable, P5
-  3. MOD Port: Empty
-  4. 3.3V Port: Brown Cable, S9
-  5. 5V Port: Empty
-
-### Z-probe Wiring
-
-![IR Z-Probe Board](../.gitbook/assets/phtkvdkc8hamidc4-irprobeports.jpg)
-
-The IR Z-probe ports are listed in the image above. The z-probe board can be powered off both 5V and 3.3V, both pins are found on the Duet Maestro Z-probe connector. We recommend you power the z-probe board with 3.3V as it produces a significantly less noisy signal than 5V, and therefore produces are more consistent distance reading.
-
+* Keep in mind when you're wiring your Quad Fusion's motors to the Duet Maestro board which motor is connected to which port. The first picture in this guide labels each port as E0 Stepper, E1 Stepper, E2 External Driver, and E3 External Driver. When facing the front of your Quad Fusion, the front left motor is 0, the front right motor is 2, the back left motor is 1, and the back right motor is 3. 
+* 
 ### Crane Resistance Table
 
 The Crane electrical components have specific resistances attributed to them. This can make troubleshooting components much easier. With a multi-meter set to measure resistance, you can measure the resistance of a thermistor or heater and compare the reading with the values in the table below. Whenever you are working with electrical components we recommend you switch off the power to the Duet board!
@@ -76,6 +71,16 @@ Jumpers:
 2. Fan voltage jumper, B FAN2, set to 5V for nozzle fan
 3. Fan voltage jumper, A Always-on-fan set to Vin for cold-section fan
 4. and 5. Only one Z-motor on the Crane, so jumpers are required to properly connect Z-motor to the stepper motor driver.
+
+{% hint style="info" %}
+You will need Jumper \#1 in order to connect the third and fourth motor from the Quad Fusion to the Duet Maestro
+{% endhint %}
+
+The pictures below depict where the jumper needs to go, and how it looks once it is there:
+
+![](../.gitbook/assets/image%20%286%29.png)
+
+![](../.gitbook/assets/image%20%2810%29.png)
 
 ### Before you continue
 
