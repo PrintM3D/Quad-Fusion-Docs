@@ -1,40 +1,27 @@
-# \(Insert Quad\) Tool Definitions
+# Tool Definitions
 
-This guide will explains the default tool definitions for both the K'Tana and the Compound and explains how to change tools. This can be useful to create complex mixing and switching prints. This guide is not for beginners. Read the [Introduction to Tools]() guide in order to better understand the tool system.
+This guide will explains the default tool definitions for the Quad Fusion and explains how to change tools. This can be useful to create complex mixing and switching prints. This guide is not for beginners
 
 ## Default Tool Definitions
 
-Compound Tools:
+Quad Fusion Tools:
 
-* `T0`: Mixing tool
-  * Extruder Drive 0 \(Left\) & Extruder Drive 1 \(Right\)
-  * Heater 2
-  * Allows for extruding two filaments and combining them at a 1:1 ratio
-* `T1`: Single Left
-  * Extruder 0 \(Left\)
-  * Heater 2
-  * Extrudes with only the right extruder
-* `T2`: Single Right
-  * Extruder 1 \(Right\)
-  * Heater 2
-  * Extrudes with only the left extruder
-
-K'Tana Tools:
-
-* `T0`: K'tana Single Left
-  * Extruder Drive 0 \(Left\)
+* `T0`: Top Left
+  * Extruder Drive 0 
   * Heater 1
-* `T1`: K'tana Single Right
-  * Extruder Drive 1 \(Right\)
-  * Heater 2
+* `T1`: Bottom Left
+  * Extruder Drive 1
+  * Heater 1
+* `T2`: Bottom Right
+  * Extruder Drive 2
+  * Heater 1
+* `T3`: Top Right 
+  * Extruder Drive 3
+  * Heater 1
 
-As seen above, the Crane has two different extruder drives and two heaters. The current configuration is set-up to make everything on the left a lower number than everything on the right. For example if you were using the left K'tana extruder tool it would:
+![](../.gitbook/assets/image%20%2815%29.png)
 
-* Be called `T0` 
-* Use extruder drive `D0` which is plugged into extruder motor port 0 on the Duet Maestro
-* Use heater `H1` \(remember that `H0` is reserved for the heated bed\)
-
-This same concept is applied throughout all the different tools with one exception. The compound uses Heater 2 or `H2` . The reason for this is that the compound wiring comes around the right side of the extruder, hence we found it logical to assign this to heater 2. All wiring and configuration can be changed to your personal preference.
+As seen above, the Crane has four different extruder drives and two heaters. The current configuration is set-up to make all tools heated by Heater 1, while the Bed will be heated by Heater 0.
 
 ## Tool Definition Command `M563`
 
@@ -46,15 +33,15 @@ The `M563` command allows you to define a tool, it has the following parameters:
 * `Hnnn` : The assigned heater number
 * `Fnnn` : The fans mapped to the tool.
 
-The extruder drive numbers start from 0 and immediately follow the X, Y and Z axes stepper motor drives on the Duet Board. You can configure the order of these drives with the `M584` command.
+The extruder drive numbers start from 0 and immediately follow the X, Y and Z axes stepper motor drives on the Duet Board. You can configure the order of these drives with the `M584` command. If you were looking at your tools in the config.g, they would look like this:
 
-The heater number is usually higher than 1 since 0 is the heated bed.
-
-The nozzle fans are mapped to port 2 on the Duet Maestro. So configuring `F2` in the tool definitions will allow you to turn on the fans with the `M106 Snnn` command instead of the `M106 P2 Snnn` command.
+![](../.gitbook/assets/image%20%2811%29.png)
 
 ## Defining Your Own Tools
 
-Defining your own tools is useful to create prints that switch colors in the middle of a print. This is more applicable to the compound tool than the K'tana. To define a new tool enter the `M563` command in the configuration file, then follow it with the extruder drive and heater number that you would like to use.
+Defining your own tools is useful to create prints that switch colors in the middle of a print. This is more applicable to the compound tool than the K'tana. To define a new tool enter the `M563` command in the configuration file, then follow it with the extruder drive and heater number that you would like to use. Such as:
+
+![](../.gitbook/assets/image%20%282%29.png)
 
 ## Mixing Ratios
 
