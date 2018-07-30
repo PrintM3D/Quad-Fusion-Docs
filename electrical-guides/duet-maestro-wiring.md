@@ -24,7 +24,7 @@ Before you can begin to wire your Quad Fusion to the Duet Maestro board you must
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 ![](../.gitbook/assets/image.png)
 
@@ -36,12 +36,19 @@ Without the fans, the Quad Fusion has six main wires coming from it. The four wi
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 Notes:
 
 * Keep in mind when you're wiring your Quad Fusion's motors to the Duet Maestro board which motor is connected to which port. The first picture in this guide labels each port as E0 Stepper, E1 Stepper, E2 External Driver, and E3 External Driver. When facing the front of your Quad Fusion, the front left motor is 0, the front right motor is 2, the back left motor is 1, and the back right motor is 3. 
-* 
+* If you decide to extend the wires given to you, make sure that you are maintaining the original positive and negative wires. 
+
+**Connecting the fans**
+
+There are three fans connected to the Quad Fusion, two small fans on the left and right and one large fan on the front. The large fan on the front is Fan 0, or "Always On", the two side fans are connected to one another and make up Fan 1 \(whose speed can be controlled in the Duet Web Control\).
+
+In the picture below, the orange box indicates where Fan 0 should be plugged in, and the blue box is where Fan 1 is to be plugged in. 
+
 ### Crane Resistance Table
 
 The Crane electrical components have specific resistances attributed to them. This can make troubleshooting components much easier. With a multi-meter set to measure resistance, you can measure the resistance of a thermistor or heater and compare the reading with the values in the table below. Whenever you are working with electrical components we recommend you switch off the power to the Duet board!
@@ -78,9 +85,9 @@ You will need Jumper \#1 in order to connect the third and fourth motor from the
 
 The pictures below depict where the jumper needs to go, and how it looks once it is there:
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 ### Before you continue
 

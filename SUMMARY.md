@@ -39,7 +39,7 @@
 * [Maintenance Guides](maintenance-guides/README.md)
   * [Temperature Calibration](maintenance-guides/temperature-calibration.md)
   * [Screw and Tool List](maintenance-guides/screw-and-tool-list.md)
-  * [\(Insert Quad\) Changing Nozzles](maintenance-guides/changing-nozzles.md)
+  * [Changing Nozzles](maintenance-guides/changing-nozzles.md)
 * [Troubleshooting Guides](troubleshooting-guides/README.md)
   * [Troubleshooting Duet Web Console](troubleshooting-guides/troubleshooting-duet-web-console.md)
   * [\(Edit pictures\) Heater Troubleshooting](troubleshooting-guides/heater-troubleshooting.md)
