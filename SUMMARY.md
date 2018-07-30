@@ -14,7 +14,6 @@
 * [Beginner Guides](beginner-guides/README.md)
   * [Beginner: Preparation](beginner-guides/beginner-preparation.md)
   * [Beginner: Quad Fusion Assembly](beginner-guides/beginner-printer-assemblies.md)
-  * [\(Edit details\) Beginner: Printer Coordinates](beginner-guides/beginner-printer-coordinates.md)
   * [Beginner: Moving the Motors](beginner-guides/beginner-moving-the-motors.md)
   * [Beginner: Introduction to G-Code Commands](beginner-guides/beginner-introduction-to-g-code-commands.md)
   * [Beginner: Software Layers](beginner-guides/beginner-software-layers.md)
