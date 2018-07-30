@@ -1,19 +1,26 @@
 ---
-description: A beginner guide covering the assemblies of the Crane.
+description: A beginner guide covering the assemblies of the Quad Fusion.
 ---
 
-# \(Edit pictures\) Beginner: Printer Assemblies
+# Beginner: Quad Fusion Assembly
 
-This guide will cover a significant amount of technical knowledge and terms. The different assemblies of the Crane will be mentioned frequently in the sections below.
+This guide will cover the inner workings of the Quad Fusion. There will be a significant amount of technical knowledge and terms throughout these guides that will reference what is explained here. The different assemblies of the Quad Fusion will be mentioned frequently in the sections below.
 
-List of the core Crane Assemblies:
+Inside the Quad Fusion:
 
-* **Extruder Assembly**: This heats up and prints the filament. It is also referred to as the extruder carriage. This uses the coreXY system in order to travel in the X and Y plane.
-* **CoreXY Assembly**: A belt system that allows the extruder carriage to travel on a plane along the X and Y axes.
-* **Z-platform**: A heated bed that is actuated up and down with belts along the Z-axis.
-* **Electronics \(not shown\):** Located on the back of the printer. Includes the Duet Maestro, the "brains" of the Crane.
+* **Quad Fusion Head**: The head of the Quad is designed to fit four filaments. The way it works is by having two channels on either side of the head. These channels guide the filament down the Quad Fusion in order to be extruded
+* **Gears**: The Quad Fusion has four gears controlled by four motors. When the filament is loaded into the Quad Fusion, it encounters the gears which will turn and latch on to the filament, pulling it through. 
+* **Set-screw**: There are two set-screws with bearings placed upon them. The purpose of these is to help keep the filament in its channel as it passes through the Quad fusion.
 
-![Crane Assemblies](../.gitbook/assets/vopgfun48dwpqitf-differentpromegaassemblies.jpg)
+![](../.gitbook/assets/image%20%283%29.png)
 
-![The Duet Maestro Board](../.gitbook/assets/duetboard.jpeg)
+The Nozzle:
+
+* **Teflon Tube**: Once the filament has traveled down its designated channel, it will encounter the teflon tube that sits inside the nozzle. The tube is divided into four sections, one for each of the filaments you will be loading.
+
+![](../.gitbook/assets/image%20%282%29.png)
+
+* **Mixing Chamber**: Once the filaments have all passed into their section of the teflon tube, they will travel down into the mixing chamber. The mixing chamber lies at the very tip of the nozzle, this is where your filaments will mix in order to give you the color you requested. 
+
+![](../.gitbook/assets/image%20%284%29.png)
 
