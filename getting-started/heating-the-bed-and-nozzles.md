@@ -20,7 +20,7 @@ This guide expects the reader to have completed setting up its Quad Fusion, all 
 
 `M305` is the G-code command that sets the heater's parameters by using \(as above\)  
 `Pnnn` is used to describe which heater is being edited  
-`Xnnn` is  
+`Xnnn` is the heater ADC channel, or thermocouple or PT100 adapter channel  
 `Tnnn` is used to indicate the thermistor's resistance   
 `Bnnn` is the beta value if the sensor is a thermistor  
 `Cnnn` is the Steinhart - Hart C coefficient \(default 0\)  
@@ -28,14 +28,17 @@ This guide expects the reader to have completed setting up its Quad Fusion, all 
 
 `M143` Explained:
 
-`M143` is  
-`Hnnn` is  
-`Snnn` is  
-
+`M143` is   
+`H` is the heater being edited  
+`S` is the maximum temperature
 
 {% hint style="info" %}
 All this information can be found at: [https://duet3d.dozuki.com/Wiki/Gcode\#Section\_Introduction](https://duet3d.dozuki.com/Wiki/Gcode#Section_Introduction)
 {% endhint %}
+
+4. Try heating up your tools to 200C. You should see the red line on the graph begin to increase:
+
+![](../.gitbook/assets/image%20%2818%29.png)
 
 
 
