@@ -4,9 +4,9 @@ description: >-
   need for the remaining wires.
 ---
 
-# Connecting the Wires
+# \*Connecting the Wires
 
-This is the Quad Fusion without the fans:
+This is the Quad Fusion without fans:
 
 ![](../.gitbook/assets/image%20%2825%29.png)
 
@@ -36,7 +36,7 @@ The opposite end of this wire can be either a 2-pin female Molex connector:
 
 ![](../.gitbook/assets/image%20%2813%29.png)
 
-Or, a 2-pin female dupont connector:
+Or, a 2-pin female Dupont connector:
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
@@ -50,5 +50,5 @@ The length of these wires is entirely based upon the printer you are using. The 
 
 Now that you have the necessary wires for each of the motors, the heater, and PT1000, you can move on to other guides. 
 
-If you are connecting to the Duet Maestro, continue on to the [Duet Maestro Wiring](../electrical-guides/duet-maestro-wiring.md) guide to connect your Quad Fusion to your printer.
+If you are connecting to the Duet Maestro, continue on to the [Duet Maestro Wiring](../electrical-guides/duet-maestro-wiring.md) guide to connect the Quad Fusion to your printer.
 
