@@ -2,7 +2,7 @@
 description: A guide covering the different software layers of the Crane.
 ---
 
-# Beginner: Software Layers
+# \*Beginner: Software Layers
 
 This guide is intended to explain all the different software levels that takes a model to a final printed form on the Crane. We will start at a model on a modelling software on a computer and go all the way down to the RepRap firmware that runs on the Duet Maestro.
 

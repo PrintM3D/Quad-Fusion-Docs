@@ -1,6 +1,6 @@
-# Temperature Calibration
+# \*Temperature Calibration
 
-Proper temperature calibration is vital to allow for good print quality. The hot-end\(s\) and the bed are controlled by temperature feedback loops which are supposed to maintain a steady temperature. The type of feedback loop is a first order plus dead time \([FOPDT](https://controlguru.com/process-data-dynamic-modeling-and-a-recipe-for-profitable-control/)\) loop. This loop has three different control variables: 1. Gain: Kp: Allows for manipulation of the strength of the heater response. 2. Time Constant: Tp: Control of the speed of the response of the heater. 3. Dead time: The delay before the system will begin a response.
+Proper temperature calibration is vital to allow for good print quality. The hot-end and the bed are controlled by temperature feedback loops which are supposed to maintain a steady temperature. The type of feedback loop is a first order plus dead time \([FOPDT](https://controlguru.com/process-data-dynamic-modeling-and-a-recipe-for-profitable-control/)\) loop. This loop has three different control variables: 1. Gain: Kp: Allows for manipulation of the strength of the heater response. 2. Time Constant: Tp: Control of the speed of the response of the heater. 3. Dead time: The delay before the system will begin a response.
 
 This control loop and its variables are applied to the different heaters on the Crane. With the command `M303` and `M307` the temperature control loop can be tuned and changed. The default control variables supplied by M3D in the configuration files should allow you to print at a stable temperature. However, significant changes to the printing environment, such as room temperature, air-flow or humidity can impact your control loop effectiveness and stability. An improper control loop can cause problems listed below.
 
@@ -13,7 +13,9 @@ This control loop and its variables are applied to the different heaters on the 
 
 RepRap firmware has a built in auto-tune heater function. This allows you to tune the control loop of a heater on the Crane. Follow the section below!
 
-**WARNING: The auto-tune function can rapidly heat your hot-end\(s\) to a high temperature. DO NOT leave your printer unattended while running** `M303`
+{% hint style="warning" %}
+**The auto-tune function can rapidly heat your hot-end\(s\) to a high temperature. DO NOT leave your printer unattended while running** `M303`
+{% endhint %}
 
 **Overview**
 
@@ -56,5 +58,5 @@ RepRap firmware also allows for control of the heaters with basic PID with three
 
 ## Manually Tuning
 
-Manually tuning your control variables can be done. Read more about the control variables explained in this guide online and their effects on a control loop before changing your control variables. Manually tuning your control variables is often a great option to reduce or obstruct observed errors as the ones listed above. Tuning your control loop from scratch is not recommended! Be careful when changing your control variables as it could easily produce unintended consequences
+Manually tuning your control variables can be done. Read more about the control variables explained in this guide online and their effects on a control loop before changing your control variables. Manually tuning your control variables is often a great option to reduce or obstruct observed errors as the ones listed above. **Tuning your control loop from scratch is not recommended!** Be careful when changing your control variables as it could easily produce unintended consequences
 

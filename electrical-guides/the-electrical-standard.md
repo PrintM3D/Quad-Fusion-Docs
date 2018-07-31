@@ -4,13 +4,11 @@ description: An explanation behind the wiring of the Crane.
 
 # The Electrical Standard
 
-This guide serves to describe the standard for the electrical system of the Crane and the reasoning behind it.
+This guide serves to describe the standard for the electrical system of the Quad Fusion and the reasoning behind it.
 
 ## The Standard
 
-For all electrical components of the Crane, when facing the front, left should indicate 0, or a lower number and right should indicate 1 or a higher number.
-
-For example: The right K'tana tool uses extruder drive 1 and heater 2 to work.
+The Quad Fusion has four motors, one heater, and one PT1000. 
 
 ## Reasoning
 

@@ -9,11 +9,17 @@ description: >-
 
 ## Assembling the Quad Fusion 3D Print Head
 
-The Quad Fusion 3D Print Head need to be assembled before you can mount it to your printer.  Please follow these steps to complete the assembly
-
-1. Attach the fan mounts to the Quad Fusion 3D Print Head
-2. Attach the fan guides to the fan
-3. Attach the fans to the fan guides
+The Quad Fusion 3D Print Head needs to be assembled before you can mount it to your printer.  Please follow these steps to complete the assembly
 
 
+
+1. Attach the fan mounts to the Quad Fusion:
+
+
+
+    2. Attach the fan guides to the fans:
+
+
+
+    3. Attach the fans to the fan mounts:
 

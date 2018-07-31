@@ -1,4 +1,4 @@
-# Troubleshooting Duet Web Console
+# \*Troubleshooting Duet Web Console
 
 This guide will walk through possible problems that can be encountered while connecting to the Duet Web Console.
 
