@@ -1,37 +1,45 @@
+---
+description: These are the screws and tools needed solely for the Quad Fusion and its fans.
+---
+
 # Screw and Tool List
 
-This guide contains a list of different screws and tools used for each assembly of the 3D printer. Look under the tools header for each assembly to see all the possible tools you will need to maintain, assemble or repair the Crane . Look under the screws category to view a more in-depth list of the screw types and their location.
+This guide contains a list of different screws and tools used for each assembly of the Quad Fusion and its fans. Look under the tools header for each assembly to see all the possible tools you will need to maintain, assemble or repair the Quad Fusion or its fans . Look under the screws category to view a more in-depth list of the screw types and their location.
 
 ## Brief Overview
 
 ### All Tools
 
-* T20 Torx Screwdriver
 * T10 Torx Screwdriver
 * T6 Torx Screwdriver
-* 1.5mm Hex
+* 2.5mm Hex
 * 1.3mm Hex
 * Pliers
 * Needle-nose pliers
 
 ### All Screws
 
-* Hot-end Block: 1.3 mm Hex
-* Hot-end Extruder Set screws: 1.5mm Hex
-* Fan duct & Z-Probe: T6 Torx
-* Other screws: T10 or T20 Torx
+* Hot-end Block Set screws: 1.3 mm Hex
+* Fan mount: T10 Torx
+* Fan Duct: T6 Torx
+* Quad Fusion: T10 Torx and 2.5mm Hex\*
+  * \*The 2.5mm Hex screw may vary based on how you are mounting your Quad Fusion. Go to the [Mounting the Hardware](../getting-started/network-setup.md) guide for more information. 
 
 ## Detailed List
 
-### Extruder Assembly
+### Quad Fusion Assembly
+
+**Tools**
+
+* T10 Torx
+* 2.5mm Hex
+
+### Hot-end Assembly
 
 #### Tools
 
 * 1.3 mm Hex
-* 1.5 mm Hex
-* T6 Torx Screw Driver
-* T10 Torx Screw Driver
-* T20 Torx Screw Driver
+* Pliers
 
 #### Screws
 
@@ -41,99 +49,5 @@ This guide contains a list of different screws and tools used for each assembly 
 * Heater Cartridge Setscrew
 * Nozzle Setscrew
 
-**1.5mm Hex**:
-
-* Hot-end Setscrews
-
-**T6 Torx**:
-
-* Fan Duct Bolts x2
-* Z-Probe Limit Switch Mount x2
-
-**T10 Torx**:
-
-* Cable chain bolt
-* Cold-section fan x2
-* Extruder Wiring Assembly x2
-
-**T20 Torx**:
-
-* Extruder block mount x3
-* Belt clamp x2
-
-### CoreXY Assembly
-
-#### Tools
-
-* T10 Torx Screwdriver
-* T20 Torx Screwdriver
-* 1/4-20 Hex
-
-#### Screws
-
-**T10 Torx**:
-
-* CoreXY Stepper Motor x6
-* Belt Routing x8
-* Linear Slider Mounts x6
-* X & Y Limit Switch Mounts x4
-
-**T20 Torx**:
-
-* CoreXY Gantry Brackets x2
-* Belt Routing x4
-* Motor mount x6
-
-**1/4-20 Hex**:
-
-* CoreXY Rods x4
-
-### Z-Assembly
-
-#### Tools
-
-* T10 Torx Screwdriver
-* T20 Torx Screwdriver
-
-#### Screws
-
-**T10 Torx**:
-
-* Bottom belt clamp x4
-* Linear Slider Mount x12
-* PCB Mount x12
-* Z-Slider x8
-* Limit switch mount x2
-* Z-motor x2
-
-**T20 Torx**:
-
-* Linear Bottom Screws x4
-* Bed Screws x12
-
-### Wiring Assembly
-
-#### Tools
-
-* T10 Torx Screwdriver
-* T20 Torx Screwdriver
-
-#### Screws
-
-**T10 Torx**:
-
-* Duet Board x4
-
-**T20 Torx**:
-
-* Power supply x4
-* Bed switch x2
-* Power switch x2
-* Filament holder
-
-**Phillips Head**:
-
-* Bed Terminals
-* Power Supply Terminals
-* Duet Board Terminals
+### Fan Mount Assembly
 
