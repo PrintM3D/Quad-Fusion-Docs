@@ -1,10 +1,10 @@
-# \(Edit details\) Help! My Extruders are Backwards
+# \*Help! My Drives / Tools are Backwards
 
-Whenever you are changing or updating configuration files it is possible that your extruders will be wrongly configured. This could result in your extruder drivers going the wrong way, or Drive 2 spinning when you want Tool 1 to be extruding.
+Whenever you are changing or updating configuration files it is possible that your drives will be wrongly configured. This could result in your extruder drivers going the wrong way, or Drive 2 spinning when you want Tool 1 to be extruding.
 
 ## Flipping Extruder Directions
 
-This will fix extruder drives that are going backwards. For example if you pressed the button _Extrude_ on the Duet Web Console it will result in the drive pushing filament back out of the extruder hole as if you were retracting. **Heads-up read the information box below.** If you implement this fix, and in the future update to new configuration files, it will undo these changes.
+This will fix extruder drives that are going backwards. For example if you pressed the button _Extrude_ on the Duet Web Console it will result in the drive pushing filament back out of the extruder hole as if you were retracting. **Heads-up read the information box below.** 
 
 {% hint style="info" %}
 It is possible that your extruder directions are flipped because the extruder drives are flipped, meaning the 4-pin Dupont connector is backwards on the Duet Board. Try flipping the connector and seeing if the issue is resolved.
