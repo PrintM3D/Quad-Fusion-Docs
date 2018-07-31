@@ -23,18 +23,23 @@ It is possible that your extruder directions are flipped because the extruder dr
 
 ## Flipping Extruder Drives
 
-This section will fix extruder drives that are flipped. If you actuate what you think is the right drive and it results in the left drive spinning and vice versa. **The inherent problem here lies in wiring, so be aware, the fix you are applying is temporary.** The wiring is intended to have the left extruder wired to extruder drive 0 and the right extruder to extruder drive 1. If you implement this fix, and in the future update to new configuration files, it will undo these changes. To fix this permanently fix the wiring of your Crane in the [Extruder Wiring]() guide. The fix below is fine to implement, but will provide a temporary solution.
+This section will fix extruder drives that are flipped. If you actuate what you think is the one drive and it results in a different drive spinning. 
 
-1. Connect to the Crane's Duet Web Console
-2. To check your extruder drives go to the _Machine Control_ tab in the Duet Web Console and select drive 0 or 1 in _Extruder Control._ If you have extruder drive 0 selected and press extrude it should move the left extruder. For extruder drive 1, the right extruder should move.  It is also possible to change the extruder drives in the section below.   ![](../.gitbook/assets/machinecontrol.png) 
-3. Go to the _Settings_ tab of the Duet Web Console and then to the _System Editor._  ![](../.gitbook/assets/settingsssytemeditor-2.png) 
-4. Open the _machine\_compound\_tools.g_ \(or _machine\_ktana\_tools.g_\) \_\_file. And find the `M563` commands, this configures the tool:  
-   `M563 P0 D0:1 H2 F2 S"Mixing" ; Define mixing tool`
+{% hint style="warning" %}
+**The inherent problem here lies in wiring, so be aware, the fix you are applying requires the printer to be off.**
+{% endhint %}
 
-   `M563 P1 D0 H2 F2 S"Mixing as Single Left" ; mixing nozzle only using left extruder motor    
-   M563 P2 D1 H2 F2 S"Mixing as Single Right" ; mixing nozzle only using right extruder motor`
+ The wiring is intended to have Drive 0 \(Tool 0\) wired to extruder drive 0, Drive 1 \(Tool 1\) to extruder drive 1, and so on. To fix this permanently fix the wiring of your Quad Fusion.
 
-5. For the tools with only one drive \(the `D` parameter\) you will have to change the drive. If it was using `D1` change it to `D0` and vice versa. You are telling the firmware to use drive for 0 or 1 for specific tools.
-6. Save the file and reboot your printer.
-7. Check the direction of the drives now as you might have to now flip the directions of the extruder drives.
+1. Connect to the Printer's Duet Web Console
+2. To check your extruder drives go to the _Machine Control_ tab in the Duet Web Console and select Tool 0, 1, 2, or 3 in _Extruder Control._ If you have Tool 0 selected and press extrude it should move the Drive 0. For Tool 1, Drive 1 should move.  It is also possible to change the extruder drives in the section below.
+3. Now that you have pinpointed which Tools are switched, turn your printer off.
+
+As an example, let's say that when you try to extrude Tool 1, you instead trigger Drive 3 which sends the wrong color and vice versa. To fix this all you need to do is flip the connectors for Drive 1 and Drive 3.
+
+{% hint style="info" %}
+**Remember,**  Drive 0/ Tool 0 connects to Extruder Drive 0,  Drive 1 / Tool 1 connects to Extruder Drive 1,  Drive 2 / Tool 2 connects to External Drive 2, Drive 3 / Tool 3 connects to External Drive 3 
+{% endhint %}
+
+If you are unclear which wire connects to which port, go to the [Duet Maestro Wiring](../electrical-guides/duet-maestro-wiring.md) guide for help.
 
