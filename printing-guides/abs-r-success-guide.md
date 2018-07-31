@@ -28,7 +28,19 @@ Read the section below to improve the quality of your ABS-R print. The titles of
 
 **Blobbing**
 
+Blobbing can look like what is circled on the picture below:
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+Blobbing can have a few causes. The reason blobbing occurs is because the nozzle suddenly extrudes more than usual, thus creating a "blob" in the print. One of the causes of this  
+
 **Stringing**
 
+Stringing can look like this:
+
+![](../.gitbook/assets/image%20%2826%29.png)
+
 **Under-extrusion**
+
+Under-extrusion can look like this: 
 

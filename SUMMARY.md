@@ -2,7 +2,7 @@
 
 * [Welcome](README.md)
 * [Getting Started](getting-started/README.md)
-  * [Critical Warnings & Information](getting-started/critical-warnings-and-information.md)
+  * [\*Critical Warnings & Information](getting-started/critical-warnings-and-information.md)
   * [Unboxing & Assembly](getting-started/accessing-your-sd-card.md)
   * [Mounting the Hardware](getting-started/network-setup.md)
   * [\*Connecting the Wires](getting-started/accessing-web-interface.md)
