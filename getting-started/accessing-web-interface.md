@@ -1,8 +1,16 @@
 ---
-description: Connecting the Quad Fusion 3D Print Head to your printer
+description: >-
+  This will show where the given cables go on the Quad, and what cables you will
+  need for the remaining wires.
 ---
 
 # Connecting the Wires
 
-More details coming soon
+This is the Quad Fusion without the fans:
+
+![](../.gitbook/assets/image%20%2818%29.png)
+
+As you can see there are four motor wires, one heater wire, and a PT1000 wire.
+
+
 
