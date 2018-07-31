@@ -32,7 +32,7 @@ The following pictures show where the extension goes, and how it looks once it h
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-Without the fans, the Quad Fusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot it the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\). 
+Without the fans, the Quad Fusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\). 
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
@@ -47,7 +47,9 @@ Notes:
 
 There are three fans connected to the Quad Fusion, two small fans on the left and right and one large fan on the front. The large fan on the front is Fan 0, or "Always On", the two side fans are connected to one another and make up Fan 1 \(whose speed can be controlled in the Duet Web Control\).
 
-In the picture below, the orange box indicates where Fan 0 should be plugged in, and the blue box is where Fan 1 is to be plugged in. 
+In the picture below, the red box indicates where Fan 0 should be plugged in, and the blue box is where Fan 1 is to be plugged in. 
+
+![](../.gitbook/assets/img_1358_.jpg)
 
 ### Crane Resistance Table
 
