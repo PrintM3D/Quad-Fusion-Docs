@@ -4,7 +4,7 @@ description: >-
   Head.
 ---
 
-# Heating & Temp Sensor
+# \*Heating & Temp Sensor
 
 This guide expects the reader to have completed setting up its Quad Fusion, all except the Heater. Your printer should be homed, the fans should be mounted, and the Quad Fusion should be correctly assembled. 
 
@@ -43,4 +43,6 @@ All this information can be found at: [https://duet3d.dozuki.com/Wiki/Gcode\#Sec
 Additionally, you should see that the Current temperature matches the Active temperature. This indicates that you thermistor \(PT1000\) is working as well. 
 
 ![](../.gitbook/assets/image%20%284%29.png)
+
+If anything is wrong, or you received a Heater Fault, go to the [Heater Troubleshooting](../troubleshooting-guides/heater-troubleshooting.md) guide for help.
 

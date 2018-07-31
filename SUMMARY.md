@@ -8,7 +8,7 @@
   * [\*Connecting the Wires](getting-started/accessing-web-interface.md)
   * [\*Updating your Control Board Settings](getting-started/updating-control-board-settings.md)
   * [Changing Homing Offsets](getting-started/homing-the-printer.md)
-  * [Heating & Temp Sensor](getting-started/heating-the-bed-and-nozzles.md)
+  * [\*Heating & Temp Sensor](getting-started/heating-the-bed-and-nozzles.md)
   * [\*Loading and Unloading Filament](getting-started/loading-and-unloading-filament.md)
   * [\*Getting Started: Where to Go From Here](getting-started/getting-started-where-to-go-from-here.md)
 * [Beginner Guides](beginner-guides/README.md)
