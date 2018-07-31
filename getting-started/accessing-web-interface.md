@@ -8,7 +8,7 @@ description: >-
 
 This is the Quad Fusion without the fans:
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 As you can see there are four motor wires, one heater wire, and a PT1000 wire.
 
@@ -24,11 +24,25 @@ These are the wires that connect to the motors. Each small white end will connec
 
 In the end, you should have one cable for each motor:
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 **Not Given** 
 
 The remaining cables that will need extensions are the heater and PT1000. Both require the same connector, a 2-pin male Molex, that will look like this:
 
 ![](../.gitbook/assets/image%20%281%29.png)
+
+The opposite end of this wire can be either a 2-pin female Molex connector:
+
+![](../.gitbook/assets/image%20%2813%29.png)
+
+Or, a 2-pin female dupont connector:
+
+![](../.gitbook/assets/image%20%288%29.png)
+
+The final result,
+
+![](../.gitbook/assets/image%20%2821%29.png)
+
+
 
