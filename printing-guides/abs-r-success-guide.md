@@ -32,7 +32,12 @@ Blobbing can look like what is circled on the picture below:
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
-Blobbing can have a few causes. The reason blobbing occurs is because the nozzle suddenly extrudes more than usual, thus creating a "blob" in the print. One of the causes of this  
+Blobbing can have a few causes. The reason blobbing occurs is because the nozzle suddenly extrudes more than usual, thus creating a "blob" in the print. One of the causes of this can be back pressure, which is more of a concern with the Quad Fusion. Since there are four filaments being loaded into the Quad Fusion, if they are not all in line some back pressure may occur. Thus, when you retract one of the four filaments the other three will still be experiencing pressure and may ooze out of the nozzle.  
+Another cause for blobbing can be \_\_\_\_\_\_
+
+Solution:  
+While blobbing may occur for many reasons, it can be prevented with many more. For starters, make sure when you're loading your filaments that they are all in line. This has been explained in [Loading and Unloading Filament](../getting-started/loading-and-unloading-filament.md).   
+Another solution is to edit your slicer settings, by including the ability to retract the filament for each new layer your print is less likely to contain blobs. 
 
 **Stringing**
 
