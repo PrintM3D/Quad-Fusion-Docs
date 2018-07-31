@@ -4,7 +4,7 @@ description: Setting up your control board to operate the QuadFusion 3D Print He
 
 # Updating your Control Board Settings
 
-The QuadFusion requires printer electronics capable of running four independent extruder motor channels, either natively via the printer's control board or with an attached expansion board.
+The QuadFusion requires printer electronics capable of running four independent extruder motor channels, either natively via the printer's control board or with an attached expansion board..
 
 If you are running your QuadFusion from a Duet 2 Maestro plus Extruder Expansion Board, configuration files are available for several printers on which we've tested the QuadFusion.  These files can be found in [GitHub](https://github.com/PrintM3D/QuadFusion).  Be careful when first using these files!  While they have common settings for printer geometry, end stops, etc. these settings may not correspond to your printer exactly, and using the files without reviewing the settings could damage your printer or the QuadFusion head.  For a walk through on adjusting necessary settings before running your printer, see our [Firmware Guides](https://quadfusion.printm3d.com/firmware-guides).
 
