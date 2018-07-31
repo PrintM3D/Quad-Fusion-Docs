@@ -1,4 +1,4 @@
-# ABS-R Success Guide
+# \*ABS-R Success Guide
 
 Follow this step by step guide for successful printing with ABS-R.
 
@@ -37,7 +37,8 @@ Another cause for blobbing can be \_\_\_\_\_\_
 
 Solution:  
 While blobbing may occur for many reasons, it can be prevented with many more. For starters, make sure when you're loading your filaments that they are all in line. This has been explained in [Loading and Unloading Filament](../getting-started/loading-and-unloading-filament.md).   
-Another solution is to edit your slicer settings, by including the ability to retract the filament for each new layer your print is less likely to contain blobs. 
+Another solution is to edit your slicer settings, by including the ability to retract the filament for each new layer your print is less likely to contain blobs.   
+The most important solution is to calibrate your extrusion settings. Sometimes you may be over-extruding which can cause lots of problems \(not just blobbing\). Try fiddling around with E-Steps and find the value that works best for you!
 
 **Stringing**
 
