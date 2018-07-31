@@ -2,13 +2,13 @@
 description: An explanation behind the wiring of the Crane.
 ---
 
-# The Electrical Standard
+# \*The Electrical Standard
 
 This guide serves to describe the standard for the electrical system of the Quad Fusion and the reasoning behind it.
 
 ## The Standard
 
-The Quad Fusion has four motors, one heater, and one PT1000. 
+For all the electrical components of the Quad Fusion, when facing the front \(from left to right\) the motors \(or filament entry points\) are Drive 1, Drive 0, Drive 3, and Drive 2. 
 
 ## Reasoning
 
@@ -18,21 +18,21 @@ The Duet board features two different ports for the extruders, thermistors and h
 
 ### Extruder Drives
 
-The Duet Maestro board has two different ports for the extruder, often referred to as E0 and E1. With this standard, the E0 port will power the left extruder and E1 will power the right extruder, always.
+The Duet Maestro board has two different ports for the extruder, often referred to as E0 and E1. With this standard, the E0 port will power Drive 0 and E1 will power Drive 1, always. Additionally, with the extension board added, External Driver 2 will power Drive 2 and External Driver 3 will power Drive 3, always. 
 
 ### Heaters
 
-The Duet Maestro has two different heater ports labeled E0 HEAT and E1 HEAT. These are also noted as H1 and H2, because the heated bed is H0. With the standard, H1 will correspond to the left heater and H2 to the right heater.
+The Duet Maestro has two different heater ports labeled E0 HEAT and E1 HEAT. These are also noted as H1 and H2, because the heated bed is H0. With the standard, H1 will correspond to the extruder's heater and H2 will not be bothered.
 
 ## Thermistor
 
-The thermistors ports on the Duet Maestro are referred to as E0 TEMP and E1 TEMP. In the firmware of the Duet, E0 TEMP is always bound to E0 HEAT and E1 TEMP is bound to E1 HEAT. Therefore, E0 TEMP corresponds to the left extruder and heater and E1 TEMP corresponds to the right extruder and heater.
+The thermistor's ports on the Duet Maestro are referred to as E0 TEMP and E1 TEMP. In the firmware of the Duet, E0 TEMP is always bound to E0 HEAT and E1 TEMP is bound to E1 HEAT. Therefore, E0 TEMP corresponds to the bed heater and E1 TEMP corresponds to the extruder heater.
 
 ## Tools
 
-The lower tool number will apply to the left extruder and heater and the higher tool number to the right extruder and heater.
+The Quad Fusion has a minimum of four tools, thus the drives previously mentioned will correspond to the tools. Such as, Drive 0 will be Tool 0, Drive 1 will be Tool 1, and so on. 
 
 ## Deviating from the Standard
 
-In the configuration files and the wiring of the Crane you can deviate from this standard. To change the tool definition in the configuration files, read the [Help! My Extruders are Backwards](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/firmware-guides/help-my-extruders-are-backwards) guide. For wiring read [Duet Maestro Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/duet-maestro-wiring) and [Extruder Assembly Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/extruder-assembly-wiring).
+In the configuration files and the wiring of the Quad Fusion you can deviate from this standard. To change the tool definition in the configuration files, read the [Help! My Extruders are Backwards](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/firmware-guides/help-my-extruders-are-backwards) guide. For wiring read [Duet Maestro Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/duet-maestro-wiring) and [Extruder Assembly Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/extruder-assembly-wiring).
 

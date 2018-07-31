@@ -22,7 +22,7 @@
   * [\*Beginner: Where to Go From Here](beginner-guides/beginner-where-to-go-from-here.md)
 * [Electrical Guides](electrical-guides/README.md)
   * [\*Duet Maestro Wiring](electrical-guides/duet-maestro-wiring.md)
-  * [The Electrical Standard](electrical-guides/the-electrical-standard.md)
+  * [\*The Electrical Standard](electrical-guides/the-electrical-standard.md)
 * [Firmware Guides](firmware-guides/README.md)
   * [\*Updating Firmware](firmware-guides/updating-firmware.md)
   * [Adjusting Homing Macros](firmware-guides/adjusting-homing-macros.md)
