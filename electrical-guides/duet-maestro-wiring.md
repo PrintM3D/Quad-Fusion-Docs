@@ -2,7 +2,7 @@
 description: Learn more about the wiring of the Crane printer on the Duet Maestro side.
 ---
 
-# Duet Maestro Wiring
+# \*Duet Maestro Wiring
 
 This guide covers the wiring of the Crane along with possible wiring solutions to problems. Properly understanding the wiring of the Crane is extremely important. Shorting the Duet Maestro board can be done easily. Follow and acknowledge the warnings listed in [Critical Warnings](https://m3d.gitbook.io/promega-docs/getting-started/critical-warnings-and-information). The Duet Maestro board can be easily damaged or broken by:
 
@@ -104,7 +104,7 @@ If you change the wiring of your printer it is best to proceed with the followin
    1. Move each motor independently and confirm that it is travelling in the correct direction.
    2. Heat up your nozzle\(s\)
    3. Heat up your bed
-   4. Press each limit switch and test z-probes
+   4. Press each limit switch
 7. You should be ready to go!
 
 ### Extra Resources:

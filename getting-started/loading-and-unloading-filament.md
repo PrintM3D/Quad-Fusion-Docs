@@ -2,7 +2,7 @@
 description: How to load and unload filament into the Quad Fusion 3D Print Head
 ---
 
-# \(Done\) Loading and Unloading Filament
+# \*Loading and Unloading Filament
 
 ### **Loading Filament**
 
