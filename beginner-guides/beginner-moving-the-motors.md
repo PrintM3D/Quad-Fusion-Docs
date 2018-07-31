@@ -2,7 +2,7 @@
 description: Beginner guide focusing on moving the motors.
 ---
 
-# Beginner: Moving the Motors
+# \(Done\) Beginner: Moving the Motors
 
 Before you power on your motors you can manually move the extruder head around the printer. Follow the steps below in order to start moving the printer.
 
@@ -11,8 +11,8 @@ Before you power on your motors you can manually move the extruder head around t
 
 ![Machine Control Tab in Duet Web Console](../.gitbook/assets/z81qrjdadnqori0d-machinecontrol-1.PNG)
 
-1. Press _Home All_, this will home all the axes of the printer and ensure that the origin of the printer is located at the front-top-left corner of the 3D printer. After the homing process is complete, you can see that the position of the 3D printer is updated in the _Machine Status_ tab on the Duet Web Console.
-2. Press the X-10 button in the _Head Movement_ window. This will move the extruder carriage of the printer 10mm in the negative X direction, this should be towards the left if you are facing the front of the printer. Now press the Y-10 button, this will move the printer -10 mm in the Y-direction. If you are facing the front of the printer, this should send the extruder carriage towards you. You can also press the Z buttons, but remember that the bed is all the way down and resting on the limit switch after the homing process. You will have to move the bed in the negative Z direction in order to move it up. Press the Z-10 button in order to move the bed up 10 mm.
+1. Press _Home All_, this will home all the axes of the printer and ensure that the origin of the printer is located at the front-left corner of the 3D printer. After the homing process is complete, you can see that the position of the 3D printer is updated in the _Machine Status_ tab on the Duet Web Console.
+2. Press the X-10 button in the _Head Movement_ window. This will move the extruder carriage of the printer 10mm in the negative X direction, this should be towards the left if you are facing the front of the printer. Now press the Y-10 button, this will move the printer -10 mm in the Y-direction. If you are facing the front of the printer, this should send the bed carriage away you.  Press the Z-10 button in order to move the extruder down 10 mm.
 3. You can keep pressing the buttons to move the extruder carriage to become more familiar with the directions and coordinate system of the Crane.
 
 **Absolute vs. Relative**

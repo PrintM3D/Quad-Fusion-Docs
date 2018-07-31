@@ -2,7 +2,7 @@
 description: A beginner introduction to G-code commands
 ---
 
-# Beginner: Introduction to G-Code Commands
+# \(Done\) Beginner: Introduction to G-Code Commands
 
 Now that you are familiar with the coordinate system of the Crane, its orientation and direction, we can get started with learning and sending G-code commands. G-code commands are sent one line at a time, with one command per line. When you send a print file to your printer in order to print something, you are sending the printer a long list of G-code commands. It will look something like this \(but way longer!\):
 
@@ -73,14 +73,14 @@ Find the _G-code Console_ tab in the Duet Web Console.
 
 ![G-Code Console in the Duet Web Console](../.gitbook/assets/ztlrwbqq28r8id6g-howtogcode.png)
 
-This tab allows you to send commands to the printer using the textfield as seen above. Once you enter a command in the text field you can press _Enter_ or press the dark-blue send button. The printer will then process the command and execute it. If the command executed successfully you will see a print out of the command you send in the _Printer Printout_ terminal with a green background. If the firmware encountered an error while trying to process the command, it will printout the command with a red background and more information about the error. 3. This step assumes you have the printer homed from the previous steps. If you have not yet homed your printer, click the _Home All_ button in the _Machine Control_ tab. Try sending the command `G1 X200 Y200`. This will move the printer to 200 mm X and 200 mm Y. Send the command `G1 Z150`. This will move the bed to about 150 mm from the nozzle. 4. You can keep sending commands to move the printer around the build space. The table below represents the limits of the printer, the firmware should prevent you from going past these limits. Still, try to keep your move commands within the build space of the printer. You can also try to change the feedrate of the printer to see how the speed of the printer changes as the printer moves around.
+This tab allows you to send commands to the printer using the textfield as seen above. Once you enter a command in the text field you can press _Enter_ or press the dark-blue send button. The printer will then process the command and execute it. If the command executed successfully you will see a print out of the command you send in the _Printer Printout_ terminal with a green background. If the firmware encountered an error while trying to process the command, it will printout the command with a red background and more information about the error. If you have not yet homed your printer, click the _Home All_  button in the _Machine Control_  tab. Try sending the command `G1 X100 Y100`. This will move the printer to 100 mm X and 100 mm Y. Send the command `G1 Z50`. This will move the bed to about 50 mm from the nozzle. You can keep sending commands to move the printer around the build space. The table below represents the limits of the printer, the firmware should prevent you from going past these limits. Still, try to keep your move commands within the build space of the printer. You can also try to change the feedrate of the printer to see how the speed of the printer changes as the printer moves around.
 
 |  | Axes Limits |  |
 | --- | --- | --- |
 |  | Max \(mm\) | Min \(mm\) |
-| X - Axis | 388 | 0 |
-| Y - Axis | 388 | 0 |
-| Z - Axis | 377 | 0 |
+| X - Axis | 214 | 0 |
+| Y - Axis | 214 | 0 |
+| Z - Axis | 230 | 0 |
 
 **Other G-code Commands**
 
