@@ -42,7 +42,13 @@ Or, a 2-pin female dupont connector:
 
 The final result,
 
+{% hint style="info" %}
+The length of these wires is entirely based upon the printer you are using. The wires in the picture below are for example only.
+{% endhint %}
+
 ![](../.gitbook/assets/image%20%2821%29.png)
 
+Now that you have the necessary wires for each of the motors, the heater, and PT1000, you can move on to other guides. 
 
+If you are connecting to the Duet Maestro, continue on to the [Duet Maestro Wiring](../electrical-guides/duet-maestro-wiring.md) guide to connect your Quad Fusion to your printer.
 
