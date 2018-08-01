@@ -43,6 +43,6 @@
 * [Troubleshooting Guides](troubleshooting-guides/README.md)
   * [\*Troubleshooting Duet Web Console](troubleshooting-guides/troubleshooting-duet-web-console.md)
   * [\*Heater Troubleshooting](troubleshooting-guides/heater-troubleshooting.md)
-* [Community Guides](community-guides/README.md)
+* [\*Community Guides](community-guides/README.md)
   * [Community Guide Template](community-guides/community-guide-template.md)
 
