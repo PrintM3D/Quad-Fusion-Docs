@@ -36,7 +36,7 @@ All this information can be found at: [https://duet3d.dozuki.com/Wiki/Gcode\#Sec
 
 4. Try heating up your tools to 200C. You should see the red line on the graph begin to increase:
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 Additionally, you should see that the Current temperature matches the Active temperature. This indicates that you thermistor \(PT1000\) is working as well. 
 

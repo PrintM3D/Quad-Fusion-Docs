@@ -26,7 +26,7 @@
 * [Firmware Guides](firmware-guides/README.md)
   * [\*Updating Firmware](firmware-guides/updating-firmware.md)
   * [Adjusting Homing Macros](firmware-guides/adjusting-homing-macros.md)
-  * [Macros](firmware-guides/macros.md)
+  * [\*Macros](firmware-guides/macros.md)
   * [\*Help! My Drives / Tools are Backwards](firmware-guides/help-my-extruders-are-backwards.md)
   * [\*Tool Definitions](firmware-guides/tool-definitions.md)
 * [Printing Guides](printing-guides/README.md)
