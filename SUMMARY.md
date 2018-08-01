@@ -13,7 +13,7 @@
   * [\*Getting Started: Where to Go From Here](getting-started/getting-started-where-to-go-from-here.md)
 * [Beginner Guides](beginner-guides/README.md)
   * [\*Beginner: Preparation](beginner-guides/beginner-preparation.md)
-  * [\*Beginner: Quad Fusion Assembly](beginner-guides/beginner-printer-assemblies.md)
+  * [\*Beginner: QuadFusion Assembly](beginner-guides/beginner-printer-assemblies.md)
   * [\*Beginner: Moving the Motors](beginner-guides/beginner-moving-the-motors.md)
   * [\*Beginner: Introduction to G-Code Commands](beginner-guides/beginner-introduction-to-g-code-commands.md)
   * [\*Beginner: Software Layers](beginner-guides/beginner-software-layers.md)

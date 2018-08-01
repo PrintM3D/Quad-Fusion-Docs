@@ -20,7 +20,7 @@ This guide covers the wiring of the Crane along with possible wiring solutions t
 
 The image above displays the ports found on the Duet Maestro and their functions.
 
-Before you can begin to wire your Quad Fusion to the Duet Maestro board you must attach an extension to the board. With this extension you will be able to connect the the extra motor wires to the board.
+Before you can begin to wire your QuadFusion to the Duet Maestro board you must attach an extension to the board. With this extension you will be able to connect the the extra motor wires to the board.
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
@@ -32,7 +32,7 @@ The following pictures show where the extension goes, and how it looks once it h
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-Without the fans, the Quad Fusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\). 
+Without the fans, the QuadFusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\). 
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
@@ -40,12 +40,12 @@ The wires plug in to their corresponding color that is boxed in the following pi
 
 Notes:
 
-* Keep in mind when you're wiring your Quad Fusion's motors to the Duet Maestro board which motor is connected to which port. The first picture in this guide labels each port as E0 Stepper, E1 Stepper, E2 External Driver, and E3 External Driver. When facing the front of your Quad Fusion, the front left motor is 0, the front right motor is 2, the back left motor is 1, and the back right motor is 3. 
+* Keep in mind when you're wiring your QuadFusion's motors to the Duet Maestro board which motor is connected to which port. The first picture in this guide labels each port as E0 Stepper, E1 Stepper, E2 External Driver, and E3 External Driver. When facing the front of your QuadFusion, the front left motor is 0, the front right motor is 2, the back left motor is 1, and the back right motor is 3. 
 * If you decide to extend the wires given to you, make sure that you are maintaining the original positive and negative wires. 
 
 **Connecting the fans**
 
-There are three fans connected to the Quad Fusion, two small fans on the left and right and one large fan on the front. The large fan on the front is Fan 0, or "Always On", the two side fans are connected to one another and make up Fan 1 \(whose speed can be controlled in the Duet Web Control\).
+There are three fans connected to the QuadFusion, two small fans on the left and right and one large fan on the front. The large fan on the front is Fan 0, or "Always On", the two side fans are connected to one another and make up Fan 1 \(whose speed can be controlled in the Duet Web Control\).
 
 In the picture below, the red box indicates where Fan 0 should be plugged in, and the blue box is where Fan 1 is to be plugged in. 
 
@@ -82,7 +82,7 @@ Jumpers:
 4. and 5. Only one Z-motor on the Crane, so jumpers are required to properly connect Z-motor to the stepper motor driver.
 
 {% hint style="info" %}
-You will need Jumper \#1 in order to connect the third and fourth motor from the Quad Fusion to the Duet Maestro
+You will need Jumper \#1 in order to connect the third and fourth motor from the QuadFusion to the Duet Maestro
 {% endhint %}
 
 The pictures below depict where the jumper needs to go, and how it looks once it is there:

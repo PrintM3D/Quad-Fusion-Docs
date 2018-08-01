@@ -4,11 +4,11 @@ description: An explanation behind the wiring of the Crane.
 
 # \*The Electrical Standard
 
-This guide serves to describe the standard for the electrical system of the Quad Fusion and the reasoning behind it.
+This guide serves to describe the standard for the electrical system of the QuadFusion and the reasoning behind it.
 
 ## The Standard
 
-For all the electrical components of the Quad Fusion, when facing the front \(from left to right\) the motors \(or filament entry points\) are Drive 1, Drive 0, Drive 3, and Drive 2. 
+For all the electrical components of the QuadFusion, when facing the front \(from left to right\) the motors \(or filament entry points\) are Drive 1, Drive 0, Drive 3, and Drive 2. 
 
 ## Reasoning
 
@@ -30,9 +30,9 @@ The thermistor's ports on the Duet Maestro are referred to as E0 TEMP and E1 TEM
 
 ## Tools
 
-The Quad Fusion has a minimum of four tools, thus the drives previously mentioned will correspond to the tools. Such as, Drive 0 will be Tool 0, Drive 1 will be Tool 1, and so on. 
+The QuadFusion has a minimum of four tools, thus the drives previously mentioned will correspond to the tools. Such as, Drive 0 will be Tool 0, Drive 1 will be Tool 1, and so on. 
 
 ## Deviating from the Standard
 
-In the configuration files and the wiring of the Quad Fusion you can deviate from this standard. To change the tool definition in the configuration files, read the [Help! My Extruders are Backwards](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/firmware-guides/help-my-extruders-are-backwards) guide. For wiring read [Duet Maestro Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/duet-maestro-wiring) and [Extruder Assembly Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/extruder-assembly-wiring).
+In the configuration files and the wiring of the QuadFusion you can deviate from this standard. To change the tool definition in the configuration files, read the [Help! My Extruders are Backwards](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/firmware-guides/help-my-extruders-are-backwards) guide. For wiring read [Duet Maestro Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/duet-maestro-wiring) and [Extruder Assembly Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/extruder-assembly-wiring).
 
