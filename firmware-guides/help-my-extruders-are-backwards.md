@@ -29,7 +29,7 @@ This section will fix extruder drives that are flipped. If you actuate what you 
 **The inherent problem here lies in wiring, so be aware, the fix you are applying requires the printer to be off.**
 {% endhint %}
 
- The wiring is intended to have Drive 0 \(Tool 0\) wired to extruder drive 0, Drive 1 \(Tool 1\) to extruder drive 1, and so on. To fix this permanently fix the wiring of your Quad Fusion.
+ The wiring is intended to have Drive 0 \(Tool 0\) wired to extruder drive 0, Drive 1 \(Tool 1\) to extruder drive 1, and so on. To fix this permanently fix the wiring of your QuadFusion.
 
 1. Connect to the Printer's Duet Web Console
 2. To check your extruder drives go to the _Machine Control_ tab in the Duet Web Console and select Tool 0, 1, 2, or 3 in _Extruder Control._ If you have Tool 0 selected and press extrude it should move the Drive 0. For Tool 1, Drive 1 should move.  It is also possible to change the extruder drives in the section below.

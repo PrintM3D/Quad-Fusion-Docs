@@ -1,10 +1,10 @@
 # \*Tool Definitions
 
-This guide will explains the default tool definitions for the Quad Fusion and explains how to change tools. This can be useful to create complex mixing and switching prints. This guide is not for beginners
+This guide will explains the default tool definitions for the QuadFusion and explains how to change tools. This can be useful to create complex mixing and switching prints. This guide is not for beginners
 
 ## Default Tool Definitions
 
-Quad Fusion Tools:
+QuadFusion Tools:
 
 * `T0`: Top Left
   * Extruder Drive 0 
@@ -21,7 +21,7 @@ Quad Fusion Tools:
 
 ![](../.gitbook/assets/image%20%2833%29.png)
 
-As seen above, the Crane has four different extruder drives and two heaters. The current configuration is set-up to make all tools heated by Heater 1, while the Bed will be heated by Heater 0.
+As seen above, the QuadFusion has four different extruder drives and two heaters. The current configuration is set-up to make all tools heated by Heater 1, while the Bed will be heated by Heater 0.
 
 ## Tool Definition Command `M563`
 
@@ -39,7 +39,7 @@ The extruder drive numbers start from 0 and immediately follow the X, Y and Z ax
 
 ## Defining Your Own Tools
 
-Defining your own tools is useful to create prints that switch colors in the middle of a print. This is more applicable to the compound tool than the K'tana. To define a new tool enter the `M563` command in the configuration file, then follow it with the extruder drive and heater number that you would like to use. Such as:
+Defining your own tools is useful to create prints that switch colors in the middle of a print. To define a new tool enter the `M563` command in the configuration file, then follow it with the extruder drive and heater number that you would like to use. Such as:
 
 ![](../.gitbook/assets/image%20%289%29.png)
 

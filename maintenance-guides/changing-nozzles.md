@@ -11,11 +11,11 @@ Some of the following steps have to be performed with a heated hot-end in order 
 1. Connect to the Duet Web Console.
 2. Heat-up the nozzle and retract any filament inside.
 3. **Keep the nozzle hot for the next steps!** 
-4. Remove the front fan from the Quad Fusion by unscrewing the circled screws
+4. Remove the front fan from the QuadFusion by unscrewing the circled screws
 
 ![](../.gitbook/assets/image%20%2814%29.png)
 
-5. Next, **loosen** the next circled screws. Some of the Quad Fusions may not be mounted the same way.
+5. Next, **loosen** the next circled screws. Some QuadFusions may not be mounted the same way.
 
 ![](../.gitbook/assets/image%20%2838%29.png)
 
