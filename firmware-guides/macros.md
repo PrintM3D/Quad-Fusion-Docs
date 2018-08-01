@@ -21,5 +21,7 @@ Type in a `M563` command and add a `M567` command to define the mix ratio you wa
 
 ![](../.gitbook/assets/image%20%2823%29.png)
 
+Now that you have a new Macro filled with all the tools you will need for a specific print, you now use it! 
+
 
 
