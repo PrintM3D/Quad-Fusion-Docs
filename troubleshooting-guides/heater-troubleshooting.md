@@ -1,22 +1,17 @@
-# \(Edit pictures\) Heater Troubleshooting
+# Heater Troubleshooting
 
-This guide serves to fix any problems you might have with the heater cartridges, PT1000 or the heated bed.
+This guide serves to fix any problems you might have with the heater cartridge or PT1000.
 
 ## PT1000 Problems
 
+![](../.gitbook/assets/image%20%2810%29.png)
+
+The PT1000, or thermistor, is what reads the temperature of the heater block and relays the information onto the Duet Web Control.   
+
+
 ## Heater Problems
 
-## Bed Problems
+![](../.gitbook/assets/image%20%2819%29.png)
 
-### Bed Terminal Connection
 
-If your bed is not heating up uniformly or not heating up at all check the screw terminals that connect the bed to the Duet. Check these terminals on both the Duet side and the heated bed side. It is possible that they loosened up and are not making proper connection.
-
-![](../.gitbook/assets/heatedbedterminals.jpg)
-
-![](../.gitbook/assets/duetheatedbedterminals.jpg)
-
-#### Solution
-
-**Turn off the printer.** Feel the wires going into the terminals and move them around to see if they are loose. If they are open the terminal cover and screw them down tight again with a Phillips head screwdriver.
 
