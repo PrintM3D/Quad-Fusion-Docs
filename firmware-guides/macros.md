@@ -19,9 +19,14 @@ The way you create a tool is the same as making one in your config.g \(Check tha
 
 Type in a `M563` command and add a `M567` command to define the mix ratio you want for this particular tool.
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
-Now that you have a new Macro filled with all the tools you will need for a specific print, you now use it! 
+Now that you have a new Macro filled with all the tools for a specific print, you can now use it! 
 
+Go back to the Machine Control page and under the Macro column select the Macro you have just made
 
+![](../.gitbook/assets/image%20%2810%29.png)
+
+Enable the Macro you have created. You should now see that your tool settings have changed to suit the Macro you have just enabled.   
+The purpose of doing this is if you have a specific print that requires different colors with specific tools, you can create these tools in a Macro and when you're printing the printer will have the proper tools. 
 

@@ -19,7 +19,7 @@ QuadFusion Tools:
   * Extruder Drive 3
   * Heater 1
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 As seen above, the QuadFusion has four different extruder drives and two heaters. The current configuration is set-up to make all tools heated by Heater 1, while the Bed will be heated by Heater 0.
 
@@ -35,13 +35,13 @@ The `M563` command allows you to define a tool, it has the following parameters:
 
 The extruder drive numbers start from 0 and immediately follow the X, Y and Z axes stepper motor drives on the Duet Board. You can configure the order of these drives with the `M584` command. If you were looking at your tools in the config.g, they would look like this:
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 ## Defining Your Own Tools
 
 Defining your own tools is useful to create prints that switch colors in the middle of a print. To define a new tool enter the `M563` command in the configuration file, then follow it with the extruder drive and heater number that you would like to use. Such as:
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 ## Mixing Ratios
 

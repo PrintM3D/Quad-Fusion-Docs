@@ -8,7 +8,7 @@ description: >-
 
 This is the QuadFusion without fans:
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 As you can see there are four motor wires, one heater wire, and a PT1000 wire.
 
@@ -20,11 +20,11 @@ The cables that are provided with the QuadFusion are these:
 
 These are the wires that connect to the motors. Each small white end will connect to the motors' connector:
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 In the end, you should have one cable for each motor:
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 **Not Given** 
 
@@ -34,11 +34,11 @@ The remaining cables that will need extensions are the heater and PT1000. Both r
 
 The opposite end of this wire can be either a 2-pin female Molex connector:
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 Or, a 2-pin female Dupont connector:
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 The final result,
 
@@ -46,7 +46,7 @@ The final result,
 The length of these wires is entirely based upon the printer you are using. The wires in the picture below are for example only.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 Now that you have the necessary wires for each of the motors, the heater, and PT1000, you can move on to other guides. 
 
