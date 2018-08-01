@@ -10,11 +10,18 @@ The PT1000, or thermistor, is what reads the temperature of the heater block and
 
 ### **Possible Problems:**
 
-**Not Reading Temperature:**
+**Not Reading Temperature:**  
+It is very likely that the issue here lies within your printer's settings. 
 
 
 
 **Solution:**
+
+{% hint style="info" %}
+This solution is more directed towards Crane users. If you have a different printer, you may need to tweak some things.
+{% endhint %}
+
+`;Heaters                                                                               M305 P0 T100000 B4138 C0 R2200   ;Set thermistor+ADC parameters for heater 0            M143 H0 S120                     ;Set temperature limit for heater 0 to 120C                            M305 P1 X501 T1050 R2200         ;Set themistor+ADC parameters for heater 1                 M143 H1 S280                     ;Set temperature limit for heater 1 to 280C`
 
 
 
