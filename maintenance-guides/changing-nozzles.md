@@ -15,7 +15,7 @@ Some of the following steps have to be performed with a heated hot-end in order 
 
 ![](../.gitbook/assets/image%20%2818%29.png)
 
-5. Next, **loosen** the next circled screws. Some QuadFusions may not be mounted the same way.
+5. Next, **loosen** the circled screws. Some QuadFusions may not be mounted the same way. Go to [Mounting the Hardware](../getting-started/network-setup.md) for more in depth mount information on certain printers.
 
 ![](../.gitbook/assets/image%20%2843%29.png)
 
