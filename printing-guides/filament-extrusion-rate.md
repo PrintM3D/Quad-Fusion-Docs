@@ -1,6 +1,6 @@
-# \(Edit details\) Filament Extrusion Rate
+# \*Filament Extrusion Rate
 
-The extrusion system on the Crane is designed to print at specific speeds at certain temperatures. Printing at the proper filament extrusion rate is essential to provide a good print. The Crane is designed to extrude at a rate of 5.7 mm^3/s. This number can change significantly depending on your printer and slicer settings and material.
+The extrusion system on the QuadFusion is designed to print at specific speeds at certain temperatures. Printing at the proper filament extrusion rate is essential to provide a good print. The QuadFusion is designed to extrude at a rate of 5.7 mm^3/s. This number can change significantly depending on your printer and slicer settings and material.
 
 ## Calculating Filament Flow Rate
 
@@ -8,7 +8,7 @@ Calculating the flow rate of your extruder is typically very easy. The equations
 
 ### Extruding in Air
 
-When the extruder is printing filament into air, we can assume that the printer is creating a steady stream of filament at a slightly larger diameter than the diameter of the nozzle. If the extruder is not skipping, you can use the feedrate of the extruder move and the cross-section of the filament to calculate the flow rate. Because, all the filament that is being pushed by the extruder is pushed through the nozzle. Follow the equation below:
+When the extruder is printing filament into air, we can assume that the extruder is creating a steady stream of filament at a slightly larger diameter than the diameter of the nozzle. If the extruder is not skipping, you can use the feedrate of the extruder move and the cross-section of the filament to calculate the flow rate. Because, all the filament that is being pushed by the extruder is pushed through the nozzle. Follow the equation below:
 
 _Flow Rate \(mm^3/s\) = Feedrate \(mm/s\)_ \(Filament Cross-section\) \(mm^2\)\*
 
@@ -30,7 +30,7 @@ _Flow Rate \(mm^3/s\) = \(Extrusion Width\)\(mm\)_ \(Layer Height\)\(mm\) _Print
 
 _Extrusion Width = 0.6 mm = 1.2_ 0.5 _Flow Rate = 4.5 mm^3/s = 0.6_ 0.25 \* 30
 
-## Crane Flow Rate
+## QuadFusion Flow Rate
 
-The Crane is designed to extrude filament at 5.7 mm^3/s. If you find your extruder skipping or notice print quality problems, do a filament flow calculation to determine the extrusion rate you are printing at. The extrusion rate of the Crane can be increased significantly depending on material, printing temperature and other factors. Feel free to experiment and push the printer to its limits! But remember to calculate the filament flow rate to determine whether your goal is realistic.
+The QuadFusion is designed to extrude filament at 5.7 mm^3/s. If you find your extruder skipping or notice print quality problems, do a filament flow calculation to determine the extrusion rate you are printing at. The extrusion rate of the QuadFusion can be increased significantly depending on material, printing temperature and other factors. Feel free to experiment and push the extruder to its limits! But remember to calculate the filament flow rate to determine whether your goal is realistic.
 

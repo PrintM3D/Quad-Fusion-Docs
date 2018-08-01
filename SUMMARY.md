@@ -33,7 +33,7 @@
   * [Slicers and Printer Settings](printing-guides/slicers-and-printer-settings.md)
   * [\*ABS-R Success Guide](printing-guides/abs-r-success-guide.md)
   * [\*PLA Success Guide](printing-guides/pla-success-guide.md)
-  * [\(Edit details\) Filament Extrusion Rate](printing-guides/filament-extrusion-rate.md)
+  * [\*Filament Extrusion Rate](printing-guides/filament-extrusion-rate.md)
 * [Repair Guides](repair-guides/README.md)
   * [Troubleshooting the Extruder](repair-guides/troubleshooting-the-extruder.md)
 * [Maintenance Guides](maintenance-guides/README.md)

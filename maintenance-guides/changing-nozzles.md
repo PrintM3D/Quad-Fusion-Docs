@@ -13,11 +13,11 @@ Some of the following steps have to be performed with a heated hot-end in order 
 3. **Keep the nozzle hot for the next steps!** 
 4. Remove the front fan from the QuadFusion by unscrewing the circled screws
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 5. Next, **loosen** the next circled screws. Some QuadFusions may not be mounted the same way.
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 6. Remove the set-screw holding the nozzle and heater block in place. Carefully retract them using pliers.
 
