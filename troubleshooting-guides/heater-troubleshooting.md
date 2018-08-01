@@ -1,4 +1,4 @@
-# Heater Troubleshooting
+# \*Heater Troubleshooting
 
 This guide serves to fix any problems you might have with the heater cartridge or PT1000.
 
@@ -6,12 +6,38 @@ This guide serves to fix any problems you might have with the heater cartridge o
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
-The PT1000, or thermistor, is what reads the temperature of the heater block and relays the information onto the Duet Web Control.   
+The PT1000, or thermistor, is what reads the temperature of the heater block and relays the information onto the Duet Web Control. 
+
+### **Possible Problems:**
+
+**Not Reading Temperature:**
+
+
+
+**Solution:**
+
 
 
 ## Heater Problems
 
 ![](../.gitbook/assets/image%20%2819%29.png)
 
+### Possible Problems:
 
+**Heater Faults:**
+
+
+
+**Solution:**  
+
+
+**Loose Connection:**  
+It is possible when setting up your Quad Fusion that the Heater wire was bent. The pins in the connector may have gotten loose, which is causing your heater to heat poorly.  You may be able to identify this issue by trying to heat your nozzle and wiggling the heater wire. If you get a similar result as the picture below, you have a loose connection:
+
+![Image pulled from: https://forum.duet3d.com/topic/4966/highly-erratic-temperature-readings-above-certain-temperature ](../.gitbook/assets/image%20%2826%29.png)
+
+As you can see the red line is no longer steadily rising, but has begun to move exaggeratedly. 
+
+**Solution:**  
+ 
 

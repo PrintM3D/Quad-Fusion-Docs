@@ -8,7 +8,7 @@ description: >-
 
 This is the Quad Fusion without fans:
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 As you can see there are four motor wires, one heater wire, and a PT1000 wire.
 
@@ -46,7 +46,7 @@ The final result,
 The length of these wires is entirely based upon the printer you are using. The wires in the picture below are for example only.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 Now that you have the necessary wires for each of the motors, the heater, and PT1000, you can move on to other guides. 
 

@@ -24,7 +24,7 @@ Before you can begin to wire your Quad Fusion to the Duet Maestro board you must
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
@@ -89,7 +89,7 @@ The pictures below depict where the jumper needs to go, and how it looks once it
 
 ![](../.gitbook/assets/image%20%2820%29.png)
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 ### Before you continue
 
