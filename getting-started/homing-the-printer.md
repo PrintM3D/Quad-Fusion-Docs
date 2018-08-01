@@ -1,5 +1,5 @@
 ---
-description: Updating your printer settings to home with the Quad Fusion 3D Print Head
+description: Updating your printer settings to home with the QuadFusion 3D Print Head
 ---
 
 # Changing Homing Offsets

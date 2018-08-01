@@ -1,12 +1,12 @@
 ---
 description: >-
-  This will show where the given cables go on the Quad, and what cables you will
-  need for the remaining wires.
+  This will show where the given cables go on the QuadFusion, and what cables
+  you will need for the remaining wires.
 ---
 
 # \*Connecting the Wires
 
-This is the Quad Fusion without fans:
+This is the QuadFusion without fans:
 
 ![](../.gitbook/assets/image%20%2834%29.png)
 
@@ -14,7 +14,7 @@ As you can see there are four motor wires, one heater wire, and a PT1000 wire.
 
 **Given Cables** 
 
-The cables that are provided with the Quad Fusion are these:
+The cables that are provided with the QuadFusion are these:
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
@@ -50,5 +50,5 @@ The length of these wires is entirely based upon the printer you are using. The 
 
 Now that you have the necessary wires for each of the motors, the heater, and PT1000, you can move on to other guides. 
 
-If you are connecting to the Duet Maestro, continue on to the [Duet Maestro Wiring](../electrical-guides/duet-maestro-wiring.md) guide to connect the Quad Fusion to your printer.
+If you are connecting to the Duet Maestro, continue on to the [Duet Maestro Wiring](../electrical-guides/duet-maestro-wiring.md) guide to connect the QuadFusion to your printer.
 

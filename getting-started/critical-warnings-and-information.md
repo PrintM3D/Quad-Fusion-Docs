@@ -1,13 +1,13 @@
 # \*Critical Warnings & Information
 
-The M3D Quad Fusion 3D Print Head is an industrial product. The user assumes all responsibility for proper operation and acknowledges that they understand the operation and standard practices of additive manufacturing. The user assumes all responsibility for its proper use and agrees to follow the directives below to ensure a safe and working unit before any other operation.
+The M3D QuadFusion 3D Print Head is an industrial product. The user assumes all responsibility for proper operation and acknowledges that they understand the operation and standard practices of additive manufacturing. The user assumes all responsibility for its proper use and agrees to follow the directives below to ensure a safe and working unit before any other operation.
 
 ## Warnings
 
-1. DO NOT TOUCH PRINT HEAD WHILE OPERATING The Quad Fusion is a powerful industrial machine. While the Quad Fusion is moving or printing you should not reach into the buildspace.
+1. DO NOT TOUCH PRINT HEAD WHILE OPERATING The QuadFusion is a powerful industrial machine. While the QuadFusion is moving or printing you should not reach into the buildspace.
 2. USE UNDER SUPERVISION
 
-   Place the printer in a place where nothing can catch on fire should the worst occur. The Quad Fusion 3D Print Head is constructed out of metal and fireproof materials. Still, PLA and other filaments can burn and cause a fire if the print head is used improperly.
+   Place the printer in a place where nothing can catch on fire should the worst occur. The QuadFusion 3D Print Head is constructed out of metal and fireproof materials. Still, PLA and other filaments can burn and cause a fire if the print head is used improperly.
 
 3. MAXIMUM EXTRUDER SPEED
 

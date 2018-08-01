@@ -1,5 +1,5 @@
 ---
-description: Mounting your Quad Fusion 3D Print Head
+description: Mounting your QuadFusion 3D Print Head
 ---
 
 # Mounting the Hardware

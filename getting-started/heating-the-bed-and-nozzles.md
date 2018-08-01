@@ -1,12 +1,10 @@
 ---
-description: >-
-  Getting the heater and Temp sensor calibrated on the Quad Fusion 3D Print
-  Head.
+description: Getting the heater and Temp sensor calibrated on the QuadFusion 3D Print Head.
 ---
 
 # \*Heating & Temp Sensor
 
-This guide expects the reader to have completed setting up its Quad Fusion, all except the Heater. Your printer should be homed, the fans should be mounted, and the Quad Fusion should be correctly assembled. 
+This guide expects the reader to have completed setting up its QuadFusion, all except the Heater. Your printer should be homed, the fans should be mounted, and the QuadFusion should be correctly assembled. 
 
 
 
