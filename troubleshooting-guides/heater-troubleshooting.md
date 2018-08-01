@@ -24,11 +24,12 @@ The PT1000, or thermistor, is what reads the temperature of the heater block and
 
 ### Possible Problems:
 
-**Heater Faults:**
-
-
+**Heater Faults:**  
+When trying to heat up your nozzle, if you receive a heater fault there can be a few reasons. The first possibility is that your printer's settings have been set up to expect that your heater will heat faster than it is able to. The second possibility is that your heater is not heating. 
 
 **Solution:**  
+The first reason for a heater fault can be solved by editing your printer settings. Go into Settings, System Editor, and under config.g go to the Heater section:
+
 
 
 **Loose Connection:**  
@@ -39,5 +40,5 @@ It is possible when setting up your Quad Fusion that the Heater wire was bent. T
 As you can see the red line is no longer steadily rising, but has begun to move exaggeratedly. 
 
 **Solution:**  
- 
+ There are two solutions
 
