@@ -30,7 +30,7 @@ Read the section below to improve the quality of your ABS-R print. The titles of
 
 Blobbing can look like what is circled on the picture below:
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 Blobbing can have a few causes. The reason blobbing occurs is because the nozzle suddenly extrudes more than usual, thus creating a "blob" in the print. One of the causes of this can be back pressure, which is more of a concern with the Quad Fusion. Since there are four filaments being loaded into the Quad Fusion, if they are not all in line some back pressure may occur. Thus, when you retract one of the four filaments the other three will still be experiencing pressure and may ooze out of the nozzle.  
 Another cause for blobbing can be \_\_\_\_\_\_
@@ -44,7 +44,19 @@ The most important solution is to calibrate your extrusion settings. Sometimes y
 
 Stringing can look like this:
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image.png)
+
+Stringing is usually caused when the extruder is traveling between prints and some filament is oozing. This ooze can cause these strings which can be a real hassle to remove. 
+
+Solution:  
+The number one solution that we can recommend is to edit your retraction settings. When slicing your print make sure to add this function. 
+
+{% hint style="info" %}
+In Cura, the function is under the _Material_ tab and is called "Enable Retraction".
+{% endhint %}
+
+This function allows your extruder to retract the filament slightly whenever moving over empty space.  
+One other possible reason for stringing is that your temperature is too high. With certain filaments, the higher the temperature the more liquid it becomes. Try fiddling around with the nozzle temperature to find the best fit for your filament. 
 
 **Under-extrusion**
 
