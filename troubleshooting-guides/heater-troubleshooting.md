@@ -8,7 +8,7 @@ This guide serves to fix any problems you might have with the heater cartridge o
 
 The PT1000, or thermistor, is what reads the temperature of the heater block and relays the information onto the Duet Web Control. 
 
-### **Possible Problems:**
+### **Possible Problem\(s\):**
 
 **Not Reading Temperature:**  
 This is assuming that whenever you attempt to to heat your extruder the thermistor doesn't read any value which results in a heater fault. It is very likely that the issue here lies within your printer's settings. 
@@ -29,7 +29,7 @@ Try changing the values to match what is above, look under [Heating & Temp Senso
 
 ![](../.gitbook/assets/image%20%2819%29.png)
 
-### Possible Problems:
+### Possible Problem\(s\):
 
 **Heater Faults:**  
 When trying to heat up your nozzle, if you receive a heater fault there can be a few reasons. The first possibility is that your printer's settings have been set up to expect that your heater will heat faster than it is able to. The second possibility is that your heater is not heating. 
@@ -47,5 +47,5 @@ It is possible when setting up your Quad Fusion that the Heater wire was bent. T
 As you can see the red line is no longer steadily rising, but has begun to move exaggeratedly. 
 
 **Solution:**  
- There are two solutions
+There are two solutions, the first being replace your heater wire entirely. Unless you have the means for the second option, this is by far the least tedious. 
 
