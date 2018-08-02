@@ -9,7 +9,7 @@ This guide is intended to explain all the different software levels that takes a
 ## Software Layers
 
 | Layer | Purpose |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- |
 | Model Software | Create _.STL_ models of prints |
 | Slicing Software | Convert _.STL_ files to ._gcode_ files while incorporating printer and print settings |
 | Duet Web Interface | A web server running on the Duet Maestro that connects to your local network in order to allow for control and monitor of a 3D printer |
