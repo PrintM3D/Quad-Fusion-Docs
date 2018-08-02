@@ -19,7 +19,7 @@ QuadFusion Tools:
   * Extruder Drive 3
   * Heater 1
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 As seen above, the QuadFusion has four different extruder drives and two heaters. The current configuration is set-up to make all tools heated by Heater 1, while the Bed will be heated by Heater 0.
 
