@@ -31,6 +31,7 @@ You will need...
 - 24V fan \(x1\)  
 - 2mm Torx screw \(\_\_\_\_\) \(x4\)  
 - 3mm Cone-Head Torx screw \(12mm long\) \(x2\)  
+- 3mm Hex screw \(12mm long\) \(x2\)  
 - Fan Mount  
 - Fan Ducts 
 
@@ -38,7 +39,7 @@ Tools...
 - T-10 Torx Screwdriver  
 - T-6 Torx Screwdriver
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 {% hint style="info" %}
 This fan mount is what was typically used when mounting the QuadFusion to a non-M3D printer. 
@@ -52,25 +53,33 @@ This fan mount is what was typically used when mounting the QuadFusion to a non-
 
 With the first fan mount, line the hole up with the nut inside the side slot of the QuadFusion. Make sure the mount is in the proper orientation, the prongs should be facing the front of the QuadFusion.
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
 Using the Cone-Head Screw, attach the mount to the QuadFusion:
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 Repeat with the other side of the Quad Fusion.
 
 Next, take the side fan and the fan duct and insert the duct into the fan's slot. 
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 The duct's open end should be facing the back of the fan.  
 
 Then, insert the two 2mm Torx screws into the fan and duct's holes. Afterwards, slide the fan with the duct into the fan mount:
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
-Position the fan so that the holes in the mount line up with the screws keeping the duct connected to the fan. 
+Position the fan so that the holes in the mount line up with the screws keeping the duct connected to the fan. Screw the Torx screws in the fan mount, and repeat with the other fan on the opposing side. 
+
+Your fan and fan duct on the mount should look like this. The arrow represents the airflow for when the fan is spinning:
+
+![](../.gitbook/assets/image%20%284%29.png)
+
+Lastly, you can attach the front facing fan with the two 3mm Hex screws into the holes at the end of the fan mount's prongs:
+
+
 
 ## Printers:
 
@@ -98,11 +107,11 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2856%29.png)
+![Front](../.gitbook/assets/image%20%2857%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 
-![Back](../.gitbook/assets/image%20%2819%29.png)
+![Back](../.gitbook/assets/image%20%2820%29.png)
 
 The back of the mount shows where it will be mounted to the Prusa. The lower X-belt will lie across the ledge of the mount. While the upper X-belt will be wrapped around the two protruding cylinders. You can tighten the X-belt by wrapping more of the belt around the cylinder, as shown in the picture above.   
 Additionally, the mount is attached to the Prusa using six zip-ties. Theses zip-ties can be routed through designated holes that the mount contains. 
@@ -137,7 +146,7 @@ PICTURE!
 
 Once you have attached the fans you can move one to mounting the QuadFusion. 
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 Start by......
 
@@ -152,7 +161,7 @@ Enter this link into the URL bar to get the STEP file for the mount:
 
 Once you have attached the designated fan mount, you can now attach the QuadFusion. 
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 You will need...  
 - 3mm standoffs \(25mm long\) \(x2\)  
@@ -165,17 +174,17 @@ Tools...
 
 The back of your existing extruder's mount should look like this:
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 Using the 3mm Hex Screwdriver and Pliers, undo the circled wheel.
 
 Attach the two standoffs to to QuadFusion:
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
 Now, using the two \_\_\_\_\_\_\_\_ hex screws, attach the QuadFusion to the mount:
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 Once you have done this, you can reattach the bottom wheel.
 
