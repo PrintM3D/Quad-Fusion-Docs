@@ -52,7 +52,7 @@ MakerBot Replicator 2X
 
 The Prusa i3 MK2S requires an entirely new extruder mount in order to mount the QuadFusion. The new mount is very similar to the old, a few things were just shifted to accommodate for the new fan mounts.
 
-
+![](../.gitbook/assets/img_1390.jpg)
 
 You will need...  
 - 20mm standoffs \(for a 3mm screw\) \(x2\)  
