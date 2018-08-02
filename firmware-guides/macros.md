@@ -25,7 +25,7 @@ Now that you have a new Macro filled with all the tools for a specific print, yo
 
 You should now see your newly made Macro listed in the Macro section. 
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 If you click your Macro's title it will be enabled.
 

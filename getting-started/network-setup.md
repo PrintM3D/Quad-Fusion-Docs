@@ -25,8 +25,8 @@ Basic Fan Mount
 You will need...  
 - 12V fan \(x2\) **\(Look at the picture below to make sure you have the correct type of fan\)**  
 - 24V fan \(x1\)  
-- 2mm Torx screw \(x4\)  
-- 3mm Cone-Head Torx  screw \(x2\)  
+- 2mm Torx screw \(\_\_\_\_\) \(x4\)  
+- 3mm Cone-Head Torx screw \(10mm long\) \(x2\)  
 - Fan Mount  
 - Fan Ducts 
 
@@ -41,6 +41,10 @@ This fan mount is what was typically used when mounting the QuadFusion to a non-
 {% endhint %}
 
 **CAD / STL / Gcode: \(?\)**
+
+\*\*\*\*
+
+**How To Attach:**
 
 ## Printers:
 
@@ -68,7 +72,7 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2848%29.png)
+![Front](../.gitbook/assets/image%20%2849%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 
@@ -114,9 +118,13 @@ Enter this link into the URL bar to get the STEP file for the mount:
 
 ### M3D Crane
 
+Once you have attached the designated fan mount, you can now attach the QuadFusion. 
 
+![](../.gitbook/assets/image%20%2842%29.png)
 
-
+You will need...  
+- 3mm standoffs \(25mm long\) \(x2\)  
+- 3mm Torx Screws \(10mm long\) \(x2\)
 
 
 
@@ -129,4 +137,6 @@ Enter this link into the URL bar to get the STEP file for the mount:
 
 
 ### M3d ProMega
+
+Coming Soon!
 
