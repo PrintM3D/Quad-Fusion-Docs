@@ -8,6 +8,10 @@ The QuadFusion is a versatile 3D print head, so it is very likely that it will b
 
 ## Fan Mounts
 
+{% hint style="warning" %}
+The MakerBot Replicator 2X does not use any of these fan mounts, go straight to [MakerBot Replicator 2X](network-setup.md#makerbot-replicator-2x) if this applies to you.
+{% endhint %}
+
 The first thing that must be understood is that based on the printer you have, you may need a certain type of fan mount. The fan mounts on the ProMega will be different than those on the Crane, and those on the CR-10S. So, we will also be providing the \(\_\_\_\_\_\_\_\) for these fan mounts to help you properly attach your QuadFusion to your printer.
 
 **Types of Fan Mounts:**
@@ -34,7 +38,7 @@ Tools...
 - T-10 Torx Screwdriver  
 - T-6 Torx Screwdriver
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 {% hint style="info" %}
 This fan mount is what was typically used when mounting the QuadFusion to a non-M3D printer. 
@@ -72,7 +76,7 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2851%29.png)
+![Front](../.gitbook/assets/image%20%2852%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 
@@ -105,22 +109,28 @@ Additionally, the mount is attached to the Prusa using six zip-ties. Theses zip-
 This mount does not have a nozzle cooling fan. Be cautious of the side effects of not cooling your nozzle.
 {% endhint %}
 
+This printer does not have a fan mount design, instead four standoffs were used to attach two 24V fans to the back of the QuadFusion. See below:
+
+PICTURE!
+
+Once you have attached the fans you can move one to mounting the QuadFusion. 
+
+![](../.gitbook/assets/image%20%2830%29.png)
+
+Start by......
 
 
 
-
-
+**CAD / STL / Gcode: \(?\)**
 
 Enter this link into the URL bar to get the STEP file for the mount:  
 [https://cdn.discordapp.com/attachments/457228900183834638/474644801199800321/MakerBot\_Adapter.STEP](https://cdn.discordapp.com/attachments/457228900183834638/474644801199800321/MakerBot_Adapter.STEP) 
-
-
 
 ### M3D Crane
 
 Once you have attached the designated fan mount, you can now attach the QuadFusion. 
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 You will need...  
 - 3mm standoffs \(25mm long\) \(x2\)  
@@ -133,17 +143,17 @@ Tools...
 
 The back of your existing extruder's mount should look like this:
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 Using the 3mm Hex Screwdriver and Pliers, undo the circled wheel.
 
 Now, using the two \_\_\_\_\_\_\_\_ hex screws, attach the QuadFusion to the mount:
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 Once you have done this, you can reattach the bottom wheel.
 
-### M3d ProMega
+### M3D ProMega
 
 Coming Soon!
 
