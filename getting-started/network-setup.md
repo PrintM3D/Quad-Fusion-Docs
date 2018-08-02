@@ -34,7 +34,7 @@ Tools...
 - T-10 Torx Screwdriver  
 - T-6 Torx Screwdriver
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 {% hint style="info" %}
 This fan mount is what was typically used when mounting the QuadFusion to a non-M3D printer. 
@@ -72,7 +72,7 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2850%29.png)
+![Front](../.gitbook/assets/image%20%2851%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 
@@ -120,7 +120,7 @@ Enter this link into the URL bar to get the STEP file for the mount:
 
 Once you have attached the designated fan mount, you can now attach the QuadFusion. 
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 You will need...  
 - 3mm standoffs \(25mm long\) \(x2\)  
@@ -133,15 +133,15 @@ Tools...
 
 The back of your existing extruder's mount should look like this:
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
+Using the 3mm Hex Screwdriver and Pliers, undo the circled wheel.
 
+Now, using the two \_\_\_\_\_\_\_\_ hex screws, attach the QuadFusion to the mount:
 
+![](../.gitbook/assets/image%20%2830%29.png)
 
-
-
-
-
+Once you have done this, you can reattach the bottom wheel.
 
 ### M3d ProMega
 
