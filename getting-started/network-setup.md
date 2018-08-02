@@ -107,7 +107,8 @@ This mount does not have a nozzle cooling fan. Be cautious of the side effects o
 
 
 
-
+Enter this link into the URL bar to get the STEP file for the mount:  
+[https://cdn.discordapp.com/attachments/457228900183834638/474644801199800321/MakerBot\_Adapter.STEP](https://cdn.discordapp.com/attachments/457228900183834638/474644801199800321/MakerBot_Adapter.STEP) 
 
 
 
