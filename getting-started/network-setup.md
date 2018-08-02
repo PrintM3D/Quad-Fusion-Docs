@@ -59,7 +59,7 @@ Using the Cone-Head Screw, attach the mount to the QuadFusion:
 
 ![](../.gitbook/assets/image%20%2860%29.png)
 
-Repeat with the other side of the Quad Fusion.
+Repeat with the other side of the QuadFusion.
 
 Next, take the side fan and the fan duct and insert the duct into the fan's slot. 
 

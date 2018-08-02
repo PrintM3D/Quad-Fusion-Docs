@@ -23,17 +23,17 @@ Type in a `M563` command and add a `M567` command to define the mix ratio you wa
 
 Now that you have a new Macro filled with all the tools for a specific print, you can now use it! 
 
-You should now see your newly made Macro listed in the Macro section. 
+You should now see your newly made Macro listed in the Macros Directory. 
 
 ![](../.gitbook/assets/image%20%2849%29.png)
 
-If you click your Macro's title it will be enabled.
+If you click your Macro's title you will be able to enable it.
 
 ![](../.gitbook/assets/image%20%2818%29.png)
 
-Enable the Macro you have created. You should now see that your tool settings have changed to suit the Macro you have just enabled. 
+Enable the Macro you have created. You should see that your tool settings have changed to suit the Macro you have just enabled. 
 
-If you wish to test to see if your Macro is enabled, go to the Gcode Command section and type in:  
+If you wish to test to see if your Macro is enabled, go to the G-Code Console section and type in:  
 `M567 P0`
 
 ![](../.gitbook/assets/image%20%2835%29.png)
