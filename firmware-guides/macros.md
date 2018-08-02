@@ -13,7 +13,7 @@ The Macros come into play when you want to define these tools. You can create a 
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
-Since the QuadFusion can mix any colors that you want, it is recommended that you write your own Macro. This way you can customize the colors mix ratios to suit your preferences. 
+Since the QuadFusion can mix any colors you want, it is recommended that you write your own Macro. This way you can customize the colors mix ratios to suit your preferences. 
 
 The way you create a tool is the same as making one in your config.g \(Check that out in the [Tool Definitions](tool-definitions.md) guide!\)
 
@@ -21,9 +21,9 @@ Type in a `M563` command and add a `M567` command to define the mix ratio you wa
 
 ![This example is of a Brick Tile ](../.gitbook/assets/image%20%2843%29.png)
 
-Now that you have a new Macro filled with all the tools for a specific print, you can now use it! 
+Now that you have a new Macro filled with all the tools for a specific print, you can use it! 
 
-You should now see your newly made Macro listed in the Macros Directory. 
+You should see your newly made Macro listed in the Macros Directory. 
 
 ![](../.gitbook/assets/image%20%2849%29.png)
 
@@ -38,7 +38,7 @@ If you wish to test to see if your Macro is enabled, go to the G-Code Console se
 
 ![](../.gitbook/assets/image%20%2835%29.png)
 
-Now you will be able to see the mix ratio you have designated Tool 0 to have
+You will be able to see the mix ratio you have designated Tool 0 to have
 
 The purpose of doing this is if you have a specific print that requires different colors with specific tools, you can create these tools in a Macro and when you're printing the printer will have the proper tools with the proper mix ratios. 
 
