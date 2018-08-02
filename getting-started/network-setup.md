@@ -63,3 +63,7 @@ You will need...
 - QuadFusion Mount  
 - Zip-ties \(x6\)
 
+
+
+As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in two 20mm standoffs.
+
