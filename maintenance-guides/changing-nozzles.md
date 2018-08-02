@@ -17,7 +17,7 @@ Some of the following steps have to be performed with a heated hot-end in order 
 
 5. Next, **loosen** the circled screws. Some QuadFusions may not be mounted the same way. Go to [Mounting the Hardware](../getting-started/network-setup.md) for more in depth mount information on certain printers.
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 6. Remove the set-screw holding the nozzle and heater block in place. Carefully retract them using pliers.
 
