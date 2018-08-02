@@ -23,12 +23,12 @@ ProMega Fan Mount
 Basic Fan Mount
 
 You will need...  
-- 12V fan \(x2\)   
+- 12V fan \(x2\) **\(Look at the picture below to make sure you have the correct type of fan\)**  
 - 24V fan \(x1\)  
 - 2mm Torx screw \(x4\)  
 - 3mm Cone-Head Torx  screw \(x2\)  
 - Fan Mount  
--Fan Ducts 
+- Fan Ducts 
 
 Tools...  
 - T-10 Torx Screwdriver  
@@ -50,5 +50,14 @@ MakerBot Replicator 2X
 
 ### Prusa i3 MK2S
 
+The Prusa i3 MK2S requires an entirely new extruder mount in order to mount the QuadFusion. The new mount is very similar to the old, a few things were just shifted to accommodate for the new fan mounts.
 
+
+
+You will need...  
+- 20mm standoffs \(for a 3mm screw\) \(x2\)  
+- 3mm Hex screw \(33mm long\) \(x2\)  
+- 8mm nut \(3mm thick\) \(x2\)  
+- QuadFusion Mount  
+- Zip-ties \(x6\)
 
