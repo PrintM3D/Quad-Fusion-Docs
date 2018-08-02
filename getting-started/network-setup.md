@@ -40,6 +40,8 @@ Tools...
 This fan mount is what was typically used when mounting the QuadFusion to a non-M3D printer. 
 {% endhint %}
 
+**CAD / STL / Gcode: \(?\)**
+
 ## Printers:
 
 M3D Crane  
@@ -63,13 +65,21 @@ You will need...
 - QuadFusion Mount  
 - Zip-ties \(x6\)
 
-![](../.gitbook/assets/image%20%2848%29.png)
+Tools...  
+- 2.5mm Hex Screwdriver
 
-As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in two 3mm standoffs.
+![Front](../.gitbook/assets/image%20%2848%29.png)
 
-![](../.gitbook/assets/image%20%2819%29.png)
+As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
+
+![Back](../.gitbook/assets/image%20%2819%29.png)
 
 The back of the mount shows where it will be mounted to the Prusa. The lower X-belt will lie across the ledge of the mount. While the upper X-belt will be wrapped around the two protruding cylinders. You can tighten the X-belt by wrapping more of the belt around the cylinder, as shown in the picture above.   
+Additionally, the mount is attached to the Prusa using six zip-ties. Theses zip-ties can be routed through designated holes that the mount contains. 
+
+**CAD File / STL / Gcode: \(?\)**
+
+
 
 ### CR-10S
 
@@ -87,7 +97,9 @@ The back of the mount shows where it will be mounted to the Prusa. The lower X-b
 
 ### MakerBot Replicator 2X
 
-
+{% hint style="warning" %}
+This mount does not have a nozzle cooling fan. Be cautious of the side effects of not cooling your nozzle.
+{% endhint %}
 
 
 
