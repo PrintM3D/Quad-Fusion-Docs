@@ -12,7 +12,7 @@ The QuadFusion is a versatile 3D print head, so it is very likely that it will b
 The MakerBot Replicator 2X does not use any of these fan mounts, go straight to [MakerBot Replicator 2X](network-setup.md#makerbot-replicator-2x) if this applies to you.
 {% endhint %}
 
-The first thing that must be understood is that based on the printer you have, you may need a certain type of fan mount. The fan mounts on the ProMega will be different than those on the Crane, and those on the CR-10S. So, we will also be providing the \(\_\_\_\_\_\_\_\) for these fan mounts to help you properly attach your QuadFusion to your printer.
+The first thing that must be understood is that based on the printer you have, you may need a certain type of fan mount. The fan mounts on the ProMega will be different than those on the Crane, and those on the CR-10S. So, we will also be providing the STLs for these fan mounts to help you properly attach your QuadFusion to your printer.
 
 **Types of Fan Mounts:**
 
@@ -46,6 +46,8 @@ This fan mount is what was typically used when mounting the QuadFusion to a non-
 {% endhint %}
 
 **STL File\(s\):**
+
+{% file src="../.gitbook/assets/quad-nozzle-fan-duct-v1.0.STL" %}
 
 {% file src="../.gitbook/assets/quad-fan-mount-2-v1.1.STL" %}
 
