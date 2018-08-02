@@ -56,7 +56,7 @@ With the first fan mount, line the hole up with the nut inside the side slot of 
 
 Using the Cone-Head Screw, attach the mount to the QuadFusion:
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2859%29.png)
 
 Repeat with the other side of the Quad Fusion.
 
@@ -64,7 +64,13 @@ Next, take the side fan and the fan duct and insert the duct into the fan's slot
 
 ![](../.gitbook/assets/image%20%2825%29.png)
 
-The duct's open end should be facing the back of the fan. 
+The duct's open end should be facing the back of the fan.  
+
+Then, insert the two 2mm Torx screws into the fan and duct's holes. Afterwards, slide the fan with the duct into the fan mount:
+
+![](../.gitbook/assets/image%20%2855%29.png)
+
+Position the fan so that the holes in the mount line up with the screws keeping the duct connected to the fan. 
 
 ## Printers:
 
@@ -92,7 +98,7 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2855%29.png)
+![Front](../.gitbook/assets/image%20%2856%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 
