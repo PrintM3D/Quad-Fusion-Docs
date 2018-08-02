@@ -37,7 +37,7 @@ Tools...
 ![](../.gitbook/assets/image%20%2832%29.png)
 
 {% hint style="info" %}
-This fan mount is what was typically used when mounting the QuadFusion on to non-M3D printers. 
+This fan mount is what was typically used when mounting the QuadFusion to a non-M3D printer. 
 {% endhint %}
 
 ## Printers:
@@ -68,4 +68,52 @@ You will need...
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in two 20mm standoffs.
 
 ![](../.gitbook/assets/image%20%2819%29.png)
+
+
+
+### CR-10S
+
+
+
+
+
+
+
+
+
+
+
+
+
+### MakerBot Replicator 2X
+
+
+
+
+
+
+
+
+
+
+
+
+
+### M3D Crane
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### M3d ProMega
 
