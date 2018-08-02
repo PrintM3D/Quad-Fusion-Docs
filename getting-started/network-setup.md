@@ -30,7 +30,7 @@ You will need...
 - 12V fan \(x2\) **\(Look at the picture below to make sure you have the correct type of fan\)**  
 - 24V fan \(x1\)  
 - 2mm Torx screw \(\_\_\_\_\) \(x4\)  
-- 3mm Cone-Head Torx screw \(10mm long\) \(x2\)  
+- 3mm Cone-Head Torx screw \(12mm long\) \(x2\)  
 - Fan Mount  
 - Fan Ducts 
 
@@ -49,6 +49,10 @@ This fan mount is what was typically used when mounting the QuadFusion to a non-
 \*\*\*\*
 
 **How To Attach:**
+
+With the first fan mount, line the hole up with the nut inside the side slot of the QuadFusion. Make sure the mount is in the proper orientation, the prongs should be facing the front of the QuadFusion.
+
+![](../.gitbook/assets/image%20%2845%29.png)
 
 ## Printers:
 
@@ -76,7 +80,7 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2853%29.png)
+![Front](../.gitbook/assets/image%20%2854%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 
@@ -130,7 +134,7 @@ Enter this link into the URL bar to get the STEP file for the mount:
 
 Once you have attached the designated fan mount, you can now attach the QuadFusion. 
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 You will need...  
 - 3mm standoffs \(25mm long\) \(x2\)  
@@ -149,7 +153,7 @@ Using the 3mm Hex Screwdriver and Pliers, undo the circled wheel.
 
 Attach the two standoffs to to QuadFusion:
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 Now, using the two \_\_\_\_\_\_\_\_ hex screws, attach the QuadFusion to the mount:
 
