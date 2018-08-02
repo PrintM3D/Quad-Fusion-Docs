@@ -81,6 +81,10 @@ Lastly, you can attach the front facing fan with the two 3mm Hex screws into the
 
 
 
+![](../.gitbook/assets/image%20%2821%29.png)
+
+You can now mount your QuadFusion onto your printer! Continue reading if your printer is one of the ones that we have already placed a QuadFusion on.
+
 ## Printers:
 
 M3D Crane  
