@@ -34,6 +34,8 @@ Tools...
 - T-10 Torx Screwdriver  
 - T-6 Torx Screwdriver
 
+![](../.gitbook/assets/image%20%2831%29.png)
+
 {% hint style="info" %}
 This fan mount is what was typically used when mounting the QuadFusion on to non-M3D printers. 
 {% endhint %}

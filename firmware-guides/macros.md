@@ -19,13 +19,13 @@ The way you create a tool is the same as making one in your config.g \(Check tha
 
 Type in a `M563` command and add a `M567` command to define the mix ratio you want for this particular tool.
 
-![This example is of a Brick Tile ](../.gitbook/assets/image%20%2837%29.png)
+![This example is of a Brick Tile ](../.gitbook/assets/image%20%2838%29.png)
 
 Now that you have a new Macro filled with all the tools for a specific print, you can now use it! 
 
 You should now see your newly made Macro listed in the Macro section. 
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 If you click your Macro's title it will be enabled.
 
