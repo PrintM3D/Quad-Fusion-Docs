@@ -45,7 +45,7 @@ Tools...
 This fan mount is what was typically used when mounting the QuadFusion to a non-M3D printer. 
 {% endhint %}
 
-**STL File:**
+**STL File\(s\):**
 
 {% file src="../.gitbook/assets/quad-fan-mount-2-v1.1.STL" %}
 
@@ -120,7 +120,7 @@ As you can see, the front of the mount has two sets of holes, the bottom set is 
 The back of the mount shows where it will be mounted to the Prusa. The lower X-belt will lie across the ledge of the mount. While the upper X-belt will be wrapped around the two protruding cylinders. You can tighten the X-belt by wrapping more of the belt around the cylinder, as shown in the picture above.   
 Additionally, the mount is attached to the Prusa using six zip-ties. Theses zip-ties can be routed through designated holes that the mount contains. 
 
-**STL File:**
+**STL File\(s\):**
 
 
 
@@ -156,7 +156,7 @@ Start by......
 
 
 
-**STL File:** 
+**STL File\(s\):** 
 
 Enter this link into the URL bar to get the STEP file for the mount:  
 [https://cdn.discordapp.com/attachments/457228900183834638/474644801199800321/MakerBot\_Adapter.STEP](https://cdn.discordapp.com/attachments/457228900183834638/474644801199800321/MakerBot_Adapter.STEP) 
