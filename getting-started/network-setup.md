@@ -27,11 +27,11 @@ ProMega Fan Mount
 Basic Fan Mount
 
 You will need...  
-- 12V fan \(x2\) **\(Look at the picture below to make sure you have the correct type of fan\)**  
-- 24V fan \(x1\)  
-- 2mm Torx screw \(\_\_\_\_\) \(x4\)  
-- 3mm Cone-Head Torx screw \(12mm long\) \(x2\)  
-- 3mm Hex screw \(12mm long\) \(x2\)  
+- 12V Fan \(x2\) **\(Look at the picture below to make sure you have the correct type of fan\)**  
+- 24V Fan \(x1\)  
+- 2mm Torx Screw \(9.5mm long\) \(x4\)  
+- 3mm Cone-Head Torx Screw \(12mm long\) \(x2\)  
+- 3mm Hex Screw \(12mm long\) \(x2\)  
 - Fan Mount  
 - Fan Ducts 
 
@@ -103,8 +103,8 @@ The Prusa i3 MK2S requires an entirely new extruder mount in order to mount the 
 
 You will need...  
 - 3mm Hex Standoffs \(20mm long\) \(x2\)  
-- 3mm Hex screw \(33mm long\) \(x2\)  
-- 8mm nut \(3mm thick\) \(x2\)  
+- 3mm Hex Screw \(33mm long\) \(x2\)  
+- 8mm Nut \(3mm thick\) \(x2\)  
 - QuadFusion Mount  
 - Zip-ties \(x6\)
 
@@ -168,12 +168,13 @@ Once you have attached the designated fan mount, you can now attach the QuadFusi
 ![](../.gitbook/assets/image%20%2848%29.png)
 
 You will need...  
-- 3mm standoffs \(25mm long\) \(x2\)  
-- 3mm Torx Screws \(10mm long\) \(x2\)
+- 3mm Standoffs \(25mm long\) \(x2\)  
+- 3mm Torx Screws \(10mm long\) \(x2\)  
+- 3mm Hex Screws \(7mm long\) \(x2\)
 
 Tools...  
 - 3mm Hex Screwdriver  
-- \_\_\_\_\_ Hex Screwdriver  
+- 2mm Hex Screwdriver  
 - Pliers
 
 The back of your existing extruder's mount should look like this:
@@ -186,7 +187,7 @@ Attach the two standoffs to to QuadFusion:
 
 ![](../.gitbook/assets/image%20%2850%29.png)
 
-Now, using the two \_\_\_\_\_\_\_\_ hex screws, attach the QuadFusion to the mount:
+Now, using the two 3mm hex screws, attach the QuadFusion to the mount:
 
 ![](../.gitbook/assets/image%20%2833%29.png)
 
