@@ -34,7 +34,7 @@ Tools...
 - T-10 Torx Screwdriver  
 - T-6 Torx Screwdriver
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 {% hint style="info" %}
 This fan mount is what was typically used when mounting the QuadFusion on to non-M3D printers. 
@@ -63,7 +63,9 @@ You will need...
 - QuadFusion Mount  
 - Zip-ties \(x6\)
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in two 20mm standoffs.
+
+![](../.gitbook/assets/image%20%2819%29.png)
 
