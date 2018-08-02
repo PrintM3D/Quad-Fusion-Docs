@@ -2,7 +2,7 @@
 description: Mounting your QuadFusion 3D Print Head
 ---
 
-# Mounting the Hardware
+# \*Mounting the Hardware
 
 The QuadFusion is a versatile 3D print head, so it is very likely that it will be able to adapt to whatever printer you have at home. At M3D we have mounted the QuadFusion on many different types of printers. The following guide will show you how we mounted the QuadFusion's hardware on each of those printers. 
 
@@ -57,7 +57,7 @@ The Prusa i3 MK2S requires an entirely new extruder mount in order to mount the 
 ![](../.gitbook/assets/img_1390.jpg)
 
 You will need...  
-- 20mm standoffs \(for a 3mm screw\) \(x2\)  
+- 3mm Hex Standoffs \(20mm long\) \(x2\)  
 - 3mm Hex screw \(33mm long\) \(x2\)  
 - 8mm nut \(3mm thick\) \(x2\)  
 - QuadFusion Mount  
@@ -65,11 +65,11 @@ You will need...
 
 ![](../.gitbook/assets/image%20%2848%29.png)
 
-As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in two 20mm standoffs.
+As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in two 3mm standoffs.
 
 ![](../.gitbook/assets/image%20%2819%29.png)
 
-
+The back of the mount shows where it will be mounted to the Prusa. The lower X-belt will lie across the ledge of the mount. While the upper X-belt will be wrapped around the two protruding cylinders. You can tighten the X-belt by wrapping more of the belt around the cylinder, as shown in the picture above.   
 
 ### CR-10S
 
