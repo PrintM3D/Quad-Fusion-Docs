@@ -22,7 +22,7 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2860%29.png)
+![Front](../.gitbook/assets/image%20%2861%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 
@@ -51,7 +51,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 

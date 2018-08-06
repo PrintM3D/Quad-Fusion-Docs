@@ -25,7 +25,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
