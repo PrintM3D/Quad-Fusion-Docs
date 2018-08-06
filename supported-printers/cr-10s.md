@@ -111,7 +111,25 @@ Yellow = X-Limit Switch
 Red = Y-Limit Switch  
 Aqua = Z-Limit Switch
 
-Now, if you are using a Z-probe as we did, you will be connecting the probe here:
+Now, if you are using a Z-probe as we did, you will be connecting the probe to the Duet Maestro board based off of your probe's specific wiring
+
+Go here to understand how Duet wires Z-probes to their boards:   
+Choosing a Z-probe: [https://duet3d.dozuki.com/Wiki/Choosing\_a\_Z\_probe](https://duet3d.dozuki.com/Wiki/Choosing_a_Z_probe)  
+Connecting a Z-probe: [https://duet3d.dozuki.com/Wiki/Connecting\_a\_Z\_probe](https://duet3d.dozuki.com/Wiki/Connecting_a_Z_probe)
+
+**Heating the Bed**
+
+The bed was wired separately from the main collection of wires because of the power supply. The QuadFusion requires a 24V power supply in order to properly power the motors, heater, and thermistor. However, the bed could only be safely powered by 12V, so it was decided to have the bed remain wired to Creality's original board. Additionally, because of this, you will be able to heat your bed from the control block that comes with the printer, as opposed to heating with the Duet Web Control. 
+
+
+
+Don't have something that is listed here? Check out these links if you need something for the QuadFusion!
+
+24V power supply: [https://store.printm3d.com/collections/parts/products/400w-power-supply?variant=12283391148110](https://store.printm3d.com/collections/parts/products/400w-power-supply?variant=12283391148110)  
+Duet Maestro Board: [https://fitforlaunch.com/projects/duet-2-maestro](https://fitforlaunch.com/projects/duet-2-maestro)  
+Toggle Switch: [https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198](https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198)  
+  
+
 
 
 
