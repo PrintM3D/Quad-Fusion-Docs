@@ -31,7 +31,7 @@ The following pictures show where the extension goes, and how it looks once it h
 
 ### Base Connections {#base-connections}
 
-
+![](../.gitbook/assets/image%20%285%29.png)
 
 Without the fans, the QuadFusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\). 
 
