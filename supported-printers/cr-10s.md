@@ -34,14 +34,14 @@ You will need a Duet Maestro board if you with to follow along during the electr
 {% endhint %}
 
 **You will need...  
--  
--  
--  
--**
+-** 24V Power Supply  
+**-** Duet Maestro Board  
+**-** Duet Maestro Expansion Board  
+**-** 
 
 **Tools  
--  
--  
+-** Flat-Head Screwdriver  
+**-  
 -**
 
 This is the Duet Maestro:
