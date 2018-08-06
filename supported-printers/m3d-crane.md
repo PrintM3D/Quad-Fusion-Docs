@@ -5,7 +5,7 @@ This guide will go through the process of hooking up your QuadFusion to M3D's Cr
 
 ### Mechanically
 
-![](../.gitbook/assets/image%20%2852%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 
 
@@ -25,7 +25,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2857%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 

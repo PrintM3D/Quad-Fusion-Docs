@@ -22,7 +22,7 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2863%29.png)
+![Front](../.gitbook/assets/image%20%2864%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 
@@ -51,7 +51,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2857%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -78,7 +78,7 @@ The bed is not connected to the Duet Maestro board, this will be further explain
 
 Starting with the stepper motors, each one will plug into one of these highlighted ports:
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2859%29.png)
 
 The color coordination is as follows;  
 Yellow = X-Stepper Motor  
@@ -91,13 +91,40 @@ The original connectors on the i3 MK2S were not compatible with the Duet Maestro
 
 The next step is to wire the limit switches and Z-probe to these highlighted ports:
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2867%29.png)
 
 The picture above shows where each limit switch and the Z-probe should be connected. Color coordination is as follows;  
 Yellow = X-Limit Switch  
 Red = Y-Limit Switch  
 Aqua = Z-Limit Switch  
 Green = Z-Probe
+
+When attaching the Z-probe you will need to use some Dupont connectors in order to properly connect it to the Duet Maestro:
+
+![](../.gitbook/assets/image%20%2843%29.png)
+
+Color coordination is as follows:  
+The black wire represents the Z-probe's black wire  
+The grey wire represents the Z-probe's blue wire  
+The brown wire represents the Z-probe's brown wire
+
+Once you have plugged these in you can move on to connecting the power supply. **You will need a 24V power supply** to power your Duet Maestro board
+
+![](../.gitbook/assets/image%20%2817%29.png)
+
+The three circled wires are what will be connecting your power supply to an outlet. The non circled wires are what will be connected to your Duet Maestro board
+
+{% hint style="info" %}
+We recommend having an on/off switch between the power supply and Duet Maestro board, this makes it easier to turn your printer on and off. 
+{% endhint %}
+
+![](../.gitbook/assets/image%20%2856%29.png)
+
+The red and black wires will be connected to ports 3 and 4, respectively, as shown in the image above.
+
+**Heating the Bed**
+
+The bed was wired separately from the main collection of wires because of the power supply. The QuadFusion requires a 24V power supply in order to properly power the motors, heater, and thermistor. However, the bed could only be safely powered by 12V, so it was decided to have the bed remain wired to Creality's original board. Because of this, you will be able to heat your bed from the control block that comes with the printer, as opposed to heating with the Duet Web Control.
 
 
 
