@@ -170,7 +170,7 @@ Once you have attached the designated fan mount, you can now attach the QuadFusi
 ![](../.gitbook/assets/image%20%2848%29.png)
 
 You will need...  
-- 3mm Standoffs \(25mm long\) \(x2\)  
+- 3mm Standoffs \(30mm long\) \(x2\)  
 - 3mm Torx Screws \(10mm long\) \(x2\)  
 - 3mm Hex Screws \(7mm long\) \(x2\)
 

@@ -5,7 +5,7 @@ description: >-
   the version shipped.
 ---
 
-# Unboxing & Assembly
+# Unboxing & Inventory
 
 ## Assembling the QuadFusion 3D Print Head
 

@@ -4,7 +4,29 @@ description: >-
   you will need for the remaining wires.
 ---
 
-# \*Connecting the Wires
+# Getting Connected
+
+This page is a generic overview of what you'll need to do to connect your QuadFusion mechanically and electrically. See the bottom of the page for links to pages with details on more specific printers.
+
+
+
+### Connecting Mechanically
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Connecting Electrically
 
 This is the QuadFusion without fans:
 
@@ -51,4 +73,9 @@ The length of these wires is entirely based upon the printer you are using. The 
 Now that you have the necessary wires for each of the motors, the heater, and PT1000, you can move on to other guides. 
 
 If you are connecting to the Duet Maestro, continue on to the [Duet Maestro Wiring](../electrical-guides/duet-maestro-wiring.md) guide to connect the QuadFusion to your printer.
+
+
+
+Depending on what printer you are using with your QuadFusion, go to this page to see if we support it:  
+Supported Printers
 
