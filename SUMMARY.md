@@ -5,7 +5,6 @@
   * [\*Critical Warnings & Information](getting-started/critical-warnings-and-information.md)
   * [Unboxing & Inventory](getting-started/unboxing-and-inventory.md)
   * [Getting Connected](getting-started/getting-connected.md)
-  * [\*Mounting the Hardware](getting-started/mounting-the-hardware.md)
   * [\*Updating Firmware](getting-started/updating-firmware.md)
   * [\*Updating your Control Board Settings](getting-started/updating-control-board-settings.md)
   * [Changing Homing Offsets](getting-started/homing-the-printer.md)
