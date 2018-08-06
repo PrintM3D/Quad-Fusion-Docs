@@ -41,5 +41,5 @@ As an example, let's say that when you try to extrude Tool 1, you instead trigge
 **Remember,**  Drive 0/ Tool 0 connects to Extruder Drive 0,  Drive 1 / Tool 1 connects to Extruder Drive 1,  Drive 2 / Tool 2 connects to External Drive 2, Drive 3 / Tool 3 connects to External Drive 3 
 {% endhint %}
 
-If you are unclear which wire connects to which port, go to the [Duet Maestro Wiring](../electrical-guides/duet-maestro-wiring.md) guide for help.
+If you are unclear which wire connects to which port, go to the [Duet Maestro Wiring](../supported-printers/duet-maestro-wiring.md) guide for help.
 

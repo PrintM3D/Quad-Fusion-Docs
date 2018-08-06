@@ -72,7 +72,7 @@ The length of these wires is entirely based upon the printer you are using. The 
 
 Now that you have the necessary wires for each of the motors, the heater, and PT1000, you can move on to other guides. 
 
-If you are connecting to the Duet Maestro, continue on to the [Duet Maestro Wiring](../electrical-guides/duet-maestro-wiring.md) guide to connect the QuadFusion to your printer.
+If you are connecting to the Duet Maestro, continue on to the [Duet Maestro Wiring](../supported-printers/duet-maestro-wiring.md) guide to connect the QuadFusion to your printer.
 
 
 
