@@ -44,12 +44,18 @@ Without the fans, the QuadFusion has six main wires coming from it. The four wir
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-
-
-
+![](../.gitbook/assets/image%20%2838%29.png)
 
 Notes:
 
 * Keep in mind when you're wiring your QuadFusion's motors to the Duet Maestro board which motor is connected to which port. The first picture in this guide labels each port as E0 Stepper, E1 Stepper, E2 External Driver, and E3 External Driver. When facing the front of your QuadFusion, the front left motor is 0, the front right motor is 2, the back left motor is 1, and the back right motor is 3. 
 * If you decide to extend the wires given to you, make sure that you are maintaining the original positive and negative wires. 
+
+The next steps will be to connect your CR-10S' stepper motors, power source, and Z-probe
+
+{% hint style="warning" %}
+The CR-10S we worked with used a Z-probe instead of the Z-limit switch the printer came with. Additionally, we ended up having the bed heated separately, which will be explained within the guide.  
+{% endhint %}
+
+
 
