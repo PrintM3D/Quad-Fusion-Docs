@@ -19,7 +19,7 @@ This is the Duet Maestro:
 
 ![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2832%29.png)
 
-This will be a walk through on how we hooked up the QuadFusion, as well as part of the CR-10S, to the Duet Maestro board.
+This will be a walk through on how we hooked up the QuadFusion, as well as part of the Crane, to the Duet Maestro board.
 
 Before you can begin to wire your QuadFusion to the Duet Maestro board you must attach an extension to the board. With this extension you will be able to connect the the extra motor wires to the board.
 
@@ -27,7 +27,7 @@ The following pictures show where the extension goes, and how it looks once it h
 
 ![](../.gitbook/assets/image%20%2852%29.png)
 
-
+![](../.gitbook/assets/image%20%282%29.png)
 
 ### Base Connections {#base-connections}
 
