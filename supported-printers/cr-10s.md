@@ -6,6 +6,8 @@ This guide will go through the process of hooking up your QuadFusion to Creality
 The QuadFusion and the company M3D have no affiliation with the CR-10S or its company.
 {% endhint %}
 
+### Mechanically
+
 **You will need...  
 -  
 -  
@@ -16,10 +18,6 @@ The QuadFusion and the company M3D have no affiliation with the CR-10S or its co
 -  
 -  
 -**
-
-### Mechanically
-
-
 
 
 
