@@ -1,5 +1,5 @@
 ---
-description: A beginner guide covering the assemblies of the QuadFusion.
+description: A beginner guide covering the assemblies of the Crane.
 ---
 
 # \*Beginner: QuadFusion Assembly
@@ -22,5 +22,5 @@ The Nozzle:
 
 * **Mixing Chamber**: Once the filaments have all passed into their section of the teflon tube, they will travel down into the mixing chamber. The mixing chamber lies at the very tip of the nozzle, this is where your filaments will mix in order to give you the color you requested. 
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 

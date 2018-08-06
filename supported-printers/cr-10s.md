@@ -57,5 +57,14 @@ The next steps will be to connect your CR-10S' stepper motors, power source, and
 The CR-10S we worked with used a Z-probe instead of the Z-limit switch the printer came with. Additionally, we ended up having the bed heated separately, which will be explained within the guide.  
 {% endhint %}
 
+Starting with the stepper motors, there are four mototrs you should be hooking up. One for the X-Stepper motor, one for the Y-Stepper motor, and two for the Z-Stepper motors. 
 
+![](../.gitbook/assets/image%20%2854%29.png)
+
+If you look above, the boxed sections are where you will be plugging in your stepper motors. The color coordination is as follows;   
+Yellow = X-Stepper Motor  
+Orange = Y-Stepper Motor  
+Green = Z-Stepper Motors
+
+Once you have plugged these in you can move on to connecting the power supply. **You will need a 24V power supply** to power your Duet Maestro board
 

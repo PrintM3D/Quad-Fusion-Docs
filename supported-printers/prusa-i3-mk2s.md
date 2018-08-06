@@ -22,7 +22,7 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2858%29.png)
+![Front](../.gitbook/assets/image%20%2859%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 

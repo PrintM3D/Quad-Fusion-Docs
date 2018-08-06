@@ -1,5 +1,5 @@
 ---
-description: Setting up your control board to operate the QuadFusion 3D Print Head
+description: Update the contents of the Duet Maestro microSD card.
 ---
 
 # \*Updating your Control Board Settings

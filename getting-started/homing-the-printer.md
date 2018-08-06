@@ -1,5 +1,5 @@
 ---
-description: Updating your printer settings to home with the QuadFusion 3D Print Head
+description: How to home the Crane.
 ---
 
 # Changing Homing Offsets

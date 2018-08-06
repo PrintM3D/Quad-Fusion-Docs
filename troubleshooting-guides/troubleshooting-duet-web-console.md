@@ -31,6 +31,6 @@ When working with the Duet Web Console there are frequent disconnects with the D
 
 * Ensure that your computer has a proper connection to the local network. It is possible that the Duet is not disconnected from the network but your computer is.
 * Ensure that the Duet has a proper connection to your local network.
-* [Try configuring a static IP address](../getting-started/network-setup.md). It is possible that the router is continuously changing the IP address of your Crane.
+* [Try configuring a static IP address](). It is possible that the router is continuously changing the IP address of your Crane.
 * Go to _Settings &gt; General_ on the Duet Web Console and increase the _Status Update Interval_ and _Maximum Number of AJAX Retries_.
 

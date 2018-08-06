@@ -1,7 +1,3 @@
----
-description: These are the screws and tools needed solely for the QuadFusion and its fans.
----
-
 # \*What You'll Need
 
 This guide contains a list of different screws and tools used for each assembly of the QuadFusion and its fans. Look under the tool's header for each assembly to see all the possible tools you will need to maintain, assemble or repair the QuadFusion or its fans . Look under the screws category to view a more in-depth list of the screw types and their location.
@@ -23,7 +19,7 @@ This guide contains a list of different screws and tools used for each assembly 
 * Fan mount: T-10 Torx
 * Fan Duct: T-6 Torx
 * QuadFusion: T-10 Torx and 2.5 mm Hex\*
-  * \*The 2.5mm Hex screw may vary based on how you are mounting your QuadFusion. Go to the [Mounting the Hardware](../getting-started/network-setup.md) guide for more information. 
+  * \*The 2.5mm Hex screw may vary based on how you are mounting your QuadFusion. Go to the [Mounting the Hardware]() guide for more information. 
 
 ## Detailed List
 
