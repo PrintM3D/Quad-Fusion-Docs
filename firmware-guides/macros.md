@@ -15,7 +15,7 @@ The Macros come into play when you want to define these tools. You can create a 
 
 Since the QuadFusion can mix any colors you want, it is recommended that you write your own Macro. This way you can customize the colors mix ratios to suit your preferences. 
 
-The way you create a tool is the same as making one in your config.g \(Check that out in the [Tool Definitions](tool-definitions.md) guide!\)
+The way you create a tool is the same as making one in your config.g \(Check that out in the [Tool Definitions](../printing-guides/tool-definitions.md) guide!\)
 
 Type in a `M563` command and add a `M567` command to define the mix ratio you want for this particular tool.
 

@@ -1,4 +1,4 @@
-# \*Help! My Drives / Tools are Backwards
+# \*My Drives / Tools are Backwards
 
 Whenever you are changing or updating configuration files it is possible that your drives will be wrongly configured. This could result in your extruder drivers going the wrong way, or Drive 2 spinning when you want Tool 1 to be extruding.
 
