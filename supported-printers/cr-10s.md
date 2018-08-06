@@ -46,7 +46,7 @@ You will need a Duet Maestro board if you with to follow along during the electr
 
 This is the Duet Maestro:
 
-![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2835%29.png)
+![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2836%29.png)
 
 This will be a walk through on how we hooked up the QuadFusion, as well as part of the CR-10S, to the Duet Maestro board.
 
@@ -54,7 +54,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2858%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -66,7 +66,7 @@ Without the fans, the QuadFusion has six main wires coming from it. The four wir
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 Notes:
 
@@ -81,7 +81,7 @@ The CR-10S we worked with used a Z-probe instead of the Z-limit switch the print
 
 Starting with the stepper motors, there are four mototrs you should be hooking up. One for the X-Stepper motor, one for the Y-Stepper motor, and two for the Z-Stepper motors. 
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 If you look above, the boxed sections are where you will be plugging in your stepper motors. The color coordination is as follows;   
 Yellow = X-Stepper Motor  
@@ -98,13 +98,13 @@ The three circled wires are what will be connecting your power supply to an outl
 We recommend having an on/off switch between the power supply and Duet Maestro board, this makes it easier to turn your printer on and off. 
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2857%29.png)
 
 The red and black wires will be connected to ports 3 and 4, respectively, as shown in the image above. 
 
 Lastly, you'll need to connect the Z-probe and limit switches. Starting with the limit switches:
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 The picture above shows where each limit switch should be connected. Color coordination is as follows;  
 Yellow = X-Limit Switch  
