@@ -5,7 +5,7 @@ This guide will go through the process of hooking up your QuadFusion to M3D's Cr
 
 ### Mechanically
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 
 
@@ -17,7 +17,7 @@ This guide will go through the process of hooking up your QuadFusion to M3D's Cr
 
 This is the Duet Maestro:
 
-![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2833%29.png)
+![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2834%29.png)
 
 This will be a walk through on how we hooked up the QuadFusion, as well as part of the Crane, to the Duet Maestro board.
 
@@ -25,7 +25,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -37,7 +37,7 @@ Without the fans, the QuadFusion has six main wires coming from it. The four wir
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 Notes:
 

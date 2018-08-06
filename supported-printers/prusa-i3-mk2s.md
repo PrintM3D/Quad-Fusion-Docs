@@ -22,11 +22,11 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2861%29.png)
+![Front](../.gitbook/assets/image%20%2862%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 
-![Back](../.gitbook/assets/image%20%2821%29.png)
+![Back](../.gitbook/assets/image%20%2822%29.png)
 
 The back of the mount shows where it will be mounted to the Prusa. The lower X-belt will lie across the ledge of the mount. While the upper X-belt will be wrapped around the two protruding cylinders. You can tighten the X-belt by wrapping more of the belt around the cylinder, as shown in the picture above.   
 Additionally, the mount is attached to the Prusa using six zip-ties. Theses zip-ties can be routed through designated holes that the mount contains. 
@@ -43,7 +43,7 @@ You will need a Duet Maestro board if you with to follow along during the electr
 
 This is the Duet Maestro:
 
-![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2833%29.png)
+![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2834%29.png)
 
 This will be a walk through on how we hooked up the QuadFusion, as well as part of the i3 MK2S, to the Duet Maestro board.
 
@@ -51,7 +51,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -63,7 +63,7 @@ Without the fans, the QuadFusion has six main wires coming from it. The four wir
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 Notes:
 
