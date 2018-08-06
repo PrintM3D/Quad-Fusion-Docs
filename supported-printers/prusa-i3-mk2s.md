@@ -124,7 +124,7 @@ The red and black wires will be connected to ports 3 and 4, respectively, as sho
 
 **Heating the Bed**
 
-The bed was wired separately from the main collection of wires because of the power supply. The QuadFusion requires a 24V power supply in order to properly power the motors, heater, and thermistor. However, the bed could only be safely powered by 12V, so it was decided to have the bed remain wired to Creality's original board. Because of this, you will be able to heat your bed from the control block that comes with the printer, as opposed to heating with the Duet Web Control.
+The bed was wired separately from the main collection of wires because of the power supply. The QuadFusion requires a 24V power supply in order to properly power the motors, heater, and thermistor. However, the bed could only be safely powered by 12V, so it was decided to have the bed remain wired to Prusa's original board. Because of this, you will be able to heat your bed from the control block that comes with the printer, as opposed to heating with the Duet Web Control.
 
 
 
