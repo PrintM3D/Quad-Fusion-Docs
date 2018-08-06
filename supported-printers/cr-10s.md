@@ -24,7 +24,7 @@ You will need a Duet Maestro board if you with to follow along during the electr
 
 This is the Duet Maestro:
 
-![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2832%29.png)
+![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2833%29.png)
 
 This will be a walk through on how we hooked up the QuadFusion, as well as part of the CR-10S, to the Duet Maestro board.
 
@@ -32,7 +32,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2852%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -44,7 +44,7 @@ Without the fans, the QuadFusion has six main wires coming from it. The four wir
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 Notes:
 
@@ -59,7 +59,7 @@ The CR-10S we worked with used a Z-probe instead of the Z-limit switch the print
 
 Starting with the stepper motors, there are four mototrs you should be hooking up. One for the X-Stepper motor, one for the Y-Stepper motor, and two for the Z-Stepper motors. 
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 If you look above, the boxed sections are where you will be plugging in your stepper motors. The color coordination is as follows;   
 Yellow = X-Stepper Motor  
@@ -67,4 +67,14 @@ Orange = Y-Stepper Motor
 Green = Z-Stepper Motors
 
 Once you have plugged these in you can move on to connecting the power supply. **You will need a 24V power supply** to power your Duet Maestro board
+
+![](../.gitbook/assets/image%20%2816%29.png)
+
+The three circled wires are what will be connecting your power supply to an outlet. The non circled wires are what will be connected to your Duet Maestro board
+
+{% hint style="info" %}
+We recommend having an on/off switch between the power supply and Duet Maestro board, this makes it easier to turn your printer on and off. 
+{% endhint %}
+
+
 
