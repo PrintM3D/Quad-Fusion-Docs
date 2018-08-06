@@ -63,9 +63,7 @@ Without the fans, the QuadFusion has six main wires coming from it. The four wir
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-
-
-
+![](../.gitbook/assets/image%20%2838%29.png)
 
 Notes:
 
