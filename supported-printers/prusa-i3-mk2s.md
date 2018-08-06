@@ -1,6 +1,6 @@
 # Prusa i3 MK2S
 
-This guide will go through the process of hooking up your QuadFusion to a Prusa i3 MK2S printer.
+This guide will go through the process of hooking up your QuadFusion to Prusa's i3 MK2S printer.
 
 {% hint style="warning" %}
 The QuadFusion and the company M3D have no affiliation with the Prusa i3 MK2S or its company.
@@ -22,7 +22,7 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2857%29.png)
+![Front](../.gitbook/assets/image%20%2858%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 

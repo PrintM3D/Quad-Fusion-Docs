@@ -30,7 +30,7 @@ This page is a generic overview of what you'll need to do to connect your QuadFu
 
 This is the QuadFusion without fans:
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 As you can see there are four motor wires, one heater wire, and a PT1000 wire.
 
@@ -46,7 +46,7 @@ These are the wires that connect to the motors. Each small white end will connec
 
 In the end, you should have one cable for each motor:
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 **Not Given** 
 
@@ -68,7 +68,7 @@ The final result,
 The length of these wires is entirely based upon the printer you are using. The wires in the picture below are for example only.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 Now that you have the necessary wires for each of the motors, the heater, and PT1000, you can move on to other guides. 
 

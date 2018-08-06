@@ -62,7 +62,7 @@ One other possible reason for stringing is that your temperature is too high. Wi
 
 Under-extrusion can look like this: 
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2859%29.png)
 
 The simplest cause for under extrusion is when your extruder is unable to supply the requested amount of filament.
 

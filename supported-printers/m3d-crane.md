@@ -5,7 +5,7 @@ This guide will go through the process of hooking up your QuadFusion to M3D's Cr
 
 ### Mechanically
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 
 
