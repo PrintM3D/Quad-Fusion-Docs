@@ -2,7 +2,7 @@
 description: A beginner guide covering the assemblies of the Crane.
 ---
 
-# \*Beginner: QuadFusion Assembly
+# Beginner: QuadFusion Assembly
 
 This guide will cover the inner workings of the QuadFusion. There will be a significant amount of technical knowledge and terms throughout these guides that will reference what is explained here. The different assemblies of the QuadFusion will be mentioned frequently in the sections below.
 

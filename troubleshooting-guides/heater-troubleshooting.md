@@ -1,4 +1,4 @@
-# \*Heater Troubleshooting
+# Heater Troubleshooting
 
 This guide serves to fix any problems you might have with the heater cartridge or PT1000.
 

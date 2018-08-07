@@ -2,7 +2,7 @@
 description: Update the contents of the Duet Maestro microSD card.
 ---
 
-# \*Updating your Control Board Settings
+# Updating your Control Board Settings
 
 The QuadFusion requires printer electronics capable of running four independent extruder motor channels, either natively via the printer's control board or with an attached expansion board.
 

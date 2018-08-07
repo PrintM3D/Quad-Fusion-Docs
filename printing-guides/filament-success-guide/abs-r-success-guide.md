@@ -1,4 +1,4 @@
-# \*ABS-R
+# ABS-R
 
 Follow this step by step guide for successful printing with ABS-R.
 

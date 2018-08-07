@@ -2,7 +2,7 @@
 description: What now?
 ---
 
-# \*Getting Started: Where to Go From Here
+# Getting Started: Where to Go From Here
 
 Now that you have completed the Getting Started guides. You are ready to go. Consider reading the following guides as you learn more about the QuadFusion and its functionalities.
 

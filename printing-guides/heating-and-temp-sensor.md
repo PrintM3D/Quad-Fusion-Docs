@@ -1,2 +1,2 @@
-# \*Heating & Temp Sensor
+# Heating & Temp Sensor
 

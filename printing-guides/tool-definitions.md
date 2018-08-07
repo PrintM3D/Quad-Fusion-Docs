@@ -1,4 +1,4 @@
-# \*Tool Definitions
+# Tool Definitions
 
 This guide will explains the default tool definitions for the QuadFusion and explains how to change tools. This can be useful to create complex mixing and switching prints. This guide is not for beginners
 

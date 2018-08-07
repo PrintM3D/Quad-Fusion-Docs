@@ -1,4 +1,4 @@
-# \*What You'll Need
+# What You'll Need
 
 This guide contains a list of different screws and tools used for each assembly of the QuadFusion and its fans. Look under the tool's header for each assembly to see all the possible tools you will need to maintain, assemble or repair the QuadFusion or its fans . Look under the screws category to view a more in-depth list of the screw types and their location.
 

@@ -1,4 +1,4 @@
-# \*Filament Extrusion Rate
+# Filament Extrusion Rate
 
 The extrusion system on the QuadFusion is designed to print at specific speeds at certain temperatures. Printing at the proper filament extrusion rate is essential to provide a good print. The QuadFusion is designed to extrude at a rate of 5.7 mm^3/s. This number can change significantly depending on your printer and slicer settings and material.
 

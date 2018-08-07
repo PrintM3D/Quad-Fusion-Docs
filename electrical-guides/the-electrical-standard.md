@@ -2,7 +2,7 @@
 description: An explanation behind the wiring of the Crane.
 ---
 
-# \*The Electrical Standard
+# The Electrical Standard
 
 This guide serves to describe the standard for the electrical system of the QuadFusion and the reasoning behind it.
 

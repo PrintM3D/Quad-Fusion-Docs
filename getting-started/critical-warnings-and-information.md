@@ -1,4 +1,4 @@
-# \*Critical Warnings & Information
+# Critical Warnings & Information
 
 The M3D QuadFusion 3D Print Head is an industrial product. The user assumes all responsibility for proper operation and acknowledges that they understand the operation and standard practices of additive manufacturing. The user assumes all responsibility for its proper use and agrees to follow the directives below to ensure a safe and working unit before any other operation.
 

@@ -1,4 +1,4 @@
-# \*Temperature Calibration
+# Temperature Calibration
 
 Proper temperature calibration is vital to allow for good print quality. The hot-end and the bed are controlled by temperature feedback loops which are supposed to maintain a steady temperature. The type of feedback loop is a first order plus dead time \([FOPDT](https://controlguru.com/process-data-dynamic-modeling-and-a-recipe-for-profitable-control/)\) loop. This loop has three different control variables: 1. Gain: Kp: Allows for manipulation of the strength of the heater response. 2. Time Constant: Tp: Control of the speed of the response of the heater. 3. Dead time: The delay before the system will begin a response.
 

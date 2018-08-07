@@ -1,4 +1,4 @@
-# \*PLA
+# PLA
 
 Follow this step by step guide for successful printing with PLA.
 
