@@ -10,7 +10,7 @@ You must mount your QuadFusion to whatever printer you are using. Depending on t
 
 The base QuadFusion has six connections that need to be made. Four of the connectors \(yellow\) are for each of the motors that move gears inside the QuadFusion in order to feed filament. The red wire \(green\) on the QuadFusion is the heater wire, and the white wire \(red\) is the thermistor. 
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 **Step Three:**
 

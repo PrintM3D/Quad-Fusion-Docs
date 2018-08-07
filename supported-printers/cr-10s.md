@@ -8,10 +8,10 @@ The QuadFusion and the company M3D have no affiliation with the CR-10S or its co
 
 ### Mechanically
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 **You will need...  
--** 25mm Standoff  
+-** 3.0mm Standoff \(25mm long\) \(x2\)  
 **-** 2.0mm Hex Screws  
 **-   
 -**
@@ -21,9 +21,17 @@ The QuadFusion and the company M3D have no affiliation with the CR-10S or its co
 **-** 3.0mm Hex Screwdriver  
 **-** 2.0mm Hex Screwdriver
 
+Once you have removed the extruder that comes with the CR-10S, you will want to take of the mounting plate and drill holes using these specs:
+
+PICTURE!
 
 
 
+Place the newly drilled plate back on to your CR-10S, attach the top two wheels if you removed them. 
+
+![](../.gitbook/assets/image%20%2826%29.png)
+
+Next, thread the two 2.0mm Hex Screws through the holes you have just drilled. 
 
 
 
@@ -40,13 +48,13 @@ You will need a Duet Maestro board if you wish to follow along during the electr
 **-** Jumper
 
 **Tools  
--** Flat-Head Screwdriver  
-**-  
--**
+-** Flat-Head Screwdriver
+
+
 
 This is the Duet Maestro:
 
-![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2839%29.png)
+![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2842%29.png)
 
 This will be a walk through on how we hooked up the QuadFusion, as well as part of the CR-10S, to the Duet Maestro board.
 
@@ -54,23 +62,23 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](../.gitbook/assets/image%20%2864%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
 Additionally, you will need to attach a jumper to the pins next to the expansion board:
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 #### Base Connections
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 Without the fans, the QuadFusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\). 
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 Notes:
 
@@ -85,7 +93,7 @@ The CR-10S we worked with used a Z-probe instead of the Z-limit switch the print
 
 Starting with the stepper motors, there are four motors you should be hooking up. One for the X-Stepper motor, one for the Y-Stepper motor, and two for the Z-Stepper motors. 
 
-![](../.gitbook/assets/image%20%2863%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
 If you look above, the boxed sections are where you will be plugging in your stepper motors. The color coordination is as follows;   
 Yellow = X-Stepper Motor  
@@ -94,7 +102,7 @@ Green = Z-Stepper Motors
 
 Once you have plugged these in you can move on to connecting the power supply. **You will need a 24V power supply** to power your Duet Maestro board
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 The three circled wires are what will be connecting your power supply to an outlet. The non circled wires are what will be connected to your Duet Maestro board
 
@@ -102,13 +110,13 @@ The three circled wires are what will be connecting your power supply to an outl
 We recommend having an on/off switch between the power supply and Duet Maestro board, this makes it easier to turn your printer on and off. 
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
 The red and black wires will be connected to ports 3 and 4, respectively, as shown in the image above. 
 
 Lastly, you'll need to connect the Z-probe and limit switches. Starting with the limit switches:
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 The picture above shows where each limit switch should be connected. Color coordination is as follows;  
 Yellow = X-Limit Switch  
