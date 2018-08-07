@@ -42,7 +42,7 @@ The first reason for a heater fault can be solved by editing your printer settin
 **Loose Connection:**  
 It is possible when setting up your QuadFusion that the Heater wire was bent. The pins in the connector may have gotten loose, which is causing your heater to heat poorly.  You may be able to identify this issue by trying to heat your nozzle and wiggling the heater wire. If you get a similar result as the picture below, you have a loose connection:
 
-![Image pulled from: https://forum.duet3d.com/topic/4966/highly-erratic-temperature-readings-above-certain-temperature ](../.gitbook/assets/image%20%2851%29.png)
+![Image pulled from: https://forum.duet3d.com/topic/4966/highly-erratic-temperature-readings-above-certain-temperature ](../.gitbook/assets/image%20%2852%29.png)
 
 As you can see the red line is no longer steadily rising, but has begun to move exaggeratedly. 
 

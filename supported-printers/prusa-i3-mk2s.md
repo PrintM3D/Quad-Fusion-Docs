@@ -22,7 +22,7 @@ You will need...
 Tools...  
 - 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2871%29.png)
+![Front](../.gitbook/assets/image%20%2872%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
 
@@ -52,7 +52,7 @@ You will need a Duet Maestro board if you wish to follow along during the electr
 
 This is the Duet Maestro:
 
-![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2842%29.png)
+![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2843%29.png)
 
 This will be a walk through on how we hooked up the QuadFusion, as well as part of the i3 MK2S, to the Duet Maestro board.
 
@@ -60,7 +60,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -76,7 +76,7 @@ Without the fans, the QuadFusion has six main wires coming from it. The four wir
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 Notes:
 
@@ -91,7 +91,7 @@ The bed is not connected to the Duet Maestro board, this will be further explain
 
 Starting with the stepper motors, each one will plug into one of these highlighted ports:
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2867%29.png)
 
 The color coordination is as follows;  
 Yellow = X-Stepper Motor  
@@ -104,7 +104,7 @@ The original connectors on the i3 MK2S are not compatible with the Duet Maestro.
 
 The next step is to wire the limit switches and Z-probe to these highlighted ports:
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2875%29.png)
 
 The picture above shows where each limit switch and the Z-probe should be connected. Color coordination is as follows;  
 Yellow = X-Limit Switch  
@@ -113,7 +113,7 @@ Green = Z-Probe
 
 When attaching the Z-probe you will need to use some Dupont connectors in order to properly connect it to the Duet Maestro:
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 Color coordination is as follows:  
 The black wire represents the Z-probe's black wire  
