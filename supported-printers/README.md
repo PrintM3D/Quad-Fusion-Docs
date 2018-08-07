@@ -6,5 +6,13 @@ The QuadFusion is a versatile 3D print head, so it is very likely that it will b
 **Disclaimer: Some of the printers listed are NOT M3D products. We would like to make it clear that we have no affiliation with these printers or the companies that made them.** 
 {% endhint %}
 
+{% page-ref page="m3d-crane.md" %}
 
+{% page-ref page="m3d-promega.md" %}
+
+{% page-ref page="cr-10s.md" %}
+
+{% page-ref page="prusa-i3-mk2s.md" %}
+
+{% page-ref page="duet-maestro-wiring.md" %}
 
