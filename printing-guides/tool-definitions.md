@@ -19,7 +19,7 @@ QuadFusion Tools:
   * Extruder Drive 3
   * Heater 1
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
 As seen above, the QuadFusion has four different extruder drives and two heaters. The current configuration is set-up to make all tools heated by Heater 1, while the Bed will be heated by Heater 0.
 
@@ -35,7 +35,7 @@ The `M563` command allows you to define a tool, it has the following parameters:
 
 The extruder drive numbers start from 0 and immediately follow the X, Y and Z axes stepper motor drives on the Duet Board. You can configure the order of these drives with the `M584` command. If you were looking at your tools in the config.g, they would look like this:
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 ## Defining Your Own Tools
 
