@@ -8,8 +8,7 @@ This guide will go through the process of hooking up your QuadFusion to M3D's Cr
 ![](../.gitbook/assets/image%20%2862%29.png)
 
 **You will need...**  
-**-** 3mm Hex Standoffs \(\_\_\_\_mm long\) \(x2\)  
-**-** 
+**-** 3mm Hex Standoffs \(\_\_\_\_mm long\) \(x2\)
 
 **Tools...**  
 **-** 2.0mm Hex Screwdriver  
@@ -43,6 +42,8 @@ Finally, thread the 2.0mm Hex Screws into the standoffs, and mount the QuadFusio
 **Tools  
 -** Flat-Head Screwdriver
 
+
+
 This is the Duet Maestro:
 
 ![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2844%29.png)
@@ -57,7 +58,7 @@ The following pictures show where the extension goes, and how it looks once it h
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
-### Base Connections {#base-connections}
+#### Base Connections
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
