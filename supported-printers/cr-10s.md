@@ -12,9 +12,7 @@ The QuadFusion and the company M3D have no affiliation with the CR-10S or its co
 
 **You will need...  
 -** 3.0mm Standoff \(25mm long\) \(x2\)  
-**-** 2.0mm Hex Screws  
-**-   
--**
+**-** 2.0mm Hex Screws \(x2\)
 
 **Tools  
 -** Pliers  
@@ -35,7 +33,7 @@ Once you have done this, you will want to attach the two 25mm long standoffs to 
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-You can now, by threading the 2.0mm Hex Screws into the standoffs, mount the QuadFusoin head onto the CR-10S.
+You can now, by threading the 2.0mm Hex Screws into the standoffs, mount the QuadFusion head onto the CR-10S.
 
 ### Electrically
 
