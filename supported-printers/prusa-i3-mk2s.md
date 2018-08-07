@@ -55,7 +55,11 @@ The following pictures show where the extension goes, and how it looks once it h
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
-### Base Connections {#base-connections}
+Additionally, you will need to attach a jumper to the pins next to the expansion board:
+
+![](../.gitbook/assets/image%20%287%29.png)
+
+#### Base Connections
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
