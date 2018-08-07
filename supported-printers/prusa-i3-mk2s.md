@@ -23,7 +23,7 @@ The Prusa i3 MK2S requires an entirely new extruder mount in order to mount the 
 
 ![Front](../.gitbook/assets/image%20%2873%29.png)
 
-As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 3mm standoffs.
+As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 20mm long standoffs.
 
 ![Back](../.gitbook/assets/image%20%2831%29.png)
 

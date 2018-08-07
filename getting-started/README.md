@@ -6,17 +6,26 @@ Follow the guides in this Getting Started chapter of the QuadFusion 3D Print Hea
 
 {% page-ref page="critical-warnings-and-information.md" %}
 
-{% page-ref page="homing-the-printer.md" %}
+{% page-ref page="unboxing-and-inventory.md" %}
 
-{% page-ref page="../printing-guides/loading-and-unloading-filament.md" %}
+{% page-ref page="getting-connected.md" %}
+
+{% page-ref page="updating-firmware.md" %}
 
 {% page-ref page="updating-control-board-settings.md" %}
 
+{% page-ref page="homing-the-printer.md" %}
+
+{% page-ref page="first-print.md" %}
+
+{% page-ref page="getting-started-where-to-go-from-here.md" %}
+
 * [Critical Warnings & Information](critical-warnings-and-information.md): Contains important warnings and information about using the QuadFusion.
-* [Unboxing & Assembly](./): A step-by-step guide to unbox your printer and assemble the shipped components.
-* [Accessing Web Interface](): An explanation of the features included in the Duet Web Console on the Duet Maestro.
-* [Heating the Bed and Nozzles](): How to heat the bed and the nozzles
-* [Loading and Unloading Filament](../printing-guides/loading-and-unloading-filament.md): On how to load filament into the extruder of the Crane.
-* [Tool Definitions](../printing-guides/tool-definitions.md): Explains the definition of tools.
-* [Introduction to G-Code Commands](../beginner-guides/beginner-introduction-to-g-code-commands.md): A list of useful G-code commands to know.
+* [Unboxing & Assembly](./): A step-by-step guide to unbox your QuadFusion and assemble the shipped components.
+* [Getting Connected](getting-connected.md): A generic guide to setting up your QuadFusion.
+* [Updating Firmware](updating-firmware.md): A walk through on how to update your Duet Maestro's firmware.
+* [Updating your Control Board Settings](updating-control-board-settings.md): Contains important information to understand the specs on you QuadFusion.
+* [Changing Homing Offsets](homing-the-printer.md): A guide that goes through the new offsets for your QuadFusion. 
+* [First Print](first-print.md): A guide that helps you print a simple print to check setup.
+* [Getting Started: Where to Go From Here](getting-started-where-to-go-from-here.md) 
 
