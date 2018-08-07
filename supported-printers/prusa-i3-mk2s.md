@@ -55,6 +55,8 @@ You will need a Duet Maestro board if you wish to follow along during the electr
 **Tools  
 -** Flat-Head Screwdriver
 
+
+
 This is the Duet Maestro:
 
 ![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2844%29.png)
