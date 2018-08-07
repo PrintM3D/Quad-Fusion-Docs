@@ -15,5 +15,5 @@ The base QuadFusion has six connections that need to be made. Four of the connec
 **Step Three:**
 
 Lastly, you will need to update your firmware settings  
-Go to this guide for more information about updating your firmware: [Updating Firmware](updating-firmware.md)
+Go to these guides for more information about updating your firmware: [Updating Firmware](updating-firmware.md) and [Updating your Control Board Settings](updating-control-board-settings.md)
 
