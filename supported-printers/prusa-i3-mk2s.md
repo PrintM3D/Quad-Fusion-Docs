@@ -21,7 +21,7 @@ The Prusa i3 MK2S requires an entirely new extruder mount in order to mount the 
 **Tools...**  
 **-** 2.5mm Hex Screwdriver
 
-![Front](../.gitbook/assets/image%20%2873%29.png)
+![Front](../.gitbook/assets/image%20%2874%29.png)
 
 As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 20mm long standoffs.
 
@@ -29,6 +29,12 @@ As you can see, the front of the mount has two sets of holes, the bottom set is 
 
 The back of the mount shows where it will be mounted to the Prusa. The lower X-belt will lie across the ledge of the mount. While the upper X-belt will be wrapped around the two protruding cylinders. You can tighten the X-belt by wrapping more of the belt around the cylinder, as shown in the picture above.   
 Additionally, the mount is attached to the Prusa using six zip-ties. Theses zip-ties can be routed through designated holes that the mount contains. 
+
+Lastly, using the 33mm long Hex Screws, thread the screw into the QuadFusion till the come out the other end and thread into the standoffs.
+
+![](../.gitbook/assets/image%20%2855%29.png)
+
+You have now fully attached the QuadFusion to your i3 MK2S.
 
 **STL File\(s\):**
 
@@ -59,7 +65,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2867%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -90,7 +96,7 @@ The bed is not connected to the Duet Maestro board, this will be further explain
 
 Starting with the stepper motors, each one will plug into one of these highlighted ports:
 
-![](../.gitbook/assets/image%20%2868%29.png)
+![](../.gitbook/assets/image%20%2869%29.png)
 
 The color coordination is as follows;  
 Yellow = X-Stepper Motor  
@@ -103,7 +109,7 @@ The original connectors on the i3 MK2S are not compatible with the Duet Maestro.
 
 The next step is to wire the limit switches and Z-probe to these highlighted ports:
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 The picture above shows where each limit switch and the Z-probe should be connected. Color coordination is as follows;  
 Yellow = X-Limit Switch  
