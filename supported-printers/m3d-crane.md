@@ -8,7 +8,7 @@ This guide will go through the process of hooking up your QuadFusion to M3D's Cr
 ![](../.gitbook/assets/image%20%2862%29.png)
 
 **You will need...**  
-**-** 3mm Hex Standoffs \(20mm long\) \(x2\)  
+**-** 3mm Hex Standoffs \(\_\_\_\_mm long\) \(x2\)  
 **-** 
 
 **Tools...**  
@@ -25,6 +25,12 @@ Undo the circled wheel using the 3.0mm Hex Screwdriver and the Pliers
 ![](../.gitbook/assets/image%20%285%29.png)
 
 Once you have removed the bottom wheel, unscrew the two circled screws on the back of the mount. 
+
+Next, attach the two standoffs to the QuadFusion:
+
+![](../.gitbook/assets/image%20%289%29.png)
+
+Finally, thread the 2.0mm Hex Screws into the standoffs, and mount the QuadFusion head onto the Crane.
 
 ### Electrically
 
