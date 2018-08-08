@@ -5,7 +5,7 @@ This guide will go through the process of hooking up your QuadFusion to M3D's Cr
 
 ### Mechanically
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 **You will need...**  
 **-** 3mm Hex Standoffs \(\_\_\_\_mm long\) \(x2\)
@@ -17,7 +17,7 @@ This guide will go through the process of hooking up your QuadFusion to M3D's Cr
 
 If you look behind your Crane, you should see the mount that is already fixated upon it:
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 Undo the circled wheel using the 3.0mm Hex Screwdriver and the Pliers
 
@@ -46,7 +46,7 @@ Finally, thread the 2.0mm Hex Screws into the standoffs, and mount the QuadFusio
 
 This is the Duet Maestro:
 
-![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2845%29.png)
+![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2846%29.png)
 
 This will be a walk through on how we hooked up the QuadFusion, as well as part of the Crane, to the Duet Maestro board.
 
@@ -54,7 +54,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2868%29.png)
+![](../.gitbook/assets/image%20%2869%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -66,7 +66,7 @@ Without the fans, the QuadFusion has six main wires coming from it. The four wir
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 Notes:
 
