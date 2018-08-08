@@ -1,6 +1,6 @@
 # Setting Up
 
-In order to print with the QuadFusion you'll need a plugin on Cura called MELT. MELT is helpful for individual layer printing and gradient printing. This guide will assume you have already installed Cura. 
+In order to print with the QuadFusion you'll need a plugin on Cura called MELT. MELT is helpful for individual layer color printing and gradient printing. This guide will assume you have already installed Cura. 
 
 
 
@@ -13,7 +13,7 @@ Click “Download Zip”
 
 Once you have downloaded the Zip file, go to your Local Disk → Program Files → Ultimaker Cura 3.3 → Plugins → Post Processing Plugin → Scripts
 
-Once in scripts, copy the MELT.py file, from when you downloaded MELT, into this folder. You should now be able to use MELT when using Cura
+Once in Scripts, copy the MELT.py file, from when you downloaded MELT, into this folder. You should now be able to use MELT when using Cura
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 

@@ -17,7 +17,7 @@ Select the "Multi-Extruder Layering Tool 3.4.0 \(MELT\)"
 ![](../.gitbook/assets/image%20%2862%29.png)
 
 **Step Three:**  
-Starting with the basic settings, you will want to edit yours to be similar to the one below. 
+Starting with the basic settings, you will want to edit yours to be similar with the one below. 
 
 ![](../.gitbook/assets/image%20%2847%29.png)
 
@@ -25,7 +25,7 @@ Starting with the basic settings, you will want to edit yours to be similar to t
 Number of Extruders:   
 This will be for how many tools you plan on using. So, four extruders means you will be using all four filaments.  
 Shifting Clamp Type:   
-This can be changed based on layer no. or percentage. Thus, if you wish to change the color ratio based on layer no. or percentage you would do so here.  
+This can be changed based on layer no. or percentage. Thus, if you wish to change the color ratio based on layer no. or percentage you would select which you'd prefer.  
 Extrusion \# Start:   
 This is which layer you would like to start changing the the color ratio.  
 Extrusion \# End:   
@@ -33,7 +33,9 @@ This is which layer you would like to stop changing the color ratio \(e.g. The l
 Shift Frequency:  
 This means how long it will take to change the color ratio. 
 
-You will want to edit these, as you continue printing in color, depending on what your print will be, how many layers it has, and how many filaments you want to use.
+{% hint style="info" %}
+You will want to edit these as you continue printing in color depending on what your print will be, how many layers it has, and how many filaments you want to use.
+{% endhint %}
 
 **Step Four:**  
 Next, you will want to select "Expert Controls" and "Enable Initial Setup"
