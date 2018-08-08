@@ -5,7 +5,7 @@ MELT is a plugin on Cura that stands for Multi-Extruder Layering Tool. MELT’s 
 **Step one:**  
 Once you have chosen the file you wish to have a gradient design, Click the Extensions tab --&gt; Post Processing --&gt; Modify G-Code
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![https://www.thingiverse.com/thing:651015/files](../.gitbook/assets/image%20%2888%29.png)
 
 **Step Two:**  
 Once in the Post Processing Plugin, select the "Add a script" drop down menu
