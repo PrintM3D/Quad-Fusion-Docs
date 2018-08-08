@@ -22,7 +22,7 @@ We do not recommend loading filament faster than 1mm/sec. Loading filament quick
 
 Place your index finger and thumb around the filament your are loading. You should begin feeling the filament being tugged into the Quad Head, repeat this action with the remaining filaments.
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 
 {% hint style="info" %}
 If you do not feel the slight tug of the filament being pulled into your QuadFusion, check the Troubleshooting the Extruder guide for help.

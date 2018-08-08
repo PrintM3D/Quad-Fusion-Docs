@@ -68,7 +68,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in: 
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2875%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -99,7 +99,7 @@ The CR-10S we worked with used a Z-probe instead of the Z-limit switch the print
 
 Starting with the stepper motors, there are four motors you should be hooking up. One for the X-Stepper motor, one for the Y-Stepper motor, and two for the Z-Stepper motors. 
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 If you look above, the boxed sections are where you will be plugging in your stepper motors. The color coordination is as follows;   
 Yellow = X-Stepper Motor  
@@ -116,7 +116,7 @@ The three circled wires are what will be connecting your power supply to an outl
 We recommend having an on/off switch between the power supply and Duet Maestro board, this makes it easier to turn your printer on and off. 
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2873%29.png)
+![](../.gitbook/assets/image%20%2874%29.png)
 
 The red and black wires will be connected to ports 3 and 4, respectively, as shown in the image above. 
 
