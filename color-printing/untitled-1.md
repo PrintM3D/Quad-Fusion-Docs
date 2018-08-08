@@ -51,7 +51,7 @@ Final Main Flow:
 This tells your printer how you want your gradient to end printing \(e.g. In the example above the plugin has the extruding ending with 100% of tool 3\)
 
 **Step Five:**  
-Now that you have completed these steps, go ahead and edit your settings to your preference.   
+Now that you have completed these steps, go ahead and edit the remaining slicer settings to your preference.   
   
 You can now print the file with your QuadFusion!
 
