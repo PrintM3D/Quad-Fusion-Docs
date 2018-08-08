@@ -55,3 +55,7 @@ Now that you have completed these steps, go ahead and edit your settings to your
   
 You can now print the file with your QuadFusion!
 
+{% hint style="warning" %}
+You can only change color by layer, go to the guide [Slic3r Multi Material](slic3r-multi-material.md) to find out how to change color in the same layer.
+{% endhint %}
+

@@ -42,6 +42,7 @@
 * [Color Printing](color-printing/README.md)
   * [Setting Up](color-printing/setting-up.md)
   * [MELT](color-printing/untitled-1.md)
+  * [Slic3r Multi-Material](color-printing/slic3r-multi-material.md)
 * [Troubleshooting Guides](troubleshooting-guides/README.md)
   * [Troubleshooting Duet Web Console](troubleshooting-guides/troubleshooting-duet-web-console.md)
   * [My Drives / Tools are Backwards](troubleshooting-guides/my-drives-tools-are-backwards.md)
