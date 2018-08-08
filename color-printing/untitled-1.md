@@ -22,15 +22,15 @@ Starting with the basic settings, you will want to edit yours to be similar with
 ![](../.gitbook/assets/image%20%2847%29.png)
 
 **Settings Explained:**  
-Number of Extruders:   
+_Number of Extruders:_   
 This will be for how many tools you plan on using. So, four extruders means you will be using all four filaments.  
-Shifting Clamp Type:   
+_Shifting Clamp Type:_   
 This can be changed based on layer no. or percentage. Thus, if you wish to change the color ratio based on layer no. or percentage you would select which you'd prefer.  
-Extrusion \# Start:   
+_Extrusion \# Start:_   
 This is which layer you would like to start changing the the color ratio.  
-Extrusion \# End:   
+_Extrusion \# End:_   
 This is which layer you would like to stop changing the color ratio \(e.g. The last color ratio you have before this, will be what you extruder will continue to print\).  
-Shift Frequency:  
+_Shift Frequency:_  
 This means how long it will take to change the color ratio. 
 
 {% hint style="info" %}
@@ -45,11 +45,11 @@ Next, you will want to select "Expert Controls" and "Enable Initial Setup"
 Once you have selected these you will have an ability to edit more settings that will help you specifically choose which drives you want.
 
 **Settings Explained:**  
-Define Tool:  
+_Define Tool:_  
 This is a `M563` command that will tell your printer which tools will be used for this print.  
-Initial Main Flow:  
+_Initial Main Flow:_  
 This tells your printer how you want your gradient to begin printing \(e.g. In the example above the plugin has the extruding starting with 100% of tool 0\)  
-Final Main Flow:  
+_Final Main Flow:_  
 This tells your printer how you want your gradient to end printing \(e.g. In the example above the plugin has the extruding ending with 100% of tool 3\)
 
 **Step Five:**  
