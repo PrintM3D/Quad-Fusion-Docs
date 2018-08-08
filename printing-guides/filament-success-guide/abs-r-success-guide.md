@@ -30,7 +30,7 @@ Read the section below to improve the quality of your ABS-R print. The titles of
 
 Blobbing can look like what is circled on the picture below:
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 The reason blobbing occurs is because the nozzle suddenly extrudes more than usual, thus creating a "blob" in the print. One of the causes of this can be back pressure, which is more of a concern with the QuadFusion. Since there are four filaments being loaded into the QuadFusion, if they are not all in line some back pressure may occur. Thus, when you retract one of the four filaments the other three will still be experiencing pressure and may ooze out of the nozzle.  
 Another cause for blobbing can be \_\_\_\_\_\_
@@ -62,7 +62,7 @@ One other possible reason for stringing is that your temperature is too high. Wi
 
 Under-extrusion can look like this: 
 
-![](../../.gitbook/assets/image%20%2879%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
 The simplest cause for under extrusion is when your extruder is unable to supply the requested amount of filament.
 
