@@ -8,7 +8,7 @@ The QuadFusion and the company M3D have no affiliation with the CR-10S or its co
 
 ## Mechanically
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 **You will need...  
 -** 3.0mm Standoff \(25mm long\) \(x2\)  
@@ -21,11 +21,11 @@ The QuadFusion and the company M3D have no affiliation with the CR-10S or its co
 
 Once you have removed the extruder that comes with the CR-10S, you will want to take of the mounting plate and drill holes using these specs:
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
 Place the newly drilled plate back on to your CR-10S, attach the top two wheels if you removed them.
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 Next, thread the two 2.0mm Hex Screws through the holes you have just drilled.
 
@@ -37,7 +37,7 @@ You can now, by threading the 2.0mm Hex Screws into the standoffs, mount the Qua
 
 Lastly, attach the bottom wheel:
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 You have now fully attached the QuadFusion to your CR-10S.
 
@@ -58,7 +58,7 @@ You will need a Duet Maestro board if you wish to follow along during the electr
 
 This is the Duet Maestro:
 
-![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2862%29.png)
+![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2864%29.png)
 
 This will be a walk through on how we hooked up the QuadFusion, as well as part of the CR-10S, to the Duet Maestro board.
 
@@ -66,7 +66,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in:
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -82,7 +82,7 @@ Without the fans, the QuadFusion has six main wires coming from it. The four wir
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2868%29.png)
+![](../.gitbook/assets/image%20%2870%29.png)
 
 Notes:
 
@@ -97,7 +97,7 @@ The CR-10S we worked with used a Z-probe instead of the Z-limit switch the print
 
 Starting with the stepper motors, there are four motors you should be hooking up. One for the X-Stepper motor, one for the Y-Stepper motor, and two for the Z-Stepper motors.
 
-![](../.gitbook/assets/image%20%2890%29.png)
+![](../.gitbook/assets/image%20%2892%29.png)
 
 If you look above, the boxed sections are where you will be plugging in your stepper motors. The color coordination is as follows;  
 Yellow = X-Stepper Motor  

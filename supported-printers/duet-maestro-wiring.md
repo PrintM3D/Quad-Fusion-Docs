@@ -24,7 +24,7 @@ Before you can begin to wire your QuadFusion to the Duet Maestro board you must 
 
 The following pictures show where the extension goes, and how it looks once it has been plugged in:
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -36,7 +36,7 @@ Without the fans, the QuadFusion has six main wires coming from it. The four wir
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2868%29.png)
+![](../.gitbook/assets/image%20%2870%29.png)
 
 Notes:
 
@@ -87,7 +87,7 @@ You will need Jumper \#1 in order to connect the third and fourth motor from the
 
 The pictures below depict where the jumper needs to go, and how it looks once it is there:
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 ![](../.gitbook/assets/image-70.png)
 

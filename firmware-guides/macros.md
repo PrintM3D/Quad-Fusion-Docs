@@ -14,13 +14,13 @@ The way you create a tool is the same as making one in your config.g \(Check tha
 
 Type in a `M563` command and add a `M567` command to define the mix ratio you want for this particular tool.
 
-![This example is of a Brick Tile ](../.gitbook/assets/image%20%2875%29.png)
+![This example is of a Brick Tile ](../.gitbook/assets/image%20%2877%29.png)
 
 Now that you have a new Macro filled with all the tools for a specific print, you can use it!
 
 You should see your newly made Macro listed in the Macros Directory.
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../.gitbook/assets/image%20%2884%29.png)
 
 If you click your Macro's title you will be able to enable it.
 
@@ -31,7 +31,7 @@ Enable the Macro you have created. You should see that your tool settings have c
 If you wish to test to see if your Macro is enabled, go to the G-Code Console section and type in:  
 `M567 P0`
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 You will be able to see the mix ratio you have designated Tool 0 to have
 

@@ -14,7 +14,7 @@ A helpful tip to loading filament is to cut the filament at a slight angle. This
 
 Starting with Tool 0, select 20mm of filament, over a period of 1mm/sec, and then click “Extrude”.
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 {% hint style="warning" %}
 We do not recommend loading filament faster than 1mm/sec. Loading filament quickly has been known to cause grinding and skipping.
@@ -22,7 +22,7 @@ We do not recommend loading filament faster than 1mm/sec. Loading filament quick
 
 Place your index finger and thumb around the filament your are loading. You should begin feeling the filament being tugged into the Quad Head, repeat this action with the remaining filaments.
 
-![](../.gitbook/assets/image%20%2893%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
 {% hint style="info" %}
 If you do not feel the slight tug of the filament being pulled into your QuadFusion, check the Troubleshooting the Extruder guide for help.
@@ -42,7 +42,7 @@ Furthermore, since your filament has already passed through your QuadFusion the 
 
 Thus, when retracting filament, you will want to select whichever tool you wish to start with, choose 50mm, at a pace of 15mm/sec, and click "Retract"
 
-![](../.gitbook/assets/image%20%2852%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 The filament should begin to retract at a quick pace. Repeat the same action with all the other filaments until they are completely out of the QuadFusion.
 

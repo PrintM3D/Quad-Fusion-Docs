@@ -13,7 +13,7 @@ Some of the following steps have to be performed with a heated hot-end in order 
 3. **Keep the nozzle hot for the next steps!** 
 4. Remove the front fan from the QuadFusion by unscrewing the circled screws
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 1. Next, **loosen** the circled screws. Some QuadFusions may not be mounted the same way. Go to [Mounting the Hardware](changing-nozzles.md) for more in depth mount information on certain printers.
 
