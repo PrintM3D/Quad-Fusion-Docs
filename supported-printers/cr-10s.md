@@ -74,7 +74,7 @@ Additionally, you will need to attach a jumper to the pins next to the expansion
 
 ![](../.gitbook/assets/image%20%2812%29.png)
 
-### Base Connections
+#### Base Connections
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
