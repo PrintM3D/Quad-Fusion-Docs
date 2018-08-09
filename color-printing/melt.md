@@ -42,3 +42,5 @@ This instructs the printer what ratio it should begin the print \(e.g. In the ex
 _Final Main Flow:_  
 This instructs the printer what ratio it should end the print \(e.g. In the example above, the printer will end with printing 100% of Drive 3\)
 
+From this point on you can edit your slicer settings however you see fit. 
+
