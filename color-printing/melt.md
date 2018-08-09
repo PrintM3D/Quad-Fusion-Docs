@@ -36,7 +36,7 @@ Next, you will want to select "Expert Controls" and "Enable Initial Setup".
 
 **Settings Explained:**  
 _Define Tool:_  
-This section is a M563 command designed so the user can specifically select which drive they wish to have used when printing gradient. \(e.g. In the example above, by using Drives 0,1,2, and 3, all four filaments will be extruded in gradient\).  
+This section is a `M563` command designed so the user can specifically select which drive they wish to have used when printing gradient. \(e.g. In the example above, by using Drives 0,1,2, and 3, all four filaments will be extruded in gradient\).  
 _Initial Main Flow:_  
 This instructs the printer what ratio it should begin the print \(e.g. In the example above, the printer will begin with printing 100% of Drive 0\)  
 _Final Main Flow:_  
