@@ -18,7 +18,7 @@
   * [Duet Maestro Wiring](supported-printers/duet-maestro-wiring.md)
 * [Beginner Guides](beginner-guides/README.md)
   * [Beginner: Preparation](beginner-guides/beginner-preparation.md)
-  * [Beginner: QuadFusion Assembly](beginner-guides/beginner-printer-assemblies.md)
+  * [Beginner: QuadFusion Assembly](beginner-guides/beginner-quadfusion-assembly.md)
   * [Beginner: Moving the Motors](beginner-guides/beginner-moving-the-motors.md)
   * [Beginner: Introduction to G-Code Commands](beginner-guides/beginner-introduction-to-g-code-commands.md)
   * [Beginner: Software Layers](beginner-guides/beginner-software-layers.md)

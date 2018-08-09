@@ -38,9 +38,9 @@ Next, press _Custom._ This indicates we are adding a custom printer to Cura's lo
 
 This window allows you to configure the printer settings of the Crane. This informs Cura of the Crane's build space, the firmware flavor and specifies starting and ending G-code. The build volume of the printer represents the maximum value that the printer can travel in each direction. The firmware flavor is the type of firmware that the board is running. The Duet Maestro board runs on RepRap firmware. Your firmware flavor indicates what type of commands the board can understand. The starting and ending G-code is a series of commands that are run at the start and at the end of every print. This is important as it allows you to retract your filament after the print and turn all the heaters off. Configure the settings in this window exactly as shown in the image below.
 
-![](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2861%29.png)
 
-`; Starting G-code:            
+`; Starting G-code:    
 G28 ;Home    
 ;Prime the extruder    
 G92 E0    
@@ -53,12 +53,12 @@ M140 S0
 ;Retract the filament    
 G92 E1    
 G1 E-1 F300    
-G28 X0 Y0  
+G28 X0 Y0    
 M84`
 
 **Don't click** _**Close**_ **just yet!** Move on to the _Extruder 1_ tab and fill in the following information. Fill in the nozzle diameter and the material diameter. Your nozzle diameter may vary in the future as you mount different types of nozzles on the Crane. Then you can click _Close._
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 Once you have added the printer make sure to activate it by selecting the name and then clicking the button _Activate._
 

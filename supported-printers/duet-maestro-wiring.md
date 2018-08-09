@@ -22,9 +22,9 @@ The image above displays the ports found on the Duet Maestro and their functions
 
 Before you can begin to wire your QuadFusion to the Duet Maestro board you must attach an extension to the board. With this extension you will be able to connect the the extra motor wires to the board.
 
-The following pictures show where the extension goes, and how it looks once it has been plugged in: 
+The following pictures show where the extension goes, and how it looks once it has been plugged in:
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../.gitbook/assets/image%20%2887%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
@@ -32,11 +32,11 @@ The following pictures show where the extension goes, and how it looks once it h
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
-Without the fans, the QuadFusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\). 
+Without the fans, the QuadFusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\).
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
-![](../.gitbook/assets/image%20%2863%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 Notes:
 
@@ -47,7 +47,7 @@ Notes:
 
 There are three fans connected to the QuadFusion, two small fans on the left and right and one large fan on the front. The large fan on the front is Fan 0, or "Always On", the two side fans are connected to one another and make up Fan 1 \(whose speed can be controlled in the Duet Web Control\).
 
-In the picture below, the red box indicates where Fan 0 should be plugged in, and the blue box is where Fan 1 is to be plugged in. 
+In the picture below, the red box indicates where Fan 0 should be plugged in, and the blue box is where Fan 1 is to be plugged in.
 
 ![](../.gitbook/assets/img_1358_.jpg)
 
@@ -87,9 +87,9 @@ You will need Jumper \#1 in order to connect the third and fourth motor from the
 
 The pictures below depict where the jumper needs to go, and how it looks once it is there:
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
-![](../.gitbook/assets/image%20%2870%29.png)
+![](../.gitbook/assets/image-70.png)
 
 ### Before you continue
 

@@ -4,8 +4,6 @@ This chapter serves as an introduction to 3D printers for Quad Fusion 3D Print H
 
 {% page-ref page="beginner-preparation.md" %}
 
-{% page-ref page="beginner-printer-assemblies.md" %}
-
 {% page-ref page="beginner-moving-the-motors.md" %}
 
 {% page-ref page="beginner-introduction-to-g-code-commands.md" %}
