@@ -1,6 +1,6 @@
 # MELT
 
-This guide will go through step-by-step on how to print a simple gradient deisng using MELT. This guide will assume you have already downloaded MELT, and have picked your own print file.
+This guide will go through step-by-step on how to print a simple gradient design using MELT. This guide will assume you have already downloaded MELT, and have picked your own print file.
 
 To start, open you file up in Cura and selct Extensions --&gt; Post Processing --&gt; Modify G-Code
 
@@ -35,5 +35,10 @@ Next, you will want to select "Expert Controls" and "Enable Initial Setup".
 ![](../.gitbook/assets/image%20%2823%29.png)
 
 **Settings Explained:**  
-
+_Define Tool:_  
+This section is a M563 command designed so the user can specifically select which drive they wish to have used when printing gradient. \(e.g. In the example above, by using Drives 0,1,2, and 3, all four filaments will be extruded in gradient\).  
+_Initial Main Flow:_  
+This instructs the printer what ratio it should begin the print \(e.g. In the example above, the printer will begin with printing 100% of Drive 0\)  
+_Final Main Flow:_  
+This instructs the printer what ratio it should end the print \(e.g. In the example above, the printer will end with printing 100% of Drive 3\)
 
