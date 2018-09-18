@@ -34,6 +34,7 @@
   * [Slicers and Printer Settings](printing-guides/slicers-and-printer-settings.md)
   * [Heating & Temp Sensor](printing-guides/heating-and-temp-sensor.md)
   * [Loading and Unloading Filament](printing-guides/loading-and-unloading-filament.md)
+  * [\(NEW\) Loading and Unloading Filament](printing-guides/new-loading-and-unloading-filament.md)
   * [Filament Success Guide](printing-guides/filament-success-guide/README.md)
     * [ABS-R](printing-guides/filament-success-guide/abs-r-success-guide.md)
     * [PLA](printing-guides/filament-success-guide/pla-success-guide.md)
