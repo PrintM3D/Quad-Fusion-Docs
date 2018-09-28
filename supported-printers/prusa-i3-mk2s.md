@@ -38,7 +38,7 @@ You have now fully attached the QuadFusion to your i3 MK2S.
 
 **STL File\(s\):**
 
-\*\*\*\*
+{% file src="../.gitbook/assets/prusa\_quad\_mount.STL" caption="Prusa\_Quad\_Mount" %}
 
 ## **Electrically**
 
