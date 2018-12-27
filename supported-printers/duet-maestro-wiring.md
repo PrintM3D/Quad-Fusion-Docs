@@ -45,6 +45,10 @@ Notes:
 
 **Connecting the fans**
 
+{% hint style="info" %}
+Make sure to have your hotend fans connected to the 5V port. Look at the Jumpers section to see how to do so.
+{% endhint %}
+
 There are three fans connected to the QuadFusion, two small fans on the left and right and one large fan on the front. The large fan on the front is Fan 0, or "Always On", the two side fans are connected to one another and make up Fan 1 \(whose speed can be controlled in the Duet Web Control\).
 
 In the picture below, the red box indicates where Fan 0 should be plugged in, and the blue box is where Fan 1 is to be plugged in.
