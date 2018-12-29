@@ -133,6 +133,14 @@ Go here to understand how Duet wires Z-probes to their boards:
 Choosing a Z-probe: [https://duet3d.dozuki.com/Wiki/Choosing\_a\_Z\_probe](https://duet3d.dozuki.com/Wiki/Choosing_a_Z_probe)  
 Connecting a Z-probe: [https://duet3d.dozuki.com/Wiki/Connecting\_a\_Z\_probe](https://duet3d.dozuki.com/Wiki/Connecting_a_Z_probe)
 
+**Attaching the LCD Screen**
+
+To attach the LCD screen to your Duet Maestro you will need to use these ribbon cables provided in the upgrade kit given to you. You will plug the cables into the Duet Maestro in ports labeled "Future Expandability" 
+
+![](../.gitbook/assets/image%20%2864%29.png)
+
+Finally, attach the cables to your LCD screen.
+
 **Heating the Bed**
 
 The bed was wired separately from the main collection of wires because of the power supply. The QuadFusion requires a 24V power supply in order to properly power the motors, heater, and thermistor. However, the bed could only be safely powered by 12V, so it was decided to have the bed remain wired to Creality's original board. Because of this, you will be able to heat your bed from the control block that comes with the printer, as opposed to heating with the Duet Web Control.
