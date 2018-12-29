@@ -140,6 +140,14 @@ We recommend having an on/off switch between the power supply and Duet Maestro b
 
 The red and black wires will be connected to ports 3 and 4, respectively, as shown in the image above.
 
+**Attaching the LCD Screen**
+
+To attach the LCD screen to your Duet Maestro you will need to use these ribbon cables provided in the upgrade kit given to you. You will plug the cables into the Duet Maestro in ports labeled "Future Expandability" 
+
+![](../.gitbook/assets/image%20%2864%29.png)
+
+Finally, attach the cables to your LCD screen.
+
 **Heating the Bed**
 
 The bed was wired separately from the main collection of wires because of the power supply. The QuadFusion requires a 24V power supply in order to properly power the motors, heater, and thermistor. However, the bed could only be safely powered by 12V, so it was decided to have the bed remain wired to Prusa's original power source, but also be connected to the Duest Maestro.
