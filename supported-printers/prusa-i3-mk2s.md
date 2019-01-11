@@ -78,7 +78,7 @@ Additionally, you will need to attach a jumper to the pins next to the expansion
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
-Without the fans, the QuadFusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\).
+Without the fans, the QuadFusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the thermistor.
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
@@ -126,7 +126,7 @@ The black wire represents the Z-probe's black wire
 The grey wire represents the Z-probe's blue wire  
 The brown wire represents the Z-probe's brown wire
 
-Once you have plugged these in you can move on to connecting the power supply. **You will need a 24V power supply** to power your Duet Maestro board
+After plugging these in you can move on to connecting the power supply. **You will need a 24V power supply** to power your Duet Maestro board
 
 ![](../.gitbook/assets/image-32.png)
 
