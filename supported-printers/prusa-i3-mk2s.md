@@ -3,7 +3,7 @@
 This guide will go through the process of hooking up your QuadFusion to Prusa's i3 MK2S printer.
 
 {% hint style="warning" %}
-The QuadFusion and the company M3D have no affiliation with the Prusa i3 MK2S or its company.
+There is no affiliation between M3D/The QuadFusion and Prusa/The i3 MK2S
 {% endhint %}
 
 ## Mechanically
@@ -23,7 +23,7 @@ The Prusa i3 MK2S requires an entirely new extruder mount in order to mount the 
 
 ![Front](../.gitbook/assets/image%20%2898%29.png)
 
-As you can see, the front of the mount has two sets of holes, the bottom set is where you will be screwing in the two 20mm long standoffs.
+The front of the mount has 4 holes, screw the two 20mm long standoffs into the 2 lower holes, as shown in the image below
 
 ![Back](../.gitbook/assets/image%20%2848%29.png)
 
@@ -60,7 +60,7 @@ This is the Duet Maestro:
 
 ![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2864%29.png)
 
-This will be a walk through on how we hooked up the QuadFusion, as well as part of the i3 MK2S, to the Duet Maestro board.
+This will be a walk through on how to connect the QuadFusion, as well as part of the i3 MK2S, to the Duet Maestro board.
 
 Before you can begin to wire your QuadFusion to the Duet Maestro board you must attach an extension to the board. With this extension you will be able to connect the the extra motor wires to the board.
 
@@ -196,3 +196,5 @@ Don't have something that is listed here? Check out these links if you need some
 Duet Maestro Board: [https://fitforlaunch.com/projects/duet-2-maestro](https://fitforlaunch.com/projects/duet-2-maestro)  
 Toggle Switch: [https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198](https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198)
 
+
+Thank you for supporting the QuadFusion, and Happy Printing!
