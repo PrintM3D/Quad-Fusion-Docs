@@ -3,7 +3,7 @@
 This guide will go through the process of hooking up your QuadFusion to Creality's CR-10S printer.
 
 {% hint style="warning" %}
-The QuadFusion and the company M3D have no affiliation with the CR-10S or its company.
+There is no affiliation between M3D/The QuadFusion and Creality 3D/The CR-10.
 {% endhint %}
 
 ## Mechanically
@@ -60,7 +60,7 @@ This is the Duet Maestro:
 
 ![https://duet3d.dozuki.com/Wiki/Duet\_2\_Maestro\_Hardware\_Overview](../.gitbook/assets/image%20%2864%29.png)
 
-This will be a walk through on how we hooked up the QuadFusion, as well as part of the CR-10S, to the Duet Maestro board.
+This will be a walk through on how to connect the QuadFusion & CR-10 to your Duet Maestro Board with the Extruder Expansion board.
 
 Before you can begin to wire your QuadFusion to the Duet Maestro board you must attach an extension to the board. With this extension you will be able to connect the the extra motor wires to the board.
 
@@ -78,7 +78,7 @@ Additionally, you will need to attach a jumper to the pins next to the expansion
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
-Without the fans, the QuadFusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the PT1000 \(or thermistor\).
+Without the fans, the QuadFusion has six main wires coming from it. The four wires with yellow dots at the ends are the motor wires. The wire with a green dot is the heater wire, and lastly the wire with the red dot is the thermistor.
 
 The wires plug in to their corresponding color that is boxed in the following picture:
 
@@ -150,4 +150,7 @@ Don't have something that is listed here? Check out these links if you need some
 24V power supply: [https://store.printm3d.com/collections/parts/products/400w-power-supply?variant=12283391148110](https://store.printm3d.com/collections/parts/products/400w-power-supply?variant=12283391148110)  
 Duet Maestro Board: [https://fitforlaunch.com/projects/duet-2-maestro](https://fitforlaunch.com/projects/duet-2-maestro)  
 Toggle Switch: [https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198](https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198)
+
+
+Thank you for supporting the QuadFusion, and Happy Printing!
 
