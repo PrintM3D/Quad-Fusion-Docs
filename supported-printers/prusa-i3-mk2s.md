@@ -105,7 +105,7 @@ Orange = Y-Stepper Motor
 Green = Z-Stepper Motors
 
 {% hint style="warning" %}
-The original connectors on the i3 MK2S are not compatible with the Duet Maestro. We ended up cutting off the locking mechanisms on each connector that was interfering with plugging the wires into the board.
+The original connectors on the i3 MK2S' electrical board are not compatible with the Duet Maestro. We recommend cutting off the locking mechanisms on each connector since they interfer with plugging the wires into the Duet Maestro.
 {% endhint %}
 
 The next step is to wire the limit switches and Z-probe to these highlighted ports:
@@ -130,7 +130,7 @@ Once you have plugged these in you can move on to connecting the power supply. *
 
 ![](../.gitbook/assets/image-32.png)
 
-The three circled wires are what will be connecting your power supply to an outlet. The non circled wires are what will be connected to your Duet Maestro board
+The three circled wires are what will be connecting your power supply to an outlet. The non circled wires are what will be connecting to your Duet Maestro board
 
 {% hint style="info" %}
 We recommend having an on/off switch between the power supply and Duet Maestro board, this makes it easier to turn your printer on and off.
@@ -138,7 +138,7 @@ We recommend having an on/off switch between the power supply and Duet Maestro b
 
 ![](../.gitbook/assets/image%20%2838%29.png)
 
-The red and black wires will be connected to ports 3 and 4, respectively, as shown in the image above.
+The red and black wires will be connecting to ports 3 and 4, respectively, as shown in the image above.
 
 **Attaching the LCD Screen**
 
@@ -156,7 +156,7 @@ The bed was wired separately from the main collection of wires because of the po
 Make sure you make the same connections, in the same location, that are described and pictured below.
 {% endhint %}
 
-To begin, the bed's heater wire will be attached to the Duet Maestro here:
+To begin, the bed's heater wire will be attaching to the Duet Maestro here:
 
 ![](../.gitbook/assets/image%20%2888%29.png)
 
@@ -194,6 +194,7 @@ Don't have something that is listed here? Check out these links if you need some
 
 24V power supply: [https://store.printm3d.com/collections/parts/products/400w-power-supply?variant=12283391148110](https://store.printm3d.com/collections/parts/products/400w-power-supply?variant=12283391148110)  
 Duet Maestro Board: [https://fitforlaunch.com/projects/duet-2-maestro](https://fitforlaunch.com/projects/duet-2-maestro)  
+Extruder Expansion Board: https://store.printm3d.com/products/copy-of-duet-2-maestro-expansion?variant=21198635434062
 Toggle Switch: [https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198](https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198)
 
 
