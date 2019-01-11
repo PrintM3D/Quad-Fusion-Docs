@@ -149,6 +149,7 @@ Don't have something that is listed here? Check out these links if you need some
 
 24V power supply: [https://store.printm3d.com/collections/parts/products/400w-power-supply?variant=12283391148110](https://store.printm3d.com/collections/parts/products/400w-power-supply?variant=12283391148110)  
 Duet Maestro Board: [https://fitforlaunch.com/projects/duet-2-maestro](https://fitforlaunch.com/projects/duet-2-maestro)  
+Extruder Expansion Board: https://store.printm3d.com/products/copy-of-duet-2-maestro-expansion?variant=21198635434062
 Toggle Switch: [https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198](https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198)
 
 
