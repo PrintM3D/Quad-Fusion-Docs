@@ -47,6 +47,10 @@ You have now fully attached the QuadFusion to your CR-10S.
 You will need a Duet Maestro board if you wish to follow along during the electrical part of this guide. Look at the bottom of the page to see where to get one.
 {% endhint %}
 
+{% hint style="info" %}
+Go to this link: https://www.thingiverse.com/search?q=Duet&dwh=345c37c6245e907   if you want to print a Duet Holder. These can be very helpful with protecting and organizing your Duet Maestro!
+{% endhint %}
+
 **You will need...  
 -** 24V Power Supply  
 **-** Duet Maestro Board  
