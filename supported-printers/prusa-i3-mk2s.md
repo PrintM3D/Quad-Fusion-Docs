@@ -15,7 +15,7 @@ The Prusa i3 MK2S requires an entirely new extruder mount in order to mount the 
 **You will need...**  
 **-** 3mm Hex Standoffs \(20mm long\) \(x2\)  
 **-** 3mm Hex Screw \(33mm long\) \(x2\)  
-**-** QuadFusion Mount  
+**-** QuadFusion Mount  (Downloadable under "STL File(s)")
 **-** Zip-ties \(x6\)
 
 **Tools...**  
