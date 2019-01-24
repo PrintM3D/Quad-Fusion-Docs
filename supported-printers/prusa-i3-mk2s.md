@@ -15,8 +15,7 @@ The Prusa i3 MK2S requires an entirely new extruder mount in order to mount the 
 **You will need...**  
 **-** 3mm Hex Standoffs \(20mm long\) \(x2\)  
 **-** 3mm Hex Screw \(33mm long\) \(x2\)  
-**-** QuadFusion Mount  (Downloadable under "STL File(s)")
-**-** Zip-ties \(x6\)
+**-** QuadFusion Mount \(Downloadable under "STL File\(s\)"\) **-** Zip-ties \(x6\)
 
 **Tools...**  
 **-** 2.5mm Hex Screwdriver
@@ -47,7 +46,7 @@ You will need a Duet Maestro board if you wish to follow along during the electr
 {% endhint %}
 
 {% hint style="info" %}
-Go to this link: https://www.thingiverse.com/search?q=Duet&dwh=345c37c6245e907   if you want to print a Duet Holder. These can be very helpful with protecting and organizing your Duet Maestro!
+Go to this link: [https://www.thingiverse.com/search?q=Duet&dwh=345c37c6245e907](https://www.thingiverse.com/search?q=Duet&dwh=345c37c6245e907) if you want to print a Duet Holder. These can be very helpful with protecting and organizing your Duet Maestro!
 {% endhint %}
 
 **You will need...  
@@ -146,7 +145,7 @@ The red and black wires will be connecting to ports 3 and 4, respectively, as sh
 
 **Attaching the LCD Screen**
 
-To attach the LCD screen to your Duet Maestro you will need to use these ribbon cables provided in the upgrade kit given to you. You will plug the cables into the Duet Maestro in ports labeled "Future Expandability" 
+To attach the LCD screen to your Duet Maestro you will need to use these ribbon cables provided in the upgrade kit given to you. You will plug the cables into the Duet Maestro in ports labeled "Future Expandability"
 
 ![](../.gitbook/assets/image%20%2864%29.png)
 
@@ -198,8 +197,8 @@ Don't have something that is listed here? Check out these links if you need some
 
 24V power supply: [https://store.printm3d.com/collections/parts/products/400w-power-supply?variant=12283391148110](https://store.printm3d.com/collections/parts/products/400w-power-supply?variant=12283391148110)  
 Duet Maestro Board: [https://fitforlaunch.com/projects/duet-2-maestro](https://fitforlaunch.com/projects/duet-2-maestro)  
-Extruder Expansion Board: https://store.printm3d.com/products/copy-of-duet-2-maestro-expansion?variant=21198635434062                   
+Extruder Expansion Board: [https://store.printm3d.com/products/copy-of-duet-2-maestro-expansion?variant=21198635434062](https://store.printm3d.com/products/copy-of-duet-2-maestro-expansion?variant=21198635434062)  
 Toggle Switch: [https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198](https://store.printm3d.com/collections/parts/products/lighted-toggle-switch?variant=12283706245198)
 
-
 Thank you for supporting the QuadFusion, and Happy Printing!
+

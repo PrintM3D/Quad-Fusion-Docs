@@ -1,7 +1,3 @@
----
-description: to ensure Quad Loading/Unloading Success
----
-
 # \(NEW\) Loading and Unloading Filament
 
 {% hint style="danger" %}
