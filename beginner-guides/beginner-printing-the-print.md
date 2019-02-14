@@ -10,6 +10,14 @@ This is the final guide in the Beginner Guides chapter. It will cover how to upl
 * You have run and enabled mesh bed leveling
 * You have loaded filament into the extruder
 
+## Heating your QuadFusion print head for the first time:
+
+It's important to heat your QuadFusion print head to 235C and allow it to sit for several minuets BEFORE your first print. This will allow you to not only determine if the print head has been connected properly, but it will also allow it to prime for it's first use. 
+
+To do this simply set the temperature to 235C for Tool 0 in the upper left area of your Duet Web Control console.  
+
+Since this is the VERY first time the QuadFusion head has been heated, it may emit an odor. This odor should be slight and it should dissipate within a few minutes. Please make sure your work area is well ventilated during the first heating of your QuadFusion print head.  
+
 ## Uploading the G-code File
 
 ![](../.gitbook/assets/uploadinggcodefiles.png)
