@@ -1,4 +1,4 @@
-# Supported Printers
+# Printer Installation 
 
 The QuadFusion is a versatile 3D print head, so it is very likely that it will be able to adapt to whatever printer you have at home. At M3D we have mounted the QuadFusion on many different types of printers. The following guides will show you how we attached the QuadFusion not only mechanically, but electrically as well. 
 
