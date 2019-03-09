@@ -10,7 +10,7 @@
   * [Changing Homing Offsets](getting-started/homing-the-printer.md)
   * [First Print](getting-started/first-print.md)
   * [Getting Started: Where to Go From Here](getting-started/getting-started-where-to-go-from-here.md)
-* [Supported Printers](supported-printers/README.md)
+* [Printer Installation](supported-printers/README.md)
   * [M3D Crane](supported-printers/m3d-crane.md)
   * [M3D ProMega](supported-printers/m3d-promega.md)
   * [CR-10S](supported-printers/cr-10s.md)
