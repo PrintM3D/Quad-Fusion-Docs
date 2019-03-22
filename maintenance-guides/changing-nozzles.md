@@ -1,5 +1,6 @@
 # Changing Nozzles
 
+this guide has been updated: please see this video https://youtu.be/qIrvyc5NEUs as the content below is outdated.
 Follow the steps below in order to mount a new nozzle on your 3D printer.
 
 {% hint style="warning" %}
