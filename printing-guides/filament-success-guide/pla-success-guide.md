@@ -6,8 +6,8 @@ Follow this step by step guide for successful printing with PLA.
 
 |  | First Layer | Printing  |
 | :--- | :--- | :--- |
-| Bed Temperature | 70 | 60 |
-| Nozzle Temperature | 200 | 200 |
+| Bed Temperature | 60 | 50 |
+| Nozzle Temperature | 220 | 215 |
 | Retraction Distance |  |  |
 | Retraction Speed |  |  |
 
