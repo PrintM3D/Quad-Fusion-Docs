@@ -2,7 +2,9 @@
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Welcome to the User Manual for the the QuadFusion print head.  This manual is hosted in GitHub.com and managed via GitBook.com.  Please feel free to add suggestions to any of the guides by creating a pull request or issue on [GitHub](https://github.com/PrintM3D/Quad-Fusion-Docs/issues).
 
-IMPORTANT: For users setting up early access QuadFusion heads, critical information can be found [here](getting-started/updating-control-board-settings.md).
+NEW - July 2019 WalkThrough / Crash Course: For users setting up their quad head for the first time and looking to gain a deep understanding of the system to get the best results, start [here](https://coda.io/d/M3D-Official-Troubleshooting-Self-Help-Guide_dzE73kMbIAL/Quad-Expert-Crash-Course_sudLH#_luBEE).
+
+Steps/mm: For users setting up QuadFusion heads on their own system, important information can be found [here](getting-started/updating-control-board-settings.md).
 
 **This user manual is a work in progress and may contain incomplete or incorrect information.  Please exercise caution with the information contained herein.  This message will be removed as the guide matures.**
 
