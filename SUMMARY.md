@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Facebook Group](facebook.md)
 * [Getting Started](getting-started/README.md)
   * [Critical Warnings & Information](getting-started/critical-warnings-and-information.md)
   * [Unboxing & Inventory](getting-started/unboxing-and-inventory.md)
